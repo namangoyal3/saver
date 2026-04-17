@@ -87,8 +87,15 @@ function addMessage(role, content) {
     wrapper.className = `flex ${role === 'user' ? 'justify-end' : 'justify-start'} fade-in`;
     const bubble = document.createElement('div');
     bubble.className = `${role === 'user' ? 'chat-bubble-user' : 'chat-bubble-bot'} px-4 py-3 max-w-[80%]`;
-    bubble.style.whiteSpace = 'pre-wrap';
-    bubble.textContent = content;
+    if (role === 'user') {
+        bubble.textContent = content;
+    } else {
+        // Render markdown for bot messages
+        bubble.innerHTML = marked.parse(content);
+        bubble.querySelectorAll('p').forEach(p => p.style.marginBottom = '0.5rem');
+        bubble.querySelectorAll('ul,ol').forEach(l => { l.style.paddingLeft = '1.2rem'; l.style.marginBottom = '0.5rem'; });
+        bubble.querySelectorAll('li').forEach(l => l.style.marginBottom = '0.25rem');
+    }
     wrapper.appendChild(bubble);
     messagesDiv.appendChild(wrapper);
     scrollToBottom();
