@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-green-100">
+    <div class="max-w-md w-full space-y-8 p-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-grab-700">Saver</h1>
+            <p class="mt-2 text-gray-600">Your financial wellness coach</p>
+            <p class="mt-1 text-sm text-gray-500">For Grab driver-partners & delivery-partners</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-xl p-8 space-y-6">
+            <h2 class="text-lg font-semibold text-gray-800 text-center">Select your profile</h2>
+
+            {% for user in users %}
+            <form method="POST" action="/login">
+                <input type="hidden" name="user_id" value="{{ user.user_id }}">
+                <button type="submit" class="w-full flex items-center justify-between p-4 rounded-xl border-2 border-gray-200 hover:border-grab-500 hover:bg-green-50 transition-all group">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-grab-100 flex items-center justify-center text-grab-700 text-xl font-bold">
+                            {{ user.name[0] }}
+                        </div>
+                        <div class="text-left">
+                            <div class="font-semibold text-gray-800 group-hover:text-grab-700">{{ user.name }}</div>
+                            <div class="text-sm text-gray-500">{{ user.market }} &middot; {{ user.currency }}</div>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-gray-400 group-hover:text-grab-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+            </form>
+            {% endfor %}
+        </div>
+
+        <p class="text-center text-xs text-gray-400">Demo with synthetic data &middot; Not a licensed financial advisor</p>
+    </div>
+</div>
+{% endblock %}

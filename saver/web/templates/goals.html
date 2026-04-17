@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% block title %}Goals{% endblock %}
+{% block content %}
+
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-2xl font-bold text-gray-800 mb-6">Savings Goals</h1>
+
+    <!-- Create goal form -->
+    <div class="bg-white rounded-xl shadow p-6 mb-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Create a New Goal</h2>
+        <form method="POST" action="/goals/create" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Goal Name</label>
+                <input type="text" name="name" required placeholder="e.g., Emergency Fund"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Target Amount ({{ profile.currency }})</label>
+                <input type="number" name="target_amount" required min="1" placeholder="e.g., 3000"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Target Date (optional)</label>
+                <input type="date" name="target_date"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div class="flex items-end">
+                <button type="submit" class="w-full bg-grab-500 hover:bg-grab-600 text-white rounded-lg px-4 py-2 text-sm font-medium transition">
+                    Create Goal
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Simulate goal -->
+    <div class="bg-white rounded-xl shadow p-6 mb-6">
+        <h2 class="text-lg font-semibold text-gray-800 mb-4">Simulate a Goal</h2>
+        <p class="text-sm text-gray-500 mb-4">Check if a savings goal is feasible based on your earnings history.</p>
+        <form id="simulate-form" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Goal Name</label>
+                <input type="text" name="goal_name" required placeholder="e.g., Bike Repair"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Target ({{ profile.currency }})</label>
+                <input type="number" name="target_amount" required min="1"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">Months</label>
+                <input type="number" name="target_months" value="6" min="1" max="24"
+                       class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-grab-500 focus:border-transparent">
+            </div>
+            <div class="flex items-end">
+                <button type="submit" class="w-full bg-gray-700 hover:bg-gray-800 text-white rounded-lg px-4 py-2 text-sm font-medium transition">
+                    Simulate
+                </button>
+            </div>
+        </form>
+        <div id="simulate-result" class="hidden mt-4 p-4 rounded-lg"></div>
+    </div>
+
+    <!-- Existing goals -->
+    {% if goals %}
+    <div class="space-y-4">
+        {% for g in goals %}
+        {% set pct = (g.current_amount / g.target_amount * 100)|round(0)|int if g.target_amount > 0 else 0 %}
+        <div class="bg-white rounded-xl shadow p-6 {% if g.status == 'active' %}border-l-4 border-grab-500{% elif g.status == 'completed' %}border-l-4 border-blue-500{% else %}border-l-4 border-gray-300{% endif %}">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h3 class="font-semibold text-gray-800 text-lg">{{ g.name }}</h3>
+                    <div class="text-sm text-gray-500 mt-1">
+                        {{ profile.currency }} {{ "{:,.0f}".format(g.current_amount) }} saved of {{ "{:,.0f}".format(g.target_amount) }}
+                        {% if g.target_date %} &middot; Due {{ g.target_date }}{% endif %}
+                    </div>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-medium
+                    {% if g.status == 'active' %}bg-green-100 text-green-700
+                    {% elif g.status == 'completed' %}bg-blue-100 text-blue-700
+                    {% elif g.status == 'paused' %}bg-yellow-100 text-yellow-700
+                    {% else %}bg-gray-100 text-gray-700{% endif %}">
+                    {{ g.status }}
+                </span>
+            </div>
+            <div class="mt-3">
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-grab-500 h-3 rounded-full transition-all" style="width: {{ pct }}%"></div>
+                </div>
+                <div class="text-xs text-gray-400 mt-1">{{ pct }}% complete</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center py-12 text-gray-400">
+        <p class="text-lg">No goals yet</p>
+        <p class="text-sm mt-1">Create your first savings goal above!</p>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('simulate-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const resultDiv = document.getElementById('simulate-result');
+
+    resultDiv.className = 'mt-4 p-4 rounded-lg bg-gray-100 text-gray-600';
+    resultDiv.classList.remove('hidden');
+    resultDiv.textContent = 'Simulating...';
+
+    try {
+        const resp = await fetch('/goals/simulate', { method: 'POST', body: formData });
+        const data = await resp.json();
+
+        resultDiv.className = `mt-4 p-4 rounded-lg ${data.feasible ? 'bg-green-50 border border-green-200' : 'bg-yellow-50 border border-yellow-200'}`;
+        resultDiv.innerHTML = `
+            <div class="font-semibold ${data.feasible ? 'text-green-700' : 'text-yellow-700'}">
+                ${data.feasible ? 'Feasible!' : 'Stretch goal'}
+            </div>
+            <p class="text-sm mt-2 text-gray-700">${data.narrative}</p>
+            <div class="text-sm mt-2 text-gray-500">
+                Suggested weekly: <strong>${data.currency} ${Number(data.suggested_weekly_contribution).toLocaleString()}</strong>
+                ${data.risk_weeks.length > 0 ? ' &middot; Risk weeks: ' + data.risk_weeks.join(', ') : ''}
+            </div>
+        `;
+    } catch (err) {
+        resultDiv.className = 'mt-4 p-4 rounded-lg bg-red-50 text-red-600';
+        resultDiv.textContent = 'Error running simulation. Please try again.';
+    }
+});
+</script>
+{% endblock %}

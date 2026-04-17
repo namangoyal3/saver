@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block title %}Chat with Saver{% endblock %}
+{% block content %}
+
+<div class="max-w-3xl mx-auto">
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col" style="height: calc(100vh - 140px);">
+        <!-- Chat header -->
+        <div class="bg-grab-700 px-6 py-4 flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-grab-700 font-bold text-lg">S</div>
+            <div>
+                <div class="text-white font-semibold">Saver</div>
+                <div class="text-green-200 text-xs">Financial Wellness Coach</div>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="messages" class="flex-1 overflow-y-auto px-6 py-4 space-y-4">
+            <!-- Welcome message -->
+            <div class="flex justify-start fade-in">
+                <div class="chat-bubble-bot px-4 py-3 max-w-[80%]">
+                    <p>Hi {{ profile.name }}! I'm Saver, your financial wellness coach. I can help you understand your spending, plan savings, and forecast your cashflow.</p>
+                    <p class="mt-2 text-sm text-gray-500">Try asking:</p>
+                    <div class="mt-1 space-y-1">
+                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">Where did my money go this week?</button>
+                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">How much did I earn from Grab?</button>
+                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">What's my cashflow forecast?</button>
+                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">Can I save {{ profile.currency }} {{ '500' if profile.currency == 'SGD' else '3,000,000' }} in 6 months?</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Previous messages -->
+            {% for msg in messages %}
+            <div class="flex {% if msg.role == 'user' %}justify-end{% else %}justify-start{% endif %} fade-in">
+                <div class="{% if msg.role == 'user' %}chat-bubble-user{% else %}chat-bubble-bot{% endif %} px-4 py-3 max-w-[80%]">
+                    {{ msg.content }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Trace panel (collapsible) -->
+        <div id="trace-panel" class="hidden border-t bg-gray-50 px-6 py-3 max-h-48 overflow-y-auto">
+            <div class="flex justify-between items-center mb-2">
+                <span class="text-xs font-semibold text-gray-500 uppercase">Reasoning Trace</span>
+                <button onclick="document.getElementById('trace-panel').classList.add('hidden')" class="text-xs text-gray-400 hover:text-gray-600">&times; Close</button>
+            </div>
+            <div id="trace-content" class="text-xs font-mono text-gray-600 space-y-1"></div>
+        </div>
+
+        <!-- Input -->
+        <div class="border-t px-4 py-3 bg-white">
+            <form id="chat-form" class="flex space-x-3">
+                <input type="text" id="message-input" name="message" placeholder="Ask about your finances..."
+                       class="flex-1 border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-grab-500 focus:border-transparent"
+                       autocomplete="off" required>
+                <button type="submit" id="send-btn"
+                        class="bg-grab-500 hover:bg-grab-600 text-white rounded-full px-5 py-2 text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed">
+                    Send
+                </button>
+                <button type="button" onclick="toggleTrace()" class="text-gray-400 hover:text-gray-600 text-xs px-2" title="Toggle reasoning trace">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+const messagesDiv = document.getElementById('messages');
+const form = document.getElementById('chat-form');
+const input = document.getElementById('message-input');
+const sendBtn = document.getElementById('send-btn');
+const tracePanel = document.getElementById('trace-panel');
+const traceContent = document.getElementById('trace-content');
+
+function scrollToBottom() {
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+scrollToBottom();
+
+function addMessage(role, content) {
+    const wrapper = document.createElement('div');
+    wrapper.className = `flex ${role === 'user' ? 'justify-end' : 'justify-start'} fade-in`;
+    const bubble = document.createElement('div');
+    bubble.className = `${role === 'user' ? 'chat-bubble-user' : 'chat-bubble-bot'} px-4 py-3 max-w-[80%]`;
+    bubble.style.whiteSpace = 'pre-wrap';
+    bubble.textContent = content;
+    wrapper.appendChild(bubble);
+    messagesDiv.appendChild(wrapper);
+    scrollToBottom();
+}
+
+function addTypingIndicator() {
+    const wrapper = document.createElement('div');
+    wrapper.id = 'typing-indicator';
+    wrapper.className = 'flex justify-start fade-in';
+    wrapper.innerHTML = `<div class="chat-bubble-bot px-4 py-3"><div class="typing-dots"><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span></div></div>`;
+    messagesDiv.appendChild(wrapper);
+    scrollToBottom();
+}
+
+function removeTypingIndicator() {
+    const el = document.getElementById('typing-indicator');
+    if (el) el.remove();
+}
+
+function updateTrace(trace, guardrails) {
+    traceContent.innerHTML = '';
+    if (trace && trace.length > 0) {
+        trace.forEach(s => {
+            const line = document.createElement('div');
+            const color = s.action === 'tool_call' ? 'text-blue-600' : s.action === 'refuse' ? 'text-red-600' : 'text-gray-600';
+            line.className = color;
+            line.textContent = `[${s.agent}] ${s.action}: ${s.tool || ''} ${s.result ? '→ ' + s.result : ''} (${s.ms}ms)`;
+            traceContent.appendChild(line);
+        });
+    }
+    if (guardrails) {
+        const line = document.createElement('div');
+        line.className = 'text-gray-400 mt-1 border-t pt-1';
+        line.textContent = `Guards: PII=${guardrails.input_pii_redacted ? 'redacted' : 'clean'} | Scope=${guardrails.input_scope_check} | Grounding=${guardrails.output_grounding_check}`;
+        traceContent.appendChild(line);
+    }
+}
+
+function toggleTrace() {
+    tracePanel.classList.toggle('hidden');
+}
+
+function sendSuggestion(btn) {
+    input.value = btn.textContent;
+    form.dispatchEvent(new Event('submit'));
+}
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const msg = input.value.trim();
+    if (!msg) return;
+
+    addMessage('user', msg);
+    input.value = '';
+    sendBtn.disabled = true;
+    addTypingIndicator();
+
+    try {
+        const formData = new FormData();
+        formData.append('message', msg);
+        const resp = await fetch('/chat/send', { method: 'POST', body: formData });
+        const data = await resp.json();
+
+        removeTypingIndicator();
+        addMessage('assistant', data.reply);
+        updateTrace(data.trace, data.guardrails);
+    } catch (err) {
+        removeTypingIndicator();
+        addMessage('assistant', 'Sorry, something went wrong. Please try again.');
+    } finally {
+        sendBtn.disabled = false;
+        input.focus();
+    }
+});
+</script>
+{% endblock %}

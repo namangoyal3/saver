@@ -1,0 +1,34 @@
+[project]
+name = "saver"
+version = "0.1.0"
+description = "Saver — Driver & Partner Financial Wellness Coach"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.4.0",
+    "langchain-openai>=0.3.0",
+    "langchain-anthropic>=1.0",
+    "langchain-core>=0.3.0",
+    "pydantic>=2.0",
+    "rich>=13.0",
+    "python-dotenv>=1.0",
+    "fastapi[standard]>=0.115",
+    "jinja2>=3.1",
+    "itsdangerous>=2.0",
+    "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[project.scripts]
+saver = "saver.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["saver*"]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
