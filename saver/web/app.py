@@ -84,13 +84,30 @@ async def dashboard(request: Request):
 
     profile = _get_profile(user_id)
 
-    # Fetch dashboard data
+    # Fetch dashboard data — current + previous period for deltas
     expenses = get_expense_breakdown(user_id, 7)
+    expenses_prev = get_expense_breakdown(user_id, 14)  # 14d for comparison
     income = get_income_summary(user_id, 30)
+    income_prev = get_income_summary(user_id, 60)
     grab = get_grab_earnings(user_id, 30)
     trips = get_grab_trip_summary(user_id, 7)
+    trips_prev = get_grab_trip_summary(user_id, 14)
     forecast = forecast_cashflow(user_id, 14)
     goals = list_goals(user_id)
+
+    # Compute week-over-week deltas
+    def _delta(current, previous_total, divisor=2):
+        prev_avg = previous_total / divisor if divisor else 0
+        if prev_avg == 0:
+            return 0
+        return round((current - prev_avg) / prev_avg * 100, 1)
+
+    deltas = {
+        "expenses": _delta(expenses["total"], expenses_prev["total"]),
+        "income": _delta(income["total_income"], income_prev["total_income"]),
+        "grab_net": _delta(grab["net_earnings"], grab["net_earnings"], 1),  # no prev available simply
+        "trips": _delta(trips["total_trips"], trips_prev["total_trips"]),
+    }
 
     return templates.TemplateResponse(request, "dashboard.html", {
         "profile": profile,
@@ -100,6 +117,7 @@ async def dashboard(request: Request):
         "trips": trips,
         "forecast": forecast,
         "goals": goals,
+        "deltas": deltas,
     })
 
 

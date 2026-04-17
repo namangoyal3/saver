@@ -9,10 +9,29 @@
 </div>
 
 <!-- Key metrics row -->
+{% macro delta_badge(value) %}
+{% if value > 0 %}
+<span class="text-xs font-medium text-green-600 bg-green-50 px-1.5 py-0.5 rounded-full">+{{ value }}%</span>
+{% elif value < 0 %}
+<span class="text-xs font-medium text-red-600 bg-red-50 px-1.5 py-0.5 rounded-full">{{ value }}%</span>
+{% endif %}
+{% endmacro %}
+
+{% set CATEGORY_EMOJI = {
+    'fuel': '&#9981;', 'food_on_road': '&#127828;', 'groceries': '&#128722;',
+    'remittance': '&#128181;', 'rent': '&#127968;', 'data_top_up': '&#128241;',
+    'vehicle_maintenance': '&#128663;', 'parking_tolls': '&#127344;', 'phone_data': '&#128241;',
+    'insurance': '&#128737;', 'utilities': '&#128161;', 'child_education': '&#127891;',
+    'parent_allowance': '&#10084;', 'other': '&#128178;'
+} %}
+
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
     <!-- Income -->
     <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">Monthly Income</div>
+        <div class="flex justify-between items-center">
+            <div class="text-sm text-gray-500 font-medium">Monthly Income</div>
+            {{ delta_badge(deltas.income) }}
+        </div>
         <div class="text-2xl font-bold text-gray-900 mt-1">
             {{ profile.currency }} {{ "{:,.0f}".format(income.total_income) }}
         </div>
@@ -21,7 +40,10 @@
 
     <!-- Expenses this week -->
     <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">This Week's Spending</div>
+        <div class="flex justify-between items-center">
+            <div class="text-sm text-gray-500 font-medium">This Week's Spending</div>
+            {{ delta_badge(deltas.expenses) }}
+        </div>
         <div class="text-2xl font-bold text-gray-900 mt-1">
             {{ profile.currency }} {{ "{:,.0f}".format(expenses.total) }}
         </div>
@@ -39,7 +61,10 @@
 
     <!-- Trips -->
     <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">Trips This Week</div>
+        <div class="flex justify-between items-center">
+            <div class="text-sm text-gray-500 font-medium">Trips This Week</div>
+            {{ delta_badge(deltas.trips) }}
+        </div>
         <div class="text-2xl font-bold text-gray-900 mt-1">{{ trips.total_trips }}</div>
         <div class="text-sm text-gray-400 mt-1">{{ trips.total_hours }}h &middot; Fuel {{ (trips.fuel_ratio * 100)|round(0)|int }}%</div>
     </div>
@@ -53,7 +78,7 @@
         {% for cat in expenses.top_categories %}
         <div class="mb-3">
             <div class="flex justify-between text-sm mb-1">
-                <span class="text-gray-700 capitalize">{{ cat.category|replace('_', ' ') }}</span>
+                <span class="text-gray-700 capitalize">{{ CATEGORY_EMOJI.get(cat.category, '&#128178;') }} {{ cat.category|replace('_', ' ') }}</span>
                 <span class="text-gray-500">{{ profile.currency }} {{ "{:,.0f}".format(cat.amount) }} ({{ cat.percentage }}%)</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-2.5">
