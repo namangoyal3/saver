@@ -208,8 +208,14 @@ def main():
     elif args.command == "chat":
         chat_loop(args.user)
     elif args.command == "web":
+        # Auto-seed if DB has no users
+        init_db()
+        with get_conn() as conn:
+            if not conn.execute("SELECT 1 FROM users LIMIT 1").fetchone():
+                console.print("[yellow]No data found. Seeding...[/yellow]")
+                seed_all()
         from saver.web.app import start_server
-        start_server()
+        start_server(port=args.port)
     else:
         parser.print_help()
 

@@ -209,8 +209,8 @@ async def reseed(request: Request):
     return RedirectResponse("/", status_code=302)
 
 
-def start_server():
+def start_server(port: int = 8000):
     """Start the web server."""
     import uvicorn
-    print("Starting Saver web dashboard at http://localhost:8000")
-    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
+    print(f"Starting Saver web dashboard at http://localhost:{port}")
+    uvicorn.run(app, host="0.0.0.0", port=port, log_level="info")
