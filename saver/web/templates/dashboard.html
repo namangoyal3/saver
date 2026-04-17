@@ -78,7 +78,7 @@
         {% for cat in expenses.top_categories %}
         <div class="mb-3">
             <div class="flex justify-between text-sm mb-1">
-                <span class="text-gray-700 capitalize">{{ CATEGORY_EMOJI.get(cat.category, '&#128178;') }} {{ cat.category|replace('_', ' ') }}</span>
+                <span class="text-gray-700 capitalize">{{ CATEGORY_EMOJI.get(cat.category, '&#128178;')|safe }} {{ cat.category|replace('_', ' ') }}</span>
                 <span class="text-gray-500">{{ profile.currency }} {{ "{:,.0f}".format(cat.amount) }} ({{ cat.percentage }}%)</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-2.5">
