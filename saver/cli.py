@@ -131,6 +131,10 @@ def chat_loop(user_key: str):
         if not user_input:
             continue
 
+        if len(user_input) > 2000:
+            console.print("[red]Message too long — please keep it under 2000 characters.[/red]")
+            continue
+
         # Handle commands
         if user_input.lower() in ("/quit", "/exit", "quit", "exit"):
             console.print("[dim]Goodbye![/dim]")

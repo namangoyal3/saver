@@ -75,10 +75,26 @@ def init_db() -> None:
 @contextmanager
 def get_conn():
     """Yield a SQLite connection with row_factory = sqlite3.Row."""
-    conn = sqlite3.connect(str(DB_PATH))
+    conn = sqlite3.connect(str(DB_PATH), timeout=10)
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA busy_timeout = 5000")
     try:
         yield conn
         conn.commit()
     finally:
         conn.close()
+
+
+def get_user_currency(user_id: str) -> str:
+    """Get a user's currency, defaulting to SGD if not found."""
+    with get_conn() as conn:
+        row = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
+    return row["currency"] if row else "SGD"
+
+
+def get_cutoff_date(window_days: int) -> str:
+    """Return ISO date string for N days ago. Validates window_days."""
+    from datetime import date, timedelta
+    if not (1 <= window_days <= 365):
+        window_days = min(max(window_days, 1), 365)
+    return (date.today() - timedelta(days=window_days)).isoformat()

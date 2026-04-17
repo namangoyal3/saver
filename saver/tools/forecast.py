@@ -5,7 +5,7 @@ from __future__ import annotations
 import statistics
 from datetime import date, timedelta
 
-from saver.data.db import get_conn
+from saver.data.db import get_conn, get_cutoff_date, get_user_currency
 from saver.models import (
     ForecastPoint,
     ForecastResult,
@@ -16,7 +16,7 @@ from saver.models import (
 
 def _get_daily_net(user_id: str, lookback_days: int = 60) -> list[tuple[str, float]]:
     """Get daily net cashflow (credits - debits) for lookback window."""
-    cutoff = (date.today() - timedelta(days=lookback_days)).isoformat()
+    cutoff = get_cutoff_date(lookback_days)
     with get_conn() as conn:
         rows = conn.execute(
             """SELECT DATE(posted_at) as d,
@@ -33,9 +33,7 @@ def _get_daily_net(user_id: str, lookback_days: int = 60) -> list[tuple[str, flo
 
 def forecast_cashflow(user_id: str, horizon_days: int = 14) -> dict:
     """Naive seasonal forecast: use day-of-week averages from historical data."""
-    with get_conn() as conn:
-        user = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
-        currency = user["currency"] if user else "SGD"
+    currency = get_user_currency(user_id)
 
     daily_net = _get_daily_net(user_id, lookback_days=60)
     if len(daily_net) < 7:
@@ -106,9 +104,7 @@ def forecast_cashflow(user_id: str, horizon_days: int = 14) -> dict:
 
 def simulate_goal(user_id: str, goal_name: str, target_amount: float, target_months: int = 6) -> dict:
     """Simulate whether a savings goal is feasible given historical cashflow."""
-    with get_conn() as conn:
-        user = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
-        currency = user["currency"] if user else "SGD"
+    currency = get_user_currency(user_id)
 
     daily_net = _get_daily_net(user_id, lookback_days=60)
     if not daily_net:

@@ -2,20 +2,13 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
-
-from saver.data.db import get_conn
-from saver.models import (
-    ExpenseBreakdownResult,
-    ExpenseCategory,
-    IncomeSummaryResult,
-    TransactionRecord,
-)
+from saver.data.db import get_conn, get_cutoff_date, get_user_currency
+from saver.models import ExpenseBreakdownResult, ExpenseCategory, IncomeSummaryResult
 
 
 def get_transactions(user_id: str, window_days: int = 30, direction: str | None = None) -> list[dict]:
     """Fetch raw transactions for a user within a time window."""
-    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
+    cutoff = get_cutoff_date(window_days)
     with get_conn() as conn:
         if direction:
             rows = conn.execute(
@@ -32,12 +25,10 @@ def get_transactions(user_id: str, window_days: int = 30, direction: str | None 
 
 def get_expense_breakdown(user_id: str, window_days: int = 7) -> dict:
     """Categorized expense breakdown for a user over a window."""
-    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
-    with get_conn() as conn:
-        # Get currency
-        user = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
-        currency = user["currency"] if user else "SGD"
+    cutoff = get_cutoff_date(window_days)
+    currency = get_user_currency(user_id)
 
+    with get_conn() as conn:
         rows = conn.execute(
             """SELECT category, SUM(amount) as total
                FROM transactions
@@ -72,11 +63,10 @@ def get_expense_breakdown(user_id: str, window_days: int = 7) -> dict:
 
 def get_income_summary(user_id: str, window_days: int = 30) -> dict:
     """Income summary with source breakdown."""
-    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
-    with get_conn() as conn:
-        user = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
-        currency = user["currency"] if user else "SGD"
+    cutoff = get_cutoff_date(window_days)
+    currency = get_user_currency(user_id)
 
+    with get_conn() as conn:
         rows = conn.execute(
             """SELECT channel, SUM(amount) as total
                FROM transactions

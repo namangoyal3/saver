@@ -78,5 +78,12 @@ class TestGoals:
         assert result["status"] == "created"
         goal_id = result["goal_id"]
 
-        updated = update_goal(goal_id, status="paused")
+        updated = update_goal("budi-001", goal_id, status="paused")
         assert updated["status"] == "paused"  # returns the row's actual status
+
+    def test_update_goal_wrong_user(self):
+        result = create_goal("budi-001", "Test Auth", 100_000, "IDR")
+        goal_id = result["goal_id"]
+        # Try updating as wrong user
+        updated = update_goal("siti-001", goal_id, status="paused")
+        assert updated["status"] == "not_found"  # should be denied

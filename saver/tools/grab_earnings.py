@@ -2,15 +2,13 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
-
-from saver.data.db import get_conn
+from saver.data.db import get_conn, get_cutoff_date, get_user_currency
 from saver.models import GrabEarningsResult, GrabTripSummaryResult
 
 
 def get_grab_earnings(user_id: str, window_days: int = 30) -> dict:
     """Aggregate Grab earnings over a window."""
-    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
+    cutoff = get_cutoff_date(window_days)
     with get_conn() as conn:
         row = conn.execute(
             """SELECT SUM(gross_earnings) as gross, SUM(net_earnings) as net,
@@ -23,8 +21,9 @@ def get_grab_earnings(user_id: str, window_days: int = 30) -> dict:
         ).fetchone()
 
     if not row or row["gross"] is None:
+        currency = get_user_currency(user_id)
         return GrabEarningsResult(
-            gross_earnings=0, net_earnings=0, currency="SGD",
+            gross_earnings=0, net_earnings=0, currency=currency,
             window_days=window_days, platform_fees=0, incentives=0
         ).model_dump()
 
@@ -40,11 +39,10 @@ def get_grab_earnings(user_id: str, window_days: int = 30) -> dict:
 
 def get_grab_trip_summary(user_id: str, window_days: int = 7) -> dict:
     """Trip count, hours, and efficiency metrics."""
-    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
-    with get_conn() as conn:
-        user = conn.execute("SELECT currency FROM users WHERE user_id = ?", (user_id,)).fetchone()
-        currency = user["currency"] if user else "SGD"
+    cutoff = get_cutoff_date(window_days)
+    currency = get_user_currency(user_id)
 
+    with get_conn() as conn:
         row = conn.execute(
             """SELECT SUM(trips) as total_trips, SUM(hours) as total_hours,
                       AVG(gross_earnings / NULLIF(trips, 0)) as avg_per_trip

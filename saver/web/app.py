@@ -25,9 +25,18 @@ from saver.tools.transactions import get_expense_breakdown, get_income_summary
 
 load_dotenv()
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 BASE_DIR = Path(__file__).parent
 app = FastAPI(title="Saver — Financial Wellness Coach")
-app.add_middleware(SessionMiddleware, secret_key=os.environ.get("SESSION_SECRET", "saver-dev-secret-key"))
+
+_session_secret = os.environ.get("SESSION_SECRET")
+if not _session_secret:
+    _session_secret = "saver-dev-secret-change-in-prod"
+    logger.warning("SESSION_SECRET not set — using insecure default. Set SESSION_SECRET env var in production.")
+app.add_middleware(SessionMiddleware, secret_key=_session_secret)
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
 
@@ -139,6 +148,13 @@ async def chat_send(request: Request, message: str = Form(...)):
     user_id = request.session.get("user_id")
     if not user_id:
         return JSONResponse({"error": "Not logged in"}, status_code=401)
+
+    # Input validation
+    message = message.strip()
+    if not message:
+        return JSONResponse({"reply": "Please type a message.", "trace": [], "guardrails": {}})
+    if len(message) > 2000:
+        return JSONResponse({"reply": "Message too long — please keep it under 2000 characters.", "trace": [], "guardrails": {}})
 
     profile = _get_profile(user_id)
     if not profile:

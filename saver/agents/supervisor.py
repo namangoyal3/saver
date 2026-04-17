@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import inspect
 import json
+import logging
 import os
 import time
 from typing import Annotated, Any, Literal, TypedDict
@@ -370,7 +371,17 @@ def agent_node(state: AgentState) -> dict:
     try:
         response = llm.invoke(msgs, tools=TOOL_SCHEMAS)
     except Exception as e:
-        error_msg = f"I'm having a bit of trouble right now. Could you try asking again? (Error: {type(e).__name__})"
+        logging.getLogger(__name__).error("LLM call failed: %s: %s", type(e).__name__, str(e)[:200])
+
+        # Map to user-friendly messages
+        error_name = type(e).__name__
+        user_msgs = {
+            "AuthenticationError": "API key is invalid. Please check your configuration.",
+            "RateLimitError": "I'm getting too many requests right now. Please wait a moment and try again.",
+            "APITimeoutError": "The AI service is taking too long. Please try again.",
+            "InternalServerError": "The AI service is experiencing issues. Please try again shortly.",
+        }
+        error_msg = user_msgs.get(error_name, "I'm having a bit of trouble right now. Could you try asking again?")
         return {
             "messages": [AIMessage(content=error_msg)],
             "reasoning_trace": trace,
@@ -409,6 +420,7 @@ def agent_node(state: AgentState) -> dict:
                     filtered_args = {k: v for k, v in tool_args.items() if k in valid_params}
                     result = func(**filtered_args)
                 except Exception as e:
+                    logging.getLogger(__name__).error("Tool %s failed: %s", tool_name, str(e)[:200])
                     result = {"error": str(e)}
             else:
                 result = {"error": f"Unknown tool: {tool_name}"}
