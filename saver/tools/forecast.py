@@ -103,7 +103,11 @@ def forecast_cashflow(user_id: str, horizon_days: int = 14) -> dict:
 
 
 def simulate_goal(user_id: str, goal_name: str, target_amount: float, target_months: int = 6) -> dict:
-    """Simulate whether a savings goal is feasible given historical cashflow."""
+    """Simulate whether a savings goal is feasible given historical cashflow.
+
+    Uses MONTHLY surplus (not weekly) to properly account for monthly obligations
+    like rent, insurance, and utilities that create artificial weekly volatility.
+    """
     currency = get_user_currency(user_id)
 
     daily_net = _get_daily_net(user_id, lookback_days=60)
@@ -113,7 +117,18 @@ def simulate_goal(user_id: str, goal_name: str, target_amount: float, target_mon
             risk_weeks=[], narrative="Not enough data to simulate.", currency=currency,
         ).model_dump()
 
-    # Weekly aggregation
+    # Use MONTHLY aggregation to smooth out monthly-expense spikes
+    # This gives a much more accurate picture than weekly
+    total_net = sum(net for _, net in daily_net)
+    num_days = len(daily_net)
+    monthly_surplus = total_net / num_days * 30  # normalize to 30-day month
+    weekly_surplus = monthly_surplus / 4.33
+
+    # Monthly contribution needed
+    monthly_needed = target_amount / max(target_months, 1)
+    weekly_needed = round(monthly_needed / 4.33, 2)
+
+    # Weekly aggregation for risk-week identification
     weekly_nets: list[float] = []
     week_sum = 0.0
     count = 0
@@ -127,41 +142,53 @@ def simulate_goal(user_id: str, goal_name: str, target_amount: float, target_mon
     if count > 0:
         weekly_nets.append(week_sum)
 
-    avg_weekly_surplus = statistics.mean(weekly_nets) if weekly_nets else 0
-    total_weeks = target_months * 4.33
-    weekly_needed = round(target_amount / total_weeks, 2)
-
-    # Find risk weeks (weeks where surplus < needed)
+    # Risk weeks: where weekly net < weekly_needed even after smoothing
     risk_weeks = []
     for i, w in enumerate(weekly_nets):
         if w < weekly_needed:
             risk_weeks.append(f"week_{i+1}")
 
-    feasible = weekly_needed <= avg_weekly_surplus * 0.7  # 70% of surplus is safe
+    # Feasibility: can we save this from the monthly surplus?
+    feasible = monthly_needed <= monthly_surplus * 0.6  # 60% of surplus is safe
 
-    # Suggest adaptive amount
-    suggested = min(weekly_needed, round(avg_weekly_surplus * 0.5, 2))
-    suggested = max(suggested, 0)
+    # Suggest a safe amount
+    safe_monthly = max(monthly_surplus * 0.4, 0)  # 40% of surplus
+    suggested_weekly = round(safe_monthly / 4.33, 2)
+    suggested_weekly = max(suggested_weekly, 0)
+
+    # Calculate how long at the suggested rate
+    if suggested_weekly > 0:
+        weeks_at_suggested = target_amount / suggested_weekly
+        months_at_suggested = round(weeks_at_suggested / 4.33, 1)
+    else:
+        months_at_suggested = 0
 
     pct_risk = round(len(risk_weeks) / max(len(weekly_nets), 1) * 100)
 
     if feasible:
         narrative = (
-            f"Saving {currency} {weekly_needed:,.0f}/week for {goal_name} looks doable. "
-            f"Your average weekly surplus is {currency} {avg_weekly_surplus:,.0f}. "
-            f"I'd suggest {currency} {suggested:,.0f}/week to be safe — "
-            f"about {pct_risk}% of weeks might be tight."
+            f"Saving {currency} {weekly_needed:,.0f}/week for {goal_name} looks doable! "
+            f"Your monthly surplus is about {currency} {monthly_surplus:,.0f}. "
+            f"I'd suggest {currency} {suggested_weekly:,.0f}/week to stay comfortable — "
+            f"about {pct_risk}% of weeks may be tighter due to monthly bills."
+        )
+    elif weekly_surplus > 0:
+        narrative = (
+            f"Saving {currency} {weekly_needed:,.0f}/week for {goal_name} is ambitious but possible. "
+            f"Your monthly surplus is about {currency} {monthly_surplus:,.0f} after bills. "
+            f"A comfortable pace: {currency} {suggested_weekly:,.0f}/week "
+            f"— that would reach your target in about {months_at_suggested} months instead of {target_months}."
         )
     else:
         narrative = (
-            f"Saving {currency} {weekly_needed:,.0f}/week for {goal_name} would be a stretch. "
-            f"Your average weekly surplus is only {currency} {avg_weekly_surplus:,.0f}. "
-            f"A safer target: {currency} {suggested:,.0f}/week, which would take longer but won't stress your budget."
+            f"Your current expenses are close to your income, making it hard to save for {goal_name} right now. "
+            f"Let's focus on reducing expenses first — "
+            f"even small cuts to your top spending categories could free up savings."
         )
 
     return SimulateGoalResult(
         feasible=feasible,
-        suggested_weekly_contribution=suggested,
+        suggested_weekly_contribution=suggested_weekly,
         risk_weeks=risk_weeks[:5],
         narrative=narrative,
         currency=currency,
