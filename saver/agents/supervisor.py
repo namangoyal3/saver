@@ -100,6 +100,64 @@ def refuse_node(state: AgentState) -> dict:
     }
 
 
+def _build_fallback_response(profile) -> str:
+    """Build a useful rule-based response when the LLM returns empty."""
+    try:
+        from saver.tools.transactions import get_expense_breakdown, get_income_summary
+        from saver.tools.actionable import get_daily_target, get_smart_savings_plan
+
+        expenses = get_expense_breakdown(profile.user_id, 7)
+        income = get_income_summary(profile.user_id, 30)
+        target = get_daily_target(profile.user_id)
+        savings = get_smart_savings_plan(profile.user_id)
+
+        c = profile.currency
+        parts = [f"Here's a quick look at your finances, {profile.name}:\n"]
+
+        # Income vs expenses
+        weekly_income = income.get("avg_weekly", 0)
+        weekly_expense = expenses.get("total", 0)
+        surplus = weekly_income - weekly_expense
+        parts.append(f"**Weekly income:** {c} {weekly_income:,.0f}")
+        parts.append(f"**Weekly spending:** {c} {weekly_expense:,.0f}")
+        if surplus > 0:
+            parts.append(f"**Weekly surplus:** {c} {surplus:,.0f} — this is what you can save!\n")
+        else:
+            parts.append(f"**Weekly gap:** {c} {abs(surplus):,.0f} — spending exceeds income\n")
+
+        # Top expense
+        cats = expenses.get("top_categories", [])
+        if cats:
+            top = cats[0]
+            parts.append(f"Your biggest expense is **{top['category'].replace('_', ' ')}** at {top['percentage']}% of spending.")
+
+        # Savings suggestion
+        if savings.get("has_plan") and savings.get("rules"):
+            rule = savings["rules"][0]
+            parts.append(f"\n**Savings tip:** {rule.get('label', '')}: {rule.get('action', '')}")
+
+        if savings.get("projected_monthly_savings", 0) > 0:
+            parts.append(f"If you follow these rules, you could save **{c} {savings['projected_monthly_savings']:,.0f}/month**.")
+
+        # Today's status
+        if target.get("still_needed_today", 0) <= 0:
+            parts.append(f"\nToday you've already hit your target — great work!")
+        else:
+            parts.append(f"\nToday you still need **{c} {target['still_needed_today']:,.0f}** to hit your daily target.")
+
+        parts.append("\nWant to dive deeper? Ask me about your spending, goals, or savings strategy!")
+        return "\n".join(parts)
+    except Exception as e:
+        logger.error("Fallback response generation failed: %s", str(e)[:200])
+        return (
+            "Let me give you a quick summary! You can ask me:\n"
+            "- **Where did my money go?** — see your spending breakdown\n"
+            "- **Help me save more** — get a personalized savings plan\n"
+            "- **Am I on track this week?** — check your daily target\n\n"
+            "Try one of these to get started!"
+        )
+
+
 def agent_node(state: AgentState) -> dict:
     """Main agent node — calls LLM with tools, handles tool calls."""
     profile = state["user_profile"]
@@ -145,18 +203,16 @@ def agent_node(state: AgentState) -> dict:
         has_tool_calls = hasattr(response, "tool_calls") and response.tool_calls
         has_content = response.content and len(response.content) > 0
         if not has_tool_calls and not has_content:
-            logger.warning("LLM returned empty response after retry. Using fallback message.")
-            fallback = (
-                "I'd like to help with that! Could you try asking in a different way? "
-                "For example, try 'Where did my money go?' or 'Can I save SGD 500?'"
-            )
+            logger.warning("LLM returned empty response after retry. Building rule-based fallback.")
+            # Build a useful fallback by calling tools directly
+            fallback = _build_fallback_response(profile)
             trace.append({
                 "idx": len(trace),
                 "agent": "supervisor",
                 "action": "compose",
                 "tool_name": None,
                 "tool_args_summary": None,
-                "result_summary": "Fallback: empty LLM response after retry",
+                "result_summary": "Fallback: rule-based response (LLM empty)",
                 "latency_ms": latency,
             })
             return {
