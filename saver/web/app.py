@@ -217,6 +217,10 @@ async def chat_send(request: Request, message: str = Form(...)):
     if not profile:
         return JSONResponse({"error": "User not found"}, status_code=404)
 
+    # Override profile language with session language (user may have switched)
+    session_lang = request.session.get("lang", "en")
+    profile.preferred_lang = session_lang
+
     # Get chat history from session
     chat_messages = request.session.get("chat_messages", [])
 
@@ -351,7 +355,8 @@ async def get_insights(request: Request):
     from langchain_core.messages import SystemMessage, HumanMessage
     import json as _json
 
-    lang = "Bahasa Indonesia" if profile.preferred_lang == "id" else "English"
+    session_lang = request.session.get("lang", profile.preferred_lang)
+    lang = "Bahasa Indonesia" if session_lang == "id" else "English"
 
     system_prompt = f"""You are Saver, a financial wellness coach for Grab partners. Generate exactly 3 short, actionable financial insights for the user based on their data below.
 

@@ -203,7 +203,8 @@ function updateTrace(trace, guardrails) {
         line.textContent = `PII=${guardrails.input_pii_redacted ? 'redacted' : 'clean'} | Scope=${guardrails.input_scope_check} | Grounding=${guardrails.output_grounding_check}`;
         traceContent.appendChild(line);
     }
-    tracePanel.classList.remove('hidden');
+    // Keep trace hidden — it's a dev tool, not for riders
+    // tracePanel.classList.remove('hidden');
 }
 
 function toggleTrace() {
@@ -265,15 +266,21 @@ form.addEventListener('submit', async (e) => {
     } catch(e) {}
 })();
 
-// Fetch AI tip
+// Fetch AI tip from insights
 (async function() {
     try {
         const r = await fetch('/api/insights');
         const d = await r.json();
-        if (d.tip) {
-            document.getElementById('tip-text').textContent = d.tip;
+        if (d.insights && d.insights.length > 0) {
+            // Pick the suggestion or first insight as the tip
+            const tip = d.insights.find(i => i.type === 'suggestion') || d.insights[0];
+            document.getElementById('tip-text').textContent = tip.body || tip.title;
+        } else {
+            document.getElementById('tip-text').textContent = 'Ask me anything about your money!';
         }
-    } catch(e) {}
+    } catch(e) {
+        document.getElementById('tip-text').textContent = 'Ask me anything about your money!';
+    }
 })();
 </script>
 {% endblock %}
