@@ -8,6 +8,25 @@
     <p class="text-green-200 mt-1">Here's your financial snapshot &middot; {{ profile.market.value }} market &middot; {{ profile.currency }}</p>
 </div>
 
+<!-- Saver Says — AI Insights (loaded async) -->
+<div id="insights-panel" class="bg-white rounded-xl shadow p-6 mb-6">
+    <div class="flex items-center space-x-2 mb-4">
+        <div class="w-8 h-8 rounded-full bg-grab-500 flex items-center justify-center text-white text-sm font-bold">S</div>
+        <h2 class="text-lg font-semibold text-gray-800">Saver Says</h2>
+        <span class="text-xs text-gray-400 ml-2">Personalized insights</span>
+    </div>
+    <div id="insights-content">
+        <div class="flex items-center space-x-2 text-gray-400 text-sm">
+            <div class="typing-dots">
+                <span class="inline-block w-2 h-2 bg-gray-300 rounded-full mx-0.5" style="animation: blink 1.4s infinite both"></span>
+                <span class="inline-block w-2 h-2 bg-gray-300 rounded-full mx-0.5" style="animation: blink 1.4s infinite both 0.2s"></span>
+                <span class="inline-block w-2 h-2 bg-gray-300 rounded-full mx-0.5" style="animation: blink 1.4s infinite both 0.4s"></span>
+            </div>
+            <span>Analyzing your finances...</span>
+        </div>
+    </div>
+</div>
+
 <!-- Key metrics row -->
 {% macro delta_badge(value) %}
 {% if value > 0 %}
@@ -157,9 +176,49 @@
 
 <!-- CTA to chat -->
 <div class="mt-6 bg-gradient-to-r from-grab-500 to-grab-700 rounded-2xl p-6 text-white text-center">
-    <h3 class="text-xl font-bold">Need help understanding your finances?</h3>
-    <p class="text-green-100 mt-1">Chat with Saver — your AI financial wellness coach</p>
-    <a href="/chat" class="mt-4 inline-block bg-white text-grab-700 font-semibold px-6 py-2 rounded-full hover:bg-green-50 transition">Start chatting</a>
+    <h3 class="text-xl font-bold">Want deeper analysis?</h3>
+    <p class="text-green-100 mt-1">Chat with Saver for detailed advice on your spending, savings, and goals</p>
+    <a href="/chat" class="mt-4 inline-block bg-white text-grab-700 font-semibold px-6 py-2 rounded-full hover:bg-green-50 transition">Chat with Saver</a>
 </div>
 
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Fetch AI insights asynchronously after dashboard loads
+(async function loadInsights() {
+    const panel = document.getElementById('insights-content');
+    try {
+        const resp = await fetch('/api/insights');
+        const data = await resp.json();
+
+        if (data.insights && data.insights.length > 0) {
+            const typeStyles = {
+                positive: 'border-green-200 bg-green-50',
+                warning: 'border-yellow-200 bg-yellow-50',
+                suggestion: 'border-blue-200 bg-blue-50',
+            };
+            const typeTitleColors = {
+                positive: 'text-green-700',
+                warning: 'text-yellow-700',
+                suggestion: 'text-blue-700',
+            };
+
+            panel.innerHTML = data.insights.map(insight => `
+                <div class="flex items-start space-x-3 p-3 rounded-lg border ${typeStyles[insight.type] || 'border-gray-200 bg-gray-50'} mb-3 fade-in">
+                    <span class="text-2xl flex-shrink-0">${insight.icon || '💡'}</span>
+                    <div>
+                        <div class="font-semibold text-sm ${typeTitleColors[insight.type] || 'text-gray-700'}">${insight.title}</div>
+                        <div class="text-sm text-gray-600 mt-0.5">${insight.body}</div>
+                    </div>
+                </div>
+            `).join('');
+        } else {
+            panel.innerHTML = '<p class="text-sm text-gray-400">No insights available right now.</p>';
+        }
+    } catch (err) {
+        panel.innerHTML = '<p class="text-sm text-gray-400">Could not load insights. <a href="/chat" class="text-grab-600 underline">Chat with Saver</a> instead.</p>';
+    }
+})();
+</script>
 {% endblock %}

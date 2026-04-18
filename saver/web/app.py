@@ -237,6 +237,99 @@ async def simulate_goal_route(request: Request, goal_name: str = Form(...), targ
     return JSONResponse(result)
 
 
+@app.get("/api/insights")
+async def get_insights(request: Request):
+    """Generate AI-powered financial insights for the dashboard.
+
+    Called async from the dashboard JS after page load, so the dashboard
+    renders instantly and insights appear with a typing animation.
+    """
+    user_id = request.session.get("user_id")
+    if not user_id:
+        return JSONResponse({"error": "Not logged in"}, status_code=401)
+
+    profile = _get_profile(user_id)
+    if not profile:
+        return JSONResponse({"error": "User not found"}, status_code=404)
+
+    # Gather data for the LLM to reason over
+    expenses = get_expense_breakdown(user_id, 7)
+    expenses_prev = get_expense_breakdown(user_id, 14)
+    income = get_income_summary(user_id, 30)
+    grab = get_grab_earnings(user_id, 30)
+    trips = get_grab_trip_summary(user_id, 7)
+    forecast_data = forecast_cashflow(user_id, 14)
+    goals_data = list_goals(user_id)
+
+    # Build a focused prompt for insights generation
+    from saver.agents.llm_config import get_llm
+    from langchain_core.messages import SystemMessage, HumanMessage
+    import json as _json
+
+    lang = "Bahasa Indonesia" if profile.preferred_lang == "id" else "English"
+
+    system_prompt = f"""You are Saver, a financial wellness coach for Grab partners. Generate exactly 3 short, actionable financial insights for the user based on their data below.
+
+RULES:
+- Each insight must be 1-2 sentences max
+- Use ONLY numbers from the provided data — never invent figures
+- Be warm, non-judgmental, and specific
+- Include one positive observation, one area of concern, and one actionable suggestion
+- Respond in {lang}
+- Format as a JSON array of objects: [{{"icon": "emoji", "title": "short title", "body": "insight text", "type": "positive|warning|suggestion"}}]
+- Only return the JSON array, nothing else
+
+USER: {profile.name} ({profile.market.value} market, {profile.currency})"""
+
+    data_summary = f"""DATA:
+- Weekly spending: {profile.currency} {expenses['total']:,.0f} ({len(expenses['top_categories'])} categories)
+- Previous 2-week avg spending: {profile.currency} {expenses_prev['total']/2:,.0f}/week
+- Top expense: {expenses['top_categories'][0]['category'] if expenses['top_categories'] else 'none'} at {expenses['top_categories'][0]['percentage'] if expenses['top_categories'] else 0}%
+- Monthly income: {profile.currency} {income['total_income']:,.0f}
+- Grab gross (30d): {profile.currency} {grab['gross_earnings']:,.0f}, net: {profile.currency} {grab['net_earnings']:,.0f}, fees: {profile.currency} {grab['platform_fees']:,.0f}
+- Trips this week: {trips['total_trips']}, hours: {trips['total_hours']}h, fuel ratio: {trips['fuel_ratio']*100:.0f}%
+- 14-day forecast: min balance {profile.currency} {forecast_data['summary']['expected_min_balance']:,.0f}, negative prob: {forecast_data['summary']['probability_negative_balance']*100:.0f}%
+- High-risk dates: {', '.join(forecast_data['summary']['high_risk_dates'][:3]) or 'none'}
+- Active goals: {len([g for g in goals_data if g.get('status') == 'active'])}"""
+
+    try:
+        llm = get_llm()
+        response = llm.invoke([
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=data_summary),
+        ])
+
+        # Parse the JSON response
+        content = response.content.strip()
+        # Handle markdown code blocks
+        if content.startswith("```"):
+            content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+
+        insights = _json.loads(content)
+        return JSONResponse({"insights": insights})
+    except Exception as e:
+        logger.error("Insights generation failed: %s", str(e)[:200])
+        # Return rule-based fallback insights
+        fallback = []
+        if expenses["total"] > 0 and expenses_prev["total"] > 0:
+            delta = (expenses["total"] - expenses_prev["total"]/2) / (expenses_prev["total"]/2) * 100
+            if delta > 15:
+                fallback.append({"icon": "📊", "title": "Spending up", "body": f"Your spending is up {delta:.0f}% this week. Check if that matches busier work days.", "type": "warning"})
+            elif delta < -10:
+                fallback.append({"icon": "✅", "title": "Spending down", "body": f"Nice — spending is down {abs(delta):.0f}% this week. Keep it up!", "type": "positive"})
+
+        if forecast_data["summary"]["probability_negative_balance"] > 0.3:
+            fallback.append({"icon": "⚠️", "title": "Balance alert", "body": f"Your balance might go negative around {forecast_data['summary']['high_risk_dates'][0] if forecast_data['summary']['high_risk_dates'] else 'next week'}. Consider setting aside some savings.", "type": "warning"})
+
+        if not goals_data or all(g.get("status") != "active" for g in goals_data):
+            fallback.append({"icon": "🎯", "title": "Set a goal", "body": "You don't have any savings goals yet. Even a small weekly target builds up over time.", "type": "suggestion"})
+
+        if not fallback:
+            fallback = [{"icon": "👋", "title": "Welcome", "body": "Saver is analyzing your finances. Check back soon for personalized insights!", "type": "positive"}]
+
+        return JSONResponse({"insights": fallback, "source": "fallback"})
+
+
 @app.get("/seed")
 async def reseed(request: Request):
     seed_all()
