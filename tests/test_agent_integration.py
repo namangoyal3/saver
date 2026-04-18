@@ -41,8 +41,16 @@ class TestInputGuardNode:
         # Check the message was replaced
         assert "NRIC_REDACTED" in result["messages"][0].content
 
-    def test_out_of_scope_flagged(self):
-        state = _make_state("Should I buy Bitcoin?")
+    def test_investment_education_allowed(self):
+        """Investment education is now in-scope (Financial Education Mode)."""
+        state = _make_state("Should I invest my savings?")
+        result = input_guard_node(state)
+        report = result.get("guardrail_report", state["guardrail_report"])
+        assert report.get("input_scope_check") == "pass"
+
+    def test_specific_product_blocked(self):
+        """Specific product recommendations are still blocked."""
+        state = _make_state("Buy this stock for me now")
         result = input_guard_node(state)
         assert result["guardrail_report"]["input_scope_check"] == "blocked"
 
@@ -61,11 +69,12 @@ class TestRouting:
 
 class TestRefuseNode:
     def test_refusal_is_polite(self):
-        state = _make_state("Should I invest in stocks?")
+        state = _make_state("Buy this specific stock for me")
         result = refuse_node(state)
         reply = result["messages"][0].content
-        assert "licensed" in reply.lower() or "outside" in reply.lower()
-        assert "advisor" in reply.lower() or "penasihat" in reply.lower()
+        assert "licensed" in reply.lower() or "can't recommend" in reply.lower()
+        # New refusal offers educational alternatives instead of just refusing
+        assert "help you understand" in reply.lower() or "options" in reply.lower()
 
     def test_refusal_detects_tax_topic(self):
         state = _make_state("Help me file tax return")

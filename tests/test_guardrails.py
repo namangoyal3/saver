@@ -27,13 +27,28 @@ class TestScopeCheck:
         ok, _ = check_scope("Where did my money go this week?")
         assert ok
 
-    def test_out_of_scope_crypto(self):
-        ok, reason = check_scope("Should I buy Bitcoin?")
+    def test_investment_education_allowed(self):
+        """Investment education questions should now be IN scope."""
+        ok, _ = check_scope("Should I invest my savings?")
+        assert ok  # Education mode — allowed
+
+    def test_crypto_education_allowed(self):
+        """General crypto questions are education, not advice."""
+        ok, _ = check_scope("Is Bitcoin a good investment?")
+        assert ok  # Education mode — will explain risks
+
+    def test_specific_buy_blocked(self):
+        """Specific product purchase requests are still blocked."""
+        ok, reason = check_scope("Buy this stock for me")
         assert not ok
         assert reason == "regulated_domain"
 
-    def test_out_of_scope_tax(self):
-        ok, _ = check_scope("Help me file tax return")
+    def test_out_of_scope_tax_filing(self):
+        ok, _ = check_scope("Help me file my tax return")
+        assert not ok
+
+    def test_out_of_scope_legal(self):
+        ok, _ = check_scope("I need legal advice about my contract")
         assert not ok
 
     def test_educational_override(self):

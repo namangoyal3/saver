@@ -11,7 +11,7 @@
             theme: {
                 extend: {
                     colors: {
-                        grab: { 50: '#f0fdf4', 100: '#dcfce7', 500: '#00b14f', 600: '#00913f', 700: '#007a35' }
+                        grab: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 500: '#00b14f', 600: '#00913f', 700: '#007a35', 800: '#006430' }
                     }
                 }
             }
@@ -19,36 +19,45 @@
     </script>
     <style>
         .chat-bubble-user { background: #00b14f; color: white; border-radius: 18px 18px 4px 18px; }
-        .chat-bubble-bot { background: #f3f4f6; color: #1f2937; border-radius: 18px 18px 18px 4px; }
+        .chat-bubble-bot { background: #f8f9fa; color: #1f2937; border-radius: 18px 18px 18px 4px; border: 1px solid #e5e7eb; }
         .fade-in { animation: fadeIn 0.3s ease-in; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
         .typing-dots span { animation: blink 1.4s infinite both; }
         .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
         .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
         @keyframes blink { 0%, 80%, 100% { opacity: 0; } 40% { opacity: 1; } }
+        /* Markdown in chat */
+        .chat-bubble-bot ul, .chat-bubble-bot ol { padding-left: 1.2rem; margin: 0.3rem 0; }
+        .chat-bubble-bot li { margin-bottom: 0.15rem; }
+        .chat-bubble-bot p { margin-bottom: 0.4rem; }
+        .chat-bubble-bot p:last-child { margin-bottom: 0; }
+        .chat-bubble-bot strong { font-weight: 600; }
     </style>
 </head>
 <body class="h-full">
     {% if request.session.get('user_id') %}
-    <nav class="bg-grab-700 shadow-lg">
+    <nav class="bg-grab-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center space-x-8">
-                    <a href="/dashboard" class="text-white text-xl font-bold">Saver</a>
-                    <a href="/dashboard" class="text-green-100 hover:text-white text-sm font-medium {% if request.url.path == '/dashboard' %}text-white underline{% endif %}">Dashboard</a>
-                    <a href="/chat" class="text-green-100 hover:text-white text-sm font-medium {% if request.url.path == '/chat' %}text-white underline{% endif %}">Chat</a>
-                    <a href="/goals" class="text-green-100 hover:text-white text-sm font-medium {% if request.url.path == '/goals' %}text-white underline{% endif %}">Goals</a>
+            <div class="flex justify-between h-14">
+                <div class="flex items-center space-x-1">
+                    <a href="/dashboard" class="text-white text-lg font-bold mr-6">Saver</a>
+                    <a href="/dashboard" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
+                        {% if request.url.path == '/dashboard' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Dashboard</a>
+                    <a href="/chat" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
+                        {% if request.url.path == '/chat' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Chat</a>
+                    <a href="/goals" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
+                        {% if request.url.path == '/goals' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Goals</a>
                 </div>
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-3">
                     <span class="text-green-200 text-sm">{{ request.session.get('user_name', '') }}</span>
-                    <a href="/logout" class="text-green-100 hover:text-white text-sm">Logout</a>
+                    <a href="/logout" class="text-green-200 hover:text-white text-sm">Logout</a>
                 </div>
             </div>
         </div>
     </nav>
     {% endif %}
 
-    <main class="{% if request.session.get('user_id') %}max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6{% endif %}">
+    <main class="{% if request.session.get('user_id') %}max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5{% endif %}">
         {% block content %}{% endblock %}
     </main>
 

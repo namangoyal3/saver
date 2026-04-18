@@ -3,36 +3,38 @@
 {% block content %}
 
 <div class="max-w-3xl mx-auto">
-    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col" style="height: calc(100vh - 140px);">
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col" style="height: calc(100vh - 110px);">
         <!-- Chat header -->
-        <div class="bg-grab-700 px-6 py-4 flex items-center space-x-3">
-            <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-grab-700 font-bold text-lg">S</div>
+        <div class="bg-grab-700 px-5 py-3 flex items-center space-x-3 flex-shrink-0">
+            <div class="w-9 h-9 rounded-full bg-white flex items-center justify-center text-grab-700 font-bold">S</div>
             <div>
-                <div class="text-white font-semibold">Saver</div>
-                <div class="text-green-200 text-xs">Financial Wellness Coach</div>
+                <div class="text-white font-semibold text-sm">Saver</div>
+                <div class="text-green-200 text-xs">Financial Wellness Coach &middot; Online</div>
             </div>
         </div>
 
         <!-- Messages -->
-        <div id="messages" class="flex-1 overflow-y-auto px-6 py-4 space-y-4">
+        <div id="messages" class="flex-1 overflow-y-auto px-4 py-4 space-y-3 bg-gray-50/50">
             <!-- Welcome message -->
             <div class="flex justify-start fade-in">
-                <div class="chat-bubble-bot px-4 py-3 max-w-[80%]">
-                    <p>Hi {{ profile.name }}! I'm Saver, your financial wellness coach. I can help you understand your spending, plan savings, and forecast your cashflow.</p>
-                    <p class="mt-2 text-sm text-gray-500">Try asking:</p>
-                    <div class="mt-1 space-y-1">
-                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">Where did my money go this week?</button>
-                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">How much did I earn from Grab?</button>
-                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">What's my cashflow forecast?</button>
-                        <button onclick="sendSuggestion(this)" class="block text-sm text-grab-600 hover:underline cursor-pointer">Can I save {{ profile.currency }} {{ '500' if profile.currency == 'SGD' else '3,000,000' }} in 6 months?</button>
-                    </div>
+                <div class="chat-bubble-bot px-4 py-3 max-w-[85%] text-sm">
+                    <p class="text-gray-800">Hi {{ profile.name }}! I'm Saver, your financial wellness coach.</p>
+                    <p class="text-gray-500 text-xs mt-2">Try one of these:</p>
                 </div>
+            </div>
+            <!-- Suggestion chips -->
+            <div class="flex flex-wrap gap-2 pl-2 fade-in">
+                <button onclick="sendSuggestion(this)" class="text-xs bg-white border border-grab-200 text-grab-700 px-3 py-1.5 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer">Where did my money go?</button>
+                <button onclick="sendSuggestion(this)" class="text-xs bg-white border border-grab-200 text-grab-700 px-3 py-1.5 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer">How much did I earn?</button>
+                <button onclick="sendSuggestion(this)" class="text-xs bg-white border border-grab-200 text-grab-700 px-3 py-1.5 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer">Cashflow forecast</button>
+                <button onclick="sendSuggestion(this)" class="text-xs bg-white border border-grab-200 text-grab-700 px-3 py-1.5 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer">Can I save {{ profile.currency }} {{ '500' if profile.currency == 'SGD' else '3M' }}?</button>
+                <button onclick="sendSuggestion(this)" class="text-xs bg-white border border-grab-200 text-grab-700 px-3 py-1.5 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer">How to grow my money?</button>
             </div>
 
             <!-- Previous messages -->
             {% for msg in messages %}
             <div class="flex {% if msg.role == 'user' %}justify-end{% else %}justify-start{% endif %} fade-in">
-                <div class="{% if msg.role == 'user' %}chat-bubble-user{% else %}chat-bubble-bot{% endif %} px-4 py-3 max-w-[80%]">
+                <div class="{% if msg.role == 'user' %}chat-bubble-user{% else %}chat-bubble-bot{% endif %} px-4 py-2.5 max-w-[85%] text-sm">
                     {{ msg.content }}
                 </div>
             </div>
@@ -40,26 +42,26 @@
         </div>
 
         <!-- Trace panel (collapsible) -->
-        <div id="trace-panel" class="hidden border-t bg-gray-50 px-6 py-3 max-h-48 overflow-y-auto">
-            <div class="flex justify-between items-center mb-2">
-                <span class="text-xs font-semibold text-gray-500 uppercase">Reasoning Trace</span>
-                <button onclick="document.getElementById('trace-panel').classList.add('hidden')" class="text-xs text-gray-400 hover:text-gray-600">&times; Close</button>
+        <div id="trace-panel" class="hidden border-t bg-gray-50 px-4 py-2.5 max-h-40 overflow-y-auto flex-shrink-0">
+            <div class="flex justify-between items-center mb-1.5">
+                <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Reasoning Trace</span>
+                <button onclick="document.getElementById('trace-panel').classList.add('hidden')" class="text-gray-400 hover:text-gray-600 text-xs">&times;</button>
             </div>
-            <div id="trace-content" class="text-xs font-mono text-gray-600 space-y-1"></div>
+            <div id="trace-content" class="text-[11px] font-mono text-gray-500 space-y-0.5"></div>
         </div>
 
-        <!-- Input -->
-        <div class="border-t px-4 py-3 bg-white">
-            <form id="chat-form" class="flex space-x-3">
+        <!-- Input area -->
+        <div class="border-t px-4 py-3 bg-white flex-shrink-0">
+            <form id="chat-form" class="flex items-center space-x-2">
                 <input type="text" id="message-input" name="message" placeholder="Ask about your finances..."
-                       class="flex-1 border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-grab-500 focus:border-transparent"
+                       class="flex-1 border border-gray-200 rounded-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-grab-500 focus:border-transparent bg-gray-50"
                        autocomplete="off" required>
                 <button type="submit" id="send-btn"
-                        class="bg-grab-500 hover:bg-grab-600 text-white rounded-full px-5 py-2 text-sm font-medium transition disabled:opacity-50 disabled:cursor-not-allowed">
-                    Send
+                        class="bg-grab-500 hover:bg-grab-600 text-white rounded-full w-9 h-9 flex items-center justify-center transition disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
                 </button>
-                <button type="button" onclick="toggleTrace()" class="text-gray-400 hover:text-gray-600 text-xs px-2" title="Toggle reasoning trace">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                <button type="button" onclick="toggleTrace()" class="text-gray-300 hover:text-gray-500 flex-shrink-0" title="Toggle trace">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
                 </button>
             </form>
         </div>
@@ -86,15 +88,11 @@ function addMessage(role, content) {
     const wrapper = document.createElement('div');
     wrapper.className = `flex ${role === 'user' ? 'justify-end' : 'justify-start'} fade-in`;
     const bubble = document.createElement('div');
-    bubble.className = `${role === 'user' ? 'chat-bubble-user' : 'chat-bubble-bot'} px-4 py-3 max-w-[80%]`;
+    bubble.className = `${role === 'user' ? 'chat-bubble-user' : 'chat-bubble-bot'} px-4 py-2.5 max-w-[85%] text-sm`;
     if (role === 'user') {
         bubble.textContent = content;
     } else {
-        // Render markdown for bot messages
         bubble.innerHTML = marked.parse(content);
-        bubble.querySelectorAll('p').forEach(p => p.style.marginBottom = '0.5rem');
-        bubble.querySelectorAll('ul,ol').forEach(l => { l.style.paddingLeft = '1.2rem'; l.style.marginBottom = '0.5rem'; });
-        bubble.querySelectorAll('li').forEach(l => l.style.marginBottom = '0.25rem');
     }
     wrapper.appendChild(bubble);
     messagesDiv.appendChild(wrapper);
@@ -105,7 +103,7 @@ function addTypingIndicator() {
     const wrapper = document.createElement('div');
     wrapper.id = 'typing-indicator';
     wrapper.className = 'flex justify-start fade-in';
-    wrapper.innerHTML = `<div class="chat-bubble-bot px-4 py-3"><div class="typing-dots"><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span><span class="inline-block w-2 h-2 bg-gray-400 rounded-full mx-0.5"></span></div></div>`;
+    wrapper.innerHTML = `<div class="chat-bubble-bot px-4 py-3"><div class="typing-dots flex space-x-1"><span class="w-2 h-2 bg-gray-400 rounded-full"></span><span class="w-2 h-2 bg-gray-400 rounded-full"></span><span class="w-2 h-2 bg-gray-400 rounded-full"></span></div></div>`;
     messagesDiv.appendChild(wrapper);
     scrollToBottom();
 }
@@ -120,7 +118,7 @@ function updateTrace(trace, guardrails) {
     if (trace && trace.length > 0) {
         trace.forEach(s => {
             const line = document.createElement('div');
-            const color = s.action === 'tool_call' ? 'text-blue-600' : s.action === 'refuse' ? 'text-red-600' : 'text-gray-600';
+            const color = s.action === 'tool_call' ? 'text-blue-600' : s.action === 'refuse' ? 'text-red-500' : 'text-gray-500';
             line.className = color;
             line.textContent = `[${s.agent}] ${s.action}: ${s.tool || ''} ${s.result ? '→ ' + s.result : ''} (${s.ms}ms)`;
             traceContent.appendChild(line);
@@ -128,10 +126,11 @@ function updateTrace(trace, guardrails) {
     }
     if (guardrails) {
         const line = document.createElement('div');
-        line.className = 'text-gray-400 mt-1 border-t pt-1';
-        line.textContent = `Guards: PII=${guardrails.input_pii_redacted ? 'redacted' : 'clean'} | Scope=${guardrails.input_scope_check} | Grounding=${guardrails.output_grounding_check}`;
+        line.className = 'text-gray-400 mt-1 pt-1 border-t border-gray-200';
+        line.textContent = `PII=${guardrails.input_pii_redacted ? 'redacted' : 'clean'} | Scope=${guardrails.input_scope_check} | Grounding=${guardrails.output_grounding_check}`;
         traceContent.appendChild(line);
     }
+    tracePanel.classList.remove('hidden');
 }
 
 function toggleTrace() {
