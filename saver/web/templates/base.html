@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-50">
+<html lang="{{ lang|default('en') }}" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,16 @@
             theme: {
                 extend: {
                     colors: {
-                        grab: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 500: '#00b14f', 600: '#00913f', 700: '#007a35', 800: '#006430' }
+                        grab: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 300: '#86efac', 500: '#00b14f', 600: '#00913f', 700: '#007a35', 800: '#006430' }
                     }
                 }
             }
         }
     </script>
     <style>
+        body { background: #f7faf8; }
         .chat-bubble-user { background: #00b14f; color: white; border-radius: 18px 18px 4px 18px; }
-        .chat-bubble-bot { background: #f8f9fa; color: #1f2937; border-radius: 18px 18px 18px 4px; border: 1px solid #e5e7eb; }
+        .chat-bubble-bot { background: white; color: #1f2937; border-radius: 18px 18px 18px 4px; border: 1px solid #e5e7eb; }
         .fade-in { animation: fadeIn 0.3s ease-in; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
         .typing-dots span { animation: blink 1.4s infinite both; }
@@ -32,38 +33,66 @@
         .chat-bubble-bot p { margin-bottom: 0.4rem; }
         .chat-bubble-bot p:last-child { margin-bottom: 0; }
         .chat-bubble-bot strong { font-weight: 600; }
+        /* Status colors */
+        .status-good { color: #16a34a; }
+        .status-warn { color: #d97706; }
+        .status-bad { color: #dc2626; }
+        .bg-status-good { background: #f0fdf4; border-color: #bbf7d0; }
+        .bg-status-warn { background: #fffbeb; border-color: #fde68a; }
+        .bg-status-bad { background: #fef2f2; border-color: #fecaca; }
+        /* Progress ring */
+        .progress-ring { transform: rotate(-90deg); }
+        /* Mobile tap targets */
+        @media (max-width: 640px) {
+            .tap-target { min-height: 48px; }
+        }
     </style>
 </head>
 <body class="h-full">
     {% if request.session.get('user_id') %}
-    <nav class="bg-grab-700">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-14">
+    <nav class="bg-grab-700 shadow-lg">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex justify-between h-14 items-center">
                 <div class="flex items-center space-x-1">
-                    <a href="/dashboard" class="text-white text-lg font-bold mr-6">Saver</a>
-                    <a href="/dashboard" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
-                        {% if request.url.path == '/dashboard' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Dashboard</a>
-                    <a href="/chat" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
-                        {% if request.url.path == '/chat' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Chat</a>
-                    <a href="/goals" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all
-                        {% if request.url.path == '/goals' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">Goals</a>
+                    <a href="/dashboard" class="text-white text-xl font-extrabold mr-4 tracking-tight">Saver</a>
+                    <a href="/dashboard" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all tap-target flex items-center
+                        {% if request.url.path == '/dashboard' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">
+                        {{ i18n.nav_dashboard }}
+                    </a>
+                    <a href="/chat" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all tap-target flex items-center
+                        {% if request.url.path == '/chat' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">
+                        {{ i18n.nav_chat }}
+                    </a>
+                    <a href="/goals" class="px-3 py-1.5 rounded-full text-sm font-medium transition-all tap-target flex items-center
+                        {% if request.url.path == '/goals' %}bg-white/20 text-white{% else %}text-green-200 hover:text-white hover:bg-white/10{% endif %}">
+                        {{ i18n.nav_goals }}
+                    </a>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <span class="text-green-200 text-sm">{{ request.session.get('user_name', '') }}</span>
-                    <a href="/logout" class="text-green-200 hover:text-white text-sm">Logout</a>
+                    <!-- Language switcher -->
+                    <form method="POST" action="/set-language" class="flex items-center">
+                        <select name="lang" onchange="this.form.submit()"
+                                class="bg-white/10 text-green-100 text-xs rounded-full px-2 py-1 border border-white/20 focus:outline-none cursor-pointer appearance-none pr-6"
+                                style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 20 20%22 fill=%22%2386efac%22><path fill-rule=%22evenodd%22 d=%22M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z%22 clip-rule=%22evenodd%22/></svg>'); background-repeat: no-repeat; background-position: right 6px center; background-size: 14px;">
+                            <option value="en" {% if lang == 'en' %}selected{% endif %}>EN</option>
+                            <option value="id" {% if lang == 'id' %}selected{% endif %}>ID</option>
+                        </select>
+                    </form>
+                    <span class="text-green-200 text-sm hidden sm:inline">{{ request.session.get('user_name', '') }}</span>
+                    <a href="/logout" class="text-green-200 hover:text-white text-sm">{{ i18n.nav_logout }}</a>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- Regulatory disclaimer banner -->
-    <div class="bg-amber-50 border-b border-amber-200 px-4 py-1.5">
-        <p class="text-center text-[11px] text-amber-700 max-w-4xl mx-auto">
-            <span class="font-semibold">Disclaimer:</span> Saver provides financial <em>education</em> and budgeting tools only — not licensed financial advice. A <a href="https://www.mas.gov.sg/regulation/Capital-Markets-Services-Licence" class="underline">Capital Markets Services (CMS)</a> or Financial Adviser (FA) licence from MAS would be required for personalized investment recommendations. For specific product advice, please consult a licensed financial advisor.
+    <!-- Compact disclaimer -->
+    <div class="bg-amber-50/80 border-b border-amber-100 px-4 py-1">
+        <p class="text-center text-[10px] text-amber-600 max-w-3xl mx-auto">
+            {{ i18n.disclaimer }}
         </p>
     </div>
     {% endif %}
 
-    <main class="{% if request.session.get('user_id') %}max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5{% endif %}">
+    <main class="{% if request.session.get('user_id') %}max-w-5xl mx-auto px-4 py-4{% endif %}">
         {% block content %}{% endblock %}
     </main>
 

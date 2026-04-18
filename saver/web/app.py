@@ -18,6 +18,7 @@ from saver.agents.supervisor import run_turn
 from saver.data.db import get_conn, init_db
 from saver.data.seed import seed_all
 from saver.models import UserProfileSnapshot
+from saver.web.i18n import get_translations
 from saver.tools.forecast import forecast_cashflow, simulate_goal
 from saver.tools.goals import create_goal, list_goals
 from saver.tools.grab_earnings import get_grab_earnings, get_grab_trip_summary
@@ -44,6 +45,16 @@ templates = Jinja2Templates(directory=BASE_DIR / "templates")
 init_db()
 
 
+def _get_lang(request: Request) -> str:
+    return request.session.get("lang", "en")
+
+
+def _ctx(request: Request, **kwargs) -> dict:
+    """Build common template context with language/translations."""
+    lang = _get_lang(request)
+    return {"request": request, "lang": lang, "i18n": get_translations(lang), **kwargs}
+
+
 def _get_profile(user_id: str) -> UserProfileSnapshot | None:
     with get_conn() as conn:
         row = conn.execute("SELECT * FROM users WHERE user_id = ?", (user_id,)).fetchone()
@@ -65,7 +76,11 @@ async def login_page(request: Request):
         return RedirectResponse("/dashboard", status_code=302)
     with get_conn() as conn:
         users = conn.execute("SELECT user_id, name, market, currency FROM users").fetchall()
-    return templates.TemplateResponse(request, "login.html", {"users": [dict(u) for u in users]})
+    lang = request.session.get("lang", "en")
+    return templates.TemplateResponse(request, "login.html", {
+        "request": request, "users": [dict(u) for u in users],
+        "lang": lang, "i18n": get_translations(lang),
+    })
 
 
 @app.post("/login")
@@ -76,7 +91,18 @@ async def login(request: Request, user_id: str = Form(...)):
     request.session["user_id"] = user_id
     request.session["user_name"] = profile.name
     request.session["chat_history"] = []
+    # Default language to English, user can switch later
+    if "lang" not in request.session:
+        request.session["lang"] = "en"
     return RedirectResponse("/dashboard", status_code=302)
+
+
+@app.post("/set-language")
+async def set_language(request: Request, lang: str = Form(...)):
+    if lang in ("en", "id"):
+        request.session["lang"] = lang
+    referer = request.headers.get("referer", "/dashboard")
+    return RedirectResponse(referer, status_code=302)
 
 
 @app.get("/logout")
@@ -125,20 +151,20 @@ async def dashboard(request: Request):
         "trips": _delta(trips["total_trips"], trips_prev["total_trips"]),
     }
 
-    return templates.TemplateResponse(request, "dashboard.html", {
-        "profile": profile,
-        "expenses": expenses,
-        "income": income,
-        "grab": grab,
-        "trips": trips,
-        "forecast": forecast,
-        "goals": goals,
-        "deltas": deltas,
-        "daily_target": daily_target,
-        "efficiency": efficiency,
-        "bills": bills,
-        "savings_plan": savings_plan,
-    })
+    return templates.TemplateResponse(request, "dashboard.html", _ctx(request,
+        profile=profile,
+        expenses=expenses,
+        income=income,
+        grab=grab,
+        trips=trips,
+        forecast=forecast,
+        goals=goals,
+        deltas=deltas,
+        daily_target=daily_target,
+        efficiency=efficiency,
+        bills=bills,
+        savings_plan=savings_plan,
+    ))
 
 
 @app.get("/chat", response_class=HTMLResponse)
@@ -148,10 +174,10 @@ async def chat_page(request: Request):
         return RedirectResponse("/", status_code=302)
     profile = _get_profile(user_id)
     messages = request.session.get("chat_messages", [])
-    return templates.TemplateResponse(request, "chat.html", {
-        "profile": profile,
-        "messages": messages,
-    })
+    return templates.TemplateResponse(request, "chat.html", _ctx(request,
+        profile=profile,
+        messages=messages,
+    ))
 
 
 @app.post("/chat/send")
@@ -223,10 +249,10 @@ async def goals_page(request: Request):
         return RedirectResponse("/", status_code=302)
     profile = _get_profile(user_id)
     goals = list_goals(user_id)
-    return templates.TemplateResponse(request, "goals.html", {
-        "profile": profile,
-        "goals": goals,
-    })
+    return templates.TemplateResponse(request, "goals.html", _ctx(request,
+        profile=profile,
+        goals=goals,
+    ))
 
 
 @app.post("/goals/create")

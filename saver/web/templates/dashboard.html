@@ -1,120 +1,123 @@
 {% extends "base.html" %}
-{% block title %}Dashboard{% endblock %}
+{% block title %}{{ i18n.nav_dashboard }}{% endblock %}
 {% block content %}
 
-<!-- Welcome banner -->
-<div class="bg-grab-700 rounded-2xl p-6 mb-6 text-white">
-    <h1 class="text-2xl font-bold">Hello, {{ profile.name }}!</h1>
-    <p class="text-green-200 mt-1">Here's your financial snapshot &middot; {{ profile.market.value }} market &middot; {{ profile.currency }}</p>
+<!-- Welcome banner with time-based greeting -->
+<div class="bg-gradient-to-r from-grab-700 to-grab-600 rounded-2xl p-5 mb-5 text-white">
+    <h1 class="text-2xl font-bold">{{ i18n.dash_hello.format(name=profile.name) }}</h1>
+    <p class="text-green-200 mt-1 text-sm">{{ i18n.dash_snapshot }} &middot; {{ profile.market.value }} &middot; {{ profile.currency }}</p>
 </div>
 
-<!-- TODAY'S TARGET — the most important thing on the dashboard -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-    <!-- Daily target -->
-    <div class="bg-white rounded-xl shadow p-5 border-l-4 {% if daily_target.still_needed_today > 0 %}border-yellow-400{% else %}border-green-400{% endif %}">
-        <div class="text-sm text-gray-500 font-medium">Today's Target</div>
+<!-- TOP ROW: The 3 things that matter most -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-5">
+    <!-- Daily target — traffic light -->
+    {% set target_pct = ((daily_target.earned_today / daily_target.daily_target * 100) if daily_target.daily_target > 0 else 0)|int %}
+    <div class="bg-white rounded-xl shadow-sm p-4 border-l-4 {% if target_pct >= 100 %}border-green-400{% elif target_pct >= 50 %}border-yellow-400{% else %}border-red-400{% endif %}">
+        <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">{{ i18n.dash_today_target }}</div>
         <div class="text-3xl font-bold text-gray-900 mt-1">
             {{ profile.currency }} {{ "{:,.0f}".format(daily_target.daily_target) }}
         </div>
         {% if daily_target.still_needed_today > 0 %}
-        <div class="text-sm text-yellow-600 mt-1 font-medium">{{ profile.currency }} {{ "{:,.0f}".format(daily_target.still_needed_today) }} more to go</div>
+        <div class="text-sm {% if target_pct < 50 %}text-red-600{% else %}text-yellow-600{% endif %} mt-1 font-medium">
+            {{ i18n.dash_more_to_go.format(amount=profile.currency ~ ' ' ~ "{:,.0f}".format(daily_target.still_needed_today)) }}
+        </div>
         {% else %}
-        <div class="text-sm text-green-600 mt-1 font-medium">Target reached!</div>
+        <div class="text-sm text-green-600 mt-1 font-medium">{{ i18n.dash_target_reached }}</div>
         {% endif %}
-        <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-            {% set pct = ((daily_target.earned_today / daily_target.daily_target * 100) if daily_target.daily_target > 0 else 0)|int %}
-            <div class="{% if pct >= 100 %}bg-green-500{% else %}bg-yellow-400{% endif %} h-2 rounded-full" style="width: {{ [pct, 100]|min }}%"></div>
+        <div class="w-full bg-gray-100 rounded-full h-2.5 mt-2">
+            <div class="{% if target_pct >= 100 %}bg-green-500{% elif target_pct >= 50 %}bg-yellow-400{% else %}bg-red-400{% endif %} h-2.5 rounded-full transition-all" style="width: {{ [target_pct, 100]|min }}%"></div>
         </div>
     </div>
 
     <!-- Weekly progress -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">Weekly Progress</div>
-        <div class="text-2xl font-bold text-gray-900 mt-1">{{ daily_target.weekly_progress_pct }}%</div>
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">{{ i18n.dash_weekly_progress }}</div>
+        <div class="flex items-end space-x-2 mt-1">
+            <span class="text-3xl font-bold {% if daily_target.weekly_progress_pct >= 80 %}text-green-600{% elif daily_target.weekly_progress_pct >= 40 %}text-yellow-600{% else %}text-red-600{% endif %}">{{ daily_target.weekly_progress_pct }}%</span>
+        </div>
         <div class="text-sm text-gray-400 mt-1">
             {{ profile.currency }} {{ "{:,.0f}".format(daily_target.earned_this_week) }} / {{ "{:,.0f}".format(daily_target.weekly_target) }}
         </div>
-        <div class="text-xs text-gray-400 mt-1">{{ daily_target.days_left_in_week }} days left this week</div>
+        <div class="text-xs text-gray-400 mt-0.5">{{ i18n.dash_days_left.format(n=daily_target.days_left_in_week) }}</div>
     </div>
 
-    <!-- Earnings efficiency -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">Your Efficiency</div>
-        <div class="text-lg font-bold text-gray-900 mt-1">{{ profile.currency }} {{ "{:,.0f}".format(efficiency.earnings_per_hour) }}/hr</div>
-        <div class="text-sm text-gray-500 mt-0.5">{{ profile.currency }} {{ "{:,.0f}".format(efficiency.profit_per_trip) }} profit/trip</div>
-        <div class="text-xs mt-1 {% if efficiency.earnings_per_hour >= efficiency.prev_earnings_per_hour %}text-green-600{% else %}text-red-500{% endif %}">
-            {% if efficiency.prev_earnings_per_hour > 0 %}
-            {% set delta = ((efficiency.earnings_per_hour - efficiency.prev_earnings_per_hour) / efficiency.prev_earnings_per_hour * 100)|round(0)|int %}
-            {{ "+" if delta > 0 }}{{ delta }}% vs last week
-            {% endif %}
+    <!-- Efficiency -->
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <div class="text-xs text-gray-500 font-medium uppercase tracking-wide">{{ i18n.dash_efficiency }}</div>
+        <div class="text-2xl font-bold text-gray-900 mt-1">{{ profile.currency }} {{ "{:,.0f}".format(efficiency.earnings_per_hour) }}{{ i18n.dash_per_hour }}</div>
+        <div class="text-sm text-gray-500 mt-0.5">{{ profile.currency }} {{ "{:,.0f}".format(efficiency.profit_per_trip) }} {{ i18n.dash_profit_trip }}</div>
+        {% if efficiency.prev_earnings_per_hour > 0 %}
+        {% set delta = ((efficiency.earnings_per_hour - efficiency.prev_earnings_per_hour) / efficiency.prev_earnings_per_hour * 100)|round(0)|int %}
+        <div class="text-xs mt-1 {% if delta >= 0 %}text-green-600{% else %}text-red-500{% endif %}">
+            {{ "+" if delta > 0 }}{{ delta }}% {{ i18n.dash_vs_last_week }}
         </div>
+        {% endif %}
     </div>
 </div>
 
-<!-- ACTIONABLE ITEMS — what to DO, not just what to know -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<!-- ACTIONABLE ROW: Bills + Savings -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
     <!-- Upcoming bills -->
     {% if bills.bills %}
-    <div class="bg-white rounded-xl shadow p-5">
-        <h3 class="font-semibold text-gray-800 mb-3">Upcoming Bills</h3>
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <h3 class="font-semibold text-gray-800 text-sm mb-3">{{ i18n.dash_upcoming_bills }}</h3>
         {% for bill in bills.bills[:4] %}
-        <div class="flex justify-between items-center py-2 {% if not loop.last %}border-b border-gray-100{% endif %}">
+        <div class="flex justify-between items-center py-1.5 {% if not loop.last %}border-b border-gray-50{% endif %}">
             <div>
                 <span class="text-sm capitalize text-gray-700">{{ bill.category|replace('_', ' ') }}</span>
-                <span class="text-xs {% if bill.urgency == 'urgent' %}text-red-500 font-medium{% else %}text-gray-400{% endif %} ml-2">
-                    {% if bill.days_until == 0 %}today{% elif bill.days_until == 1 %}tomorrow{% else %}in {{ bill.days_until }}d{% endif %}
+                <span class="text-xs {% if bill.urgency == 'urgent' %}text-red-500 font-medium{% else %}text-gray-400{% endif %} ml-1">
+                    {% if bill.days_until == 0 %}{{ i18n.dash_today }}{% elif bill.days_until == 1 %}{{ i18n.dash_tomorrow }}{% else %}{{ i18n.dash_in_days.format(n=bill.days_until) }}{% endif %}
                 </span>
             </div>
             <span class="font-medium text-sm text-gray-900">{{ profile.currency }} {{ "{:,.0f}".format(bill.amount) }}</span>
         </div>
         {% endfor %}
         {% if bills.has_shortfall %}
-        <div class="mt-3 p-2.5 bg-red-50 rounded-lg text-sm text-red-700">
-            Shortfall of {{ profile.currency }} {{ "{:,.0f}".format(bills.shortfall) }} — earn extra or reduce spending
+        <div class="mt-2 p-2 bg-red-50 rounded-lg text-xs text-red-700">
+            {{ i18n.dash_shortfall.format(amount=profile.currency ~ ' ' ~ "{:,.0f}".format(bills.shortfall)) }}
         </div>
         {% endif %}
     </div>
     {% endif %}
 
-    <!-- Smart savings plan -->
+    <!-- Smart savings -->
     {% if savings_plan.has_plan %}
-    <div class="bg-white rounded-xl shadow p-5">
-        <h3 class="font-semibold text-gray-800 mb-3">Smart Auto-Save Rules</h3>
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <h3 class="font-semibold text-gray-800 text-sm mb-3">{{ i18n.dash_savings_rules }}</h3>
         {% for rule in savings_plan.rules %}
-        <div class="flex items-start space-x-2 py-2 {% if not loop.last %}border-b border-gray-100{% endif %}">
-            <span class="text-lg">{{ rule.emoji }}</span>
+        <div class="flex items-start space-x-2 py-1.5 {% if not loop.last %}border-b border-gray-50{% endif %}">
+            <span class="text-base">{{ rule.emoji }}</span>
             <div>
                 <div class="text-sm font-medium text-gray-700">{{ rule.label }}: {{ rule.action }}</div>
                 <div class="text-xs text-gray-400">{{ rule.condition }}</div>
             </div>
         </div>
         {% endfor %}
-        <div class="mt-3 p-2.5 bg-green-50 rounded-lg text-sm text-green-700">
-            Projected savings: {{ profile.currency }} {{ "{:,.0f}".format(savings_plan.projected_monthly_savings) }}/month ({{ profile.currency }} {{ "{:,.0f}".format(savings_plan.projected_yearly_savings) }}/year)
+        <div class="mt-2 p-2 bg-green-50 rounded-lg text-xs text-green-700">
+            {{ i18n.dash_projected.format(monthly=profile.currency ~ ' ' ~ "{:,.0f}".format(savings_plan.projected_monthly_savings), yearly=profile.currency ~ ' ' ~ "{:,.0f}".format(savings_plan.projected_yearly_savings)) }}
         </div>
     </div>
     {% endif %}
 </div>
 
-<!-- Optimization suggestions -->
+<!-- Tips -->
 {% if efficiency.suggestions %}
-<div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-5 mb-6 border border-blue-100">
-    <h3 class="font-semibold text-blue-800 mb-2">Money-Saving Tips</h3>
+<div class="bg-blue-50 rounded-xl p-4 mb-5 border border-blue-100">
+    <h3 class="font-semibold text-blue-800 text-sm mb-2">{{ i18n.dash_tips }}</h3>
     {% for tip in efficiency.suggestions %}
-    <div class="flex items-start space-x-2 {% if not loop.last %}mb-2{% endif %}">
-        <span class="text-blue-500 mt-0.5">&#x2022;</span>
+    <div class="flex items-start space-x-2 {% if not loop.last %}mb-1{% endif %}">
+        <span class="text-blue-400 mt-0.5 text-xs">&#x25CF;</span>
         <span class="text-sm text-blue-900">{{ tip.message }}</span>
     </div>
     {% endfor %}
 </div>
 {% endif %}
 
-<!-- Saver Says — AI Insights (loaded async) -->
-<div id="insights-panel" class="bg-white rounded-xl shadow p-6 mb-6">
-    <div class="flex items-center space-x-2 mb-4">
-        <div class="w-8 h-8 rounded-full bg-grab-500 flex items-center justify-center text-white text-sm font-bold">S</div>
-        <h2 class="text-lg font-semibold text-gray-800">Saver Says</h2>
-        <span class="text-xs text-gray-400 ml-2">Personalized insights</span>
+<!-- Saver Says — AI Insights -->
+<div id="insights-panel" class="bg-white rounded-xl shadow-sm p-5 mb-5">
+    <div class="flex items-center space-x-2 mb-3">
+        <div class="w-7 h-7 rounded-full bg-grab-500 flex items-center justify-center text-white text-xs font-bold">S</div>
+        <h2 class="text-sm font-semibold text-gray-800">{{ i18n.dash_saver_says }}</h2>
     </div>
     <div id="insights-content">
         <div class="flex items-center space-x-2 text-gray-400 text-sm">
@@ -123,19 +126,54 @@
                 <span class="inline-block w-2 h-2 bg-gray-300 rounded-full mx-0.5" style="animation: blink 1.4s infinite both 0.2s"></span>
                 <span class="inline-block w-2 h-2 bg-gray-300 rounded-full mx-0.5" style="animation: blink 1.4s infinite both 0.4s"></span>
             </div>
-            <span>Analyzing your finances...</span>
+            <span>{{ i18n.dash_analyzing }}</span>
         </div>
     </div>
 </div>
 
-<!-- Key metrics row -->
+<!-- Key numbers row -->
 {% macro delta_badge(value) %}
 {% if value > 0 %}
-<span class="text-xs font-medium text-green-600 bg-green-50 px-1.5 py-0.5 rounded-full">+{{ value }}%</span>
+<span class="text-[10px] font-medium text-green-600 bg-green-50 px-1.5 py-0.5 rounded-full">+{{ value }}%</span>
 {% elif value < 0 %}
-<span class="text-xs font-medium text-red-600 bg-red-50 px-1.5 py-0.5 rounded-full">{{ value }}%</span>
+<span class="text-[10px] font-medium text-red-600 bg-red-50 px-1.5 py-0.5 rounded-full">{{ value }}%</span>
 {% endif %}
 {% endmacro %}
+
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+    <div class="bg-white rounded-xl shadow-sm p-3">
+        <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">{{ i18n.dash_monthly_income }}</div>
+            {{ delta_badge(deltas.income) }}
+        </div>
+        <div class="text-xl font-bold text-gray-900 mt-1">{{ profile.currency }} {{ "{:,.0f}".format(income.total_income) }}</div>
+        <div class="text-xs text-gray-400">{{ "{:,.0f}".format(income.avg_weekly) }}{{ i18n.dash_week_avg }}</div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm p-3">
+        <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">{{ i18n.dash_weekly_spending }}</div>
+            {{ delta_badge(deltas.expenses) }}
+        </div>
+        <div class="text-xl font-bold text-gray-900 mt-1">{{ profile.currency }} {{ "{:,.0f}".format(expenses.total) }}</div>
+        <div class="text-xs text-gray-400">{{ expenses.top_categories|length }} {{ i18n.dash_categories }}</div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm p-3">
+        <div class="text-xs text-gray-500">{{ i18n.dash_grab_net }}</div>
+        <div class="text-xl font-bold text-grab-700 mt-1">{{ profile.currency }} {{ "{:,.0f}".format(grab.net_earnings) }}</div>
+        <div class="text-xs text-gray-400">{{ i18n.dash_fees }}: {{ "{:,.0f}".format(grab.platform_fees) }}</div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-sm p-3">
+        <div class="flex justify-between items-center">
+            <div class="text-xs text-gray-500">{{ i18n.dash_trips_week }}</div>
+            {{ delta_badge(deltas.trips) }}
+        </div>
+        <div class="text-xl font-bold text-gray-900 mt-1">{{ trips.total_trips }}</div>
+        <div class="text-xs text-gray-400">{{ trips.total_hours }}h</div>
+    </div>
+</div>
 
 {% set CATEGORY_EMOJI = {
     'fuel': '&#9981;', 'food_on_road': '&#127828;', 'groceries': '&#128722;',
@@ -145,104 +183,57 @@
     'parent_allowance': '&#10084;', 'other': '&#128178;'
 } %}
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-    <!-- Income -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="flex justify-between items-center">
-            <div class="text-sm text-gray-500 font-medium">Monthly Income</div>
-            {{ delta_badge(deltas.income) }}
-        </div>
-        <div class="text-2xl font-bold text-gray-900 mt-1">
-            {{ profile.currency }} {{ "{:,.0f}".format(income.total_income) }}
-        </div>
-        <div class="text-sm text-gray-400 mt-1">{{ "{:,.0f}".format(income.avg_weekly) }}/week avg</div>
-    </div>
-
-    <!-- Expenses this week -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="flex justify-between items-center">
-            <div class="text-sm text-gray-500 font-medium">This Week's Spending</div>
-            {{ delta_badge(deltas.expenses) }}
-        </div>
-        <div class="text-2xl font-bold text-gray-900 mt-1">
-            {{ profile.currency }} {{ "{:,.0f}".format(expenses.total) }}
-        </div>
-        <div class="text-sm text-gray-400 mt-1">{{ expenses.top_categories|length }} categories</div>
-    </div>
-
-    <!-- Grab Earnings -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="text-sm text-gray-500 font-medium">Grab Net (30d)</div>
-        <div class="text-2xl font-bold text-grab-700 mt-1">
-            {{ profile.currency }} {{ "{:,.0f}".format(grab.net_earnings) }}
-        </div>
-        <div class="text-sm text-gray-400 mt-1">Fees: {{ "{:,.0f}".format(grab.platform_fees) }}</div>
-    </div>
-
-    <!-- Trips -->
-    <div class="bg-white rounded-xl shadow p-5">
-        <div class="flex justify-between items-center">
-            <div class="text-sm text-gray-500 font-medium">Trips This Week</div>
-            {{ delta_badge(deltas.trips) }}
-        </div>
-        <div class="text-2xl font-bold text-gray-900 mt-1">{{ trips.total_trips }}</div>
-        <div class="text-sm text-gray-400 mt-1">{{ trips.total_hours }}h &middot; Fuel {{ (trips.fuel_ratio * 100)|round(0)|int }}%</div>
-    </div>
-</div>
-
-<!-- Two column layout -->
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-    <!-- Expense Breakdown -->
-    <div class="bg-white rounded-xl shadow p-6">
-        <h2 class="text-lg font-semibold text-gray-800 mb-4">Expense Breakdown (7 days)</h2>
+<!-- Two column: Expenses + Forecast -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <h2 class="text-sm font-semibold text-gray-800 mb-3">{{ i18n.dash_expense_breakdown }}</h2>
         {% for cat in expenses.top_categories %}
-        <div class="mb-3">
-            <div class="flex justify-between text-sm mb-1">
+        <div class="mb-2">
+            <div class="flex justify-between text-xs mb-0.5">
                 <span class="text-gray-700 capitalize">{{ CATEGORY_EMOJI.get(cat.category, '&#128178;')|safe }} {{ cat.category|replace('_', ' ') }}</span>
                 <span class="text-gray-500">{{ profile.currency }} {{ "{:,.0f}".format(cat.amount) }} ({{ cat.percentage }}%)</span>
             </div>
-            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                <div class="bg-grab-500 h-2.5 rounded-full" style="width: {{ cat.percentage }}%"></div>
+            <div class="w-full bg-gray-100 rounded-full h-2">
+                <div class="bg-grab-500 h-2 rounded-full" style="width: {{ cat.percentage }}%"></div>
             </div>
         </div>
         {% endfor %}
     </div>
 
-    <!-- Cashflow Forecast -->
-    <div class="bg-white rounded-xl shadow p-6">
-        <h2 class="text-lg font-semibold text-gray-800 mb-4">14-Day Cashflow Forecast</h2>
+    <div class="bg-white rounded-xl shadow-sm p-4">
+        <h2 class="text-sm font-semibold text-gray-800 mb-3">{{ i18n.dash_forecast }}</h2>
         <div class="space-y-2">
             <div class="flex justify-between text-sm">
-                <span class="text-gray-600">Expected min balance</span>
+                <span class="text-gray-600">{{ i18n.dash_min_balance }}</span>
                 <span class="font-semibold {% if forecast.summary.expected_min_balance < 0 %}text-red-600{% else %}text-green-600{% endif %}">
                     {{ profile.currency }} {{ "{:,.0f}".format(forecast.summary.expected_min_balance) }}
                 </span>
             </div>
             <div class="flex justify-between text-sm">
-                <span class="text-gray-600">Negative balance risk</span>
+                <span class="text-gray-600">{{ i18n.dash_neg_risk }}</span>
                 <span class="font-semibold {% if forecast.summary.probability_negative_balance > 0.3 %}text-red-600{% elif forecast.summary.probability_negative_balance > 0.1 %}text-yellow-600{% else %}text-green-600{% endif %}">
                     {{ (forecast.summary.probability_negative_balance * 100)|round(0)|int }}%
                 </span>
             </div>
             {% if forecast.summary.high_risk_dates %}
-            <div class="mt-3 p-3 bg-red-50 rounded-lg">
-                <div class="text-sm font-medium text-red-700">High-risk dates:</div>
-                <div class="text-sm text-red-600 mt-1">{{ forecast.summary.high_risk_dates|join(', ') }}</div>
+            <div class="mt-2 p-2 bg-red-50 rounded-lg">
+                <div class="text-xs font-medium text-red-700">{{ i18n.dash_high_risk }}:</div>
+                <div class="text-xs text-red-600 mt-0.5">{{ forecast.summary.high_risk_dates|join(', ') }}</div>
             </div>
             {% endif %}
         </div>
 
-        <!-- Mini forecast chart (text-based) -->
-        <div class="mt-4 overflow-x-auto">
-            <div class="flex space-x-1 min-w-[400px]">
+        <!-- Mini chart -->
+        <div class="mt-3 overflow-x-auto">
+            <div class="flex space-x-0.5 min-w-[300px]">
                 {% for p in forecast.points %}
                 {% set max_val = forecast.points|map(attribute='net_p90')|max %}
                 {% set min_val = forecast.points|map(attribute='net_p10')|min %}
                 {% set range_val = max_val - min_val if max_val != min_val else 1 %}
-                {% set height = ((p.net_p50 - min_val) / range_val * 60 + 10)|int %}
+                {% set height = ((p.net_p50 - min_val) / range_val * 50 + 8)|int %}
                 <div class="flex flex-col items-center flex-1" title="{{ p.date }}: {{ profile.currency }} {{ '{:,.0f}'.format(p.net_p50) }}">
                     <div class="w-full rounded-t {% if p.net_p50 >= 0 %}bg-grab-500{% else %}bg-red-400{% endif %}" style="height: {{ height }}px;"></div>
-                    <div class="text-[9px] text-gray-400 mt-1">{{ p.date[-2:] }}</div>
+                    <div class="text-[8px] text-gray-400 mt-0.5">{{ p.date[-2:] }}</div>
                 </div>
                 {% endfor %}
             </div>
@@ -250,25 +241,25 @@
     </div>
 </div>
 
-<!-- Goals section -->
+<!-- Goals -->
 {% if goals %}
-<div class="mt-6 bg-white rounded-xl shadow p-6">
-    <div class="flex justify-between items-center mb-4">
-        <h2 class="text-lg font-semibold text-gray-800">Your Goals</h2>
-        <a href="/goals" class="text-grab-600 text-sm hover:underline">Manage goals &rarr;</a>
+<div class="bg-white rounded-xl shadow-sm p-4 mb-5">
+    <div class="flex justify-between items-center mb-3">
+        <h2 class="text-sm font-semibold text-gray-800">{{ i18n.dash_goals }}</h2>
+        <a href="/goals" class="text-grab-600 text-xs hover:underline">{{ i18n.dash_manage_goals }} &rarr;</a>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
         {% for g in goals %}
-        <div class="border rounded-xl p-4 {% if g.status == 'active' %}border-grab-200 bg-green-50{% else %}border-gray-200{% endif %}">
-            <div class="font-semibold text-gray-800">{{ g.name }}</div>
-            <div class="text-sm text-gray-500 mt-1">
+        {% set pct = (g.current_amount / g.target_amount * 100)|round(0)|int if g.target_amount > 0 else 0 %}
+        <div class="border rounded-xl p-3 {% if g.status == 'active' %}border-grab-200 bg-green-50/50{% else %}border-gray-200{% endif %}">
+            <div class="font-semibold text-gray-800 text-sm">{{ g.name }}</div>
+            <div class="text-xs text-gray-500 mt-1">
                 {{ profile.currency }} {{ "{:,.0f}".format(g.current_amount) }} / {{ "{:,.0f}".format(g.target_amount) }}
             </div>
-            {% set pct = (g.current_amount / g.target_amount * 100)|round(0)|int if g.target_amount > 0 else 0 %}
             <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-                <div class="bg-grab-500 h-2 rounded-full" style="width: {{ pct }}%"></div>
+                <div class="bg-grab-500 h-2 rounded-full" style="width: {{ [pct, 100]|min }}%"></div>
             </div>
-            <div class="text-xs text-gray-400 mt-1">{{ pct }}% &middot; {{ g.status }}</div>
+            <div class="text-[10px] text-gray-400 mt-1">{{ pct }}% {{ i18n.dash_complete }}</div>
         </div>
         {% endfor %}
     </div>
@@ -276,17 +267,16 @@
 {% endif %}
 
 <!-- CTA to chat -->
-<div class="mt-6 bg-gradient-to-r from-grab-500 to-grab-700 rounded-2xl p-6 text-white text-center">
-    <h3 class="text-xl font-bold">Want deeper analysis?</h3>
-    <p class="text-green-100 mt-1">Chat with Saver for detailed advice on your spending, savings, and goals</p>
-    <a href="/chat" class="mt-4 inline-block bg-white text-grab-700 font-semibold px-6 py-2 rounded-full hover:bg-green-50 transition">Chat with Saver</a>
+<div class="bg-gradient-to-r from-grab-600 to-grab-700 rounded-2xl p-5 text-white text-center mb-5">
+    <h3 class="text-lg font-bold">{{ i18n.dash_deeper }}</h3>
+    <p class="text-green-100 mt-1 text-sm">{{ i18n.dash_deeper_sub }}</p>
+    <a href="/chat" class="mt-3 inline-block bg-white text-grab-700 font-semibold px-6 py-2 rounded-full hover:bg-green-50 transition text-sm tap-target">{{ i18n.dash_chat_saver }}</a>
 </div>
 
 {% endblock %}
 
 {% block scripts %}
 <script>
-// Fetch AI insights asynchronously after dashboard loads
 (async function loadInsights() {
     const panel = document.getElementById('insights-content');
     try {
@@ -306,11 +296,11 @@
             };
 
             panel.innerHTML = data.insights.map(insight => `
-                <div class="flex items-start space-x-3 p-3 rounded-lg border ${typeStyles[insight.type] || 'border-gray-200 bg-gray-50'} mb-3 fade-in">
-                    <span class="text-2xl flex-shrink-0">${insight.icon || '💡'}</span>
+                <div class="flex items-start space-x-3 p-2.5 rounded-lg border ${typeStyles[insight.type] || 'border-gray-200 bg-gray-50'} mb-2 fade-in">
+                    <span class="text-lg flex-shrink-0">${insight.icon || '\ud83d\udca1'}</span>
                     <div>
-                        <div class="font-semibold text-sm ${typeTitleColors[insight.type] || 'text-gray-700'}">${insight.title}</div>
-                        <div class="text-sm text-gray-600 mt-0.5">${insight.body}</div>
+                        <div class="font-semibold text-xs ${typeTitleColors[insight.type] || 'text-gray-700'}">${insight.title}</div>
+                        <div class="text-xs text-gray-600 mt-0.5">${insight.body}</div>
                     </div>
                 </div>
             `).join('');
@@ -318,7 +308,7 @@
             panel.innerHTML = '<p class="text-sm text-gray-400">No insights available right now.</p>';
         }
     } catch (err) {
-        panel.innerHTML = '<p class="text-sm text-gray-400">Could not load insights. <a href="/chat" class="text-grab-600 underline">Chat with Saver</a> instead.</p>';
+        panel.innerHTML = '<p class="text-sm text-gray-400">Could not load insights.</p>';
     }
 })();
 </script>

@@ -2,20 +2,20 @@
 {% block title %}Login{% endblock %}
 {% block content %}
 <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-green-100">
-    <div class="max-w-md w-full space-y-8 p-8">
+    <div class="max-w-sm w-full space-y-6 p-6">
         <div class="text-center">
             <h1 class="text-4xl font-extrabold text-grab-700">Saver</h1>
-            <p class="mt-2 text-gray-600">Your financial wellness coach</p>
-            <p class="mt-1 text-sm text-gray-500">For Grab driver-partners & delivery-partners</p>
+            <p class="mt-2 text-gray-600">{{ i18n.login_title }}</p>
+            <p class="mt-1 text-sm text-gray-500">{{ i18n.login_subtitle }}</p>
         </div>
 
-        <div class="bg-white rounded-2xl shadow-xl p-8 space-y-6">
-            <h2 class="text-lg font-semibold text-gray-800 text-center">Select your profile</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-6 space-y-4">
+            <h2 class="text-base font-semibold text-gray-800 text-center">{{ i18n.login_select }}</h2>
 
             {% for user in users %}
             <form method="POST" action="/login">
                 <input type="hidden" name="user_id" value="{{ user.user_id }}">
-                <button type="submit" class="w-full flex items-center justify-between p-4 rounded-xl border-2 border-gray-200 hover:border-grab-500 hover:bg-green-50 transition-all group">
+                <button type="submit" class="w-full flex items-center justify-between p-4 rounded-xl border-2 border-gray-200 hover:border-grab-500 hover:bg-green-50 transition-all group tap-target">
                     <div class="flex items-center space-x-4">
                         <div class="w-12 h-12 rounded-full bg-grab-100 flex items-center justify-center text-grab-700 text-xl font-bold">
                             {{ user.name[0] }}
@@ -31,9 +31,8 @@
             {% endfor %}
         </div>
 
-        <div class="text-center text-xs text-gray-400 space-y-1">
-            <p>Demo with synthetic data &middot; Not licensed financial advice</p>
-            <p>Production deployment requires CMS/FA licence from MAS (Singapore) or OJK registration (Indonesia)</p>
+        <div class="text-center text-xs text-gray-400">
+            <p>{{ i18n.login_disclaimer }}</p>
         </div>
     </div>
 </div>

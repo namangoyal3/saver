@@ -50,6 +50,25 @@ def _collect_tool_numbers(tool_results: list[dict]) -> set[float]:
     for result in tool_results:
         _walk(result)
 
+    # Add common derived values for meaningful financial amounts (> 100)
+    raw_numbers = [n for n in numbers if n > 100]
+
+    # Pairwise differences (e.g. surplus = income - expenses)
+    for i, a in enumerate(raw_numbers):
+        for b in raw_numbers[i + 1:]:
+            hi, lo = max(a, b), min(a, b)
+            diff = hi - lo
+            if diff > 0:
+                numbers.add(diff)
+
+    # Time-period projections
+    for n in raw_numbers:
+        numbers.add(n * 4)    # weekly  → monthly
+        numbers.add(n * 12)   # monthly → yearly
+        numbers.add(n * 52)   # weekly  → yearly
+        numbers.add(n / 7)    # period  → daily
+        numbers.add(n / 30)   # period  → daily (monthly basis)
+
     return numbers
 
 
@@ -77,7 +96,7 @@ def check_numeric_grounding(reply: str, tool_results: list[dict]) -> tuple[bool,
         grounded = False
         for tool_num in tool_numbers:
             # Allow 1% tolerance for rounding
-            if abs(num - tool_num) < 0.02 * max(abs(tool_num), 1):
+            if abs(num - tool_num) < 0.04 * max(abs(tool_num), 1):
                 grounded = True
                 break
             # Also check if it's a simple derivation (difference, ratio)

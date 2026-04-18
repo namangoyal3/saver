@@ -132,6 +132,39 @@ def agent_node(state: AgentState) -> dict:
 
     latency = int((time.time() - t0) * 1000)
 
+    # Retry once if LLM returns empty content with no tool calls
+    has_tool_calls = hasattr(response, "tool_calls") and response.tool_calls
+    has_content = response.content and len(response.content) > 0
+    if not has_tool_calls and not has_content:
+        logger.warning("LLM returned empty response (0-char, no tool_calls). Retrying once.")
+        try:
+            response = llm.invoke(msgs, tools=TOOL_SCHEMAS)
+            latency = int((time.time() - t0) * 1000)
+        except Exception:
+            pass  # fall through to check below
+        has_tool_calls = hasattr(response, "tool_calls") and response.tool_calls
+        has_content = response.content and len(response.content) > 0
+        if not has_tool_calls and not has_content:
+            logger.warning("LLM returned empty response after retry. Using fallback message.")
+            fallback = (
+                "I'd like to help with that! Could you try asking in a different way? "
+                "For example, try 'Where did my money go?' or 'Can I save SGD 500?'"
+            )
+            trace.append({
+                "idx": len(trace),
+                "agent": "supervisor",
+                "action": "compose",
+                "tool_name": None,
+                "tool_args_summary": None,
+                "result_summary": "Fallback: empty LLM response after retry",
+                "latency_ms": latency,
+            })
+            return {
+                "messages": [AIMessage(content=fallback)],
+                "reasoning_trace": trace,
+                "tool_results": tool_results,
+            }
+
     if hasattr(response, "tool_calls") and response.tool_calls:
         trace.append({
             "idx": len(trace),
@@ -271,6 +304,17 @@ def compile_graph():
     return build_graph().compile()
 
 
+_COMPILED_GRAPH = None
+
+
+def _get_graph():
+    """Lazily compile the graph once and cache at module level."""
+    global _COMPILED_GRAPH
+    if _COMPILED_GRAPH is None:
+        _COMPILED_GRAPH = compile_graph()
+    return _COMPILED_GRAPH
+
+
 # ── High-level run function ───────────────────────────────────────────
 
 def run_turn(
@@ -282,7 +326,7 @@ def run_turn(
 
     Returns (response, updated_message_history).
     """
-    app = compile_graph()
+    app = _get_graph()
 
     messages = list(history or [])
     messages.append(HumanMessage(content=user_message))
