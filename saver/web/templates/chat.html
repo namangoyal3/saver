@@ -56,14 +56,7 @@
             {% endfor %}
         </div>
 
-        <!-- Trace panel (hidden, dev tool) -->
-        <div id="trace-panel" class="hidden border-t bg-gray-50 px-4 py-2 max-h-32 overflow-y-auto flex-shrink-0">
-            <div class="flex justify-between items-center mb-1">
-                <span class="text-[9px] font-semibold text-gray-400 uppercase tracking-wider">Reasoning Trace</span>
-                <button onclick="document.getElementById('trace-panel').classList.add('hidden')" class="text-gray-400 hover:text-gray-600 text-xs">&times;</button>
-            </div>
-            <div id="trace-content" class="text-[10px] font-mono text-gray-500 space-y-0.5"></div>
-        </div>
+        <!-- Trace panel removed — not for rider-partners -->
 
         <!-- Input area -->
         <div class="border-t px-3 py-3 bg-white flex-shrink-0 sm:pb-3 pb-4">
@@ -114,8 +107,6 @@ const messagesDiv = document.getElementById('messages');
 const form = document.getElementById('chat-form');
 const input = document.getElementById('message-input');
 const sendBtn = document.getElementById('send-btn');
-const tracePanel = document.getElementById('trace-panel');
-const traceContent = document.getElementById('trace-content');
 const chips = document.getElementById('suggestion-chips');
 
 function scrollToBottom() {
@@ -186,31 +177,6 @@ function removeTypingIndicator() {
     if (el) el.remove();
 }
 
-function updateTrace(trace, guardrails) {
-    traceContent.innerHTML = '';
-    if (trace && trace.length > 0) {
-        trace.forEach(s => {
-            const line = document.createElement('div');
-            const color = s.action === 'tool_call' ? 'text-blue-600' : s.action === 'refuse' ? 'text-red-500' : 'text-gray-500';
-            line.className = color;
-            line.textContent = `[${s.agent}] ${s.action}: ${s.tool || ''} ${s.result ? '\u2192 ' + s.result : ''} (${s.ms}ms)`;
-            traceContent.appendChild(line);
-        });
-    }
-    if (guardrails) {
-        const line = document.createElement('div');
-        line.className = 'text-gray-400 mt-1 pt-1 border-t border-gray-200';
-        line.textContent = `PII=${guardrails.input_pii_redacted ? 'redacted' : 'clean'} | Scope=${guardrails.input_scope_check} | Grounding=${guardrails.output_grounding_check}`;
-        traceContent.appendChild(line);
-    }
-    // Keep trace hidden — it's a dev tool, not for riders
-    // tracePanel.classList.remove('hidden');
-}
-
-function toggleTrace() {
-    tracePanel.classList.toggle('hidden');
-}
-
 function hideChips() {
     if (chips) chips.style.display = 'none';
 }
@@ -239,7 +205,6 @@ form.addEventListener('submit', async (e) => {
 
         removeTypingIndicator();
         addMessage('assistant', data.reply);
-        updateTrace(data.trace, data.guardrails);
     } catch (err) {
         removeTypingIndicator();
         addMessage('assistant', '{{ i18n.chat_error }}');
@@ -266,20 +231,30 @@ form.addEventListener('submit', async (e) => {
     } catch(e) {}
 })();
 
-// Fetch AI tip from insights
+// Fetch AI tip from insights (with 8s timeout)
 (async function() {
+    const tipEl = document.getElementById('tip-text');
+    // Show fallback after 5 seconds if insights API is slow
+    const fallbackTimer = setTimeout(() => {
+        if (tipEl.textContent === 'Loading tip...') {
+            tipEl.textContent = 'Tap any question below to get started!';
+        }
+    }, 5000);
     try {
-        const r = await fetch('/api/insights');
+        const controller = new AbortController();
+        setTimeout(() => controller.abort(), 8000);
+        const r = await fetch('/api/insights', {signal: controller.signal});
         const d = await r.json();
+        clearTimeout(fallbackTimer);
         if (d.insights && d.insights.length > 0) {
-            // Pick the suggestion or first insight as the tip
             const tip = d.insights.find(i => i.type === 'suggestion') || d.insights[0];
-            document.getElementById('tip-text').textContent = tip.body || tip.title;
+            tipEl.textContent = tip.body || tip.title;
         } else {
-            document.getElementById('tip-text').textContent = 'Ask me anything about your money!';
+            tipEl.textContent = 'Tap any question below to get started!';
         }
     } catch(e) {
-        document.getElementById('tip-text').textContent = 'Ask me anything about your money!';
+        clearTimeout(fallbackTimer);
+        tipEl.textContent = 'Tap any question below to get started!';
     }
 })();
 </script>
