@@ -2,33 +2,48 @@
 {% block title %}{{ i18n.nav_chat }}{% endblock %}
 {% block content %}
 
-<div class="max-w-2xl mx-auto">
-    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col" style="height: calc(100vh - 120px);">
-        <!-- Chat header -->
-        <div class="bg-grab-700 px-5 py-3 flex items-center space-x-3 flex-shrink-0">
-            <div class="w-9 h-9 rounded-full bg-white flex items-center justify-center text-grab-700 font-bold text-sm">S</div>
+<div class="max-w-2xl mx-auto flex flex-col" style="height: calc(100vh - 120px);">
+
+    <!-- Status Card -->
+    <div id="status-card" class="mb-2 px-1 flex-shrink-0">
+        <div class="bg-gradient-to-r from-grab-700 to-grab-600 rounded-xl p-3 text-white flex justify-between items-center">
             <div>
-                <div class="text-white font-semibold text-sm">Saver</div>
-                <div class="text-green-200 text-xs">Financial Wellness Coach</div>
+                <div class="text-xs text-green-200">TODAY</div>
+                <div id="status-target" class="text-xl font-bold">Loading...</div>
+                <div id="status-label" class="text-xs text-green-200">Checking your status...</div>
+            </div>
+            <div class="text-right">
+                <div class="text-xs text-green-200">THIS WEEK</div>
+                <div id="status-weekly" class="text-2xl font-bold">--</div>
             </div>
         </div>
+    </div>
 
+    <!-- AI Tip Bar -->
+    <div id="tip-bar" class="px-1 mb-2 flex-shrink-0">
+        <div class="bg-amber-50 border border-amber-100 rounded-lg px-3 py-2 text-xs text-amber-800 flex items-start space-x-2">
+            <span>💡</span>
+            <span id="tip-text">Loading tip...</span>
+        </div>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col flex-1 min-h-0">
         <!-- Messages -->
         <div id="messages" class="flex-1 overflow-y-auto px-4 py-4 space-y-3" style="background: #f7faf8;">
             <!-- Welcome message -->
             <div class="flex justify-start fade-in">
                 <div class="chat-bubble-bot px-4 py-3 max-w-[85%] text-sm">
-                    <p class="text-gray-800">{{ i18n.chat_welcome.format(name=profile.name) }}</p>
-                    <p class="text-gray-400 text-xs mt-2">{{ i18n.chat_try }}</p>
+                    <p class="text-gray-800">Hi {{ profile.name }}! Ask me anything about your money.</p>
                 </div>
             </div>
-            <!-- Suggestion chips -->
-            <div id="suggestion-chips" class="flex flex-wrap gap-2 pl-2 fade-in">
-                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-2 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target">{{ i18n.chip_where_money }}</button>
-                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-2 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target">{{ i18n.chip_earnings }}</button>
-                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-2 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target">{{ i18n.chip_forecast }}</button>
-                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-2 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target">{{ i18n.chip_save.format(amount=profile.currency ~ ' ' ~ ('500' if profile.currency == 'SGD' else '3M')) }}</button>
-                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-2 rounded-full hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target">{{ i18n.chip_grow }}</button>
+
+            <!-- Suggestion chips: 2x2 grid on mobile -->
+            <div id="suggestion-chips" class="grid grid-cols-2 gap-2 pl-2 pr-2 fade-in">
+                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-3 rounded-xl hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target text-left">Where did my money go?</button>
+                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-3 rounded-xl hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target text-left">Help me save more</button>
+                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-3 rounded-xl hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target text-left">Am I on track this week?</button>
+                <button onclick="sendSuggestion(this)" class="chip text-xs bg-white border border-grab-200 text-grab-700 px-3 py-3 rounded-xl hover:bg-grab-50 hover:border-grab-400 transition-all cursor-pointer tap-target text-left">How to grow my money?</button>
             </div>
 
             <!-- Previous messages -->
@@ -41,7 +56,7 @@
             {% endfor %}
         </div>
 
-        <!-- Trace panel (hidden by default, dev tool) -->
+        <!-- Trace panel (hidden, dev tool) -->
         <div id="trace-panel" class="hidden border-t bg-gray-50 px-4 py-2 max-h-32 overflow-y-auto flex-shrink-0">
             <div class="flex justify-between items-center mb-1">
                 <span class="text-[9px] font-semibold text-gray-400 uppercase tracking-wider">Reasoning Trace</span>
@@ -51,7 +66,7 @@
         </div>
 
         <!-- Input area -->
-        <div class="border-t px-3 py-3 bg-white flex-shrink-0">
+        <div class="border-t px-3 py-3 bg-white flex-shrink-0 sm:pb-3 pb-4">
             <form id="chat-form" class="flex items-center space-x-2">
                 <input type="text" id="message-input" name="message" placeholder="{{ i18n.chat_placeholder }}"
                        class="flex-1 border border-gray-200 rounded-full px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-grab-500 focus:border-transparent bg-gray-50"
@@ -60,17 +75,40 @@
                         class="bg-grab-500 hover:bg-grab-600 text-white rounded-full w-10 h-10 flex items-center justify-center transition disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0 tap-target">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
                 </button>
-                <button type="button" onclick="toggleTrace()" class="text-gray-300 hover:text-gray-500 flex-shrink-0" title="{{ i18n.chat_trace }}">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
-                </button>
             </form>
         </div>
     </div>
 </div>
 
+<!-- Bottom Tab Bar (mobile only) -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 sm:hidden z-50">
+    <div class="flex justify-around py-2">
+        <a href="/chat" class="flex flex-col items-center text-grab-600">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            <span class="text-[10px] mt-0.5 font-medium">Home</span>
+        </a>
+        <a href="/dashboard" class="flex flex-col items-center text-gray-400">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+            <span class="text-[10px] mt-0.5">Details</span>
+        </a>
+        <a href="/goals" class="flex flex-col items-center text-gray-400">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <span class="text-[10px] mt-0.5">Goals</span>
+        </a>
+    </div>
+</nav>
+
 {% endblock %}
 
 {% block scripts %}
+<style>
+    /* Mobile: account for bottom tab bar */
+    @media (max-width: 640px) {
+        .max-w-2xl.flex.flex-col {
+            height: calc(100vh - 170px) !important;
+        }
+    }
+</style>
 <script>
 const messagesDiv = document.getElementById('messages');
 const form = document.getElementById('chat-form');
@@ -100,13 +138,47 @@ function addMessage(role, content) {
     scrollToBottom();
 }
 
-function addTypingIndicator() {
+function addProgressSteps() {
     const wrapper = document.createElement('div');
     wrapper.id = 'typing-indicator';
     wrapper.className = 'flex justify-start fade-in';
-    wrapper.innerHTML = `<div class="chat-bubble-bot px-4 py-3"><div class="typing-dots flex space-x-1"><span class="w-2 h-2 bg-gray-400 rounded-full"></span><span class="w-2 h-2 bg-gray-400 rounded-full"></span><span class="w-2 h-2 bg-gray-400 rounded-full"></span></div></div>`;
+    wrapper.innerHTML = `
+        <div class="chat-bubble-bot px-4 py-3 max-w-[80%]">
+            <div id="progress-steps" class="text-xs text-gray-500 space-y-1">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-3 h-3 text-grab-500 animate-spin" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+                    <span>Looking at your finances...</span>
+                </div>
+            </div>
+        </div>`;
     messagesDiv.appendChild(wrapper);
     scrollToBottom();
+
+    // Add steps over time
+    const steps = [
+        {text: 'Analyzing your patterns...', delay: 4000},
+        {text: 'Building your response...', delay: 8000},
+    ];
+
+    steps.forEach(step => {
+        setTimeout(() => {
+            const container = document.getElementById('progress-steps');
+            if (!container) return;
+            // Mark previous step as done
+            const prevSpinner = container.querySelector('.animate-spin');
+            if (prevSpinner) {
+                prevSpinner.outerHTML = '<span class="text-green-500 text-sm">&#10003;</span>';
+            }
+            // Add new step
+            const newStep = document.createElement('div');
+            newStep.className = 'flex items-center space-x-2';
+            newStep.innerHTML = `
+                <svg class="w-3 h-3 text-grab-500 animate-spin" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/></svg>
+                <span>${step.text}</span>`;
+            container.appendChild(newStep);
+            scrollToBottom();
+        }, step.delay);
+    });
 }
 
 function removeTypingIndicator() {
@@ -156,7 +228,7 @@ form.addEventListener('submit', async (e) => {
     input.value = '';
     sendBtn.disabled = true;
     hideChips();
-    addTypingIndicator();
+    addProgressSteps();
 
     try {
         const formData = new FormData();
@@ -175,5 +247,33 @@ form.addEventListener('submit', async (e) => {
         input.focus();
     }
 });
+
+// Fetch status card data
+(async function() {
+    try {
+        const r = await fetch('/api/status');
+        const d = await r.json();
+        document.getElementById('status-target').textContent = d.today_amount;
+        document.getElementById('status-label').textContent = d.today_label;
+        document.getElementById('status-weekly').textContent = d.weekly_pct + '%';
+        // Color the card based on status
+        const card = document.querySelector('#status-card > div');
+        if (!d.on_track) {
+            card.classList.remove('from-grab-700');
+            card.classList.add('from-yellow-600');
+        }
+    } catch(e) {}
+})();
+
+// Fetch AI tip
+(async function() {
+    try {
+        const r = await fetch('/api/insights');
+        const d = await r.json();
+        if (d.tip) {
+            document.getElementById('tip-text').textContent = d.tip;
+        }
+    } catch(e) {}
+})();
 </script>
 {% endblock %}

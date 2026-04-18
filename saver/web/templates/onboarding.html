@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-green-100 px-4">
+
+  <!-- Step 1: Welcome -->
+  <div id="step1" class="w-full max-w-md text-center transition-all duration-500 ease-in-out">
+    <!-- Logo -->
+    <div class="mx-auto w-24 h-24 bg-grab-500 rounded-full flex items-center justify-center shadow-lg mb-8">
+      <span class="text-white text-5xl font-extrabold">S</span>
+    </div>
+
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-4">Welcome to Saver!</h1>
+    <p class="text-lg text-gray-600 mb-10 leading-relaxed">
+      I'm your personal money coach. I help Grab partners like you save more and stress less about money.
+    </p>
+
+    <button onclick="showStep(2)"
+            class="w-full bg-grab-500 hover:bg-grab-700 text-white font-bold text-lg py-4 px-8 rounded-2xl shadow-md transition-all duration-200 active:scale-95 tap-target">
+      Get Started &rarr;
+    </button>
+  </div>
+
+  <!-- Step 2: Money Worry Picker -->
+  <div id="step2" class="hidden w-full max-w-md text-center transition-all duration-500 ease-in-out opacity-0">
+    <h2 class="text-2xl font-extrabold text-gray-900 mb-2">What's your #1 money worry right now?</h2>
+    <p class="text-gray-500 mb-8">Pick one so I can personalise your experience.</p>
+
+    <form method="POST" action="/onboarding/complete" id="worry-form">
+      <input type="hidden" name="worry" id="worry-input" value="">
+
+      <div class="space-y-3">
+        <button type="button" onclick="selectWorry('saving')"
+                class="w-full flex items-center gap-4 bg-white hover:bg-green-50 border-2 border-gray-200 hover:border-grab-500 rounded-2xl px-5 py-4 text-left transition-all duration-150 active:scale-[0.98] tap-target"
+                style="min-height:60px;">
+          <span class="text-3xl">&#x1F416;</span>
+          <span class="text-base font-semibold text-gray-800">Not saving enough</span>
+        </button>
+
+        <button type="button" onclick="selectWorry('spending')"
+                class="w-full flex items-center gap-4 bg-white hover:bg-green-50 border-2 border-gray-200 hover:border-grab-500 rounded-2xl px-5 py-4 text-left transition-all duration-150 active:scale-[0.98] tap-target"
+                style="min-height:60px;">
+          <span class="text-3xl">&#x1F4C9;</span>
+          <span class="text-base font-semibold text-gray-800">Spending too much</span>
+        </button>
+
+        <button type="button" onclick="selectWorry('emergency')"
+                class="w-full flex items-center gap-4 bg-white hover:bg-green-50 border-2 border-gray-200 hover:border-grab-500 rounded-2xl px-5 py-4 text-left transition-all duration-150 active:scale-[0.98] tap-target"
+                style="min-height:60px;">
+          <span class="text-3xl">&#x1F3AF;</span>
+          <span class="text-base font-semibold text-gray-800">Building an emergency fund</span>
+        </button>
+
+        <button type="button" onclick="selectWorry('exploring')"
+                class="w-full flex items-center gap-4 bg-white hover:bg-green-50 border-2 border-gray-200 hover:border-grab-500 rounded-2xl px-5 py-4 text-left transition-all duration-150 active:scale-[0.98] tap-target"
+                style="min-height:60px;">
+          <span class="text-3xl">&#x1F50D;</span>
+          <span class="text-base font-semibold text-gray-800">Just exploring</span>
+        </button>
+      </div>
+    </form>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function showStep(n) {
+  const step1 = document.getElementById('step1');
+  const step2 = document.getElementById('step2');
+
+  if (n === 2) {
+    step1.style.opacity = '0';
+    step1.style.transform = 'translateX(-30px)';
+    setTimeout(function() {
+      step1.classList.add('hidden');
+      step2.classList.remove('hidden');
+      // Trigger reflow then animate in
+      void step2.offsetWidth;
+      step2.style.opacity = '1';
+      step2.style.transform = 'translateX(0)';
+    }, 300);
+  }
+}
+
+function selectWorry(w) {
+  document.getElementById('worry-input').value = w;
+  // Brief visual feedback on selected button
+  event.currentTarget.classList.add('border-grab-500', 'bg-green-50');
+  event.currentTarget.classList.remove('border-gray-200');
+  setTimeout(function() {
+    document.getElementById('worry-form').submit();
+  }, 150);
+}
+
+// Init step2 starting position
+document.addEventListener('DOMContentLoaded', function() {
+  var step2 = document.getElementById('step2');
+  step2.style.transform = 'translateX(30px)';
+  step2.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+  var step1 = document.getElementById('step1');
+  step1.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+});
+</script>
+{% endblock %}

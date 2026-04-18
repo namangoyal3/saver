@@ -73,7 +73,7 @@ def _get_profile(user_id: str) -> UserProfileSnapshot | None:
 @app.get("/", response_class=HTMLResponse)
 async def login_page(request: Request):
     if request.session.get("user_id"):
-        return RedirectResponse("/dashboard", status_code=302)
+        return RedirectResponse("/chat", status_code=302)
     with get_conn() as conn:
         users = conn.execute("SELECT user_id, name, market, currency FROM users").fetchall()
     lang = request.session.get("lang", "en")
@@ -94,7 +94,9 @@ async def login(request: Request, user_id: str = Form(...)):
     # Default language to English, user can switch later
     if "lang" not in request.session:
         request.session["lang"] = "en"
-    return RedirectResponse("/dashboard", status_code=302)
+    if not request.session.get("onboarding_complete"):
+        return RedirectResponse("/onboarding", status_code=302)
+    return RedirectResponse("/chat", status_code=302)
 
 
 @app.post("/set-language")
@@ -109,6 +111,24 @@ async def set_language(request: Request, lang: str = Form(...)):
 async def logout(request: Request):
     request.session.clear()
     return RedirectResponse("/", status_code=302)
+
+
+@app.get("/onboarding", response_class=HTMLResponse)
+async def onboarding_page(request: Request):
+    user_id = request.session.get("user_id")
+    if not user_id:
+        return RedirectResponse("/", status_code=302)
+    if request.session.get("onboarding_complete"):
+        return RedirectResponse("/chat", status_code=302)
+    profile = _get_profile(user_id)
+    return templates.TemplateResponse(request, "onboarding.html", _ctx(request, profile=profile))
+
+
+@app.post("/onboarding/complete")
+async def onboarding_complete(request: Request, worry: str = Form("")):
+    request.session["onboarding_complete"] = True
+    request.session["money_worry"] = worry
+    return RedirectResponse("/chat", status_code=302)
 
 
 @app.get("/dashboard", response_class=HTMLResponse)
@@ -239,6 +259,34 @@ async def chat_send(request: Request, message: str = Form(...)):
         "reply": response.reply,
         "trace": trace,
         "guardrails": response.guardrail_report.model_dump(),
+    })
+
+
+@app.get("/api/status")
+async def get_status(request: Request):
+    """Quick status data for the chat-first home status card."""
+    user_id = request.session.get("user_id")
+    if not user_id:
+        return JSONResponse({"error": "Not logged in"}, status_code=401)
+    profile = _get_profile(user_id)
+    if not profile:
+        return JSONResponse({"error": "User not found"}, status_code=404)
+
+    from saver.tools.actionable import get_daily_target
+    daily_target = get_daily_target(user_id)
+
+    on_track = daily_target.get("still_needed_today", 0) <= 0
+    today_amount = f"{profile.currency} {daily_target.get('daily_target', 0):,.0f}"
+    if on_track:
+        today_label = "Target reached!"
+    else:
+        today_label = f"{profile.currency} {daily_target.get('still_needed_today', 0):,.0f} more to go"
+
+    return JSONResponse({
+        "today_amount": today_amount,
+        "today_label": today_label,
+        "weekly_pct": daily_target.get("weekly_progress_pct", 0),
+        "on_track": on_track,
     })
 
 
