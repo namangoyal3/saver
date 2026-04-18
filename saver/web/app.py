@@ -104,6 +104,13 @@ async def dashboard(request: Request):
     forecast = forecast_cashflow(user_id, 14)
     goals = list_goals(user_id)
 
+    # Actionable intelligence
+    from saver.tools.actionable import get_daily_target, get_earnings_efficiency, get_upcoming_bills, get_smart_savings_plan
+    daily_target = get_daily_target(user_id)
+    efficiency = get_earnings_efficiency(user_id, 7)
+    bills = get_upcoming_bills(user_id)
+    savings_plan = get_smart_savings_plan(user_id)
+
     # Compute week-over-week deltas
     def _delta(current, previous_total, divisor=2):
         prev_avg = previous_total / divisor if divisor else 0
@@ -127,6 +134,10 @@ async def dashboard(request: Request):
         "forecast": forecast,
         "goals": goals,
         "deltas": deltas,
+        "daily_target": daily_target,
+        "efficiency": efficiency,
+        "bills": bills,
+        "savings_plan": savings_plan,
     })
 
 

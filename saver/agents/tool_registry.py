@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from saver.tools.actionable import get_daily_target, get_earnings_efficiency, get_smart_savings_plan, get_upcoming_bills
 from saver.tools.forecast import forecast_cashflow, simulate_goal
 from saver.tools.goals import create_goal, list_goals, update_goal
 from saver.tools.grab_earnings import get_grab_earnings, get_grab_trip_summary
@@ -18,10 +19,17 @@ TOOL_FUNCTIONS = {
     "list_goals": list_goals,
     "create_goal": create_goal,
     "update_goal": update_goal,
+    "get_daily_target": get_daily_target,
+    "get_earnings_efficiency": get_earnings_efficiency,
+    "get_upcoming_bills": get_upcoming_bills,
+    "get_smart_savings_plan": get_smart_savings_plan,
 }
 
 # Specialist routing: which agent handles which tools
-PLANNER_TOOLS = frozenset({"forecast_cashflow", "simulate_goal", "list_goals", "create_goal", "update_goal"})
+PLANNER_TOOLS = frozenset({
+    "forecast_cashflow", "simulate_goal", "list_goals", "create_goal", "update_goal",
+    "get_daily_target", "get_upcoming_bills", "get_smart_savings_plan", "get_earnings_efficiency",
+})
 
 # LLM-facing tool schemas — user_id is NOT exposed (auto-injected)
 TOOL_SCHEMAS = [
@@ -140,6 +148,56 @@ TOOL_SCHEMAS = [
             },
         },
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_daily_target",
+            "description": "Get today's earnings target — how much the user needs to earn today to stay on track with their weekly expenses and savings goals. Returns daily target, amount earned so far, and how much more is needed.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_earnings_efficiency",
+            "description": "Analyze earnings efficiency — earnings per hour, earnings per trip, fuel cost per trip, food cost per trip, and profit per trip. Includes optimization suggestions like 'pack lunch to save X/week'.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "window_days": {"type": "integer", "description": "Days to analyze (default 7)"},
+                },
+                "required": [],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_upcoming_bills",
+            "description": "Show upcoming bills and obligations predicted from historical patterns. Shows days until due, amount needed, and whether the user has enough to cover them.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_smart_savings_plan",
+            "description": "Generate a smart auto-save plan based on earnings patterns. Creates rules like 'On good days (earn above X), auto-save Y. On tough days, skip.' Shows projected monthly and yearly savings.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+            },
+        },
+    },
 ]
 
 
@@ -147,6 +205,14 @@ def summarize_tool_result(result: dict) -> str:
     """Create a short summary of a tool result for the trace."""
     if "error" in result:
         return f"Error: {result['error']}"
+    if "daily_target" in result:
+        return f"target={result['daily_target']}, needed={result.get('still_needed_today', '?')} {result.get('currency', '')}"
+    if "earnings_per_hour" in result:
+        return f"per_hr={result['earnings_per_hour']}, per_trip={result.get('earnings_per_trip', '?')} {result.get('currency', '')}"
+    if "bills" in result:
+        return f"{len(result['bills'])} bills, shortfall={result.get('shortfall', 0)} {result.get('currency', '')}"
+    if "has_plan" in result:
+        return f"plan={'yes' if result['has_plan'] else 'no'}, monthly={result.get('projected_monthly_savings', '?')} {result.get('currency', '')}"
     if "total" in result:
         return f"total={result['total']} {result.get('currency', '')}"
     if "gross_earnings" in result:

@@ -278,8 +278,18 @@ saver/
 
 3. **Financial Service Providers (GXS/Grab)** — Differentiated product that drives engagement, deepens trust, and creates a pathway to additional financial products (savings, insurance, credit) — all within regulatory boundaries.
 
-## Compliance
+## Compliance & Licensing
 
-- Designed per MAS FEAT/Veritas principles: Fairness, Ethics, Accountability, Transparency
-- PDPA-aware: PII redacted before LLM, data residency considerations
-- Scope-limited: generic education + budgeting only, regulated advice → licensed advisor handoff
+**Current scope (no licence required):** Saver provides financial *education* and budgeting tools — categorized as "generic information" under MAS guidelines. This includes explaining concepts (emergency funds, compound interest), describing general product categories (SSBs, fixed deposits), and helping with budgets and savings goals.
+
+**For production deployment with personalized advice:** A [Capital Markets Services (CMS) licence](https://www.mas.gov.sg/regulation/Capital-Markets-Services-Licence) or Financial Adviser (FA) licence from MAS (Singapore) would be required. In Indonesia, OJK registration under POJK 77/2016 applies. GXS already holds a digital banking licence — adding an FA licence is a natural extension.
+
+**The architecture supports both paths:** The scope classifier and handoff mechanism can be toggled from "block regulated advice" to "allow with suitability check + disclaimer" via configuration, without rebuilding the agent.
+
+**Regulatory design principles (MAS FEAT/Veritas):**
+- **Fairness** — Guardrails ensure parity across language and market slices
+- **Ethics** — Non-judgmental tone enforced; no dark patterns or pressure tactics
+- **Accountability** — 100% traceability: every agent turn has a retrievable reasoning trace
+- **Transparency** — "Why did Saver suggest this?" trace available to users; all numbers grounded in tool outputs
+
+**Data protection:** PDPA-aware — PII redacted before LLM, data residency considerations for in-region inference

@@ -55,6 +55,12 @@
             </div>
         </div>
     </nav>
+    <!-- Regulatory disclaimer banner -->
+    <div class="bg-amber-50 border-b border-amber-200 px-4 py-1.5">
+        <p class="text-center text-[11px] text-amber-700 max-w-4xl mx-auto">
+            <span class="font-semibold">Disclaimer:</span> Saver provides financial <em>education</em> and budgeting tools only — not licensed financial advice. A <a href="https://www.mas.gov.sg/regulation/Capital-Markets-Services-Licence" class="underline">Capital Markets Services (CMS)</a> or Financial Adviser (FA) licence from MAS would be required for personalized investment recommendations. For specific product advice, please consult a licensed financial advisor.
+        </p>
+    </div>
     {% endif %}
 
     <main class="{% if request.session.get('user_id') %}max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5{% endif %}">
