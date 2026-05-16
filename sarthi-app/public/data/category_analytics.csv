@@ -1,0 +1,1405 @@
+driver_id,driver_name,persona,month,category,currency,total_amount,txn_count,avg_amount,min_amount,max_amount
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,DEBT_REPAY,SGD,65.63,1,65.63,65.63,65.63
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,DISCRETIONARY,SGD,194.12,5,38.82,23.24,55.85
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,FOOD_HOUSE,SGD,259.14,3,86.38,79.87,91.99
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,FOOD_OUT,SGD,258.72,28,9.24,4.73,13.49
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,HEALTHCARE,SGD,27.22,1,27.22,27.22,27.22
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,PLATFORM_DEDUCT,SGD,350.9,13,26.99,19.55,37.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,RELIGIOUS_GIVING,SGD,26.97,2,13.48,13.06,13.91
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,TELECOM,SGD,10.22,2,5.11,4.5,5.72
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,VEHICLE_FUEL,SGD,227.96,11,20.72,15.32,26.86
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-11,VEHICLE_MAINT,SGD,34.68,7,4.95,2.56,8.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,DEBT_REPAY,SGD,301.32,2,150.66,46.83,254.49
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,DISCRETIONARY,SGD,525.96,15,35.06,12.4,51.83
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,FOOD_HOUSE,SGD,269.29,4,67.32,55.12,90.03
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,FOOD_OUT,SGD,516.13,57,9.05,4.68,13.51
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,HEALTHCARE,SGD,54.6,1,54.6,54.6,54.6
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,HOUSING,SGD,521.81,1,521.81,521.81,521.81
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,MOVEMENTS_INTERNAL,SGD,21.61,1,21.61,21.61,21.61
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,PLATFORM_DEDUCT,SGD,765.01,27,28.33,15.26,45.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,RELIGIOUS_GIVING,SGD,24.09,4,6.02,5.69,6.19
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,TELECOM,SGD,87.36,11,7.94,1.58,51.54
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,VEHICLE_FUEL,SGD,583.46,26,22.44,16.45,30.96
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-12,VEHICLE_MAINT,SGD,231.59,17,13.62,2.72,134.86
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,DEBT_REPAY,SGD,318.92,2,159.46,46.75,272.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,DISCRETIONARY,SGD,338.22,12,28.19,13.94,45.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,FOOD_HOUSE,SGD,300.99,4,75.25,49.06,98.18
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,FOOD_OUT,SGD,529.97,55,9.64,4.78,13.74
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,HOUSING,SGD,714.91,1,714.91,714.91,714.91
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,PLATFORM_DEDUCT,SGD,789.47,26,30.36,16.43,41.01
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,RELIGIOUS_GIVING,SGD,42.86,5,8.57,5.18,15.24
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,TELECOM,SGD,44.57,6,7.43,1.67,27.59
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,VEHICLE_FUEL,SGD,555.1,24,23.13,15.1,30.4
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-01,VEHICLE_MAINT,SGD,169.88,16,10.62,2.94,81.73
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,DEBT_REPAY,SGD,380.15,2,190.07,53.07,327.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,DISCRETIONARY,SGD,434.99,11,39.54,23.25,55.11
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,FOOD_HOUSE,SGD,307.77,4,76.94,61.03,101.1
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,FOOD_OUT,SGD,486.7,50,9.73,5.06,13.74
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,HEALTHCARE,SGD,43.4,1,43.4,43.4,43.4
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,HOUSING,SGD,584.81,1,584.81,584.81,584.81
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,MOVEMENTS_INTERNAL,SGD,21.65,1,21.65,21.65,21.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,PLATFORM_DEDUCT,SGD,683.35,24,28.47,11.64,40.91
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,RELIGIOUS_GIVING,SGD,28.71,4,7.18,5.38,9.59
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,TELECOM,SGD,68.87,6,11.48,2.72,47.98
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,VEHICLE_FUEL,SGD,458.72,20,22.94,15.21,28.69
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-02,VEHICLE_MAINT,SGD,214.62,16,13.41,3.98,117.6
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,DEBT_REPAY,SGD,347.29,2,173.64,71.85,275.44
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,DISCRETIONARY,SGD,503.14,12,41.93,15.53,56.77
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,FOOD_HOUSE,SGD,384.2,5,76.84,56.7,101.03
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,FOOD_OUT,SGD,417.36,48,8.7,4.64,13.75
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,HEALTHCARE,SGD,39.67,1,39.67,39.67,39.67
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,HOUSING,SGD,850.28,1,850.28,850.28,850.28
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,PLATFORM_DEDUCT,SGD,586.48,27,21.72,8.79,28.18
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,RELIGIOUS_GIVING,SGD,39.54,4,9.88,6.66,14.6
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,TELECOM,SGD,55.95,9,6.22,1.77,28.03
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,VEHICLE_FUEL,SGD,598.78,25,23.95,15.31,29.94
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-03,VEHICLE_MAINT,SGD,230.04,18,12.78,2.73,122.78
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,DEBT_REPAY,SGD,283.2,2,141.6,64.97,218.23
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,DISCRETIONARY,SGD,309.8,8,38.73,18.22,57.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,FOOD_HOUSE,SGD,333.04,4,83.26,61.47,101.04
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,FOOD_OUT,SGD,458.19,52,8.81,4.78,13.57
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,HOUSING,SGD,801.71,1,801.71,801.71,801.71
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,PLATFORM_DEDUCT,SGD,704.64,26,27.1,11.93,43.38
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,RELIGIOUS_GIVING,SGD,34.88,4,8.72,5.79,13.47
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,TELECOM,SGD,45.48,5,9.1,1.71,30.95
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,VEHICLE_FUEL,SGD,537.79,23,23.38,15.72,30.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-04,VEHICLE_MAINT,SGD,253.1,16,15.82,2.6,139.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,DEBT_REPAY,SGD,263.96,2,131.98,40.76,223.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,DISCRETIONARY,SGD,459.74,12,38.31,15.76,57.27
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,FOOD_HOUSE,SGD,354.71,5,70.94,50.34,92.12
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,FOOD_OUT,SGD,439.59,49,8.97,4.8,13.63
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,HEALTHCARE,SGD,90.48,1,90.48,90.48,90.48
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,HOUSING,SGD,781.31,1,781.31,781.31,781.31
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,PLATFORM_DEDUCT,SGD,734.19,26,28.24,13.67,42.21
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,RELIGIOUS_GIVING,SGD,55.01,5,11.0,8.55,13.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,TELECOM,SGD,79.92,9,8.88,1.83,51.24
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,VEHICLE_FUEL,SGD,551.18,25,22.05,15.1,30.58
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-05,VEHICLE_MAINT,SGD,198.67,13,15.28,2.65,127.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,DEBT_REPAY,SGD,337.87,2,168.94,85.26,252.61
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,DISCRETIONARY,SGD,304.05,11,27.64,11.57,53.26
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,FOOD_HOUSE,SGD,334.22,4,83.56,65.75,100.28
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,FOOD_OUT,SGD,468.43,50,9.37,4.74,13.79
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,HEALTHCARE,SGD,1035.21,1,1035.21,1035.21,1035.21
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,HOUSING,SGD,809.88,1,809.88,809.88,809.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,PLATFORM_DEDUCT,SGD,839.98,26,32.31,13.47,46.37
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,RELIGIOUS_GIVING,SGD,45.93,4,11.48,7.58,14.95
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,TELECOM,SGD,69.83,9,7.76,1.76,36.51
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,VEHICLE_FUEL,SGD,560.86,25,22.43,15.24,30.15
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-06,VEHICLE_MAINT,SGD,227.09,19,11.95,2.34,117.26
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,DEBT_REPAY,SGD,334.66,2,167.33,55.19,279.47
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,DISCRETIONARY,SGD,378.78,12,31.56,13.08,56.38
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,FOOD_HOUSE,SGD,256.1,4,64.03,49.19,81.04
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,FOOD_OUT,SGD,478.17,52,9.2,4.77,13.68
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,HEALTHCARE,SGD,37.98,1,37.98,37.98,37.98
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,HOUSING,SGD,932.93,1,932.93,932.93,932.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,MOVEMENTS_INTERNAL,SGD,7.17,1,7.17,7.17,7.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,PLATFORM_DEDUCT,SGD,779.74,26,29.99,16.04,42.86
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,RELIGIOUS_GIVING,SGD,42.17,4,10.54,6.11,13.8
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,TELECOM,SGD,52.04,4,13.01,2.64,40.48
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,VEHICLE_FUEL,SGD,591.5,26,22.75,16.14,30.99
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-07,VEHICLE_MAINT,SGD,230.89,18,12.83,3.11,123.81
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,DEBT_REPAY,SGD,392.96,2,196.48,64.29,328.67
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,DISCRETIONARY,SGD,448.52,14,32.04,12.14,57.21
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,FOOD_HOUSE,SGD,426.16,5,85.23,65.05,99.1
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,FOOD_OUT,SGD,527.63,61,8.65,4.65,13.37
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,HOUSING,SGD,743.36,1,743.36,743.36,743.36
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,MOVEMENTS_INTERNAL,SGD,29.76,2,14.88,11.29,18.47
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,PLATFORM_DEDUCT,SGD,829.56,27,30.72,15.74,41.97
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,RELIGIOUS_GIVING,SGD,54.43,5,10.89,6.67,15.28
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,TELECOM,SGD,78.62,8,9.83,2.59,50.62
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,VEHICLE_FUEL,SGD,492.33,23,21.41,15.31,30.39
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-08,VEHICLE_MAINT,SGD,189.93,14,13.57,2.95,99.25
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,DEBT_REPAY,SGD,304.71,2,152.35,56.49,248.22
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,DISCRETIONARY,SGD,419.55,12,34.96,13.09,49.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,FOOD_HOUSE,SGD,361.95,4,90.49,78.51,97.0
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,FOOD_OUT,SGD,437.08,49,8.92,4.73,13.52
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,HOUSING,SGD,793.42,1,793.42,793.42,793.42
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,PLATFORM_DEDUCT,SGD,715.53,26,27.52,10.72,43.45
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,RELIGIOUS_GIVING,SGD,46.02,4,11.5,6.79,14.7
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,TELECOM,SGD,61.28,3,20.43,2.81,53.11
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,VEHICLE_FUEL,SGD,553.73,23,24.08,15.46,30.9
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-09,VEHICLE_MAINT,SGD,190.07,17,11.18,2.52,105.25
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,DEBT_REPAY,SGD,405.17,2,202.58,74.89,330.28
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,DISCRETIONARY,SGD,376.0,13,28.92,11.65,54.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,FOOD_HOUSE,SGD,308.54,4,77.14,73.33,79.91
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,FOOD_OUT,SGD,472.88,54,8.76,4.62,13.69
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,HOUSING,SGD,822.16,1,822.16,822.16,822.16
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,PLATFORM_DEDUCT,SGD,770.72,26,29.64,15.26,41.64
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,RELIGIOUS_GIVING,SGD,44.72,5,8.94,5.81,13.39
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,TELECOM,SGD,43.41,4,10.85,1.17,36.07
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,VEHICLE_FUEL,SGD,602.15,26,23.16,15.33,30.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-10,VEHICLE_MAINT,SGD,207.12,17,12.18,2.79,91.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,DEBT_REPAY,SGD,306.54,2,153.27,89.01,217.53
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,DISCRETIONARY,SGD,394.4,10,39.44,17.78,53.59
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,FOOD_HOUSE,SGD,352.74,5,70.55,48.81,95.23
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,FOOD_OUT,SGD,463.12,51,9.08,4.87,13.64
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,HOUSING,SGD,625.12,1,625.12,625.12,625.12
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,MOVEMENTS_INTERNAL,SGD,11.08,1,11.08,11.08,11.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,PLATFORM_DEDUCT,SGD,780.78,26,30.03,14.08,44.07
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,RELIGIOUS_GIVING,SGD,36.34,4,9.09,5.02,11.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,TELECOM,SGD,43.07,6,7.18,2.37,27.32
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,VEHICLE_FUEL,SGD,592.01,24,24.67,15.45,30.66
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-11,VEHICLE_MAINT,SGD,231.76,16,14.49,2.49,134.37
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,DEBT_REPAY,SGD,268.05,2,134.03,87.64,180.41
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,DISCRETIONARY,SGD,143.69,6,23.95,14.2,52.15
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,FOOD_HOUSE,SGD,297.36,4,74.34,60.71,96.13
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,FOOD_OUT,SGD,437.85,50,8.76,4.66,13.79
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,HOUSING,SGD,588.89,1,588.89,588.89,588.89
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,MOVEMENTS_INTERNAL,SGD,10.08,1,10.08,10.08,10.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,PLATFORM_DEDUCT,SGD,770.08,27,28.52,12.03,45.92
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,RELIGIOUS_GIVING,SGD,36.47,4,9.12,5.17,15.96
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,TELECOM,SGD,57.99,8,7.25,2.08,32.09
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,VEHICLE_FUEL,SGD,602.98,27,22.33,15.34,29.66
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-12,VEHICLE_MAINT,SGD,222.38,16,13.9,2.43,130.85
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,DEBT_REPAY,SGD,301.01,2,150.5,62.89,238.12
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,DISCRETIONARY,SGD,237.5,8,29.69,12.04,50.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,FOOD_HOUSE,SGD,379.44,5,75.89,49.67,100.12
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,FOOD_OUT,SGD,440.02,50,8.8,4.95,13.75
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,HEALTHCARE,SGD,63.18,1,63.18,63.18,63.18
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,HOUSING,SGD,682.02,1,682.02,682.02,682.02
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,PLATFORM_DEDUCT,SGD,686.57,26,26.41,10.25,43.54
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,RELIGIOUS_GIVING,SGD,49.42,5,9.88,5.3,15.4
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,TELECOM,SGD,82.04,10,8.2,1.64,54.89
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,VEHICLE_FUEL,SGD,526.24,24,21.93,15.1,30.72
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-01,VEHICLE_MAINT,SGD,226.79,18,12.6,2.67,129.61
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,DEBT_REPAY,SGD,317.76,2,158.88,39.25,278.51
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,DISCRETIONARY,SGD,346.34,11,31.49,15.61,50.68
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,FOOD_HOUSE,SGD,272.6,4,68.15,51.98,97.55
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,FOOD_OUT,SGD,232.28,25,9.29,4.97,13.71
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,HOUSING,SGD,567.81,1,567.81,567.81,567.81
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,PLATFORM_DEDUCT,SGD,356.09,16,22.26,13.92,35.11
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,RELIGIOUS_GIVING,SGD,36.5,4,9.12,5.32,13.34
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,TELECOM,SGD,45.97,6,7.66,1.5,26.21
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,VEHICLE_FUEL,SGD,334.42,15,22.29,15.7,30.61
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-02,VEHICLE_MAINT,SGD,185.22,13,14.25,2.46,118.06
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,DEBT_REPAY,SGD,298.24,2,149.12,34.11,264.13
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,DISCRETIONARY,SGD,528.68,14,37.76,19.9,52.49
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,FOOD_HOUSE,SGD,260.15,4,65.04,53.25,78.03
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,FOOD_OUT,SGD,437.11,51,8.57,4.66,13.62
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,HOUSING,SGD,917.12,1,917.12,917.12,917.12
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,MOVEMENTS_INTERNAL,SGD,18.29,1,18.29,18.29,18.29
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,PLATFORM_DEDUCT,SGD,565.16,27,20.93,6.91,42.68
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,RELIGIOUS_GIVING,SGD,39.34,4,9.83,6.93,15.69
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,TELECOM,SGD,66.38,8,8.3,2.06,40.67
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,VEHICLE_FUEL,SGD,643.27,27,23.82,15.05,30.77
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-03,VEHICLE_MAINT,SGD,207.07,16,12.94,2.78,119.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,DEBT_REPAY,SGD,365.39,2,182.69,93.62,271.77
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,DISCRETIONARY,SGD,423.72,12,35.31,11.93,54.22
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,FOOD_HOUSE,SGD,311.91,4,77.98,62.21,92.46
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,FOOD_OUT,SGD,437.2,49,8.92,4.6,13.56
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,HOUSING,SGD,833.26,1,833.26,833.26,833.26
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,PLATFORM_DEDUCT,SGD,720.3,25,28.81,17.93,41.29
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,RELIGIOUS_GIVING,SGD,39.86,4,9.96,5.05,15.83
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,TELECOM,SGD,47.14,5,9.43,2.11,31.92
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,VEHICLE_FUEL,SGD,596.45,25,23.86,15.41,30.89
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-04,VEHICLE_MAINT,SGD,186.14,19,9.8,2.56,85.53
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,DEBT_REPAY,SGD,322.7,1,322.7,322.7,322.7
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,DISCRETIONARY,SGD,125.31,4,31.33,21.7,45.21
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,FOOD_HOUSE,SGD,179.86,2,89.93,87.34,92.52
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,FOOD_OUT,SGD,222.08,26,8.54,5.53,12.01
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,HOUSING,SGD,562.04,1,562.04,562.04,562.04
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,PLATFORM_DEDUCT,SGD,367.65,13,28.28,22.49,38.61
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,RELIGIOUS_GIVING,SGD,29.05,3,9.68,7.41,11.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,TELECOM,SGD,46.17,3,15.39,2.65,37.78
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,VEHICLE_FUEL,SGD,267.92,12,22.33,15.26,30.41
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-05,VEHICLE_MAINT,SGD,140.2,8,17.53,2.31,97.13
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,DEBT_REPAY,SGD,32.0,1,32.0,32.0,32.0
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,DISCRETIONARY,SGD,39.03,1,39.03,39.03,39.03
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,FOOD_HOUSE,SGD,170.76,3,56.92,44.64,69.65
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,FOOD_OUT,SGD,175.99,24,7.33,3.62,10.24
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,HEALTHCARE,SGD,57.43,1,57.43,57.43,57.43
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,MOVEMENTS_INTERNAL,SGD,74.72,2,37.36,32.62,42.1
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,PLATFORM_DEDUCT,SGD,741.76,13,57.06,35.8,84.96
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,REMITTANCE,SGD,184.1,2,92.05,55.51,128.59
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,TELECOM,SGD,3.93,1,3.93,3.93,3.93
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,VEHICLE_FUEL,SGD,231.43,13,17.8,13.29,22.03
+drv_kumar_sg_12,Kumar Raj,grower,2024-11,VEHICLE_MAINT,SGD,33.44,9,3.72,1.81,5.76
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,DEBT_REPAY,SGD,263.12,2,131.56,34.87,228.25
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,DISCRETIONARY,SGD,38.27,2,19.13,11.66,26.61
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,FAMILY_DEPENDENTS,SGD,253.65,1,253.65,253.65,253.65
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,FOOD_HOUSE,SGD,189.7,4,47.42,40.18,64.13
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,FOOD_OUT,SGD,356.6,53,6.73,3.86,10.27
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,HEALTHCARE,SGD,74.73,1,74.73,74.73,74.73
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,HOUSING,SGD,593.0,1,593.0,593.0,593.0
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,MOVEMENTS_INTERNAL,SGD,111.27,3,37.09,26.12,51.48
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,PLATFORM_DEDUCT,SGD,1631.75,26,62.76,44.64,88.83
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,RELIGIOUS_GIVING,SGD,13.58,1,13.58,13.58,13.58
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,REMITTANCE,SGD,402.63,4,100.66,83.12,124.51
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,TELECOM,SGD,49.65,8,6.21,1.06,34.52
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,VEHICLE_FUEL,SGD,376.0,24,15.67,11.21,22.41
+drv_kumar_sg_12,Kumar Raj,grower,2024-12,VEHICLE_MAINT,SGD,180.89,14,12.92,2.56,114.34
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,DEBT_REPAY,SGD,326.81,2,163.41,72.97,253.84
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,DISCRETIONARY,SGD,52.39,2,26.2,12.08,40.31
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,FAMILY_DEPENDENTS,SGD,226.38,1,226.38,226.38,226.38
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,FOOD_HOUSE,SGD,197.14,4,49.28,38.2,61.9
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,FOOD_OUT,SGD,357.1,52,6.87,3.6,10.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,HOUSING,SGD,804.42,1,804.42,804.42,804.42
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,MOVEMENTS_INTERNAL,SGD,168.5,5,33.7,16.43,49.04
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,PLATFORM_DEDUCT,SGD,1415.11,27,52.41,19.11,79.48
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,RELIGIOUS_GIVING,SGD,14.56,1,14.56,14.56,14.56
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,REMITTANCE,SGD,460.16,5,92.03,74.38,109.45
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,TELECOM,SGD,55.87,5,11.17,1.81,44.52
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,VEHICLE_FUEL,SGD,446.99,25,17.88,11.47,22.51
+drv_kumar_sg_12,Kumar Raj,grower,2025-01,VEHICLE_MAINT,SGD,214.46,18,11.91,1.77,140.31
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,DEBT_REPAY,SGD,327.9,2,163.95,72.07,255.83
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,DISCRETIONARY,SGD,85.15,4,21.29,15.38,34.58
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,FAMILY_DEPENDENTS,SGD,271.7,1,271.7,271.7,271.7
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,FOOD_HOUSE,SGD,214.77,4,53.69,39.69,67.49
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,FOOD_OUT,SGD,318.33,49,6.5,3.64,10.2
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,HEALTHCARE,SGD,53.41,1,53.41,53.41,53.41
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,HOUSING,SGD,534.88,1,534.88,534.88,534.88
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,MOVEMENTS_INTERNAL,SGD,138.42,4,34.61,22.76,45.04
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,PLATFORM_DEDUCT,SGD,1398.49,24,58.27,22.79,83.51
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,RELIGIOUS_GIVING,SGD,13.12,1,13.12,13.12,13.12
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,REMITTANCE,SGD,374.99,4,93.75,76.09,129.63
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,TELECOM,SGD,54.79,5,10.96,2.17,42.83
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,VEHICLE_FUEL,SGD,425.23,24,17.72,11.51,23.01
+drv_kumar_sg_12,Kumar Raj,grower,2025-02,VEHICLE_MAINT,SGD,177.15,11,16.1,2.29,125.11
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,DEBT_REPAY,SGD,305.32,2,152.66,53.35,251.97
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,DISCRETIONARY,SGD,92.27,3,30.76,21.41,36.01
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,FAMILY_DEPENDENTS,SGD,255.7,1,255.7,255.7,255.7
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,FOOD_HOUSE,SGD,298.99,5,59.8,39.73,75.06
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,FOOD_OUT,SGD,377.98,52,7.27,3.67,9.99
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,HEALTHCARE,SGD,31.6,1,31.6,31.6,31.6
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,HOUSING,SGD,740.25,1,740.25,740.25,740.25
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,MOVEMENTS_INTERNAL,SGD,106.03,3,35.34,22.72,43.23
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,PLATFORM_DEDUCT,SGD,1487.54,26,57.21,23.65,84.37
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,RELIGIOUS_GIVING,SGD,6.11,1,6.11,6.11,6.11
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,REMITTANCE,SGD,366.12,4,91.53,73.77,105.32
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,TELECOM,SGD,50.45,6,8.41,2.6,32.77
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,VEHICLE_FUEL,SGD,377.44,21,17.97,12.5,23.11
+drv_kumar_sg_12,Kumar Raj,grower,2025-03,VEHICLE_MAINT,SGD,149.68,15,9.98,2.36,84.66
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,DEBT_REPAY,SGD,267.98,2,133.99,62.96,205.02
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,DISCRETIONARY,SGD,143.21,7,20.46,8.93,35.27
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,FAMILY_DEPENDENTS,SGD,263.19,1,263.19,263.19,263.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,FOOD_HOUSE,SGD,172.12,4,43.03,36.99,55.97
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,FOOD_OUT,SGD,382.61,52,7.36,3.64,10.24
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,HEALTHCARE,SGD,28.19,1,28.19,28.19,28.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,HOUSING,SGD,605.2,1,605.2,605.2,605.2
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,MOVEMENTS_INTERNAL,SGD,26.95,1,26.95,26.95,26.95
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,PLATFORM_DEDUCT,SGD,1588.57,26,61.1,48.15,85.17
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,RELIGIOUS_GIVING,SGD,13.4,1,13.4,13.4,13.4
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,REMITTANCE,SGD,325.12,4,81.28,66.72,100.06
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,TELECOM,SGD,61.88,11,5.63,1.1,39.74
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,VEHICLE_FUEL,SGD,414.72,25,16.59,11.64,22.66
+drv_kumar_sg_12,Kumar Raj,grower,2025-04,VEHICLE_MAINT,SGD,195.91,16,12.24,2.06,118.87
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,DEBT_REPAY,SGD,360.6,2,180.3,50.11,310.49
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,DISCRETIONARY,SGD,112.24,4,28.06,10.45,42.33
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,FAMILY_DEPENDENTS,SGD,117.65,1,117.65,117.65,117.65
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,FOOD_HOUSE,SGD,244.15,5,48.83,38.19,59.39
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,FOOD_OUT,SGD,350.57,52,6.74,3.61,10.05
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,HOUSING,SGD,973.27,1,973.27,973.27,973.27
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,MOVEMENTS_INTERNAL,SGD,86.38,3,28.79,17.55,40.32
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,PLATFORM_DEDUCT,SGD,1609.55,27,59.61,33.66,79.22
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,RELIGIOUS_GIVING,SGD,13.12,1,13.12,13.12,13.12
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,REMITTANCE,SGD,407.73,5,81.55,57.07,107.76
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,TELECOM,SGD,49.08,8,6.13,1.72,29.7
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,VEHICLE_FUEL,SGD,416.61,25,16.66,11.65,21.55
+drv_kumar_sg_12,Kumar Raj,grower,2025-05,VEHICLE_MAINT,SGD,173.76,13,13.37,1.83,122.66
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,DEBT_REPAY,SGD,373.87,2,186.94,83.17,290.7
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,DISCRETIONARY,SGD,60.02,3,20.01,16.38,24.61
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,FAMILY_DEPENDENTS,SGD,162.11,1,162.11,162.11,162.11
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,FOOD_HOUSE,SGD,252.91,4,63.23,38.96,75.23
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,FOOD_OUT,SGD,344.15,49,7.02,3.75,10.18
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,HEALTHCARE,SGD,93.69,1,93.69,93.69,93.69
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,HOUSING,SGD,629.0,1,629.0,629.0,629.0
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,MOVEMENTS_INTERNAL,SGD,68.44,2,34.22,23.06,45.38
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,PLATFORM_DEDUCT,SGD,1530.82,25,61.23,32.38,85.87
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,RELIGIOUS_GIVING,SGD,8.05,1,8.05,8.05,8.05
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,REMITTANCE,SGD,306.54,4,76.63,55.92,93.99
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,TELECOM,SGD,50.93,9,5.66,2.23,28.2
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,VEHICLE_FUEL,SGD,374.32,24,15.6,11.52,22.9
+drv_kumar_sg_12,Kumar Raj,grower,2025-06,VEHICLE_MAINT,SGD,156.07,14,11.15,2.13,99.9
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,DEBT_REPAY,SGD,232.6,2,116.3,36.17,196.43
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,DISCRETIONARY,SGD,130.03,7,18.58,8.81,30.23
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,FAMILY_DEPENDENTS,SGD,243.87,1,243.87,243.87,243.87
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,FOOD_HOUSE,SGD,224.84,4,56.21,36.24,70.86
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,FOOD_OUT,SGD,329.75,52,6.34,3.44,9.83
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,HOUSING,SGD,953.65,1,953.65,953.65,953.65
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,MOVEMENTS_INTERNAL,SGD,116.12,3,38.71,17.78,50.79
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,PLATFORM_DEDUCT,SGD,1612.73,27,59.73,32.77,88.62
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,RELIGIOUS_GIVING,SGD,11.39,1,11.39,11.39,11.39
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,REMITTANCE,SGD,411.35,4,102.84,62.91,129.65
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,TELECOM,SGD,54.32,5,10.86,0.97,45.83
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,VEHICLE_FUEL,SGD,432.81,25,17.31,11.71,23.14
+drv_kumar_sg_12,Kumar Raj,grower,2025-07,VEHICLE_MAINT,SGD,174.89,15,11.66,1.92,122.18
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,DEBT_REPAY,SGD,333.0,2,166.5,86.74,246.26
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,DISCRETIONARY,SGD,90.3,3,30.1,10.49,40.69
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,FAMILY_DEPENDENTS,SGD,126.72,1,126.72,126.72,126.72
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,FOOD_HOUSE,SGD,292.52,5,58.5,41.48,68.22
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,FOOD_OUT,SGD,410.04,59,6.95,3.6,10.3
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,HEALTHCARE,SGD,82.16,1,82.16,82.16,82.16
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,HOUSING,SGD,800.4,1,800.4,800.4,800.4
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,MOVEMENTS_INTERNAL,SGD,61.65,2,30.82,20.92,40.73
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,PLATFORM_DEDUCT,SGD,1488.42,25,59.54,34.65,85.07
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,RELIGIOUS_GIVING,SGD,8.36,1,8.36,8.36,8.36
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,REMITTANCE,SGD,416.76,5,83.35,64.45,103.62
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,TELECOM,SGD,39.92,1,39.92,39.92,39.92
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,VEHICLE_FUEL,SGD,410.19,24,17.09,11.31,22.57
+drv_kumar_sg_12,Kumar Raj,grower,2025-08,VEHICLE_MAINT,SGD,190.13,17,11.18,1.85,107.45
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,DEBT_REPAY,SGD,318.18,2,159.09,89.61,228.57
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,DISCRETIONARY,SGD,225.16,8,28.14,17.93,38.28
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,FAMILY_DEPENDENTS,SGD,158.07,1,158.07,158.07,158.07
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,FOOD_HOUSE,SGD,244.51,4,61.13,57.12,62.92
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,FOOD_OUT,SGD,302.31,45,6.72,3.48,10.3
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,HEALTHCARE,SGD,92.08,1,92.08,92.08,92.08
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,HOUSING,SGD,747.26,1,747.26,747.26,747.26
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,MOVEMENTS_INTERNAL,SGD,79.76,2,39.88,35.08,44.68
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,PLATFORM_DEDUCT,SGD,1478.38,25,59.14,33.68,82.64
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,RELIGIOUS_GIVING,SGD,13.1,1,13.1,13.1,13.1
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,REMITTANCE,SGD,401.35,4,100.34,76.6,118.04
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,TELECOM,SGD,59.17,6,9.86,1.41,45.88
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,VEHICLE_FUEL,SGD,387.56,23,16.85,11.45,22.87
+drv_kumar_sg_12,Kumar Raj,grower,2025-09,VEHICLE_MAINT,SGD,185.07,22,8.41,1.79,90.98
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,DEBT_REPAY,SGD,340.25,2,170.12,32.06,308.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,DISCRETIONARY,SGD,100.53,4,25.13,18.82,37.47
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,FAMILY_DEPENDENTS,SGD,195.84,1,195.84,195.84,195.84
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,FOOD_HOUSE,SGD,201.44,4,50.36,43.8,56.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,FOOD_OUT,SGD,408.49,60,6.81,3.52,10.3
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,HEALTHCARE,SGD,78.33,1,78.33,78.33,78.33
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,HOUSING,SGD,601.63,1,601.63,601.63,601.63
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,MOVEMENTS_INTERNAL,SGD,169.85,5,33.97,19.3,48.91
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,PLATFORM_DEDUCT,SGD,1567.62,27,58.06,24.1,85.46
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,RELIGIOUS_GIVING,SGD,14.17,1,14.17,14.17,14.17
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,REMITTANCE,SGD,511.41,5,102.28,72.81,125.21
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,TELECOM,SGD,46.53,5,9.31,1.18,37.93
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,VEHICLE_FUEL,SGD,451.78,26,17.38,11.33,22.26
+drv_kumar_sg_12,Kumar Raj,grower,2025-10,VEHICLE_MAINT,SGD,178.61,18,9.92,2.67,92.62
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,DEBT_REPAY,SGD,214.19,2,107.09,32.53,181.66
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,DISCRETIONARY,SGD,24.19,1,24.19,24.19,24.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,FAMILY_DEPENDENTS,SGD,153.68,1,153.68,153.68,153.68
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,FOOD_HOUSE,SGD,267.75,5,53.55,37.76,67.14
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,FOOD_OUT,SGD,384.34,55,6.99,3.53,10.3
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,HOUSING,SGD,760.86,1,760.86,760.86,760.86
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,MOVEMENTS_INTERNAL,SGD,102.37,3,34.12,24.7,51.15
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,PLATFORM_DEDUCT,SGD,1466.51,25,58.66,41.64,74.32
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,RELIGIOUS_GIVING,SGD,9.28,1,9.28,9.28,9.28
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,REMITTANCE,SGD,392.59,4,98.15,80.28,125.2
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,TELECOM,SGD,60.54,8,7.57,2.11,38.41
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,VEHICLE_FUEL,SGD,440.04,25,17.6,11.54,23.08
+drv_kumar_sg_12,Kumar Raj,grower,2025-11,VEHICLE_MAINT,SGD,231.69,20,11.58,1.83,138.41
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,DEBT_REPAY,SGD,306.27,2,153.13,80.59,225.68
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,DISCRETIONARY,SGD,124.22,5,24.84,12.86,39.8
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,FAMILY_DEPENDENTS,SGD,117.91,1,117.91,117.91,117.91
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,FOOD_HOUSE,SGD,242.43,4,60.61,57.44,62.31
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,FOOD_OUT,SGD,326.36,48,6.8,3.64,10.3
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,HOUSING,SGD,806.23,1,806.23,806.23,806.23
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,MOVEMENTS_INTERNAL,SGD,80.23,3,26.74,18.22,37.69
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,PLATFORM_DEDUCT,SGD,1398.73,24,58.28,38.35,83.85
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,RELIGIOUS_GIVING,SGD,12.62,1,12.62,12.62,12.62
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,REMITTANCE,SGD,389.88,4,97.47,74.62,121.83
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,TELECOM,SGD,46.77,6,7.79,1.83,31.82
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,VEHICLE_FUEL,SGD,397.92,22,18.09,13.14,23.0
+drv_kumar_sg_12,Kumar Raj,grower,2025-12,VEHICLE_MAINT,SGD,196.03,14,14.0,2.45,135.15
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,DEBT_REPAY,SGD,271.85,2,135.93,79.61,192.24
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,DISCRETIONARY,SGD,130.39,6,21.73,12.41,36.44
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,FAMILY_DEPENDENTS,SGD,211.2,1,211.2,211.2,211.2
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,FOOD_HOUSE,SGD,296.29,5,59.26,48.82,74.41
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,FOOD_OUT,SGD,413.98,59,7.02,3.57,10.24
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,HOUSING,SGD,929.06,1,929.06,929.06,929.06
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,MOVEMENTS_INTERNAL,SGD,73.97,3,24.66,19.66,29.21
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,PLATFORM_DEDUCT,SGD,1687.13,27,62.49,40.39,84.49
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,RELIGIOUS_GIVING,SGD,11.76,1,11.76,11.76,11.76
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,REMITTANCE,SGD,380.55,5,76.11,64.5,92.89
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,TELECOM,SGD,71.36,8,8.92,1.3,51.15
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,VEHICLE_FUEL,SGD,460.49,26,17.71,11.93,23.12
+drv_kumar_sg_12,Kumar Raj,grower,2026-01,VEHICLE_MAINT,SGD,173.3,14,12.38,2.3,110.77
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,DEBT_REPAY,SGD,255.97,2,127.98,43.23,212.74
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,DISCRETIONARY,SGD,137.06,6,22.84,9.85,33.13
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,FAMILY_DEPENDENTS,SGD,170.94,1,170.94,170.94,170.94
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,FOOD_HOUSE,SGD,215.97,4,53.99,38.44,71.82
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,FOOD_OUT,SGD,333.41,49,6.8,3.63,10.28
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,HEALTHCARE,SGD,54.77,1,54.77,54.77,54.77
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,HOUSING,SGD,840.99,1,840.99,840.99,840.99
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,MOVEMENTS_INTERNAL,SGD,33.52,1,33.52,33.52,33.52
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,PLATFORM_DEDUCT,SGD,1323.79,24,55.16,28.2,78.07
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,RELIGIOUS_GIVING,SGD,7.21,1,7.21,7.21,7.21
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,REMITTANCE,SGD,387.31,4,96.83,67.22,126.84
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,TELECOM,SGD,40.3,6,6.72,1.96,27.21
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,VEHICLE_FUEL,SGD,402.51,23,17.5,11.24,22.6
+drv_kumar_sg_12,Kumar Raj,grower,2026-02,VEHICLE_MAINT,SGD,209.29,19,11.02,1.85,141.87
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,DEBT_REPAY,SGD,254.28,2,127.14,40.25,214.03
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,DISCRETIONARY,SGD,98.57,4,24.64,13.95,38.48
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,FAMILY_DEPENDENTS,SGD,202.79,1,202.79,202.79,202.79
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,FOOD_HOUSE,SGD,224.9,4,56.23,49.75,71.29
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,FOOD_OUT,SGD,327.4,49,6.68,3.45,10.23
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,HOUSING,SGD,761.65,1,761.65,761.65,761.65
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,MOVEMENTS_INTERNAL,SGD,127.56,4,31.89,24.63,45.48
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,PLATFORM_DEDUCT,SGD,1348.49,26,51.87,28.84,80.18
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,RELIGIOUS_GIVING,SGD,9.8,1,9.8,9.8,9.8
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,REMITTANCE,SGD,385.33,4,96.33,73.47,105.53
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,TELECOM,SGD,52.38,6,8.73,0.91,40.86
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,VEHICLE_FUEL,SGD,439.35,25,17.57,11.79,22.84
+drv_kumar_sg_12,Kumar Raj,grower,2026-03,VEHICLE_MAINT,SGD,145.59,15,9.71,1.78,87.5
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,DEBT_REPAY,SGD,348.05,2,174.03,62.79,285.26
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,DISCRETIONARY,SGD,64.32,3,21.44,15.32,28.54
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,FAMILY_DEPENDENTS,SGD,265.71,1,265.71,265.71,265.71
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,FOOD_HOUSE,SGD,243.21,4,60.8,48.47,67.01
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,FOOD_OUT,SGD,356.66,51,6.99,3.5,10.18
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,HOUSING,SGD,848.3,1,848.3,848.3,848.3
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,MOVEMENTS_INTERNAL,SGD,93.01,3,31.0,23.25,41.11
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,PLATFORM_DEDUCT,SGD,1509.42,26,58.05,23.45,78.23
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,RELIGIOUS_GIVING,SGD,13.36,1,13.36,13.36,13.36
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,REMITTANCE,SGD,385.18,4,96.3,65.61,125.21
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,TELECOM,SGD,55.13,5,11.03,1.87,43.03
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,VEHICLE_FUEL,SGD,444.37,26,17.09,11.32,22.64
+drv_kumar_sg_12,Kumar Raj,grower,2026-04,VEHICLE_MAINT,SGD,196.3,17,11.55,1.97,109.96
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,DEBT_REPAY,SGD,338.53,1,338.53,338.53,338.53
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,DISCRETIONARY,SGD,82.7,3,27.57,20.56,31.11
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,FAMILY_DEPENDENTS,SGD,112.19,1,112.19,112.19,112.19
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,FOOD_HOUSE,SGD,143.88,2,71.94,68.78,75.1
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,FOOD_OUT,SGD,158.49,22,7.2,4.58,10.17
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,HOUSING,SGD,957.37,1,957.37,957.37,957.37
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,MOVEMENTS_INTERNAL,SGD,110.6,3,36.87,31.29,40.46
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,PLATFORM_DEDUCT,SGD,792.6,13,60.97,40.97,75.89
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,RELIGIOUS_GIVING,SGD,7.16,1,7.16,7.16,7.16
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,REMITTANCE,SGD,333.85,3,111.28,95.47,125.69
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,TELECOM,SGD,47.51,3,15.84,1.21,43.55
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,VEHICLE_FUEL,SGD,171.9,11,15.63,11.2,20.93
+drv_kumar_sg_12,Kumar Raj,grower,2026-05,VEHICLE_MAINT,SGD,142.01,8,17.75,2.26,110.4
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,DEBT_REPAY,SGD,81.87,1,81.87,81.87,81.87
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,DISCRETIONARY,SGD,183.09,4,45.77,26.58,56.86
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,FOOD_HOUSE,SGD,207.44,3,69.15,51.05,88.38
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,FOOD_OUT,SGD,142.48,19,7.5,4.7,12.32
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,HEALTHCARE,SGD,26.64,1,26.64,26.64,26.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,PLATFORM_DEDUCT,SGD,418.75,12,34.9,18.37,48.97
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,REMITTANCE,SGD,182.03,2,91.02,55.05,126.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,TELECOM,SGD,5.77,2,2.88,2.55,3.22
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,VEHICLE_FUEL,SGD,220.64,10,22.06,15.23,30.82
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-11,VEHICLE_MAINT,SGD,40.95,7,5.85,3.66,9.41
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,DEBT_REPAY,SGD,351.44,2,175.72,56.55,294.89
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,DISCRETIONARY,SGD,297.41,8,37.18,16.23,51.15
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,FAMILY_DEPENDENTS,SGD,184.42,1,184.42,184.42,184.42
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,FOOD_HOUSE,SGD,268.88,4,67.22,52.96,82.43
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,FOOD_OUT,SGD,327.53,38,8.62,4.88,13.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,HEALTHCARE,SGD,76.56,1,76.56,76.56,76.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,HOUSING,SGD,775.29,1,775.29,775.29,775.29
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,PLATFORM_DEDUCT,SGD,941.48,22,42.79,23.03,68.4
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,RELIGIOUS_GIVING,SGD,6.07,1,6.07,6.07,6.07
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,REMITTANCE,SGD,342.85,4,85.71,63.12,110.4
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,TELECOM,SGD,47.56,7,6.79,1.67,28.93
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,VEHICLE_FUEL,SGD,492.78,20,24.64,15.29,30.21
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-12,VEHICLE_MAINT,SGD,207.54,17,12.21,2.97,100.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,DEBT_REPAY,SGD,295.14,2,147.57,82.15,212.99
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,DISCRETIONARY,SGD,416.13,12,34.68,15.48,54.38
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,FAMILY_DEPENDENTS,SGD,113.74,1,113.74,113.74,113.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,FOOD_HOUSE,SGD,305.27,4,76.32,59.79,98.59
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,FOOD_OUT,SGD,389.2,42,9.27,4.68,13.58
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,HOUSING,SGD,661.27,1,661.27,661.27,661.27
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,PLATFORM_DEDUCT,SGD,995.8,27,36.88,21.75,52.17
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,RELIGIOUS_GIVING,SGD,9.29,1,9.29,9.29,9.29
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,REMITTANCE,SGD,437.62,5,87.52,70.44,105.15
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,TELECOM,SGD,44.66,7,6.38,1.17,28.6
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,VEHICLE_FUEL,SGD,591.95,25,23.68,16.2,31.0
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-01,VEHICLE_MAINT,SGD,183.92,17,10.82,2.44,88.07
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,DEBT_REPAY,SGD,387.49,2,193.74,52.65,334.84
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,DISCRETIONARY,SGD,207.94,8,25.99,14.03,43.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,FAMILY_DEPENDENTS,SGD,233.56,1,233.56,233.56,233.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,FOOD_HOUSE,SGD,266.09,4,66.52,56.82,87.13
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,FOOD_OUT,SGD,370.42,42,8.82,4.7,13.25
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,HOUSING,SGD,561.47,1,561.47,561.47,561.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,MOVEMENTS_INTERNAL,SGD,48.77,3,16.26,13.48,17.79
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,PLATFORM_DEDUCT,SGD,773.96,19,40.73,32.76,52.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,RELIGIOUS_GIVING,SGD,6.96,1,6.96,6.96,6.96
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,REMITTANCE,SGD,307.82,4,76.95,64.63,92.54
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,TELECOM,SGD,63.11,6,10.52,1.25,43.39
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,VEHICLE_FUEL,SGD,366.69,16,22.92,15.9,29.28
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-02,VEHICLE_MAINT,SGD,199.38,12,16.62,3.61,117.48
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,DEBT_REPAY,SGD,239.22,2,119.61,36.15,203.07
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,DISCRETIONARY,SGD,316.38,8,39.55,27.36,55.94
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,FAMILY_DEPENDENTS,SGD,187.74,1,187.74,187.74,187.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,FOOD_HOUSE,SGD,360.5,5,72.1,48.59,98.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,FOOD_OUT,SGD,489.82,54,9.07,4.71,13.63
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,HEALTHCARE,SGD,64.09,1,64.09,64.09,64.09
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,HOUSING,SGD,539.69,1,539.69,539.69,539.69
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,PLATFORM_DEDUCT,SGD,952.67,23,41.42,22.02,57.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,RELIGIOUS_GIVING,SGD,7.49,1,7.49,7.49,7.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,REMITTANCE,SGD,404.43,4,101.11,91.01,123.27
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,TELECOM,SGD,54.09,7,7.73,1.78,38.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,VEHICLE_FUEL,SGD,441.71,19,23.25,15.75,31.01
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-03,VEHICLE_MAINT,SGD,232.19,18,12.9,2.4,139.2
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,DEBT_REPAY,SGD,275.87,2,137.94,46.26,229.61
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,DISCRETIONARY,SGD,312.5,9,34.72,19.08,46.85
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,FAMILY_DEPENDENTS,SGD,134.16,1,134.16,134.16,134.16
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,FOOD_HOUSE,SGD,334.44,4,83.61,69.38,99.86
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,FOOD_OUT,SGD,471.75,49,9.63,4.75,13.65
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,HEALTHCARE,SGD,92.96,1,92.96,92.96,92.96
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,HOUSING,SGD,820.26,1,820.26,820.26,820.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,PLATFORM_DEDUCT,SGD,1025.61,26,39.45,22.72,54.66
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,RELIGIOUS_GIVING,SGD,9.69,1,9.69,9.69,9.69
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,REMITTANCE,SGD,349.47,4,87.37,71.14,110.17
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,TELECOM,SGD,77.32,7,11.05,1.48,54.78
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,VEHICLE_FUEL,SGD,539.31,23,23.45,15.24,30.99
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-04,VEHICLE_MAINT,SGD,232.37,21,11.07,2.44,107.51
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,DEBT_REPAY,SGD,356.36,2,178.18,39.91,316.45
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,DISCRETIONARY,SGD,325.75,9,36.19,27.23,49.77
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,FAMILY_DEPENDENTS,SGD,186.39,1,186.39,186.39,186.39
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,FOOD_HOUSE,SGD,410.93,5,82.19,63.44,98.82
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,FOOD_OUT,SGD,462.98,52,8.9,4.66,13.78
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,HOUSING,SGD,827.89,1,827.89,827.89,827.89
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,PLATFORM_DEDUCT,SGD,1016.42,26,39.09,21.68,57.91
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,RELIGIOUS_GIVING,SGD,13.8,1,13.8,13.8,13.8
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,REMITTANCE,SGD,490.48,5,98.1,63.96,124.77
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,TELECOM,SGD,44.0,5,8.8,1.26,31.61
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,VEHICLE_FUEL,SGD,529.37,24,22.06,15.01,30.14
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-05,VEHICLE_MAINT,SGD,213.86,18,11.88,2.34,111.69
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,DEBT_REPAY,SGD,270.44,2,135.22,54.23,216.21
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,DISCRETIONARY,SGD,329.61,9,36.62,13.6,57.16
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,FAMILY_DEPENDENTS,SGD,267.94,1,267.94,267.94,267.94
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,FOOD_HOUSE,SGD,265.74,4,66.44,49.35,74.73
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,FOOD_OUT,SGD,458.28,50,9.17,4.73,13.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,HOUSING,SGD,786.38,1,786.38,786.38,786.38
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,PLATFORM_DEDUCT,SGD,1020.64,26,39.26,17.37,55.52
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,RELIGIOUS_GIVING,SGD,14.38,1,14.38,14.38,14.38
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,REMITTANCE,SGD,382.55,4,95.64,72.4,116.9
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,TELECOM,SGD,51.89,6,8.65,1.6,38.04
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,VEHICLE_FUEL,SGD,534.99,23,23.26,15.18,30.46
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-06,VEHICLE_MAINT,SGD,200.95,15,13.4,2.59,108.02
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,DEBT_REPAY,SGD,262.03,2,131.02,85.51,176.52
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,DISCRETIONARY,SGD,523.36,14,37.38,14.83,56.48
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,FAMILY_DEPENDENTS,SGD,153.42,1,153.42,153.42,153.42
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,FOOD_HOUSE,SGD,335.42,4,83.86,58.51,98.37
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,FOOD_OUT,SGD,453.58,45,10.08,5.06,13.78
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,HOUSING,SGD,815.49,1,815.49,815.49,815.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,PLATFORM_DEDUCT,SGD,1136.11,27,42.08,18.61,56.0
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,RELIGIOUS_GIVING,SGD,15.72,1,15.72,15.72,15.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,REMITTANCE,SGD,285.67,4,71.42,55.06,103.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,TELECOM,SGD,69.26,8,8.66,1.89,48.31
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,VEHICLE_FUEL,SGD,602.79,26,23.18,15.39,30.88
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-07,VEHICLE_MAINT,SGD,217.53,14,15.54,3.51,136.02
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,DEBT_REPAY,SGD,264.27,2,132.13,33.93,230.34
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,DISCRETIONARY,SGD,326.34,10,32.63,12.42,55.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,FAMILY_DEPENDENTS,SGD,269.45,1,269.45,269.45,269.45
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,FOOD_HOUSE,SGD,431.04,5,86.21,58.2,98.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,FOOD_OUT,SGD,438.91,46,9.54,4.73,13.71
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,HEALTHCARE,SGD,27.03,1,27.03,27.03,27.03
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,HOUSING,SGD,878.39,1,878.39,878.39,878.39
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,PLATFORM_DEDUCT,SGD,1024.77,26,39.41,22.29,50.92
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,RELIGIOUS_GIVING,SGD,5.83,1,5.83,5.83,5.83
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,REMITTANCE,SGD,438.41,5,87.68,62.17,110.78
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,TELECOM,SGD,58.96,6,9.83,3.69,35.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,VEHICLE_FUEL,SGD,508.19,22,23.1,15.35,30.65
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-08,VEHICLE_MAINT,SGD,181.25,14,12.95,2.94,108.05
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,DEBT_REPAY,SGD,349.85,2,174.92,87.96,261.89
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,DISCRETIONARY,SGD,444.44,13,34.19,15.5,51.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,FAMILY_DEPENDENTS,SGD,130.76,1,130.76,130.76,130.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,FOOD_HOUSE,SGD,341.18,4,85.3,65.71,98.09
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,FOOD_OUT,SGD,526.96,56,9.41,4.68,13.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,HEALTHCARE,SGD,680.5,2,340.25,83.01,597.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,HOUSING,SGD,714.47,1,714.47,714.47,714.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,PLATFORM_DEDUCT,SGD,985.45,26,37.9,20.26,53.44
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,RELIGIOUS_GIVING,SGD,7.65,1,7.65,7.65,7.65
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,REMITTANCE,SGD,429.0,4,107.25,71.32,124.31
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,TELECOM,SGD,71.18,6,11.86,2.93,53.81
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,VEHICLE_FUEL,SGD,558.55,25,22.34,15.03,30.22
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-09,VEHICLE_MAINT,SGD,214.27,19,11.28,2.85,105.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,DEBT_REPAY,SGD,243.93,2,121.97,42.39,201.54
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,DISCRETIONARY,SGD,418.48,12,34.87,13.34,50.14
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,FAMILY_DEPENDENTS,SGD,128.45,1,128.45,128.45,128.45
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,FOOD_HOUSE,SGD,335.11,4,83.78,68.0,90.68
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,FOOD_OUT,SGD,423.32,47,9.01,4.68,13.73
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,HEALTHCARE,SGD,43.92,1,43.92,43.92,43.92
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,HOUSING,SGD,631.85,1,631.85,631.85,631.85
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,MOVEMENTS_INTERNAL,SGD,13.11,1,13.11,13.11,13.11
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,PLATFORM_DEDUCT,SGD,1069.46,27,39.61,26.18,52.01
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,RELIGIOUS_GIVING,SGD,12.42,1,12.42,12.42,12.42
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,REMITTANCE,SGD,476.26,5,95.25,78.21,108.9
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,TELECOM,SGD,42.78,5,8.56,1.58,27.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,VEHICLE_FUEL,SGD,644.39,26,24.78,16.08,31.02
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-10,VEHICLE_MAINT,SGD,195.14,19,10.27,2.58,97.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,DEBT_REPAY,SGD,408.04,2,204.02,86.69,321.35
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,DISCRETIONARY,SGD,321.98,8,40.25,16.72,55.63
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,FAMILY_DEPENDENTS,SGD,117.55,1,117.55,117.55,117.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,FOOD_HOUSE,SGD,334.54,5,66.91,54.71,83.77
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,FOOD_OUT,SGD,452.26,50,9.05,4.63,13.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,HEALTHCARE,SGD,39.72,1,39.72,39.72,39.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,HOUSING,SGD,926.76,1,926.76,926.76,926.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,MOVEMENTS_INTERNAL,SGD,32.34,2,16.17,10.37,21.97
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,PLATFORM_DEDUCT,SGD,998.75,25,39.95,24.21,52.51
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,RELIGIOUS_GIVING,SGD,10.8,1,10.8,10.8,10.8
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,REMITTANCE,SGD,380.35,4,95.09,86.78,102.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,TELECOM,SGD,56.82,5,11.36,3.35,40.06
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,VEHICLE_FUEL,SGD,582.79,24,24.28,15.1,30.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-11,VEHICLE_MAINT,SGD,232.48,16,14.53,2.36,137.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,DEBT_REPAY,SGD,393.75,2,196.88,88.15,305.6
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,DISCRETIONARY,SGD,441.63,13,33.97,19.66,54.35
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,FAMILY_DEPENDENTS,SGD,247.1,1,247.1,247.1,247.1
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,FOOD_HOUSE,SGD,319.49,4,79.87,53.39,96.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,FOOD_OUT,SGD,537.03,58,9.26,4.83,13.51
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,HOUSING,SGD,771.32,1,771.32,771.32,771.32
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,PLATFORM_DEDUCT,SGD,1123.04,27,41.59,19.02,65.75
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,RELIGIOUS_GIVING,SGD,15.58,1,15.58,15.58,15.58
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,REMITTANCE,SGD,357.37,4,89.34,78.48,96.25
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,TELECOM,SGD,48.84,8,6.1,1.5,27.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,VEHICLE_FUEL,SGD,508.1,24,21.17,15.3,27.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-12,VEHICLE_MAINT,SGD,203.75,17,11.99,2.39,98.84
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,DEBT_REPAY,SGD,306.8,2,153.4,53.25,253.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,DISCRETIONARY,SGD,172.07,5,34.41,24.17,41.62
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,FAMILY_DEPENDENTS,SGD,234.98,1,234.98,234.98,234.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,FOOD_HOUSE,SGD,365.92,5,73.18,66.98,87.02
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,FOOD_OUT,SGD,475.74,52,9.15,4.73,13.39
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,HOUSING,SGD,830.09,1,830.09,830.09,830.09
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,PLATFORM_DEDUCT,SGD,1105.23,26,42.51,19.17,59.03
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,RELIGIOUS_GIVING,SGD,6.56,1,6.56,6.56,6.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,REMITTANCE,SGD,527.75,5,105.55,68.44,127.86
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,TELECOM,SGD,70.32,8,8.79,1.31,46.68
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,VEHICLE_FUEL,SGD,520.36,23,22.62,15.28,30.99
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-01,VEHICLE_MAINT,SGD,237.02,15,15.8,2.35,143.65
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,DEBT_REPAY,SGD,298.15,2,149.07,60.08,238.07
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,DISCRETIONARY,SGD,446.5,14,31.89,13.03,49.85
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,FAMILY_DEPENDENTS,SGD,173.32,1,173.32,173.32,173.32
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,FOOD_HOUSE,SGD,332.54,4,83.13,69.25,91.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,FOOD_OUT,SGD,488.9,51,9.59,4.73,13.53
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,HOUSING,SGD,808.5,1,808.5,808.5,808.5
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,PLATFORM_DEDUCT,SGD,865.63,24,36.07,14.89,57.22
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,RELIGIOUS_GIVING,SGD,10.85,1,10.85,10.85,10.85
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,REMITTANCE,SGD,363.05,4,90.76,68.01,113.78
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,TELECOM,SGD,68.78,8,8.6,2.72,41.53
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,VEHICLE_FUEL,SGD,492.01,23,21.39,16.27,29.07
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-02,VEHICLE_MAINT,SGD,195.41,15,13.03,2.41,96.34
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,DEBT_REPAY,SGD,220.05,2,110.03,34.15,185.9
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,DISCRETIONARY,SGD,402.68,12,33.56,18.01,56.57
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,FAMILY_DEPENDENTS,SGD,209.14,1,209.14,209.14,209.14
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,FOOD_HOUSE,SGD,315.99,4,79.0,63.76,89.14
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,FOOD_OUT,SGD,408.94,47,8.7,4.63,13.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,HOUSING,SGD,882.82,1,882.82,882.82,882.82
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,PLATFORM_DEDUCT,SGD,864.43,24,36.02,15.95,55.05
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,RELIGIOUS_GIVING,SGD,13.17,1,13.17,13.17,13.17
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,REMITTANCE,SGD,367.78,4,91.94,55.29,128.32
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,TELECOM,SGD,62.4,6,10.4,1.9,49.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,VEHICLE_FUEL,SGD,486.68,21,23.18,15.29,31.03
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-03,VEHICLE_MAINT,SGD,242.0,18,13.44,2.87,131.46
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,DEBT_REPAY,SGD,358.21,2,179.1,55.45,302.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,DISCRETIONARY,SGD,376.56,9,41.84,14.67,54.66
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,FAMILY_DEPENDENTS,SGD,251.97,1,251.97,251.97,251.97
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,FOOD_HOUSE,SGD,316.59,4,79.15,51.76,93.08
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,FOOD_OUT,SGD,428.08,47,9.11,4.84,13.68
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,HEALTHCARE,SGD,72.12,1,72.12,72.12,72.12
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,HOUSING,SGD,862.47,1,862.47,862.47,862.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,PLATFORM_DEDUCT,SGD,963.8,24,40.16,20.14,56.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,RELIGIOUS_GIVING,SGD,14.91,1,14.91,14.91,14.91
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,REMITTANCE,SGD,317.79,4,79.45,63.96,115.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,TELECOM,SGD,66.11,4,16.53,3.14,54.36
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,VEHICLE_FUEL,SGD,523.33,22,23.79,16.49,29.44
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-04,VEHICLE_MAINT,SGD,225.65,16,14.1,2.52,114.95
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,DEBT_REPAY,SGD,278.48,1,278.48,278.48,278.48
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,DISCRETIONARY,SGD,111.74,4,27.93,16.38,50.0
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,FAMILY_DEPENDENTS,SGD,223.55,1,223.55,223.55,223.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,FOOD_HOUSE,SGD,125.1,2,62.55,60.91,64.19
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,FOOD_OUT,SGD,225.73,25,9.03,4.64,13.53
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,HOUSING,SGD,669.56,1,669.56,669.56,669.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,MOVEMENTS_INTERNAL,SGD,19.11,1,19.11,19.11,19.11
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,PLATFORM_DEDUCT,SGD,499.22,13,38.4,24.72,57.21
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,RELIGIOUS_GIVING,SGD,15.11,1,15.11,15.11,15.11
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,REMITTANCE,SGD,240.56,3,80.19,61.07,112.71
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,TELECOM,SGD,63.33,7,9.05,1.75,41.91
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,VEHICLE_FUEL,SGD,222.94,10,22.29,15.83,30.82
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-05,VEHICLE_MAINT,SGD,196.3,9,21.81,5.97,125.39
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,DISCRETIONARY,SGD,21.41,1,21.41,21.41,21.41
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,FOOD_HOUSE,SGD,133.58,3,44.53,37.53,54.6
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,FOOD_OUT,SGD,148.68,26,5.72,3.18,8.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,HEALTHCARE,SGD,64.84,1,64.84,64.84,64.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,MOVEMENTS_INTERNAL,SGD,64.15,2,32.08,28.21,35.94
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,PLATFORM_DEDUCT,SGD,390.16,13,30.01,17.35,39.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,REMITTANCE,SGD,178.88,2,89.44,61.95,116.93
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,TELECOM,SGD,2.05,1,2.05,2.05,2.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,VEHICLE_FUEL,SGD,154.14,10,15.41,10.17,19.97
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-11,VEHICLE_MAINT,SGD,34.77,8,4.35,2.4,6.57
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,FAMILY_DEPENDENTS,SGD,265.78,1,265.78,265.78,265.78
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,FOOD_HOUSE,SGD,193.14,4,48.28,36.07,58.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,FOOD_OUT,SGD,300.49,53,5.67,3.04,8.74
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,HEALTHCARE,SGD,31.69,1,31.69,31.69,31.69
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,HOUSING,SGD,909.61,1,909.61,909.61,909.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,MOVEMENTS_INTERNAL,SGD,153.51,4,38.38,25.89,51.94
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,PLATFORM_DEDUCT,SGD,791.46,26,30.44,19.62,46.49
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,RELIGIOUS_GIVING,SGD,15.36,1,15.36,15.36,15.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,REMITTANCE,SGD,330.21,4,82.55,64.36,123.04
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,TELECOM,SGD,57.98,6,9.66,1.07,46.62
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,VEHICLE_FUEL,SGD,331.02,23,14.39,9.63,19.06
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-12,VEHICLE_MAINT,SGD,145.31,16,9.08,2.0,92.13
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,DISCRETIONARY,SGD,51.79,3,17.26,9.58,31.06
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,FAMILY_DEPENDENTS,SGD,271.96,1,271.96,271.96,271.96
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,FOOD_HOUSE,SGD,191.33,4,47.83,40.56,62.92
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,FOOD_OUT,SGD,284.07,48,5.92,3.05,8.88
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,HOUSING,SGD,579.64,1,579.64,579.64,579.64
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,MOVEMENTS_INTERNAL,SGD,208.4,5,41.68,21.08,54.14
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,PLATFORM_DEDUCT,SGD,824.44,27,30.53,17.02,43.96
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,RELIGIOUS_GIVING,SGD,5.91,1,5.91,5.91,5.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,REMITTANCE,SGD,495.53,5,99.11,85.87,122.54
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,TELECOM,SGD,53.05,6,8.84,2.13,38.68
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,VEHICLE_FUEL,SGD,373.91,26,14.38,9.62,19.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-01,VEHICLE_MAINT,SGD,177.1,17,10.42,1.52,112.58
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,DISCRETIONARY,SGD,84.61,4,21.15,12.93,30.45
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,FAMILY_DEPENDENTS,SGD,125.23,1,125.23,125.23,125.23
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,FOOD_HOUSE,SGD,227.62,4,56.91,45.43,64.77
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,FOOD_OUT,SGD,287.51,47,6.12,3.31,8.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,HOUSING,SGD,918.84,1,918.84,918.84,918.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,MOVEMENTS_INTERNAL,SGD,155.11,4,38.78,28.19,55.68
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,PLATFORM_DEDUCT,SGD,679.67,24,28.32,19.2,43.81
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,RELIGIOUS_GIVING,SGD,10.6,1,10.6,10.6,10.6
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,REMITTANCE,SGD,427.25,4,106.81,85.65,120.58
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,TELECOM,SGD,48.25,4,12.06,1.03,43.72
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,VEHICLE_FUEL,SGD,348.56,24,14.52,11.1,18.09
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-02,VEHICLE_MAINT,SGD,199.75,18,11.1,1.81,125.94
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,DISCRETIONARY,SGD,33.46,1,33.46,33.46,33.46
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,FAMILY_DEPENDENTS,SGD,114.58,1,114.58,114.58,114.58
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,FOOD_HOUSE,SGD,238.43,5,47.69,34.35,59.22
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,FOOD_OUT,SGD,303.21,51,5.95,3.01,8.86
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,HOUSING,SGD,562.89,1,562.89,562.89,562.89
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,MOVEMENTS_INTERNAL,SGD,116.91,3,38.97,24.05,51.1
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,PLATFORM_DEDUCT,SGD,759.26,26,29.2,14.56,40.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,RELIGIOUS_GIVING,SGD,7.61,1,7.61,7.61,7.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,REMITTANCE,SGD,371.87,4,92.97,55.99,127.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,TELECOM,SGD,63.2,5,12.64,1.16,54.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,VEHICLE_FUEL,SGD,390.9,25,15.64,10.4,19.64
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-03,VEHICLE_MAINT,SGD,193.28,18,10.74,1.83,123.28
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,DISCRETIONARY,SGD,116.67,6,19.44,8.32,31.38
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,FAMILY_DEPENDENTS,SGD,167.37,1,167.37,167.37,167.37
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,FOOD_HOUSE,SGD,181.49,4,45.37,31.66,54.73
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,FOOD_OUT,SGD,343.74,58,5.93,3.0,8.8
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,HEALTHCARE,SGD,27.81,1,27.81,27.81,27.81
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,HOUSING,SGD,903.08,1,903.08,903.08,903.08
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,MOVEMENTS_INTERNAL,SGD,123.31,4,30.83,21.42,39.85
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,PLATFORM_DEDUCT,SGD,752.9,26,28.96,21.66,40.44
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,RELIGIOUS_GIVING,SGD,8.06,1,8.06,8.06,8.06
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,REMITTANCE,SGD,397.2,4,99.3,74.74,124.8
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,TELECOM,SGD,65.9,5,13.18,2.19,54.37
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,VEHICLE_FUEL,SGD,325.12,22,14.78,9.85,19.14
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-04,VEHICLE_MAINT,SGD,184.16,14,13.15,2.1,126.09
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,DISCRETIONARY,SGD,51.26,2,25.63,17.7,33.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,FAMILY_DEPENDENTS,SGD,199.36,1,199.36,199.36,199.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,FOOD_HOUSE,SGD,242.54,5,48.51,37.7,58.42
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,FOOD_OUT,SGD,350.59,58,6.04,3.08,8.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,HEALTHCARE,SGD,40.21,1,40.21,40.21,40.21
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,HOUSING,SGD,746.07,1,746.07,746.07,746.07
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,MOVEMENTS_INTERNAL,SGD,202.69,5,40.54,25.49,52.96
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,PLATFORM_DEDUCT,SGD,800.72,27,29.66,16.32,41.71
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,RELIGIOUS_GIVING,SGD,9.74,1,9.74,9.74,9.74
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,REMITTANCE,SGD,488.34,5,97.67,75.9,123.0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,TELECOM,SGD,48.73,7,6.96,1.36,33.1
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,VEHICLE_FUEL,SGD,371.98,26,14.31,9.63,19.67
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-05,VEHICLE_MAINT,SGD,214.48,19,11.29,1.56,143.86
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,DISCRETIONARY,SGD,62.57,3,20.86,9.5,27.02
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,FAMILY_DEPENDENTS,SGD,138.75,1,138.75,138.75,138.75
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,FOOD_HOUSE,SGD,195.61,4,48.9,31.69,57.39
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,FOOD_OUT,SGD,325.46,52,6.26,3.04,8.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,HOUSING,SGD,532.66,1,532.66,532.66,532.66
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,MOVEMENTS_INTERNAL,SGD,149.82,4,37.45,19.74,50.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,PLATFORM_DEDUCT,SGD,746.18,25,29.85,18.32,42.81
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,RELIGIOUS_GIVING,SGD,6.82,1,6.82,6.82,6.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,REMITTANCE,SGD,334.6,4,83.65,56.28,118.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,TELECOM,SGD,58.01,6,9.67,1.43,46.01
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,VEHICLE_FUEL,SGD,324.57,22,14.75,9.84,19.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-06,VEHICLE_MAINT,SGD,150.31,18,8.35,1.49,82.47
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,DISCRETIONARY,SGD,21.87,1,21.87,21.87,21.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,FAMILY_DEPENDENTS,SGD,232.91,1,232.91,232.91,232.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,FOOD_HOUSE,SGD,184.11,4,46.03,42.27,53.31
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,FOOD_OUT,SGD,243.76,42,5.8,3.35,8.7
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,HOUSING,SGD,522.42,1,522.42,522.42,522.42
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,MOVEMENTS_INTERNAL,SGD,149.65,4,37.41,28.47,47.64
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,PLATFORM_DEDUCT,SGD,866.6,27,32.1,21.71,44.58
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,RELIGIOUS_GIVING,SGD,15.6,1,15.6,15.6,15.6
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,REMITTANCE,SGD,343.4,4,85.85,68.27,113.69
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,TELECOM,SGD,59.4,5,11.88,0.88,51.67
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,VEHICLE_FUEL,SGD,400.28,27,14.83,9.81,19.25
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-07,VEHICLE_MAINT,SGD,139.61,12,11.63,1.5,97.03
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,DISCRETIONARY,SGD,134.46,6,22.41,9.28,36.32
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,FAMILY_DEPENDENTS,SGD,189.49,1,189.49,189.49,189.49
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,FOOD_HOUSE,SGD,236.97,5,47.39,36.23,64.19
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,FOOD_OUT,SGD,298.25,50,5.96,3.09,8.77
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,HEALTHCARE,SGD,29.41,1,29.41,29.41,29.41
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,HOUSING,SGD,894.62,1,894.62,894.62,894.62
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,MOVEMENTS_INTERNAL,SGD,143.67,5,28.73,23.42,43.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,PLATFORM_DEDUCT,SGD,747.24,26,28.74,18.15,40.88
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,RELIGIOUS_GIVING,SGD,11.59,1,11.59,11.59,11.59
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,REMITTANCE,SGD,407.81,5,81.56,55.05,94.13
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,TELECOM,SGD,32.44,4,8.11,0.74,27.46
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,VEHICLE_FUEL,SGD,382.64,24,15.94,9.88,19.73
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-08,VEHICLE_MAINT,SGD,118.45,12,9.87,1.53,81.54
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,DISCRETIONARY,SGD,49.12,2,24.56,17.25,31.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,FAMILY_DEPENDENTS,SGD,122.53,1,122.53,122.53,122.53
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,FOOD_HOUSE,SGD,177.41,4,44.35,31.11,57.81
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,FOOD_OUT,SGD,302.47,51,5.93,3.17,8.73
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,HOUSING,SGD,924.12,1,924.12,924.12,924.12
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,MOVEMENTS_INTERNAL,SGD,110.97,4,27.74,17.28,33.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,PLATFORM_DEDUCT,SGD,766.87,26,29.5,13.62,39.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,RELIGIOUS_GIVING,SGD,9.21,1,9.21,9.21,9.21
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,REMITTANCE,SGD,434.61,4,108.65,105.59,111.71
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,TELECOM,SGD,41.73,1,41.73,41.73,41.73
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,VEHICLE_FUEL,SGD,380.42,25,15.22,10.22,19.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-09,VEHICLE_MAINT,SGD,167.81,16,10.49,1.74,99.33
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,DISCRETIONARY,SGD,62.07,3,20.69,12.56,33.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,FAMILY_DEPENDENTS,SGD,198.76,1,198.76,198.76,198.76
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,FOOD_HOUSE,SGD,172.46,4,43.11,35.11,50.64
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,FOOD_OUT,SGD,323.17,54,5.98,3.11,8.63
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,HOUSING,SGD,849.43,1,849.43,849.43,849.43
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,MOVEMENTS_INTERNAL,SGD,225.65,5,45.13,35.05,56.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,PLATFORM_DEDUCT,SGD,779.87,27,28.88,17.12,37.66
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,RELIGIOUS_GIVING,SGD,8.67,1,8.67,8.67,8.67
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,REMITTANCE,SGD,530.58,5,106.12,93.3,117.15
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,TELECOM,SGD,56.03,5,11.21,1.49,45.98
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,VEHICLE_FUEL,SGD,371.36,25,14.85,10.1,18.9
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-10,VEHICLE_MAINT,SGD,210.94,19,11.1,1.84,141.78
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,DISCRETIONARY,SGD,133.31,5,26.66,20.14,32.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,FAMILY_DEPENDENTS,SGD,246.56,1,246.56,246.56,246.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,FOOD_HOUSE,SGD,238.46,5,47.69,36.88,55.5
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,FOOD_OUT,SGD,347.12,57,6.09,3.01,8.85
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,HOUSING,SGD,702.56,1,702.56,702.56,702.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,MOVEMENTS_INTERNAL,SGD,161.19,4,40.3,32.18,56.0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,PLATFORM_DEDUCT,SGD,758.15,25,30.33,19.21,43.65
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,RELIGIOUS_GIVING,SGD,14.33,1,14.33,14.33,14.33
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,REMITTANCE,SGD,393.55,4,98.39,70.54,129.47
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,TELECOM,SGD,47.1,6,7.85,1.19,34.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,VEHICLE_FUEL,SGD,372.65,25,14.91,9.67,19.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-11,VEHICLE_MAINT,SGD,204.42,15,13.63,1.6,142.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,DISCRETIONARY,SGD,97.96,3,32.65,28.83,35.35
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,FAMILY_DEPENDENTS,SGD,268.27,1,268.27,268.27,268.27
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,FOOD_HOUSE,SGD,205.64,4,51.41,36.67,64.06
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,FOOD_OUT,SGD,287.76,50,5.76,2.97,8.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,HEALTHCARE,SGD,89.07,1,89.07,89.07,89.07
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,HOUSING,SGD,803.68,1,803.68,803.68,803.68
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,MOVEMENTS_INTERNAL,SGD,113.2,3,37.73,17.25,51.62
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,PLATFORM_DEDUCT,SGD,845.35,27,31.31,21.09,43.19
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,RELIGIOUS_GIVING,SGD,11.04,1,11.04,11.04,11.04
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,REMITTANCE,SGD,397.37,4,99.34,62.99,127.1
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,TELECOM,SGD,34.68,1,34.68,34.68,34.68
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,VEHICLE_FUEL,SGD,303.59,21,14.46,10.3,19.26
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-12,VEHICLE_MAINT,SGD,217.06,20,10.85,1.71,139.9
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,DISCRETIONARY,SGD,9.99,1,9.99,9.99,9.99
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,FAMILY_DEPENDENTS,SGD,266.05,1,266.05,266.05,266.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,FOOD_HOUSE,SGD,269.95,5,53.99,40.49,63.4
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,FOOD_OUT,SGD,275.1,47,5.85,3.12,8.7
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,HEALTHCARE,SGD,82.8,1,82.8,82.8,82.8
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,HOUSING,SGD,906.35,1,906.35,906.35,906.35
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,MOVEMENTS_INTERNAL,SGD,152.17,4,38.04,22.4,53.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,PLATFORM_DEDUCT,SGD,548.88,20,27.44,17.69,38.85
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,RELIGIOUS_GIVING,SGD,12.32,1,12.32,12.32,12.32
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,REMITTANCE,SGD,464.91,5,92.98,64.12,122.0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,TELECOM,SGD,36.32,4,9.08,1.09,32.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,VEHICLE_FUEL,SGD,257.78,18,14.32,9.82,19.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-01,VEHICLE_MAINT,SGD,198.09,14,14.15,2.03,140.7
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,DISCRETIONARY,SGD,80.67,3,26.89,14.23,35.35
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,FAMILY_DEPENDENTS,SGD,249.42,1,249.42,249.42,249.42
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,FOOD_HOUSE,SGD,172.52,4,43.13,33.84,58.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,FOOD_OUT,SGD,333.19,55,6.06,2.99,8.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,HEALTHCARE,SGD,81.87,1,81.87,81.87,81.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,HOUSING,SGD,800.56,1,800.56,800.56,800.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,MOVEMENTS_INTERNAL,SGD,163.01,4,40.75,24.14,54.22
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,PLATFORM_DEDUCT,SGD,645.54,24,26.9,13.18,44.08
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,RELIGIOUS_GIVING,SGD,14.36,1,14.36,14.36,14.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,REMITTANCE,SGD,413.73,4,103.43,83.36,116.19
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,TELECOM,SGD,49.13,6,8.19,1.4,38.86
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,VEHICLE_FUEL,SGD,357.12,23,15.53,10.13,19.42
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-02,VEHICLE_MAINT,SGD,129.98,15,8.67,1.53,83.48
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,DISCRETIONARY,SGD,48.81,3,16.27,12.61,20.63
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,FAMILY_DEPENDENTS,SGD,212.89,1,212.89,212.89,212.89
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,FOOD_HOUSE,SGD,205.94,4,51.48,36.37,63.62
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,FOOD_OUT,SGD,301.47,53,5.69,2.99,8.79
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,HOUSING,SGD,923.33,1,923.33,923.33,923.33
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,MOVEMENTS_INTERNAL,SGD,105.7,3,35.23,21.65,51.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,PLATFORM_DEDUCT,SGD,732.31,26,28.17,14.11,37.04
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,RELIGIOUS_GIVING,SGD,15.34,1,15.34,15.34,15.34
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,REMITTANCE,SGD,363.14,4,90.78,79.84,114.49
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,TELECOM,SGD,54.07,9,6.01,0.96,37.25
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,VEHICLE_FUEL,SGD,332.93,22,15.13,10.41,18.49
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-03,VEHICLE_MAINT,SGD,191.66,15,12.78,2.0,132.09
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,DISCRETIONARY,SGD,54.12,2,27.06,17.15,36.97
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,FAMILY_DEPENDENTS,SGD,164.44,1,164.44,164.44,164.44
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,FOOD_HOUSE,SGD,208.37,4,52.09,39.19,63.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,FOOD_OUT,SGD,274.44,47,5.84,3.08,8.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,HEALTHCARE,SGD,47.0,1,47.0,47.0,47.0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,HOUSING,SGD,721.61,1,721.61,721.61,721.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,MOVEMENTS_INTERNAL,SGD,145.61,4,36.4,23.13,46.2
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,PLATFORM_DEDUCT,SGD,751.14,26,28.89,17.75,41.46
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,RELIGIOUS_GIVING,SGD,13.95,1,13.95,13.95,13.95
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,REMITTANCE,SGD,329.85,4,82.46,68.16,113.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,TELECOM,SGD,57.66,5,11.53,1.23,48.11
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,VEHICLE_FUEL,SGD,333.42,24,13.89,9.7,19.45
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-04,VEHICLE_MAINT,SGD,176.3,11,16.03,1.53,139.39
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,DISCRETIONARY,SGD,147.41,6,24.57,15.33,32.04
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,FAMILY_DEPENDENTS,SGD,266.4,1,266.4,266.4,266.4
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,FOOD_HOUSE,SGD,125.17,2,62.58,62.23,62.94
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,FOOD_OUT,SGD,172.71,30,5.76,3.44,8.81
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,HOUSING,SGD,845.3,1,845.3,845.3,845.3
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,MOVEMENTS_INTERNAL,SGD,71.39,2,35.7,26.81,44.58
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,PLATFORM_DEDUCT,SGD,367.0,13,28.23,16.46,39.1
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,RELIGIOUS_GIVING,SGD,7.67,1,7.67,7.67,7.67
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,REMITTANCE,SGD,320.44,3,106.81,100.4,118.84
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,TELECOM,SGD,52.71,4,13.18,1.59,45.91
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,VEHICLE_FUEL,SGD,158.83,10,15.88,10.75,19.7
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-05,VEHICLE_MAINT,SGD,152.22,7,21.75,1.89,127.13
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,DEBT_REPAY,SGD,93.2,1,93.2,93.2,93.2
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,DISCRETIONARY,SGD,404.93,11,36.81,14.03,56.78
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,FOOD_HOUSE,SGD,223.11,3,74.37,53.4,97.72
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,FOOD_OUT,SGD,214.87,24,8.95,4.63,13.5
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,HEALTHCARE,SGD,77.31,1,77.31,77.31,77.31
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,PLATFORM_DEDUCT,SGD,537.99,13,41.38,20.96,60.76
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,RELIGIOUS_GIVING,SGD,10.16,2,5.08,5.05,5.11
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,REMITTANCE,SGD,145.99,2,73.0,62.84,83.15
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,TELECOM,SGD,10.79,3,3.6,1.29,4.82
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,VEHICLE_FUEL,SGD,290.48,13,22.34,15.22,28.34
+drv_siti_sg_10,Siti Rahman,firefighter,2024-11,VEHICLE_MAINT,SGD,43.31,8,5.41,2.79,9.81
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,DEBT_REPAY,SGD,364.68,2,182.34,82.71,281.97
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,DISCRETIONARY,SGD,521.51,15,34.77,12.01,50.93
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,FAMILY_DEPENDENTS,SGD,272.99,1,272.99,272.99,272.99
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,FOOD_HOUSE,SGD,284.39,4,71.1,50.9,83.64
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,FOOD_OUT,SGD,571.67,60,9.53,4.74,13.43
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,HEALTHCARE,SGD,43.7,1,43.7,43.7,43.7
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,HOUSING,SGD,943.34,1,943.34,943.34,943.34
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,PLATFORM_DEDUCT,SGD,1179.99,27,43.7,30.73,59.47
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,RELIGIOUS_GIVING,SGD,36.92,4,9.23,5.15,15.24
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,REMITTANCE,SGD,294.42,4,73.61,56.55,90.25
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,TELECOM,SGD,60.46,9,6.72,1.29,39.47
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,VEHICLE_FUEL,SGD,467.04,21,22.24,15.55,30.57
+drv_siti_sg_10,Siti Rahman,firefighter,2024-12,VEHICLE_MAINT,SGD,188.82,10,18.88,2.53,138.94
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,DEBT_REPAY,SGD,235.02,2,117.51,61.5,173.52
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,DISCRETIONARY,SGD,438.82,13,33.76,15.5,52.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,FAMILY_DEPENDENTS,SGD,252.55,1,252.55,252.55,252.55
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,FOOD_HOUSE,SGD,346.83,4,86.71,73.72,95.61
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,FOOD_OUT,SGD,423.44,47,9.01,4.64,13.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,HEALTHCARE,SGD,1103.08,1,1103.08,1103.08,1103.08
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,HOUSING,SGD,813.87,1,813.87,813.87,813.87
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,PLATFORM_DEDUCT,SGD,1023.56,26,39.37,20.35,55.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,RELIGIOUS_GIVING,SGD,43.38,5,8.68,5.83,11.85
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,REMITTANCE,SGD,477.4,5,95.48,56.89,127.9
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,TELECOM,SGD,79.34,10,7.93,1.23,50.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,VEHICLE_FUEL,SGD,611.54,25,24.46,16.16,30.84
+drv_siti_sg_10,Siti Rahman,firefighter,2025-01,VEHICLE_MAINT,SGD,196.07,15,13.07,2.5,117.34
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,DEBT_REPAY,SGD,356.53,2,178.27,89.73,266.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,DISCRETIONARY,SGD,331.21,8,41.4,21.98,57.3
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,FAMILY_DEPENDENTS,SGD,161.73,1,161.73,161.73,161.73
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,FOOD_HOUSE,SGD,342.82,4,85.7,66.33,98.82
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,FOOD_OUT,SGD,485.9,51,9.53,4.74,13.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,HEALTHCARE,SGD,85.59,1,85.59,85.59,85.59
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,HOUSING,SGD,691.14,1,691.14,691.14,691.14
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,PLATFORM_DEDUCT,SGD,987.97,24,41.17,17.76,57.79
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,RELIGIOUS_GIVING,SGD,39.88,4,9.97,7.08,13.3
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,REMITTANCE,SGD,270.87,4,67.72,57.83,78.82
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,TELECOM,SGD,54.26,6,9.04,1.16,34.58
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,VEHICLE_FUEL,SGD,482.88,24,20.12,15.33,30.58
+drv_siti_sg_10,Siti Rahman,firefighter,2025-02,VEHICLE_MAINT,SGD,212.69,15,14.18,3.38,114.72
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,DEBT_REPAY,SGD,277.17,2,138.59,94.4,182.77
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,DISCRETIONARY,SGD,428.58,12,35.71,12.32,56.38
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,FAMILY_DEPENDENTS,SGD,123.56,1,123.56,123.56,123.56
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,FOOD_HOUSE,SGD,369.09,5,73.82,49.79,95.57
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,FOOD_OUT,SGD,489.4,50,9.79,4.74,13.78
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,HEALTHCARE,SGD,44.86,1,44.86,44.86,44.86
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,HOUSING,SGD,552.76,1,552.76,552.76,552.76
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,MOVEMENTS_INTERNAL,SGD,8.89,1,8.89,8.89,8.89
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,PLATFORM_DEDUCT,SGD,727.31,27,26.94,14.18,47.33
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,RELIGIOUS_GIVING,SGD,45.34,4,11.33,5.88,15.33
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,REMITTANCE,SGD,344.64,4,86.16,61.24,119.42
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,TELECOM,SGD,72.48,5,14.5,2.79,54.87
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,VEHICLE_FUEL,SGD,567.16,25,22.69,15.26,30.5
+drv_siti_sg_10,Siti Rahman,firefighter,2025-03,VEHICLE_MAINT,SGD,222.12,17,13.07,3.67,103.96
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,DEBT_REPAY,SGD,403.38,2,201.69,73.57,329.81
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,DISCRETIONARY,SGD,390.73,12,32.56,14.99,54.61
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,FAMILY_DEPENDENTS,SGD,228.34,1,228.34,228.34,228.34
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,FOOD_HOUSE,SGD,289.47,4,72.37,52.99,99.25
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,FOOD_OUT,SGD,505.09,56,9.02,4.69,13.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,HEALTHCARE,SGD,54.39,1,54.39,54.39,54.39
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,HOUSING,SGD,866.3,1,866.3,866.3,866.3
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,PLATFORM_DEDUCT,SGD,975.93,25,39.04,16.91,60.54
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,RELIGIOUS_GIVING,SGD,41.66,4,10.41,5.94,14.97
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,REMITTANCE,SGD,273.24,4,68.31,58.15,90.41
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,TELECOM,SGD,45.86,2,22.93,4.25,41.61
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,VEHICLE_FUEL,SGD,508.22,24,21.18,14.95,30.59
+drv_siti_sg_10,Siti Rahman,firefighter,2025-04,VEHICLE_MAINT,SGD,211.4,18,11.74,2.37,107.6
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,DEBT_REPAY,SGD,264.27,2,132.13,87.25,177.02
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,DISCRETIONARY,SGD,280.63,10,28.06,12.59,50.48
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,FAMILY_DEPENDENTS,SGD,241.91,1,241.91,241.91,241.91
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,FOOD_HOUSE,SGD,368.21,5,73.64,51.86,93.58
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,FOOD_OUT,SGD,489.76,55,8.9,4.63,13.75
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,HOUSING,SGD,550.72,1,550.72,550.72,550.72
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,MOVEMENTS_INTERNAL,SGD,7.71,1,7.71,7.71,7.71
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,PLATFORM_DEDUCT,SGD,1126.46,27,41.72,19.56,61.19
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,RELIGIOUS_GIVING,SGD,46.57,5,9.31,6.87,15.38
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,REMITTANCE,SGD,426.38,5,85.28,55.37,124.0
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,TELECOM,SGD,48.86,6,8.14,1.62,32.7
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,VEHICLE_FUEL,SGD,531.82,22,24.17,16.33,30.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-05,VEHICLE_MAINT,SGD,244.2,19,12.85,2.64,125.13
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,DEBT_REPAY,SGD,399.77,2,199.88,91.99,307.78
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,DISCRETIONARY,SGD,458.72,13,35.29,17.63,54.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,FAMILY_DEPENDENTS,SGD,192.86,1,192.86,192.86,192.86
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,FOOD_HOUSE,SGD,267.6,4,66.9,59.07,72.57
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,FOOD_OUT,SGD,487.4,52,9.37,4.65,13.57
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,HEALTHCARE,SGD,29.99,1,29.99,29.99,29.99
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,HOUSING,SGD,643.64,1,643.64,643.64,643.64
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,MOVEMENTS_INTERNAL,SGD,11.23,1,11.23,11.23,11.23
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,PLATFORM_DEDUCT,SGD,1094.34,26,42.09,16.64,60.27
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,RELIGIOUS_GIVING,SGD,35.96,4,8.99,5.21,12.49
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,REMITTANCE,SGD,499.07,4,124.77,118.72,129.62
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,TELECOM,SGD,46.11,6,7.68,2.33,26.54
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,VEHICLE_FUEL,SGD,604.54,26,23.25,15.3,30.79
+drv_siti_sg_10,Siti Rahman,firefighter,2025-06,VEHICLE_MAINT,SGD,234.6,16,14.66,4.26,134.43
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,DEBT_REPAY,SGD,237.65,2,118.83,63.99,173.66
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,DISCRETIONARY,SGD,274.24,9,30.47,14.58,50.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,FAMILY_DEPENDENTS,SGD,272.6,1,272.6,272.6,272.6
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,FOOD_HOUSE,SGD,330.21,4,82.55,66.47,90.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,FOOD_OUT,SGD,489.21,52,9.41,4.74,13.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,HOUSING,SGD,793.83,1,793.83,793.83,793.83
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,MOVEMENTS_INTERNAL,SGD,12.92,1,12.92,12.92,12.92
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,PLATFORM_DEDUCT,SGD,1131.37,26,43.51,25.44,62.86
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,RELIGIOUS_GIVING,SGD,42.28,4,10.57,6.83,15.3
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,REMITTANCE,SGD,371.97,4,92.99,71.69,125.03
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,TELECOM,SGD,61.18,4,15.29,3.45,48.58
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,VEHICLE_FUEL,SGD,601.45,25,24.06,15.94,29.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-07,VEHICLE_MAINT,SGD,223.02,15,14.87,3.05,136.0
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,DEBT_REPAY,SGD,420.12,2,210.06,80.67,339.45
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,DISCRETIONARY,SGD,331.75,8,41.47,18.42,56.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,FAMILY_DEPENDENTS,SGD,259.51,1,259.51,259.51,259.51
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,FOOD_HOUSE,SGD,333.17,5,66.63,55.61,84.07
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,FOOD_OUT,SGD,369.05,39,9.46,5.38,13.79
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,HEALTHCARE,SGD,25.36,1,25.36,25.36,25.36
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,HOUSING,SGD,670.64,1,670.64,670.64,670.64
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,PLATFORM_DEDUCT,SGD,712.64,19,37.51,14.79,61.97
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,RELIGIOUS_GIVING,SGD,49.85,5,9.97,6.65,12.06
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,REMITTANCE,SGD,491.49,5,98.3,67.58,113.88
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,TELECOM,SGD,72.18,7,10.31,1.27,47.09
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,VEHICLE_FUEL,SGD,364.27,16,22.77,15.35,30.23
+drv_siti_sg_10,Siti Rahman,firefighter,2025-08,VEHICLE_MAINT,SGD,217.53,16,13.6,2.53,113.15
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,DEBT_REPAY,SGD,334.95,2,167.47,88.47,246.48
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,DISCRETIONARY,SGD,271.35,8,33.92,20.51,46.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,FAMILY_DEPENDENTS,SGD,223.76,1,223.76,223.76,223.76
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,FOOD_HOUSE,SGD,294.84,4,73.71,58.18,97.28
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,FOOD_OUT,SGD,425.37,46,9.25,4.61,13.65
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,HOUSING,SGD,648.85,1,648.85,648.85,648.85
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,PLATFORM_DEDUCT,SGD,876.45,21,41.74,22.47,54.13
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,RELIGIOUS_GIVING,SGD,37.53,4,9.38,6.64,12.48
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,REMITTANCE,SGD,362.29,4,90.57,56.17,119.82
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,TELECOM,SGD,72.01,5,14.4,4.4,52.02
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,VEHICLE_FUEL,SGD,443.91,18,24.66,17.52,30.91
+drv_siti_sg_10,Siti Rahman,firefighter,2025-09,VEHICLE_MAINT,SGD,191.08,10,19.11,3.94,134.99
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,DEBT_REPAY,SGD,260.21,2,130.1,34.36,225.85
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,DISCRETIONARY,SGD,514.97,15,34.33,15.57,54.54
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,FAMILY_DEPENDENTS,SGD,244.02,1,244.02,244.02,244.02
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,FOOD_HOUSE,SGD,238.22,4,59.55,49.78,79.41
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,FOOD_OUT,SGD,458.37,52,8.81,4.68,13.49
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,HEALTHCARE,SGD,85.25,1,85.25,85.25,85.25
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,HOUSING,SGD,689.99,1,689.99,689.99,689.99
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,MOVEMENTS_INTERNAL,SGD,17.52,1,17.52,17.52,17.52
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,PLATFORM_DEDUCT,SGD,977.43,23,42.5,29.79,58.43
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,RELIGIOUS_GIVING,SGD,59.27,5,11.85,8.68,15.47
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,REMITTANCE,SGD,449.7,5,89.94,59.83,126.32
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,TELECOM,SGD,46.78,6,7.8,1.77,29.35
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,VEHICLE_FUEL,SGD,496.7,21,23.65,15.53,30.6
+drv_siti_sg_10,Siti Rahman,firefighter,2025-10,VEHICLE_MAINT,SGD,250.36,16,15.65,4.4,141.0
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,DEBT_REPAY,SGD,305.07,2,152.53,49.27,255.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,DISCRETIONARY,SGD,323.76,10,32.38,13.1,55.94
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,FAMILY_DEPENDENTS,SGD,191.85,1,191.85,191.85,191.85
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,FOOD_HOUSE,SGD,373.55,5,74.71,51.85,96.26
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,FOOD_OUT,SGD,525.2,55,9.55,4.72,13.45
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,HEALTHCARE,SGD,28.73,1,28.73,28.73,28.73
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,HOUSING,SGD,831.97,1,831.97,831.97,831.97
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,PLATFORM_DEDUCT,SGD,1112.44,26,42.79,20.36,60.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,RELIGIOUS_GIVING,SGD,48.88,4,12.22,7.29,15.5
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,REMITTANCE,SGD,388.83,4,97.21,70.31,119.14
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,TELECOM,SGD,50.53,3,16.84,1.17,45.15
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,VEHICLE_FUEL,SGD,538.82,23,23.43,16.89,29.24
+drv_siti_sg_10,Siti Rahman,firefighter,2025-11,VEHICLE_MAINT,SGD,254.99,19,13.42,3.55,117.12
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,DEBT_REPAY,SGD,264.7,2,132.35,48.35,216.35
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,DISCRETIONARY,SGD,244.33,9,27.15,11.93,54.84
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,FAMILY_DEPENDENTS,SGD,244.68,1,244.68,244.68,244.68
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,FOOD_HOUSE,SGD,334.6,4,83.65,60.82,100.58
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,FOOD_OUT,SGD,510.81,58,8.81,4.93,13.78
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,HOUSING,SGD,560.22,1,560.22,560.22,560.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,MOVEMENTS_INTERNAL,SGD,17.82,1,17.82,17.82,17.82
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,PLATFORM_DEDUCT,SGD,1083.31,26,41.67,17.3,69.53
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,RELIGIOUS_GIVING,SGD,40.36,4,10.09,5.89,14.4
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,REMITTANCE,SGD,382.64,4,95.66,70.87,119.75
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,TELECOM,SGD,42.87,3,14.29,1.4,39.99
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,VEHICLE_FUEL,SGD,594.42,26,22.86,15.04,31.03
+drv_siti_sg_10,Siti Rahman,firefighter,2025-12,VEHICLE_MAINT,SGD,201.23,17,11.84,2.83,111.3
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,DEBT_REPAY,SGD,403.8,2,201.9,70.76,333.04
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,DISCRETIONARY,SGD,356.94,10,35.69,13.82,51.67
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,FAMILY_DEPENDENTS,SGD,223.09,1,223.09,223.09,223.09
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,FOOD_HOUSE,SGD,318.78,5,63.76,51.87,86.5
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,FOOD_OUT,SGD,458.29,50,9.17,4.76,13.76
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,HEALTHCARE,SGD,29.43,1,29.43,29.43,29.43
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,HOUSING,SGD,728.45,1,728.45,728.45,728.45
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,PLATFORM_DEDUCT,SGD,1123.41,27,41.61,17.87,63.05
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,RELIGIOUS_GIVING,SGD,63.53,5,12.71,5.64,15.59
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,REMITTANCE,SGD,533.6,5,106.72,79.25,124.22
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,TELECOM,SGD,51.81,7,7.4,1.69,29.05
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,VEHICLE_FUEL,SGD,604.96,25,24.2,16.07,30.9
+drv_siti_sg_10,Siti Rahman,firefighter,2026-01,VEHICLE_MAINT,SGD,195.79,14,13.99,4.43,100.19
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,DEBT_REPAY,SGD,356.67,2,178.34,53.56,303.11
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,DISCRETIONARY,SGD,364.38,11,33.13,11.62,56.52
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,FAMILY_DEPENDENTS,SGD,114.07,1,114.07,114.07,114.07
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,FOOD_HOUSE,SGD,294.71,4,73.68,63.74,84.71
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,FOOD_OUT,SGD,416.51,45,9.26,4.72,13.74
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,HOUSING,SGD,815.46,1,815.46,815.46,815.46
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,PLATFORM_DEDUCT,SGD,836.18,24,34.84,12.73,53.53
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,RELIGIOUS_GIVING,SGD,40.02,4,10.0,8.04,11.84
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,REMITTANCE,SGD,395.92,4,98.98,74.13,120.83
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,TELECOM,SGD,44.51,4,11.13,1.41,35.37
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,VEHICLE_FUEL,SGD,537.41,22,24.43,15.01,30.93
+drv_siti_sg_10,Siti Rahman,firefighter,2026-02,VEHICLE_MAINT,SGD,182.45,15,12.16,2.8,96.62
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,DEBT_REPAY,SGD,316.97,2,158.49,54.62,262.35
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,DISCRETIONARY,SGD,361.53,12,30.13,14.8,55.03
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,FAMILY_DEPENDENTS,SGD,241.53,1,241.53,241.53,241.53
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,FOOD_HOUSE,SGD,283.7,4,70.92,49.87,100.53
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,FOOD_OUT,SGD,451.7,51,8.86,4.85,13.74
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,HOUSING,SGD,711.41,1,711.41,711.41,711.41
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,PLATFORM_DEDUCT,SGD,728.77,27,26.99,10.86,54.01
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,RELIGIOUS_GIVING,SGD,39.73,4,9.93,5.67,14.7
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,REMITTANCE,SGD,452.44,4,113.11,85.46,127.74
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,TELECOM,SGD,74.03,7,10.58,2.03,51.5
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,VEHICLE_FUEL,SGD,517.05,22,23.5,15.64,30.16
+drv_siti_sg_10,Siti Rahman,firefighter,2026-03,VEHICLE_MAINT,SGD,197.98,15,13.2,2.45,108.75
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,DEBT_REPAY,SGD,325.71,2,162.85,88.61,237.1
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,DISCRETIONARY,SGD,465.93,12,38.83,11.5,57.41
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,FAMILY_DEPENDENTS,SGD,137.87,1,137.87,137.87,137.87
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,FOOD_HOUSE,SGD,309.95,4,77.49,54.07,96.51
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,FOOD_OUT,SGD,406.7,45,9.04,5.03,13.5
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,HOUSING,SGD,928.03,1,928.03,928.03,928.03
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,PLATFORM_DEDUCT,SGD,993.49,25,39.74,21.31,61.98
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,RELIGIOUS_GIVING,SGD,32.97,4,8.24,5.07,11.81
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,REMITTANCE,SGD,386.89,4,96.72,73.47,121.18
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,TELECOM,SGD,62.59,6,10.43,1.23,47.34
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,VEHICLE_FUEL,SGD,525.19,23,22.83,15.63,30.47
+drv_siti_sg_10,Siti Rahman,firefighter,2026-04,VEHICLE_MAINT,SGD,214.25,19,11.28,3.6,95.85
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,DEBT_REPAY,SGD,190.88,1,190.88,190.88,190.88
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,DISCRETIONARY,SGD,128.08,4,32.02,12.63,47.4
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,FAMILY_DEPENDENTS,SGD,194.01,1,194.01,194.01,194.01
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,FOOD_HOUSE,SGD,129.38,2,64.69,59.29,70.09
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,FOOD_OUT,SGD,222.47,24,9.27,5.03,13.67
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,HOUSING,SGD,631.47,1,631.47,631.47,631.47
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,PLATFORM_DEDUCT,SGD,527.2,13,40.55,25.32,57.71
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,RELIGIOUS_GIVING,SGD,38.36,3,12.79,9.28,15.62
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,REMITTANCE,SGD,330.35,3,110.12,93.7,127.6
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,TELECOM,SGD,37.76,2,18.88,1.32,36.44
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,VEHICLE_FUEL,SGD,316.86,13,24.37,19.37,30.87
+drv_siti_sg_10,Siti Rahman,firefighter,2026-05,VEHICLE_MAINT,SGD,205.51,9,22.83,3.81,144.92
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,DISCRETIONARY,SGD,65.87,2,32.94,29.96,35.91
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,FOOD_HOUSE,SGD,170.74,3,56.91,46.92,62.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,FOOD_OUT,SGD,149.74,24,6.24,3.34,8.7
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,HEALTHCARE,SGD,58.9,1,58.9,58.9,58.9
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,MOVEMENTS_INTERNAL,SGD,61.96,2,30.98,20.29,41.67
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,PLATFORM_DEDUCT,SGD,592.96,13,45.61,29.14,60.91
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,RELIGIOUS_GIVING,SGD,19.28,2,9.64,8.56,10.72
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,REMITTANCE,SGD,180.19,2,90.09,59.09,121.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,TELECOM,SGD,6.7,2,3.35,3.32,3.38
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,VEHICLE_FUEL,SGD,198.68,12,16.56,10.52,19.55
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-11,VEHICLE_MAINT,SGD,15.47,5,3.09,1.97,4.11
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,DISCRETIONARY,SGD,41.27,2,20.63,20.36,20.91
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,FAMILY_DEPENDENTS,SGD,186.01,1,186.01,186.01,186.01
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,FOOD_HOUSE,SGD,190.16,4,47.54,34.78,63.58
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,FOOD_OUT,SGD,321.45,54,5.95,3.02,8.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,HOUSING,SGD,934.28,1,934.28,934.28,934.28
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,MOVEMENTS_INTERNAL,SGD,110.54,4,27.64,22.92,38.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,PLATFORM_DEDUCT,SGD,1171.66,26,45.06,33.14,64.99
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,RELIGIOUS_GIVING,SGD,47.01,4,11.75,8.67,14.64
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,REMITTANCE,SGD,398.77,4,99.69,63.4,122.66
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,TELECOM,SGD,58.56,3,19.52,2.48,53.07
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,VEHICLE_FUEL,SGD,374.72,25,14.99,9.94,19.78
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-12,VEHICLE_MAINT,SGD,136.76,11,12.43,1.49,90.5
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,DISCRETIONARY,SGD,83.39,4,20.85,11.18,29.5
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,FAMILY_DEPENDENTS,SGD,257.09,1,257.09,257.09,257.09
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,FOOD_HOUSE,SGD,185.96,4,46.49,36.9,58.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,FOOD_OUT,SGD,339.64,56,6.07,2.99,8.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,HOUSING,SGD,975.49,1,975.49,975.49,975.49
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,MOVEMENTS_INTERNAL,SGD,161.27,4,40.32,29.63,51.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,PLATFORM_DEDUCT,SGD,1154.09,27,42.74,24.98,62.09
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,RELIGIOUS_GIVING,SGD,45.41,5,9.08,6.46,12.71
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,REMITTANCE,SGD,444.4,5,88.88,56.13,128.22
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,TELECOM,SGD,49.54,7,7.08,0.85,36.54
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,VEHICLE_FUEL,SGD,372.67,25,14.91,10.02,19.61
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-01,VEHICLE_MAINT,SGD,156.04,18,8.67,1.71,84.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,DISCRETIONARY,SGD,120.83,5,24.17,9.5,35.01
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,FAMILY_DEPENDENTS,SGD,212.33,1,212.33,212.33,212.33
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,FOOD_HOUSE,SGD,198.5,4,49.62,43.47,55.2
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,FOOD_OUT,SGD,242.1,38,6.37,2.97,8.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,HOUSING,SGD,855.81,1,855.81,855.81,855.81
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,MOVEMENTS_INTERNAL,SGD,37.36,1,37.36,37.36,37.36
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,PLATFORM_DEDUCT,SGD,741.14,17,43.6,34.17,58.81
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,RELIGIOUS_GIVING,SGD,47.22,4,11.8,5.62,15.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,REMITTANCE,SGD,340.85,4,85.21,68.39,96.21
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,TELECOM,SGD,57.21,6,9.53,0.75,45.53
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,VEHICLE_FUEL,SGD,237.89,16,14.87,10.54,19.29
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-02,VEHICLE_MAINT,SGD,123.8,11,11.25,1.51,85.03
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,DISCRETIONARY,SGD,46.54,3,15.51,7.98,20.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,FAMILY_DEPENDENTS,SGD,230.51,1,230.51,230.51,230.51
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,FOOD_HOUSE,SGD,236.62,5,47.32,36.49,61.07
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,FOOD_OUT,SGD,233.0,41,5.68,3.15,8.84
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,HOUSING,SGD,666.68,1,666.68,666.68,666.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,MOVEMENTS_INTERNAL,SGD,105.2,3,35.07,22.31,48.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,PLATFORM_DEDUCT,SGD,722.88,21,34.42,16.62,47.43
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,RELIGIOUS_GIVING,SGD,52.43,4,13.11,9.97,15.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,REMITTANCE,SGD,424.5,4,106.12,68.57,123.88
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,TELECOM,SGD,57.52,4,14.38,0.88,51.95
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,VEHICLE_FUEL,SGD,290.09,20,14.5,9.65,19.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-03,VEHICLE_MAINT,SGD,130.75,12,10.9,1.5,86.63
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,DISCRETIONARY,SGD,61.18,3,20.39,11.28,33.67
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,FAMILY_DEPENDENTS,SGD,180.44,1,180.44,180.44,180.44
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,FOOD_HOUSE,SGD,220.15,4,55.04,39.61,63.62
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,FOOD_OUT,SGD,307.94,51,6.04,2.99,8.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,HEALTHCARE,SGD,74.5,1,74.5,74.5,74.5
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,HOUSING,SGD,954.34,1,954.34,954.34,954.34
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,MOVEMENTS_INTERNAL,SGD,129.43,4,32.36,19.1,48.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,PLATFORM_DEDUCT,SGD,957.84,25,38.31,14.63,52.29
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,RELIGIOUS_GIVING,SGD,39.73,4,9.93,5.58,14.21
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,REMITTANCE,SGD,384.09,4,96.02,69.03,108.13
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,TELECOM,SGD,52.14,5,10.43,0.82,46.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,VEHICLE_FUEL,SGD,346.55,23,15.07,10.02,19.94
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-04,VEHICLE_MAINT,SGD,164.24,17,9.66,2.22,100.74
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,DISCRETIONARY,SGD,36.24,1,36.24,36.24,36.24
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,FAMILY_DEPENDENTS,SGD,166.85,1,166.85,166.85,166.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,FOOD_HOUSE,SGD,278.76,5,55.75,40.58,63.31
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,FOOD_OUT,SGD,329.49,55,5.99,3.22,8.64
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,HEALTHCARE,SGD,1416.33,2,708.16,94.0,1322.33
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,HOUSING,SGD,886.13,1,886.13,886.13,886.13
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,MOVEMENTS_INTERNAL,SGD,193.31,5,38.66,22.85,52.72
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,PLATFORM_DEDUCT,SGD,1108.3,27,41.05,24.61,60.58
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,RELIGIOUS_GIVING,SGD,63.08,5,12.62,7.6,15.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,REMITTANCE,SGD,455.79,5,91.16,67.99,121.41
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,TELECOM,SGD,40.25,1,40.25,40.25,40.25
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,VEHICLE_FUEL,SGD,391.5,25,15.66,10.39,19.97
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-05,VEHICLE_MAINT,SGD,144.21,15,9.61,1.87,89.21
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,DISCRETIONARY,SGD,59.82,4,14.96,9.09,20.74
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,FAMILY_DEPENDENTS,SGD,270.0,1,270.0,270.0,270.0
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,FOOD_HOUSE,SGD,209.62,4,52.41,34.68,65.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,FOOD_OUT,SGD,278.8,46,6.06,3.23,8.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,HOUSING,SGD,729.18,1,729.18,729.18,729.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,MOVEMENTS_INTERNAL,SGD,109.79,3,36.6,28.28,42.91
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,PLATFORM_DEDUCT,SGD,1217.59,26,46.83,30.45,64.89
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,RELIGIOUS_GIVING,SGD,51.9,4,12.98,5.78,15.98
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,REMITTANCE,SGD,374.96,4,93.74,59.16,128.84
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,TELECOM,SGD,51.76,8,6.47,2.05,31.02
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,VEHICLE_FUEL,SGD,352.18,25,14.09,9.73,19.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-06,VEHICLE_MAINT,SGD,142.79,15,9.52,1.5,88.41
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,DISCRETIONARY,SGD,85.74,4,21.44,10.78,31.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,FAMILY_DEPENDENTS,SGD,165.83,1,165.83,165.83,165.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,FOOD_HOUSE,SGD,190.54,4,47.64,36.38,63.01
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,FOOD_OUT,SGD,341.59,57,5.99,3.04,8.78
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,HOUSING,SGD,828.16,1,828.16,828.16,828.16
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,MOVEMENTS_INTERNAL,SGD,106.11,4,26.53,19.1,43.62
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,PLATFORM_DEDUCT,SGD,1153.03,26,44.35,20.02,62.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,RELIGIOUS_GIVING,SGD,39.75,4,9.94,5.28,15.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,REMITTANCE,SGD,478.28,4,119.57,102.97,128.22
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,TELECOM,SGD,61.42,5,12.28,1.05,54.87
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,VEHICLE_FUEL,SGD,353.43,24,14.73,9.85,19.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-07,VEHICLE_MAINT,SGD,208.42,23,9.06,1.56,124.69
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,DISCRETIONARY,SGD,71.26,4,17.82,14.62,22.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,FAMILY_DEPENDENTS,SGD,204.56,1,204.56,204.56,204.56
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,FOOD_HOUSE,SGD,236.54,5,47.31,33.66,58.7
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,FOOD_OUT,SGD,359.55,59,6.09,2.98,8.81
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,HEALTHCARE,SGD,44.59,1,44.59,44.59,44.59
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,HOUSING,SGD,708.6,1,708.6,708.6,708.6
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,MOVEMENTS_INTERNAL,SGD,166.14,5,33.23,28.08,39.92
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,PLATFORM_DEDUCT,SGD,1165.84,27,43.18,16.77,62.23
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,RELIGIOUS_GIVING,SGD,55.88,5,11.18,5.04,14.7
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,REMITTANCE,SGD,420.01,5,84.0,60.04,111.19
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,TELECOM,SGD,39.47,5,7.89,1.69,29.71
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,VEHICLE_FUEL,SGD,347.93,24,14.5,9.69,19.87
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-08,VEHICLE_MAINT,SGD,167.74,16,10.48,1.7,107.58
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,DISCRETIONARY,SGD,42.25,2,21.12,19.64,22.61
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,FAMILY_DEPENDENTS,SGD,234.98,1,234.98,234.98,234.98
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,FOOD_HOUSE,SGD,214.66,4,53.67,49.1,58.49
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,FOOD_OUT,SGD,311.82,52,6.0,3.11,8.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,HEALTHCARE,SGD,84.79,1,84.79,84.79,84.79
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,HOUSING,SGD,842.97,1,842.97,842.97,842.97
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,MOVEMENTS_INTERNAL,SGD,162.21,4,40.55,23.18,56.93
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,PLATFORM_DEDUCT,SGD,1037.42,25,41.5,28.22,56.23
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,RELIGIOUS_GIVING,SGD,47.98,4,12.0,7.49,14.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,REMITTANCE,SGD,436.8,4,109.2,91.74,121.67
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,TELECOM,SGD,44.39,7,6.34,0.94,32.89
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,VEHICLE_FUEL,SGD,362.52,24,15.1,9.76,19.62
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-09,VEHICLE_MAINT,SGD,187.33,15,12.49,1.65,123.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,DISCRETIONARY,SGD,110.03,4,27.51,20.77,30.6
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,FAMILY_DEPENDENTS,SGD,191.63,1,191.63,191.63,191.63
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,FOOD_HOUSE,SGD,228.17,4,57.04,42.82,64.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,FOOD_OUT,SGD,296.86,50,5.94,3.0,8.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,HEALTHCARE,SGD,62.11,1,62.11,62.11,62.11
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,HOUSING,SGD,903.59,1,903.59,903.59,903.59
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,MOVEMENTS_INTERNAL,SGD,144.12,4,36.03,18.44,51.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,PLATFORM_DEDUCT,SGD,1146.37,27,42.46,28.86,62.02
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,RELIGIOUS_GIVING,SGD,53.66,5,10.73,6.3,15.56
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,REMITTANCE,SGD,384.21,5,76.84,64.74,98.62
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,TELECOM,SGD,46.76,8,5.84,0.94,32.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,VEHICLE_FUEL,SGD,382.77,27,14.18,10.39,19.62
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-10,VEHICLE_MAINT,SGD,160.03,13,12.31,1.53,118.08
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,DISCRETIONARY,SGD,114.77,5,22.95,10.42,35.21
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,FAMILY_DEPENDENTS,SGD,161.33,1,161.33,161.33,161.33
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,FOOD_HOUSE,SGD,220.16,5,44.03,32.78,64.19
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,FOOD_OUT,SGD,320.52,52,6.16,3.08,8.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,HOUSING,SGD,938.87,1,938.87,938.87,938.87
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,MOVEMENTS_INTERNAL,SGD,161.32,4,40.33,27.54,55.78
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,PLATFORM_DEDUCT,SGD,1180.03,26,45.39,33.01,58.2
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,RELIGIOUS_GIVING,SGD,46.39,4,11.6,7.9,15.03
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,REMITTANCE,SGD,335.38,4,83.84,55.0,109.51
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,TELECOM,SGD,58.73,4,14.68,1.68,51.33
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,VEHICLE_FUEL,SGD,347.34,25,13.89,9.92,17.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-11,VEHICLE_MAINT,SGD,181.99,11,16.54,1.69,138.51
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,DISCRETIONARY,SGD,91.38,4,22.84,9.54,36.58
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,FAMILY_DEPENDENTS,SGD,242.87,1,242.87,242.87,242.87
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,FOOD_HOUSE,SGD,192.85,4,48.21,31.93,61.81
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,FOOD_OUT,SGD,278.59,49,5.69,2.97,8.86
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,HOUSING,SGD,537.03,1,537.03,537.03,537.03
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,MOVEMENTS_INTERNAL,SGD,192.22,4,48.05,38.9,54.4
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,PLATFORM_DEDUCT,SGD,1179.43,26,45.36,29.4,71.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,RELIGIOUS_GIVING,SGD,45.76,4,11.44,7.87,13.99
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,REMITTANCE,SGD,399.26,4,99.81,65.66,129.81
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,TELECOM,SGD,57.68,11,5.24,1.13,33.82
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,VEHICLE_FUEL,SGD,383.73,25,15.35,11.15,19.97
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-12,VEHICLE_MAINT,SGD,172.84,15,11.52,1.62,123.27
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,DISCRETIONARY,SGD,23.38,1,23.38,23.38,23.38
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,FAMILY_DEPENDENTS,SGD,135.47,1,135.47,135.47,135.47
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,FOOD_HOUSE,SGD,219.44,5,43.89,34.86,58.06
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,FOOD_OUT,SGD,361.38,61,5.92,3.13,8.82
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,HOUSING,SGD,630.57,1,630.57,630.57,630.57
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,MOVEMENTS_INTERNAL,SGD,232.68,5,46.54,37.04,53.88
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,PLATFORM_DEDUCT,SGD,1223.64,27,45.32,27.74,71.11
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,RELIGIOUS_GIVING,SGD,49.92,5,9.98,5.21,14.93
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,REMITTANCE,SGD,475.68,5,95.14,74.8,115.26
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,TELECOM,SGD,47.27,7,6.75,0.86,38.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,VEHICLE_FUEL,SGD,394.44,27,14.61,9.7,19.8
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-01,VEHICLE_MAINT,SGD,209.23,19,11.01,1.67,132.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,DISCRETIONARY,SGD,34.14,2,17.07,11.01,23.13
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,FAMILY_DEPENDENTS,SGD,120.02,1,120.02,120.02,120.02
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,FOOD_HOUSE,SGD,199.86,4,49.96,38.62,63.43
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,FOOD_OUT,SGD,228.92,41,5.58,3.0,8.71
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,HOUSING,SGD,696.24,1,696.24,696.24,696.24
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,MOVEMENTS_INTERNAL,SGD,163.94,4,40.99,30.05,48.36
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,PLATFORM_DEDUCT,SGD,911.95,24,38.0,24.39,62.0
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,RELIGIOUS_GIVING,SGD,29.05,4,7.26,5.78,8.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,REMITTANCE,SGD,381.15,4,95.29,62.15,120.77
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,TELECOM,SGD,38.43,5,7.69,0.85,34.39
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,VEHICLE_FUEL,SGD,338.68,23,14.73,9.81,19.57
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-02,VEHICLE_MAINT,SGD,141.04,12,11.75,2.2,92.04
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,DISCRETIONARY,SGD,33.06,2,16.53,12.68,20.38
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,FAMILY_DEPENDENTS,SGD,172.47,1,172.47,172.47,172.47
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,FOOD_HOUSE,SGD,172.14,4,43.03,33.28,56.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,FOOD_OUT,SGD,316.04,51,6.2,2.98,8.86
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,HEALTHCARE,SGD,68.46,1,68.46,68.46,68.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,HOUSING,SGD,700.54,1,700.54,700.54,700.54
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,MOVEMENTS_INTERNAL,SGD,82.2,3,27.4,21.88,37.35
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,PLATFORM_DEDUCT,SGD,849.04,26,32.66,13.2,55.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,RELIGIOUS_GIVING,SGD,44.4,4,11.1,7.31,15.73
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,REMITTANCE,SGD,356.77,4,89.19,67.69,125.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,TELECOM,SGD,45.77,8,5.72,0.82,35.63
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,VEHICLE_FUEL,SGD,365.49,24,15.23,10.3,19.38
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-03,VEHICLE_MAINT,SGD,182.55,16,11.41,1.62,119.37
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,FAMILY_DEPENDENTS,SGD,203.43,1,203.43,203.43,203.43
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,FOOD_HOUSE,SGD,207.36,4,51.84,35.68,60.71
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,FOOD_OUT,SGD,302.65,53,5.71,2.96,8.88
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,HEALTHCARE,SGD,32.41,1,32.41,32.41,32.41
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,HOUSING,SGD,881.22,1,881.22,881.22,881.22
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,MOVEMENTS_INTERNAL,SGD,138.23,4,34.56,21.74,46.94
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,PLATFORM_DEDUCT,SGD,1148.82,26,44.19,27.82,62.11
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,RELIGIOUS_GIVING,SGD,27.21,4,6.8,5.64,8.55
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,REMITTANCE,SGD,341.05,4,85.26,73.49,109.07
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,TELECOM,SGD,57.74,6,9.62,0.96,47.41
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,VEHICLE_FUEL,SGD,375.27,24,15.64,10.11,19.8
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-04,VEHICLE_MAINT,SGD,157.06,17,9.24,1.73,100.72
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,FAMILY_DEPENDENTS,SGD,200.32,1,200.32,200.32,200.32
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,FOOD_HOUSE,SGD,105.88,2,52.94,48.43,57.45
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,FOOD_OUT,SGD,129.85,24,5.41,2.98,8.8
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,HOUSING,SGD,685.79,1,685.79,685.79,685.79
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,MOVEMENTS_INTERNAL,SGD,114.27,3,38.09,31.41,48.47
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,PLATFORM_DEDUCT,SGD,570.97,13,43.92,30.55,54.44
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,RELIGIOUS_GIVING,SGD,25.49,3,8.5,6.54,9.84
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,REMITTANCE,SGD,263.66,3,87.89,64.41,105.67
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,TELECOM,SGD,52.68,2,26.34,1.13,51.55
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,VEHICLE_FUEL,SGD,176.09,13,13.55,9.81,19.14
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-05,VEHICLE_MAINT,SGD,136.16,9,15.13,3.09,98.51

@@ -1,0 +1,475 @@
+driver_id,driver_name,persona,iso_week,currency,gross_earnings,platform_fees,incentives,net_earnings,trips,active_hours,days_worked,avg_net_per_day
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W46,SGD,200.52,40.11,6.63,167.04,29,21.0,2,83.52
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W47,SGD,840.2,168.04,20.8,692.96,96,56.7,6,115.49
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W48,SGD,848.73,169.74,21.11,700.1,102,63.8,6,116.68
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W49,SGD,898.07,179.62,31.19,749.64,112,55.1,6,124.94
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W50,SGD,710.91,142.19,14.29,583.01,124,52.8,6,97.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W51,SGD,929.54,185.91,17.1,760.73,120,55.5,6,126.79
+drv_daniel_sg_15,Daniel Goh,firefighter,2024-W52,SGD,907.53,181.5,0.0,726.03,95,61.6,6,121.0
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W01,SGD,913.78,182.75,17.89,748.92,88,47.4,6,124.82
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W02,SGD,956.73,191.35,6.64,772.02,105,45.8,6,128.67
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W03,SGD,938.25,187.67,15.9,766.48,98,54.6,6,127.75
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W04,SGD,934.15,186.84,23.96,771.27,117,47.1,6,128.55
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W05,SGD,690.19,138.06,7.1,559.23,112,59.4,6,93.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W06,SGD,824.08,164.82,0.0,659.26,94,48.4,6,109.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W07,SGD,875.51,175.11,19.96,720.36,88,55.9,6,120.06
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W08,SGD,918.06,183.61,27.34,761.79,111,58.5,6,126.97
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W09,SGD,809.5,161.91,13.79,661.38,121,47.2,6,110.23
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W10,SGD,664.47,132.89,35.05,566.63,86,57.3,6,94.44
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W11,SGD,709.64,141.92,10.95,578.67,84,60.4,6,96.44
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W12,SGD,673.57,134.7,7.38,546.25,113,54.8,6,91.04
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W13,SGD,581.85,116.36,15.18,480.67,115,56.7,6,80.11
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W14,SGD,585.61,117.12,11.02,479.51,107,57.0,6,79.92
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W15,SGD,878.61,175.71,16.71,719.61,111,49.3,6,119.94
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W16,SGD,914.06,182.81,7.77,739.02,108,43.2,6,123.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W17,SGD,844.23,168.86,27.22,702.59,97,49.9,6,117.1
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W18,SGD,883.2,176.64,10.96,717.52,92,53.7,6,119.59
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W19,SGD,781.19,156.24,33.29,658.24,91,49.5,6,109.71
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W20,SGD,803.48,160.69,5.66,648.45,86,60.3,6,108.08
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W21,SGD,758.94,151.79,10.42,617.57,95,56.4,6,102.93
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W22,SGD,946.02,189.21,0.0,756.81,85,53.2,6,126.14
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W23,SGD,996.15,199.24,32.47,829.38,68,52.2,6,138.23
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W24,SGD,971.63,194.32,11.94,789.25,98,55.6,6,131.54
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W25,SGD,914.49,182.9,31.74,763.33,87,51.4,6,127.22
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W26,SGD,1023.62,204.72,13.48,832.38,95,54.4,6,138.73
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W27,SGD,915.25,183.06,23.96,756.15,90,46.3,6,126.03
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W28,SGD,908.09,181.62,27.57,754.04,96,55.8,6,125.67
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W29,SGD,989.55,197.91,0.0,791.64,91,60.2,6,131.94
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W30,SGD,814.46,162.9,27.53,679.09,105,53.8,6,113.18
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W31,SGD,935.38,187.08,12.33,760.63,81,50.8,6,126.77
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W32,SGD,902.23,180.45,39.23,761.01,90,54.6,6,126.83
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W33,SGD,883.41,176.68,11.69,718.42,92,52.6,6,119.74
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W34,SGD,988.88,197.79,40.73,831.82,105,52.8,6,138.64
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W35,SGD,852.47,170.48,3.96,685.95,104,53.1,6,114.32
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W36,SGD,927.66,185.54,7.36,749.48,96,55.3,6,124.91
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W37,SGD,769.84,153.98,15.16,631.02,114,50.9,6,105.17
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W38,SGD,897.12,179.42,0.0,717.7,106,54.9,6,119.62
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W39,SGD,783.27,156.66,24.35,650.96,113,61.3,6,108.49
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W40,SGD,866.29,173.25,26.64,719.68,93,53.0,6,119.95
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W41,SGD,898.48,179.7,12.37,731.15,105,51.0,6,121.86
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W42,SGD,883.17,176.64,4.55,711.08,100,54.5,6,118.51
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W43,SGD,855.69,171.13,27.35,711.91,88,56.1,6,118.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W44,SGD,942.09,188.41,25.13,778.81,96,55.4,6,129.8
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W45,SGD,817.91,163.58,22.91,677.24,111,51.1,6,112.87
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W46,SGD,913.45,182.69,17.37,748.13,90,58.6,6,124.69
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W47,SGD,936.66,187.32,12.05,761.39,78,51.7,6,126.9
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W48,SGD,843.58,168.71,5.74,680.61,91,58.9,6,113.44
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W49,SGD,816.5,163.3,5.4,658.6,105,54.4,6,109.77
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W50,SGD,743.7,148.73,8.85,603.82,64,51.8,6,100.64
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W51,SGD,844.12,168.83,28.3,703.59,98,51.4,6,117.27
+drv_daniel_sg_15,Daniel Goh,firefighter,2025-W52,SGD,1082.26,216.45,0.0,865.81,88,54.7,6,144.3
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W01,SGD,800.79,160.16,16.35,656.98,86,53.1,6,109.5
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W02,SGD,714.01,142.82,0.0,571.19,105,50.5,6,95.2
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W03,SGD,670.51,134.1,0.0,536.41,106,64.2,6,89.4
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W04,SGD,820.34,164.08,10.35,666.61,79,57.1,6,111.1
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W05,SGD,966.41,193.29,13.67,786.79,70,57.6,6,131.13
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W06,SGD,653.83,130.77,16.23,539.29,78,51.7,6,89.88
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W07,SGD,111.77,22.35,5.01,94.43,21,11.5,1,94.43
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W08,SGD,321.15,64.22,0.0,256.93,44,25.2,3,85.64
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W09,SGD,657.04,131.41,13.16,538.79,107,55.0,6,89.8
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W10,SGD,554.27,110.86,14.25,457.66,95,51.5,6,76.28
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W11,SGD,712.0,142.4,16.47,586.07,117,58.0,6,97.68
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W12,SGD,458.08,91.61,13.69,380.16,102,51.7,6,63.36
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W13,SGD,742.1,148.41,39.44,633.13,91,57.0,6,105.52
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W14,SGD,856.78,171.35,5.43,690.86,88,48.3,6,115.14
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W15,SGD,869.37,173.87,0.0,695.5,103,51.8,6,115.92
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W16,SGD,808.06,161.61,29.43,675.88,72,48.9,6,112.65
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W17,SGD,880.23,176.06,6.45,710.62,72,55.2,6,118.44
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W18,SGD,895.91,179.19,14.22,730.94,79,58.9,6,121.82
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W19,SGD,849.3,169.84,0.0,679.46,98,50.5,6,113.24
+drv_daniel_sg_15,Daniel Goh,firefighter,2026-W20,SGD,500.73,100.14,15.43,416.02,66,38.0,4,104.0
+drv_kumar_sg_12,Kumar Raj,grower,2024-W46,SGD,184.07,36.81,0.0,147.26,13,9.8,1,147.26
+drv_kumar_sg_12,Kumar Raj,grower,2024-W47,SGD,1816.8,363.37,30.43,1483.86,106,51.4,6,247.31
+drv_kumar_sg_12,Kumar Raj,grower,2024-W48,SGD,1707.96,341.58,65.27,1431.65,85,56.3,6,238.61
+drv_kumar_sg_12,Kumar Raj,grower,2024-W49,SGD,1740.83,348.16,15.27,1407.94,87,56.5,6,234.66
+drv_kumar_sg_12,Kumar Raj,grower,2024-W50,SGD,1759.69,351.94,12.01,1419.76,93,58.6,6,236.63
+drv_kumar_sg_12,Kumar Raj,grower,2024-W51,SGD,1846.58,369.31,13.28,1490.55,90,48.1,6,248.42
+drv_kumar_sg_12,Kumar Raj,grower,2024-W52,SGD,2161.65,432.34,39.33,1768.64,102,54.8,6,294.77
+drv_kumar_sg_12,Kumar Raj,grower,2025-W01,SGD,1971.01,394.2,58.18,1634.99,106,50.3,6,272.5
+drv_kumar_sg_12,Kumar Raj,grower,2025-W02,SGD,1616.32,323.25,36.99,1330.06,93,52.3,6,221.68
+drv_kumar_sg_12,Kumar Raj,grower,2025-W03,SGD,1549.88,309.97,17.18,1257.09,97,52.9,6,209.51
+drv_kumar_sg_12,Kumar Raj,grower,2025-W04,SGD,1659.8,331.97,42.94,1370.77,95,56.2,6,228.46
+drv_kumar_sg_12,Kumar Raj,grower,2025-W05,SGD,1225.95,245.2,16.07,996.82,119,48.8,6,166.14
+drv_kumar_sg_12,Kumar Raj,grower,2025-W06,SGD,1703.62,340.73,0.0,1362.89,95,59.1,6,227.15
+drv_kumar_sg_12,Kumar Raj,grower,2025-W07,SGD,1520.34,304.07,16.48,1232.75,91,55.0,6,205.46
+drv_kumar_sg_12,Kumar Raj,grower,2025-W08,SGD,2007.75,401.54,77.38,1683.59,109,56.4,6,280.6
+drv_kumar_sg_12,Kumar Raj,grower,2025-W09,SGD,1791.74,358.35,32.62,1466.01,89,53.9,6,244.34
+drv_kumar_sg_12,Kumar Raj,grower,2025-W10,SGD,1808.08,361.63,18.03,1464.48,98,51.4,6,244.08
+drv_kumar_sg_12,Kumar Raj,grower,2025-W11,SGD,1652.66,330.53,9.2,1331.33,105,51.0,6,221.89
+drv_kumar_sg_12,Kumar Raj,grower,2025-W12,SGD,1704.78,340.97,36.63,1400.44,88,54.1,6,233.41
+drv_kumar_sg_12,Kumar Raj,grower,2025-W13,SGD,1709.24,341.85,24.39,1391.78,97,53.9,6,231.96
+drv_kumar_sg_12,Kumar Raj,grower,2025-W14,SGD,1877.63,375.53,110.94,1613.04,96,52.8,6,268.84
+drv_kumar_sg_12,Kumar Raj,grower,2025-W15,SGD,1908.76,381.75,23.97,1550.98,98,56.4,6,258.5
+drv_kumar_sg_12,Kumar Raj,grower,2025-W16,SGD,1793.96,358.8,47.53,1482.69,83,53.9,6,247.12
+drv_kumar_sg_12,Kumar Raj,grower,2025-W17,SGD,1849.26,369.85,38.21,1517.62,93,54.5,6,252.94
+drv_kumar_sg_12,Kumar Raj,grower,2025-W18,SGD,1766.44,353.29,76.07,1489.22,112,57.8,6,248.2
+drv_kumar_sg_12,Kumar Raj,grower,2025-W19,SGD,1765.55,353.12,0.0,1412.43,109,54.9,6,235.41
+drv_kumar_sg_12,Kumar Raj,grower,2025-W20,SGD,1632.27,326.44,21.84,1327.67,78,61.6,6,221.28
+drv_kumar_sg_12,Kumar Raj,grower,2025-W21,SGD,1776.22,355.24,67.45,1488.43,102,48.1,6,248.07
+drv_kumar_sg_12,Kumar Raj,grower,2025-W22,SGD,1854.89,370.98,31.92,1515.83,107,49.3,6,252.64
+drv_kumar_sg_12,Kumar Raj,grower,2025-W23,SGD,1974.67,394.91,22.1,1601.86,97,60.3,6,266.98
+drv_kumar_sg_12,Kumar Raj,grower,2025-W24,SGD,1769.96,353.99,21.1,1437.07,86,56.2,6,239.51
+drv_kumar_sg_12,Kumar Raj,grower,2025-W25,SGD,1841.94,368.39,45.77,1519.32,83,48.8,6,253.22
+drv_kumar_sg_12,Kumar Raj,grower,2025-W26,SGD,1854.74,370.95,51.38,1535.17,108,61.3,6,255.86
+drv_kumar_sg_12,Kumar Raj,grower,2025-W27,SGD,1720.48,344.1,51.94,1428.32,93,56.9,6,238.05
+drv_kumar_sg_12,Kumar Raj,grower,2025-W28,SGD,1671.9,334.38,55.01,1392.53,100,46.0,6,232.09
+drv_kumar_sg_12,Kumar Raj,grower,2025-W29,SGD,1896.49,379.3,34.83,1552.02,108,55.2,6,258.67
+drv_kumar_sg_12,Kumar Raj,grower,2025-W30,SGD,1862.4,372.47,66.49,1556.42,94,58.6,6,259.4
+drv_kumar_sg_12,Kumar Raj,grower,2025-W31,SGD,1868.92,373.77,0.0,1495.15,97,55.4,6,249.19
+drv_kumar_sg_12,Kumar Raj,grower,2025-W32,SGD,1994.53,398.91,51.81,1647.43,100,53.8,6,274.57
+drv_kumar_sg_12,Kumar Raj,grower,2025-W33,SGD,1574.0,314.8,0.0,1259.2,71,52.5,6,209.87
+drv_kumar_sg_12,Kumar Raj,grower,2025-W34,SGD,1780.63,356.13,47.67,1472.17,94,51.6,6,245.36
+drv_kumar_sg_12,Kumar Raj,grower,2025-W35,SGD,1349.3,269.87,37.53,1116.96,92,45.0,5,223.39
+drv_kumar_sg_12,Kumar Raj,grower,2025-W36,SGD,1484.82,296.97,35.95,1223.8,72,47.7,5,244.76
+drv_kumar_sg_12,Kumar Raj,grower,2025-W37,SGD,1843.54,368.71,61.78,1536.61,94,56.2,6,256.1
+drv_kumar_sg_12,Kumar Raj,grower,2025-W38,SGD,1696.21,339.24,52.59,1409.56,94,53.0,6,234.93
+drv_kumar_sg_12,Kumar Raj,grower,2025-W39,SGD,1856.95,371.39,78.22,1563.78,122,55.4,6,260.63
+drv_kumar_sg_12,Kumar Raj,grower,2025-W40,SGD,1699.67,339.92,29.05,1388.8,101,55.9,6,231.47
+drv_kumar_sg_12,Kumar Raj,grower,2025-W41,SGD,1794.42,358.88,50.66,1486.2,86,53.7,6,247.7
+drv_kumar_sg_12,Kumar Raj,grower,2025-W42,SGD,1793.27,358.64,37.65,1472.28,116,51.1,6,245.38
+drv_kumar_sg_12,Kumar Raj,grower,2025-W43,SGD,1811.14,362.23,10.55,1459.46,114,55.6,6,243.24
+drv_kumar_sg_12,Kumar Raj,grower,2025-W44,SGD,1549.91,309.99,28.13,1268.05,101,57.9,6,211.34
+drv_kumar_sg_12,Kumar Raj,grower,2025-W45,SGD,1786.73,357.34,35.4,1464.79,82,57.1,6,244.13
+drv_kumar_sg_12,Kumar Raj,grower,2025-W46,SGD,1827.35,365.47,59.63,1521.51,83,52.8,6,253.59
+drv_kumar_sg_12,Kumar Raj,grower,2025-W47,SGD,1771.15,354.24,18.18,1435.09,103,50.7,6,239.18
+drv_kumar_sg_12,Kumar Raj,grower,2025-W48,SGD,1647.5,329.49,30.33,1348.34,100,61.4,6,224.72
+drv_kumar_sg_12,Kumar Raj,grower,2025-W49,SGD,1673.3,334.67,38.73,1377.36,79,58.3,6,229.56
+drv_kumar_sg_12,Kumar Raj,grower,2025-W50,SGD,764.95,153.0,14.52,626.47,41,29.8,3,208.82
+drv_kumar_sg_12,Kumar Raj,grower,2025-W51,SGD,1576.72,315.35,16.49,1277.86,109,57.2,6,212.98
+drv_kumar_sg_12,Kumar Raj,grower,2025-W52,SGD,2048.85,409.77,16.57,1655.65,115,47.9,6,275.94
+drv_kumar_sg_12,Kumar Raj,grower,2026-W01,SGD,1966.29,393.26,15.57,1588.6,88,56.5,6,264.77
+drv_kumar_sg_12,Kumar Raj,grower,2026-W02,SGD,1725.85,345.18,23.08,1403.75,93,54.8,6,233.96
+drv_kumar_sg_12,Kumar Raj,grower,2026-W03,SGD,1923.55,384.7,80.72,1619.57,108,56.2,6,269.93
+drv_kumar_sg_12,Kumar Raj,grower,2026-W04,SGD,1927.84,385.57,22.87,1565.14,113,53.6,6,260.86
+drv_kumar_sg_12,Kumar Raj,grower,2026-W05,SGD,1821.81,364.36,59.85,1517.3,88,58.7,6,252.88
+drv_kumar_sg_12,Kumar Raj,grower,2026-W06,SGD,1689.72,337.93,16.58,1368.37,88,57.5,6,228.06
+drv_kumar_sg_12,Kumar Raj,grower,2026-W07,SGD,1758.14,351.63,26.05,1432.56,80,51.3,6,238.76
+drv_kumar_sg_12,Kumar Raj,grower,2026-W08,SGD,1476.73,295.34,12.34,1193.73,99,57.9,6,198.96
+drv_kumar_sg_12,Kumar Raj,grower,2026-W09,SGD,1694.48,338.89,74.55,1430.14,86,55.3,6,238.36
+drv_kumar_sg_12,Kumar Raj,grower,2026-W10,SGD,1661.45,332.29,33.85,1363.01,107,57.1,6,227.17
+drv_kumar_sg_12,Kumar Raj,grower,2026-W11,SGD,1707.33,341.47,10.88,1376.74,102,54.0,6,229.46
+drv_kumar_sg_12,Kumar Raj,grower,2026-W12,SGD,1445.52,289.1,21.14,1177.56,86,60.1,6,196.26
+drv_kumar_sg_12,Kumar Raj,grower,2026-W13,SGD,1473.59,294.73,54.14,1233.0,98,54.6,6,205.5
+drv_kumar_sg_12,Kumar Raj,grower,2026-W14,SGD,1745.05,349.0,0.0,1396.05,93,55.4,6,232.68
+drv_kumar_sg_12,Kumar Raj,grower,2026-W15,SGD,1656.32,331.26,16.37,1341.43,95,51.4,6,223.57
+drv_kumar_sg_12,Kumar Raj,grower,2026-W16,SGD,1762.9,352.58,17.23,1427.55,101,55.3,6,237.92
+drv_kumar_sg_12,Kumar Raj,grower,2026-W17,SGD,1805.27,361.06,65.47,1509.68,99,58.7,6,251.61
+drv_kumar_sg_12,Kumar Raj,grower,2026-W18,SGD,1752.28,350.46,40.65,1442.47,91,51.8,6,240.41
+drv_kumar_sg_12,Kumar Raj,grower,2026-W19,SGD,1741.22,348.25,33.84,1426.81,108,57.6,6,237.8
+drv_kumar_sg_12,Kumar Raj,grower,2026-W20,SGD,1501.51,300.31,74.39,1275.59,92,41.2,5,255.12
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W46,SGD,91.84,18.37,4.05,77.52,24,7.6,1,77.52
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W47,SGD,1091.91,218.38,12.7,886.23,84,61.1,6,147.71
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W48,SGD,1160.22,232.04,26.33,954.51,97,52.6,6,159.09
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W49,SGD,1023.69,204.74,29.31,848.26,104,52.6,6,141.38
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W50,SGD,248.37,49.67,18.06,216.76,23,7.7,1,216.76
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W51,SGD,1223.53,244.7,0.0,978.83,83,58.3,6,163.14
+drv_mei_sg_11,Mei Lin Tan,firefighter,2024-W52,SGD,1515.94,303.2,15.48,1228.22,93,48.9,6,204.7
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W01,SGD,1258.43,251.67,18.65,1025.41,110,54.6,6,170.9
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W02,SGD,1233.48,246.69,0.0,986.79,90,62.2,6,164.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W03,SGD,1109.49,221.9,18.69,906.28,102,55.3,6,151.05
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W04,SGD,1003.99,200.8,12.4,815.59,110,55.0,6,135.93
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W05,SGD,1004.94,200.98,36.38,840.34,103,53.5,6,140.06
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W06,SGD,1190.39,238.07,35.67,987.99,82,47.7,6,164.66
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W07,SGD,1279.11,255.83,18.01,1041.29,91,50.5,6,173.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W08,SGD,1214.71,242.95,7.92,979.68,99,48.0,6,163.28
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W09,SGD,0.0,0.0,0.0,0.0,0,0.0,0,0
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W10,SGD,952.08,190.42,15.93,777.59,78,31.9,4,194.4
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W11,SGD,1211.25,242.25,18.27,987.27,109,50.0,6,164.54
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W12,SGD,1311.87,262.37,53.87,1103.37,89,50.3,6,183.89
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W13,SGD,1104.11,220.81,6.1,889.4,96,52.5,6,148.23
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W14,SGD,1232.41,246.48,17.73,1003.66,72,49.7,6,167.28
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W15,SGD,1163.79,232.76,20.55,951.58,93,59.0,6,158.6
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W16,SGD,1120.44,224.09,44.45,940.8,77,52.8,6,156.8
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W17,SGD,1196.15,239.24,29.01,985.92,96,48.7,6,164.32
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W18,SGD,1279.72,255.95,0.0,1023.77,101,57.7,6,170.63
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W19,SGD,999.43,199.89,0.0,799.54,96,59.4,6,133.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W20,SGD,1295.55,259.11,0.0,1036.44,88,50.6,6,172.74
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W21,SGD,1097.2,219.44,9.27,887.03,85,50.9,6,147.84
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W22,SGD,1219.63,243.92,53.42,1029.13,117,61.5,6,171.52
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W23,SGD,1140.27,228.05,0.0,912.22,105,46.7,6,152.04
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W24,SGD,1120.31,224.07,22.94,919.18,94,51.1,6,153.2
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W25,SGD,1173.05,234.61,27.49,965.93,100,54.5,6,160.99
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W26,SGD,1248.33,249.67,9.58,1008.24,82,54.2,6,168.04
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W27,SGD,1268.95,253.79,30.01,1045.17,101,59.3,6,174.19
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W28,SGD,1293.1,258.62,52.03,1086.51,100,54.5,6,181.09
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W29,SGD,1279.73,255.94,16.55,1040.34,76,54.0,6,173.39
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W30,SGD,1207.03,241.4,55.92,1021.55,96,60.3,6,170.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W31,SGD,1161.34,232.27,33.17,962.24,96,46.6,6,160.37
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W32,SGD,1231.32,246.27,45.25,1030.3,116,59.5,6,171.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W33,SGD,1069.25,213.85,35.4,890.8,85,60.8,6,148.47
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W34,SGD,1265.99,253.2,0.0,1012.79,98,56.6,6,168.8
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W35,SGD,1238.75,247.75,41.3,1032.3,95,59.0,6,172.05
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W36,SGD,1203.62,240.73,42.49,1005.38,91,50.1,6,167.56
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W37,SGD,1105.0,221.01,37.86,921.85,71,52.1,6,153.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W38,SGD,1080.75,216.14,15.58,880.19,118,55.7,6,146.7
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W39,SGD,1184.95,236.99,24.69,972.65,88,55.1,6,162.11
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W40,SGD,1204.28,240.85,21.48,984.91,96,61.8,6,164.15
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W41,SGD,1166.2,233.23,55.78,988.75,75,49.2,6,164.79
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W42,SGD,1261.54,252.3,12.51,1021.75,94,58.1,6,170.29
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W43,SGD,1221.39,244.27,34.8,1011.92,101,49.5,6,168.65
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W44,SGD,1059.02,211.8,28.41,875.63,68,61.3,6,145.94
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W45,SGD,1303.19,260.65,47.71,1090.25,106,50.3,6,181.71
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W46,SGD,1177.4,235.48,27.53,969.45,83,57.7,6,161.58
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W47,SGD,1195.14,239.03,19.71,975.82,88,49.7,6,162.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W48,SGD,1105.96,221.18,21.88,906.66,100,58.0,6,151.11
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W49,SGD,1171.24,234.24,10.45,947.45,92,52.5,6,157.91
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W50,SGD,1136.62,227.32,36.41,945.71,103,64.4,6,157.62
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W51,SGD,1072.15,214.43,19.74,877.46,103,52.8,6,146.24
+drv_mei_sg_11,Mei Lin Tan,firefighter,2025-W52,SGD,1558.64,311.72,0.0,1246.92,101,46.9,6,207.82
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W01,SGD,1451.15,290.23,0.0,1160.92,84,48.7,6,193.49
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W02,SGD,1319.4,263.88,12.33,1067.85,96,50.7,6,177.98
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W03,SGD,1165.4,233.08,9.8,942.12,111,53.7,6,157.02
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W04,SGD,1204.91,240.98,42.55,1006.48,111,56.8,6,167.75
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W05,SGD,1303.03,260.61,38.03,1080.45,71,54.1,6,180.08
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W06,SGD,1125.74,225.15,29.45,930.04,85,46.6,6,155.01
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W07,SGD,993.5,198.7,19.42,814.22,84,51.4,6,135.7
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W08,SGD,982.94,196.58,45.98,832.34,97,51.1,6,138.72
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W09,SGD,1242.11,248.43,24.03,1017.71,68,54.7,6,169.62
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W10,SGD,1206.83,241.36,21.21,986.68,75,54.5,6,164.45
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W11,SGD,937.62,187.53,19.46,769.55,85,64.8,6,128.26
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W12,SGD,1066.52,213.3,35.87,889.09,89,59.1,6,148.18
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W13,SGD,853.88,170.79,39.68,722.77,71,43.3,5,144.55
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W14,SGD,445.34,89.07,0.0,356.27,26,20.4,2,178.13
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W15,SGD,1158.13,231.63,41.56,968.06,103,64.1,6,161.34
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W16,SGD,1225.56,245.12,29.41,1009.85,87,51.6,6,168.31
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W17,SGD,1330.7,266.15,24.5,1089.05,103,52.4,6,181.51
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W18,SGD,1115.03,223.01,41.65,933.67,70,54.1,6,155.61
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W19,SGD,1105.27,221.06,25.62,909.83,74,51.3,6,151.64
+drv_mei_sg_11,Mei Lin Tan,firefighter,2026-W20,SGD,934.89,186.98,11.01,758.92,84,46.9,5,151.78
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W46,SGD,168.48,33.7,0.0,134.78,11,11.3,1,134.78
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W47,SGD,882.45,176.48,30.49,736.46,106,46.2,6,122.74
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W48,SGD,899.93,179.98,33.06,753.01,83,54.4,6,125.5
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W49,SGD,862.28,172.45,14.6,704.43,108,51.2,6,117.41
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W50,SGD,881.61,176.31,28.17,733.47,88,51.3,6,122.25
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W51,SGD,852.4,170.48,0.0,681.92,82,54.5,6,113.65
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2024-W52,SGD,1057.15,211.43,13.42,859.14,88,56.7,6,143.19
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W01,SGD,1098.89,219.78,10.27,889.38,112,61.8,6,148.23
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W02,SGD,929.43,185.89,39.47,783.01,93,58.8,6,130.5
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W03,SGD,876.36,175.27,19.96,721.05,99,62.3,6,120.17
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W04,SGD,974.61,194.91,43.01,822.71,104,54.3,6,137.12
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W05,SGD,652.94,130.59,17.25,539.6,114,48.6,6,89.93
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W06,SGD,839.34,167.86,9.44,680.92,77,53.7,6,113.49
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W07,SGD,906.17,181.23,34.11,759.05,99,53.6,6,126.51
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W08,SGD,856.01,171.2,41.96,726.77,107,60.8,6,121.13
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W09,SGD,850.52,170.11,0.0,680.41,109,54.5,6,113.4
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W10,SGD,954.31,190.86,21.7,785.15,89,56.6,6,130.86
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W11,SGD,860.11,172.02,13.84,701.93,117,55.7,6,116.99
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W12,SGD,879.08,175.81,24.2,727.47,86,58.8,6,121.25
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W13,SGD,815.82,163.16,22.45,675.11,92,56.5,6,112.52
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W14,SGD,851.43,170.28,16.6,697.75,86,48.4,6,116.29
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W15,SGD,885.6,177.13,23.53,732.0,90,51.8,6,122.0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W16,SGD,909.67,181.93,9.17,736.91,110,57.0,6,122.82
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W17,SGD,857.54,171.51,24.72,710.75,99,54.6,6,118.46
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W18,SGD,739.22,147.85,17.32,608.69,94,56.8,6,101.45
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W19,SGD,869.29,173.87,25.55,720.97,113,44.9,6,120.16
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W20,SGD,942.43,188.48,13.28,767.23,115,52.0,6,127.87
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W21,SGD,898.11,179.62,7.58,726.07,115,53.8,6,121.01
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W22,SGD,942.08,188.42,9.94,763.6,110,48.4,6,127.27
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W23,SGD,859.63,171.93,11.53,699.23,98,53.9,6,116.54
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W24,SGD,986.26,197.25,14.07,803.08,86,56.1,6,133.85
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W25,SGD,958.81,191.77,10.36,777.4,82,46.5,6,129.57
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W26,SGD,813.68,162.74,14.62,665.56,96,59.2,6,110.93
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W27,SGD,1003.35,200.67,23.87,826.55,98,47.3,6,137.76
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W28,SGD,990.06,198.02,27.64,819.68,99,52.5,6,136.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W29,SGD,899.71,179.94,9.24,729.01,106,59.1,6,121.5
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W30,SGD,977.54,195.51,30.34,812.37,104,51.6,6,135.4
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W31,SGD,931.4,186.29,26.23,771.34,80,52.7,6,128.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W32,SGD,784.55,156.91,20.82,648.46,103,48.3,6,108.08
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W33,SGD,857.02,171.4,6.67,692.29,90,52.3,6,115.38
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W34,SGD,889.52,177.91,8.66,720.27,82,58.7,6,120.05
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W35,SGD,848.42,169.68,10.99,689.73,109,55.4,6,114.95
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W36,SGD,930.16,186.04,46.45,790.57,102,52.8,6,131.76
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W37,SGD,938.03,187.59,0.0,750.44,102,51.5,6,125.07
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W38,SGD,883.51,176.71,19.89,726.69,87,55.5,6,121.12
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W39,SGD,887.91,177.58,14.65,724.98,89,56.0,6,120.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W40,SGD,724.41,144.87,0.0,579.54,93,60.8,6,96.59
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W41,SGD,878.21,175.66,7.38,709.93,91,48.2,6,118.32
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W42,SGD,899.65,179.92,23.23,742.96,99,50.6,6,123.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W43,SGD,878.67,175.74,19.48,722.41,103,52.5,6,120.4
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W44,SGD,930.56,186.1,25.72,770.18,94,58.3,6,128.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W45,SGD,923.72,184.74,5.75,744.73,92,55.4,6,124.12
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W46,SGD,858.65,171.73,17.91,704.83,88,50.7,6,117.47
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W47,SGD,880.94,176.19,24.67,729.42,109,54.4,6,121.57
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W48,SGD,910.05,182.02,54.13,782.16,109,48.2,6,130.36
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W49,SGD,962.79,192.56,9.69,779.92,81,53.1,6,129.99
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W50,SGD,917.13,183.43,23.53,757.23,78,52.9,6,126.2
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W51,SGD,876.47,175.3,15.96,717.13,96,54.5,6,119.52
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2025-W52,SGD,981.42,196.29,22.55,807.68,87,55.0,6,134.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W01,SGD,781.0,156.21,20.87,645.66,77,43.0,5,129.13
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W02,SGD,0.0,0.0,0.0,0.0,0,0.0,0,0
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W03,SGD,761.85,152.36,36.83,646.32,93,57.2,6,107.72
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W04,SGD,777.52,155.5,9.3,631.32,94,47.3,6,105.22
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W05,SGD,912.9,182.58,41.05,771.37,92,59.0,6,128.56
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W06,SGD,837.26,167.45,7.44,677.25,75,56.5,6,112.88
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W07,SGD,897.94,179.6,15.32,733.66,93,51.6,6,122.28
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W08,SGD,631.79,126.36,13.2,518.63,113,58.4,6,86.44
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W09,SGD,860.63,172.13,39.14,727.64,120,60.1,6,121.27
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W10,SGD,852.29,170.46,21.96,703.79,95,61.6,6,117.3
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W11,SGD,842.33,168.47,28.74,702.6,80,56.6,6,117.1
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W12,SGD,874.95,175.0,0.0,699.95,100,55.6,6,116.66
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W13,SGD,854.05,170.81,23.77,707.01,85,61.1,6,117.83
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W14,SGD,899.01,179.81,8.81,728.01,84,50.7,6,121.33
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W15,SGD,816.07,163.21,37.36,690.22,109,56.4,6,115.04
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W16,SGD,921.44,184.28,20.94,758.1,111,46.3,6,126.35
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W17,SGD,832.64,166.53,6.66,672.77,116,57.3,6,112.13
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W18,SGD,802.13,160.44,35.09,676.78,98,46.9,6,112.8
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W19,SGD,867.99,173.6,17.25,711.64,82,61.4,6,118.61
+drv_nurul_sg_14,Nurul Aisyah,stabilizer,2026-W20,SGD,689.17,137.84,0.0,551.33,81,48.8,5,110.27
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W46,SGD,513.5,102.7,9.71,420.51,34,13.5,2,210.25
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W47,SGD,1079.97,216.0,17.06,881.03,107,57.0,6,146.84
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W48,SGD,1304.41,260.89,37.12,1080.64,105,51.7,6,180.11
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W49,SGD,1240.82,248.17,11.76,1004.41,99,56.2,6,167.4
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W50,SGD,1309.2,261.83,20.49,1067.86,69,50.0,6,177.98
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W51,SGD,1387.96,277.6,25.46,1135.82,75,49.7,6,189.3
+drv_siti_sg_10,Siti Rahman,firefighter,2024-W52,SGD,1308.46,261.69,30.41,1077.18,87,49.3,6,179.53
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W01,SGD,1378.1,275.62,29.95,1132.43,99,53.7,6,188.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W02,SGD,1171.48,234.3,26.67,963.85,75,54.4,6,160.64
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W03,SGD,1306.38,261.28,14.85,1059.95,108,63.9,6,176.66
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W04,SGD,1108.3,221.67,15.58,902.21,93,46.9,6,150.37
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W05,SGD,974.66,194.93,24.9,804.63,74,54.5,6,134.1
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W06,SGD,1304.91,260.98,27.51,1071.44,88,54.4,6,178.57
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W07,SGD,1310.64,262.13,0.0,1048.51,83,59.1,6,174.75
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W08,SGD,1169.55,233.91,29.11,964.75,95,53.9,6,160.79
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W09,SGD,1190.49,238.1,41.7,994.09,105,53.8,6,165.68
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W10,SGD,772.56,154.52,24.44,642.48,87,57.3,6,107.08
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W11,SGD,855.66,171.13,18.6,703.13,96,60.4,6,117.19
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W12,SGD,836.83,167.37,21.78,691.24,98,57.4,6,115.21
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W13,SGD,679.26,135.85,26.28,569.69,93,54.5,6,94.95
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W14,SGD,838.59,167.71,21.24,692.12,87,53.9,6,115.35
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W15,SGD,1238.93,247.78,18.51,1009.66,93,51.4,6,168.28
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W16,SGD,1371.48,274.29,0.0,1097.19,97,56.2,6,182.87
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W17,SGD,1116.14,223.24,24.19,917.09,90,44.3,6,152.85
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W18,SGD,1350.49,270.11,22.75,1103.13,100,45.4,6,183.86
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W19,SGD,1287.87,257.57,9.94,1040.24,93,54.2,6,173.37
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W20,SGD,1145.55,229.12,54.16,970.59,109,53.4,6,161.76
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W21,SGD,1264.48,252.89,26.88,1038.47,98,54.5,6,173.08
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W22,SGD,1170.06,234.02,25.17,961.21,79,56.5,6,160.2
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W23,SGD,1292.18,258.44,25.28,1059.02,97,47.2,6,176.5
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W24,SGD,1194.32,238.86,15.86,971.32,80,54.3,6,161.89
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W25,SGD,1302.04,260.41,48.82,1090.45,89,54.9,6,181.74
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W26,SGD,1299.74,259.95,28.32,1068.11,92,62.0,6,178.02
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W27,SGD,1427.73,285.56,20.78,1162.95,101,52.9,6,193.83
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W28,SGD,1449.96,289.99,42.32,1202.29,114,55.9,6,200.38
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W29,SGD,1155.64,231.13,23.57,948.08,87,49.4,6,158.01
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W30,SGD,1261.23,252.26,49.05,1058.02,109,51.3,6,176.34
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W31,SGD,1246.01,249.21,39.6,1036.4,93,46.7,6,172.73
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W32,SGD,373.08,74.61,12.2,310.67,29,15.3,2,155.34
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W33,SGD,353.04,70.61,16.04,298.47,39,19.3,2,149.24
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W34,SGD,1057.83,211.56,18.87,865.14,106,56.5,6,144.19
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W35,SGD,1087.83,217.57,12.29,882.55,107,54.8,6,147.09
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W36,SGD,1326.11,265.23,11.93,1072.81,96,61.2,6,178.8
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W37,SGD,1332.81,266.56,10.77,1077.02,116,57.1,6,179.5
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W38,SGD,1122.59,224.5,20.52,918.61,115,51.1,6,153.1
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W39,SGD,600.81,120.16,9.56,490.21,46,27.8,3,163.4
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W40,SGD,879.1,175.81,13.16,716.45,51,39.9,4,179.11
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W41,SGD,1371.48,274.3,63.99,1161.17,83,53.3,6,193.53
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W42,SGD,1268.03,253.6,28.47,1042.9,108,52.2,6,173.82
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W43,SGD,559.88,111.97,26.75,474.66,59,27.3,3,158.22
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W44,SGD,1290.2,258.04,25.75,1057.91,84,59.2,6,176.32
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W45,SGD,1078.82,215.76,20.14,883.2,82,59.1,6,147.2
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W46,SGD,1351.83,270.36,27.27,1108.74,104,54.7,6,184.79
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W47,SGD,1366.33,273.26,47.32,1140.39,81,56.5,6,190.06
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W48,SGD,1283.84,256.77,35.97,1063.04,93,57.7,6,177.17
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W49,SGD,1031.1,206.21,27.84,852.73,101,52.8,6,142.12
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W50,SGD,1213.32,242.67,30.75,1001.4,102,59.3,6,166.9
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W51,SGD,1193.16,238.63,0.0,954.53,103,51.9,6,159.09
+drv_siti_sg_10,Siti Rahman,firefighter,2025-W52,SGD,1511.45,302.29,47.95,1257.11,87,56.6,6,209.52
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W01,SGD,1546.99,309.41,29.02,1266.6,95,56.8,6,211.1
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W02,SGD,1100.52,220.12,45.05,925.45,86,47.9,6,154.24
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W03,SGD,1180.55,236.11,26.62,971.06,93,54.8,6,161.84
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W04,SGD,1318.19,263.65,9.61,1064.15,116,55.4,6,177.36
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W05,SGD,1174.09,234.81,26.12,965.4,89,54.2,6,160.9
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W06,SGD,1069.34,213.87,17.85,873.32,93,63.6,6,145.55
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W07,SGD,1230.65,246.12,0.0,984.53,91,59.4,6,164.09
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W08,SGD,857.07,171.41,24.26,709.92,99,49.2,6,118.32
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W09,SGD,934.62,186.93,17.25,764.94,99,52.7,6,127.49
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W10,SGD,771.16,154.23,8.61,625.54,107,56.0,6,104.26
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W11,SGD,795.77,159.15,6.43,643.05,83,50.8,6,107.17
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W12,SGD,651.6,130.32,5.16,526.44,91,51.0,6,87.74
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W13,SGD,1072.56,214.52,3.87,861.91,95,55.1,6,143.65
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W14,SGD,1114.63,222.92,31.93,923.64,106,57.3,6,153.94
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W15,SGD,1212.97,242.6,11.93,982.3,104,57.4,6,163.72
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W16,SGD,1094.79,218.96,15.36,891.19,99,47.3,6,148.53
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W17,SGD,1197.12,239.42,25.95,983.65,85,51.1,6,163.94
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W18,SGD,1060.67,212.14,0.0,848.53,102,45.8,6,141.42
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W19,SGD,1221.17,244.24,43.47,1020.4,99,60.2,6,170.07
+drv_siti_sg_10,Siti Rahman,firefighter,2026-W20,SGD,908.14,181.63,14.26,740.77,54,36.3,4,185.19
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W46,SGD,554.73,110.95,0.0,443.78,34,21.5,2,221.89
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W47,SGD,1361.37,272.27,13.35,1102.45,92,58.2,6,183.74
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W48,SGD,1277.33,255.46,70.51,1092.38,110,56.5,6,182.06
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W49,SGD,1308.28,261.65,26.17,1072.8,74,59.2,6,178.8
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W50,SGD,1174.14,234.82,63.15,1002.47,98,56.0,6,167.08
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W51,SGD,1399.48,279.9,26.8,1146.38,107,45.8,6,191.06
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2024-W52,SGD,1558.46,311.69,0.0,1246.77,85,51.3,6,207.79
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W01,SGD,1519.62,303.92,42.92,1258.62,98,47.8,6,209.77
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W02,SGD,1230.72,246.14,24.31,1008.89,104,56.1,6,168.15
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W03,SGD,1334.76,266.95,45.62,1113.43,103,52.6,6,185.57
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W04,SGD,1272.39,254.47,51.38,1069.3,93,53.6,6,178.22
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W05,SGD,1039.12,207.83,63.27,894.56,121,51.0,6,149.09
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W06,SGD,1360.18,272.04,38.2,1126.34,89,50.0,6,187.72
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W07,SGD,1372.03,274.41,49.81,1147.43,85,50.6,6,191.24
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W08,SGD,536.73,107.35,0.0,429.38,54,28.3,3,143.13
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W09,SGD,0.0,0.0,0.0,0.0,0,0.0,0,0
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W10,SGD,384.53,76.91,10.62,318.24,25,13.9,2,159.12
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W11,SGD,1064.36,212.87,45.52,897.01,118,51.9,6,149.5
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W12,SGD,941.51,188.3,24.26,777.47,90,53.5,6,129.58
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W13,SGD,1140.85,228.18,11.42,924.09,78,50.5,6,154.01
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W14,SGD,760.85,152.18,17.89,626.56,125,50.0,6,104.43
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W15,SGD,1323.07,264.61,39.11,1097.57,96,55.0,6,182.93
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W16,SGD,1142.28,228.46,29.43,943.25,110,62.2,6,157.21
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W17,SGD,1292.94,258.58,25.66,1060.02,88,55.0,6,176.67
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W18,SGD,1201.3,240.27,24.97,986.0,85,52.6,6,164.33
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W19,SGD,1270.1,254.03,14.02,1030.09,107,54.9,6,171.68
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W20,SGD,1201.5,240.31,24.47,985.66,93,52.1,6,164.28
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W21,SGD,1166.31,233.26,17.58,950.63,88,55.1,6,158.44
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W22,SGD,1275.91,255.18,40.62,1061.35,87,57.5,6,176.89
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W23,SGD,1490.22,298.05,26.44,1218.61,105,54.2,6,203.1
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W24,SGD,1368.81,273.76,58.82,1153.87,102,56.5,6,192.31
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W25,SGD,1373.53,274.7,14.12,1112.95,99,49.5,6,185.49
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W26,SGD,1472.31,294.47,42.09,1219.93,87,53.0,6,203.32
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W27,SGD,1356.15,271.23,50.15,1135.07,87,57.4,6,189.18
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W28,SGD,1236.75,247.36,5.36,994.75,95,54.4,6,165.79
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W29,SGD,1364.5,272.91,0.0,1091.59,79,51.0,6,181.93
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W30,SGD,1397.67,279.55,20.06,1138.18,92,59.3,6,189.7
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W31,SGD,1271.56,254.31,19.33,1036.58,88,62.2,6,172.76
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W32,SGD,1332.51,266.49,9.86,1075.88,108,60.1,6,179.31
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W33,SGD,1339.58,267.92,19.45,1091.11,117,47.6,6,181.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W34,SGD,1278.17,255.64,9.31,1031.84,103,51.7,6,171.97
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W35,SGD,1179.75,235.95,18.11,961.91,96,53.5,6,160.32
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W36,SGD,1293.51,258.7,29.11,1063.92,88,54.2,6,177.32
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W37,SGD,1323.33,264.66,16.87,1075.54,92,48.5,6,179.26
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W38,SGD,1177.74,235.55,0.0,942.19,105,54.0,6,157.03
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W39,SGD,1251.45,250.29,14.71,1015.87,99,53.5,6,169.31
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W40,SGD,1219.2,243.84,13.38,988.74,74,49.3,6,164.79
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W41,SGD,1380.61,276.12,42.96,1147.45,92,60.8,6,191.24
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W42,SGD,1214.53,242.91,19.75,991.37,111,60.3,6,165.23
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W43,SGD,1247.08,249.42,49.11,1046.77,89,58.5,6,174.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W44,SGD,1306.73,261.36,15.59,1060.96,91,51.6,6,176.83
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W45,SGD,1328.94,265.78,49.54,1112.7,106,53.4,6,185.45
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W46,SGD,1387.34,277.46,0.0,1109.88,103,57.6,6,184.98
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W47,SGD,1433.55,286.71,37.81,1184.65,83,46.2,6,197.44
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W48,SGD,1255.09,251.02,23.06,1027.13,106,51.3,6,171.19
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W49,SGD,1226.03,245.21,12.26,993.08,119,60.0,6,165.51
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W50,SGD,1219.54,243.91,23.99,999.62,107,57.4,6,166.6
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W51,SGD,1339.17,267.83,18.94,1090.28,66,46.6,6,181.71
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2025-W52,SGD,1657.27,331.45,63.46,1389.28,105,52.1,6,231.55
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W01,SGD,1572.08,314.41,10.62,1268.29,78,48.4,6,211.38
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W02,SGD,1243.2,248.64,33.37,1027.93,96,57.3,6,171.32
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W03,SGD,1346.29,269.26,73.87,1150.9,89,60.7,6,191.82
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W04,SGD,1315.09,263.02,34.21,1086.28,90,54.1,6,181.05
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W05,SGD,1358.5,271.7,27.85,1114.65,90,53.6,6,185.78
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W06,SGD,1269.9,253.97,27.33,1043.26,92,55.8,6,173.88
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W07,SGD,1105.51,221.1,0.0,884.41,89,57.9,6,147.4
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W08,SGD,1053.58,210.71,26.88,869.75,84,56.8,6,144.96
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W09,SGD,1067.05,213.4,0.0,853.65,84,61.6,6,142.28
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W10,SGD,998.61,199.72,22.81,821.7,82,51.5,6,136.95
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W11,SGD,1002.53,200.51,15.74,817.76,87,46.0,6,136.29
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W12,SGD,721.85,144.38,15.73,593.2,100,48.6,6,98.87
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W13,SGD,1170.16,234.03,26.62,962.75,96,55.0,6,160.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W14,SGD,1375.17,275.04,19.24,1119.37,80,60.3,6,186.56
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W15,SGD,1367.24,273.45,10.23,1104.02,96,59.2,6,184.0
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W16,SGD,1304.51,260.9,33.12,1076.73,108,55.3,6,179.46
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W17,SGD,1293.94,258.78,13.92,1049.08,89,56.7,6,174.85
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W18,SGD,1275.07,255.01,0.0,1020.06,92,60.2,6,170.01
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W19,SGD,1328.06,265.61,0.0,1062.45,79,52.3,6,177.08
+drv_wei_sg_13,Wei Jie Lim,stabilizer,2026-W20,SGD,809.05,161.81,29.21,676.45,70,42.6,4,169.11

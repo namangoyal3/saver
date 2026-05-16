@@ -1,0 +1,228 @@
+driver_id,driver_name,date,month,movement,bucket,amount,currency,pool_balance_after
+drv_siti_sg_10,Siti Rahman,2025-03-21,2025-03,deposit,emergency_fund,8.89,SGD,8.89
+drv_siti_sg_10,Siti Rahman,2025-05-09,2025-05,deposit,emergency_fund,7.71,SGD,16.6
+drv_siti_sg_10,Siti Rahman,2025-06-27,2025-06,deposit,goal_pocket,11.23,SGD,27.83
+drv_siti_sg_10,Siti Rahman,2025-07-04,2025-07,deposit,liquid_buffer,12.92,SGD,40.75
+drv_siti_sg_10,Siti Rahman,2025-10-31,2025-10,deposit,goal_pocket,17.52,SGD,58.27
+drv_siti_sg_10,Siti Rahman,2025-12-05,2025-12,deposit,goal_pocket,17.82,SGD,76.09
+drv_mei_sg_11,Mei Lin Tan,2025-02-07,2025-02,deposit,emergency_fund,17.5,SGD,17.5
+drv_mei_sg_11,Mei Lin Tan,2025-02-14,2025-02,deposit,liquid_buffer,17.79,SGD,35.29
+drv_mei_sg_11,Mei Lin Tan,2025-02-21,2025-02,deposit,emergency_fund,13.48,SGD,48.77
+drv_mei_sg_11,Mei Lin Tan,2025-10-10,2025-10,deposit,goal_pocket,13.11,SGD,61.88
+drv_mei_sg_11,Mei Lin Tan,2025-11-14,2025-11,deposit,goal_pocket,10.37,SGD,72.25
+drv_mei_sg_11,Mei Lin Tan,2025-11-21,2025-11,deposit,goal_pocket,21.97,SGD,94.22
+drv_mei_sg_11,Mei Lin Tan,2026-05-15,2026-05,deposit,liquid_buffer,19.11,SGD,113.33
+drv_kumar_sg_12,Kumar Raj,2024-11-22,2024-11,deposit,emergency_fund,42.1,SGD,42.1
+drv_kumar_sg_12,Kumar Raj,2024-11-29,2024-11,deposit,goal_pocket,32.62,SGD,74.72
+drv_kumar_sg_12,Kumar Raj,2024-12-06,2024-12,deposit,emergency_fund,33.67,SGD,108.39
+drv_kumar_sg_12,Kumar Raj,2024-12-20,2024-12,deposit,liquid_buffer,51.48,SGD,159.87
+drv_kumar_sg_12,Kumar Raj,2024-12-27,2024-12,deposit,goal_pocket,26.12,SGD,185.99
+drv_kumar_sg_12,Kumar Raj,2025-01-03,2025-01,deposit,goal_pocket,49.04,SGD,235.03
+drv_kumar_sg_12,Kumar Raj,2025-01-10,2025-01,deposit,goal_pocket,35.62,SGD,270.65
+drv_kumar_sg_12,Kumar Raj,2025-01-17,2025-01,deposit,emergency_fund,16.43,SGD,287.08
+drv_kumar_sg_12,Kumar Raj,2025-01-24,2025-01,deposit,emergency_fund,44.72,SGD,331.8
+drv_kumar_sg_12,Kumar Raj,2025-01-31,2025-01,deposit,liquid_buffer,22.69,SGD,354.49
+drv_kumar_sg_12,Kumar Raj,2025-02-07,2025-02,deposit,goal_pocket,45.04,SGD,399.53
+drv_kumar_sg_12,Kumar Raj,2025-02-14,2025-02,deposit,goal_pocket,27.1,SGD,426.63
+drv_kumar_sg_12,Kumar Raj,2025-02-21,2025-02,deposit,goal_pocket,22.76,SGD,449.39
+drv_kumar_sg_12,Kumar Raj,2025-02-28,2025-02,deposit,liquid_buffer,43.52,SGD,492.91
+drv_kumar_sg_12,Kumar Raj,2025-03-14,2025-03,deposit,emergency_fund,43.23,SGD,536.14
+drv_kumar_sg_12,Kumar Raj,2025-03-21,2025-03,deposit,liquid_buffer,22.72,SGD,558.86
+drv_kumar_sg_12,Kumar Raj,2025-03-28,2025-03,deposit,goal_pocket,40.08,SGD,598.94
+drv_kumar_sg_12,Kumar Raj,2025-04-25,2025-04,deposit,goal_pocket,26.95,SGD,625.89
+drv_kumar_sg_12,Kumar Raj,2025-05-02,2025-05,deposit,liquid_buffer,28.51,SGD,654.4
+drv_kumar_sg_12,Kumar Raj,2025-05-16,2025-05,deposit,goal_pocket,17.55,SGD,671.95
+drv_kumar_sg_12,Kumar Raj,2025-05-23,2025-05,deposit,liquid_buffer,40.32,SGD,712.27
+drv_kumar_sg_12,Kumar Raj,2025-06-06,2025-06,deposit,emergency_fund,23.06,SGD,735.33
+drv_kumar_sg_12,Kumar Raj,2025-06-13,2025-06,deposit,emergency_fund,45.38,SGD,780.71
+drv_kumar_sg_12,Kumar Raj,2025-07-04,2025-07,deposit,emergency_fund,17.78,SGD,798.49
+drv_kumar_sg_12,Kumar Raj,2025-07-11,2025-07,deposit,liquid_buffer,50.79,SGD,849.28
+drv_kumar_sg_12,Kumar Raj,2025-07-18,2025-07,deposit,emergency_fund,47.55,SGD,896.83
+drv_kumar_sg_12,Kumar Raj,2025-08-01,2025-08,deposit,goal_pocket,40.73,SGD,937.56
+drv_kumar_sg_12,Kumar Raj,2025-08-08,2025-08,deposit,emergency_fund,20.92,SGD,958.48
+drv_kumar_sg_12,Kumar Raj,2025-09-05,2025-09,deposit,liquid_buffer,35.08,SGD,993.56
+drv_kumar_sg_12,Kumar Raj,2025-09-19,2025-09,deposit,goal_pocket,44.68,SGD,1038.24
+drv_kumar_sg_12,Kumar Raj,2025-10-03,2025-10,deposit,goal_pocket,32.89,SGD,1071.13
+drv_kumar_sg_12,Kumar Raj,2025-10-10,2025-10,deposit,liquid_buffer,31.65,SGD,1102.78
+drv_kumar_sg_12,Kumar Raj,2025-10-17,2025-10,deposit,liquid_buffer,19.3,SGD,1122.08
+drv_kumar_sg_12,Kumar Raj,2025-10-24,2025-10,deposit,emergency_fund,48.91,SGD,1170.99
+drv_kumar_sg_12,Kumar Raj,2025-10-31,2025-10,deposit,goal_pocket,37.1,SGD,1208.09
+drv_kumar_sg_12,Kumar Raj,2025-11-07,2025-11,deposit,liquid_buffer,51.15,SGD,1259.24
+drv_kumar_sg_12,Kumar Raj,2025-11-14,2025-11,deposit,liquid_buffer,26.52,SGD,1285.76
+drv_kumar_sg_12,Kumar Raj,2025-11-21,2025-11,deposit,emergency_fund,24.7,SGD,1310.46
+drv_kumar_sg_12,Kumar Raj,2025-12-05,2025-12,deposit,emergency_fund,37.69,SGD,1348.15
+drv_kumar_sg_12,Kumar Raj,2025-12-19,2025-12,deposit,emergency_fund,24.32,SGD,1372.47
+drv_kumar_sg_12,Kumar Raj,2025-12-26,2025-12,deposit,emergency_fund,18.22,SGD,1390.69
+drv_kumar_sg_12,Kumar Raj,2026-01-09,2026-01,deposit,goal_pocket,19.66,SGD,1410.35
+drv_kumar_sg_12,Kumar Raj,2026-01-16,2026-01,deposit,emergency_fund,29.21,SGD,1439.56
+drv_kumar_sg_12,Kumar Raj,2026-01-30,2026-01,deposit,goal_pocket,25.1,SGD,1464.66
+drv_kumar_sg_12,Kumar Raj,2026-02-13,2026-02,deposit,goal_pocket,33.52,SGD,1498.18
+drv_kumar_sg_12,Kumar Raj,2026-03-06,2026-03,deposit,liquid_buffer,32.17,SGD,1530.35
+drv_kumar_sg_12,Kumar Raj,2026-03-13,2026-03,deposit,goal_pocket,24.63,SGD,1554.98
+drv_kumar_sg_12,Kumar Raj,2026-03-20,2026-03,deposit,liquid_buffer,25.28,SGD,1580.26
+drv_kumar_sg_12,Kumar Raj,2026-03-27,2026-03,deposit,liquid_buffer,45.48,SGD,1625.74
+drv_kumar_sg_12,Kumar Raj,2026-04-03,2026-04,deposit,goal_pocket,28.65,SGD,1654.39
+drv_kumar_sg_12,Kumar Raj,2026-04-10,2026-04,deposit,emergency_fund,23.25,SGD,1677.64
+drv_kumar_sg_12,Kumar Raj,2026-04-17,2026-04,deposit,emergency_fund,41.11,SGD,1718.75
+drv_kumar_sg_12,Kumar Raj,2026-05-01,2026-05,deposit,emergency_fund,40.46,SGD,1759.21
+drv_kumar_sg_12,Kumar Raj,2026-05-08,2026-05,deposit,goal_pocket,31.29,SGD,1790.5
+drv_kumar_sg_12,Kumar Raj,2026-05-15,2026-05,deposit,emergency_fund,38.85,SGD,1829.35
+drv_wei_sg_13,Wei Jie Lim,2024-11-22,2024-11,deposit,goal_pocket,20.29,SGD,20.29
+drv_wei_sg_13,Wei Jie Lim,2024-11-29,2024-11,deposit,goal_pocket,41.67,SGD,61.96
+drv_wei_sg_13,Wei Jie Lim,2024-12-06,2024-12,deposit,goal_pocket,38.68,SGD,100.64
+drv_wei_sg_13,Wei Jie Lim,2024-12-13,2024-12,deposit,liquid_buffer,22.92,SGD,123.56
+drv_wei_sg_13,Wei Jie Lim,2024-12-20,2024-12,deposit,emergency_fund,24.61,SGD,148.17
+drv_wei_sg_13,Wei Jie Lim,2024-12-27,2024-12,deposit,liquid_buffer,24.33,SGD,172.5
+drv_wei_sg_13,Wei Jie Lim,2025-01-03,2025-01,deposit,goal_pocket,51.96,SGD,224.46
+drv_wei_sg_13,Wei Jie Lim,2025-01-10,2025-01,deposit,emergency_fund,39.69,SGD,264.15
+drv_wei_sg_13,Wei Jie Lim,2025-01-17,2025-01,deposit,goal_pocket,29.63,SGD,293.78
+drv_wei_sg_13,Wei Jie Lim,2025-01-24,2025-01,deposit,goal_pocket,39.99,SGD,333.77
+drv_wei_sg_13,Wei Jie Lim,2025-02-07,2025-02,deposit,goal_pocket,37.36,SGD,371.13
+drv_wei_sg_13,Wei Jie Lim,2025-03-14,2025-03,deposit,emergency_fund,48.18,SGD,419.31
+drv_wei_sg_13,Wei Jie Lim,2025-03-21,2025-03,deposit,emergency_fund,34.71,SGD,454.02
+drv_wei_sg_13,Wei Jie Lim,2025-03-28,2025-03,deposit,emergency_fund,22.31,SGD,476.33
+drv_wei_sg_13,Wei Jie Lim,2025-04-04,2025-04,deposit,liquid_buffer,48.76,SGD,525.09
+drv_wei_sg_13,Wei Jie Lim,2025-04-11,2025-04,deposit,goal_pocket,32.7,SGD,557.79
+drv_wei_sg_13,Wei Jie Lim,2025-04-18,2025-04,deposit,emergency_fund,28.87,SGD,586.66
+drv_wei_sg_13,Wei Jie Lim,2025-04-25,2025-04,deposit,goal_pocket,19.1,SGD,605.76
+drv_wei_sg_13,Wei Jie Lim,2025-05-02,2025-05,deposit,goal_pocket,22.85,SGD,628.61
+drv_wei_sg_13,Wei Jie Lim,2025-05-09,2025-05,deposit,emergency_fund,52.72,SGD,681.33
+drv_wei_sg_13,Wei Jie Lim,2025-05-16,2025-05,deposit,liquid_buffer,26.81,SGD,708.14
+drv_wei_sg_13,Wei Jie Lim,2025-05-23,2025-05,deposit,goal_pocket,51.9,SGD,760.04
+drv_wei_sg_13,Wei Jie Lim,2025-05-30,2025-05,deposit,liquid_buffer,39.03,SGD,799.07
+drv_wei_sg_13,Wei Jie Lim,2025-06-06,2025-06,deposit,emergency_fund,38.6,SGD,837.67
+drv_wei_sg_13,Wei Jie Lim,2025-06-13,2025-06,deposit,liquid_buffer,28.28,SGD,865.95
+drv_wei_sg_13,Wei Jie Lim,2025-06-20,2025-06,deposit,emergency_fund,42.91,SGD,908.86
+drv_wei_sg_13,Wei Jie Lim,2025-07-04,2025-07,deposit,liquid_buffer,20.5,SGD,929.36
+drv_wei_sg_13,Wei Jie Lim,2025-07-11,2025-07,deposit,liquid_buffer,22.89,SGD,952.25
+drv_wei_sg_13,Wei Jie Lim,2025-07-18,2025-07,deposit,liquid_buffer,19.1,SGD,971.35
+drv_wei_sg_13,Wei Jie Lim,2025-07-25,2025-07,deposit,goal_pocket,43.62,SGD,1014.97
+drv_wei_sg_13,Wei Jie Lim,2025-08-01,2025-08,deposit,liquid_buffer,39.92,SGD,1054.89
+drv_wei_sg_13,Wei Jie Lim,2025-08-08,2025-08,deposit,emergency_fund,28.08,SGD,1082.97
+drv_wei_sg_13,Wei Jie Lim,2025-08-15,2025-08,deposit,emergency_fund,30.4,SGD,1113.37
+drv_wei_sg_13,Wei Jie Lim,2025-08-22,2025-08,deposit,liquid_buffer,31.82,SGD,1145.19
+drv_wei_sg_13,Wei Jie Lim,2025-08-29,2025-08,deposit,emergency_fund,35.92,SGD,1181.11
+drv_wei_sg_13,Wei Jie Lim,2025-09-05,2025-09,deposit,goal_pocket,23.18,SGD,1204.29
+drv_wei_sg_13,Wei Jie Lim,2025-09-12,2025-09,deposit,emergency_fund,34.95,SGD,1239.24
+drv_wei_sg_13,Wei Jie Lim,2025-09-19,2025-09,deposit,emergency_fund,47.15,SGD,1286.39
+drv_wei_sg_13,Wei Jie Lim,2025-09-26,2025-09,deposit,goal_pocket,56.93,SGD,1343.32
+drv_wei_sg_13,Wei Jie Lim,2025-10-03,2025-10,deposit,emergency_fund,27.03,SGD,1370.35
+drv_wei_sg_13,Wei Jie Lim,2025-10-10,2025-10,deposit,emergency_fund,18.44,SGD,1388.79
+drv_wei_sg_13,Wei Jie Lim,2025-10-17,2025-10,deposit,liquid_buffer,46.82,SGD,1435.61
+drv_wei_sg_13,Wei Jie Lim,2025-10-24,2025-10,deposit,emergency_fund,51.83,SGD,1487.44
+drv_wei_sg_13,Wei Jie Lim,2025-11-07,2025-11,deposit,liquid_buffer,41.42,SGD,1528.86
+drv_wei_sg_13,Wei Jie Lim,2025-11-14,2025-11,deposit,goal_pocket,55.78,SGD,1584.64
+drv_wei_sg_13,Wei Jie Lim,2025-11-21,2025-11,deposit,liquid_buffer,27.54,SGD,1612.18
+drv_wei_sg_13,Wei Jie Lim,2025-11-28,2025-11,deposit,liquid_buffer,36.58,SGD,1648.76
+drv_wei_sg_13,Wei Jie Lim,2025-12-05,2025-12,deposit,liquid_buffer,51.16,SGD,1699.92
+drv_wei_sg_13,Wei Jie Lim,2025-12-12,2025-12,deposit,goal_pocket,47.76,SGD,1747.68
+drv_wei_sg_13,Wei Jie Lim,2025-12-19,2025-12,deposit,liquid_buffer,38.9,SGD,1786.58
+drv_wei_sg_13,Wei Jie Lim,2025-12-26,2025-12,deposit,goal_pocket,54.4,SGD,1840.98
+drv_wei_sg_13,Wei Jie Lim,2026-01-02,2026-01,deposit,emergency_fund,37.04,SGD,1878.02
+drv_wei_sg_13,Wei Jie Lim,2026-01-09,2026-01,deposit,emergency_fund,38.27,SGD,1916.29
+drv_wei_sg_13,Wei Jie Lim,2026-01-16,2026-01,deposit,goal_pocket,53.47,SGD,1969.76
+drv_wei_sg_13,Wei Jie Lim,2026-01-23,2026-01,deposit,liquid_buffer,53.88,SGD,2023.64
+drv_wei_sg_13,Wei Jie Lim,2026-01-30,2026-01,deposit,liquid_buffer,50.02,SGD,2073.66
+drv_wei_sg_13,Wei Jie Lim,2026-02-06,2026-02,deposit,goal_pocket,46.29,SGD,2119.95
+drv_wei_sg_13,Wei Jie Lim,2026-02-13,2026-02,deposit,liquid_buffer,48.36,SGD,2168.31
+drv_wei_sg_13,Wei Jie Lim,2026-02-20,2026-02,deposit,goal_pocket,39.24,SGD,2207.55
+drv_wei_sg_13,Wei Jie Lim,2026-02-27,2026-02,deposit,goal_pocket,30.05,SGD,2237.6
+drv_wei_sg_13,Wei Jie Lim,2026-03-06,2026-03,deposit,goal_pocket,37.35,SGD,2274.95
+drv_wei_sg_13,Wei Jie Lim,2026-03-20,2026-03,deposit,goal_pocket,21.88,SGD,2296.83
+drv_wei_sg_13,Wei Jie Lim,2026-03-27,2026-03,deposit,liquid_buffer,22.97,SGD,2319.8
+drv_wei_sg_13,Wei Jie Lim,2026-04-03,2026-04,deposit,goal_pocket,36.18,SGD,2355.98
+drv_wei_sg_13,Wei Jie Lim,2026-04-10,2026-04,deposit,emergency_fund,33.37,SGD,2389.35
+drv_wei_sg_13,Wei Jie Lim,2026-04-17,2026-04,deposit,emergency_fund,46.94,SGD,2436.29
+drv_wei_sg_13,Wei Jie Lim,2026-04-24,2026-04,deposit,liquid_buffer,21.74,SGD,2458.03
+drv_wei_sg_13,Wei Jie Lim,2026-05-01,2026-05,deposit,liquid_buffer,48.47,SGD,2506.5
+drv_wei_sg_13,Wei Jie Lim,2026-05-08,2026-05,deposit,goal_pocket,34.39,SGD,2540.89
+drv_wei_sg_13,Wei Jie Lim,2026-05-15,2026-05,deposit,goal_pocket,31.41,SGD,2572.3
+drv_nurul_sg_14,Nurul Aisyah,2024-11-22,2024-11,deposit,emergency_fund,35.94,SGD,35.94
+drv_nurul_sg_14,Nurul Aisyah,2024-11-29,2024-11,deposit,emergency_fund,28.21,SGD,64.15
+drv_nurul_sg_14,Nurul Aisyah,2024-12-06,2024-12,deposit,goal_pocket,25.89,SGD,90.04
+drv_nurul_sg_14,Nurul Aisyah,2024-12-13,2024-12,deposit,goal_pocket,51.94,SGD,141.98
+drv_nurul_sg_14,Nurul Aisyah,2024-12-20,2024-12,deposit,liquid_buffer,38.02,SGD,180.0
+drv_nurul_sg_14,Nurul Aisyah,2024-12-27,2024-12,deposit,liquid_buffer,37.66,SGD,217.66
+drv_nurul_sg_14,Nurul Aisyah,2025-01-03,2025-01,deposit,liquid_buffer,35.56,SGD,253.22
+drv_nurul_sg_14,Nurul Aisyah,2025-01-10,2025-01,deposit,liquid_buffer,53.41,SGD,306.63
+drv_nurul_sg_14,Nurul Aisyah,2025-01-17,2025-01,deposit,emergency_fund,54.14,SGD,360.77
+drv_nurul_sg_14,Nurul Aisyah,2025-01-24,2025-01,deposit,goal_pocket,44.21,SGD,404.98
+drv_nurul_sg_14,Nurul Aisyah,2025-01-31,2025-01,deposit,emergency_fund,21.08,SGD,426.06
+drv_nurul_sg_14,Nurul Aisyah,2025-02-07,2025-02,deposit,emergency_fund,29.37,SGD,455.43
+drv_nurul_sg_14,Nurul Aisyah,2025-02-14,2025-02,deposit,liquid_buffer,41.87,SGD,497.3
+drv_nurul_sg_14,Nurul Aisyah,2025-02-21,2025-02,deposit,liquid_buffer,55.68,SGD,552.98
+drv_nurul_sg_14,Nurul Aisyah,2025-02-28,2025-02,deposit,goal_pocket,28.19,SGD,581.17
+drv_nurul_sg_14,Nurul Aisyah,2025-03-07,2025-03,deposit,emergency_fund,41.76,SGD,622.93
+drv_nurul_sg_14,Nurul Aisyah,2025-03-14,2025-03,deposit,liquid_buffer,24.05,SGD,646.98
+drv_nurul_sg_14,Nurul Aisyah,2025-03-21,2025-03,deposit,emergency_fund,51.1,SGD,698.08
+drv_nurul_sg_14,Nurul Aisyah,2025-04-04,2025-04,deposit,liquid_buffer,21.42,SGD,719.5
+drv_nurul_sg_14,Nurul Aisyah,2025-04-11,2025-04,deposit,goal_pocket,39.85,SGD,759.35
+drv_nurul_sg_14,Nurul Aisyah,2025-04-18,2025-04,deposit,goal_pocket,27.44,SGD,786.79
+drv_nurul_sg_14,Nurul Aisyah,2025-04-25,2025-04,deposit,liquid_buffer,34.6,SGD,821.39
+drv_nurul_sg_14,Nurul Aisyah,2025-05-02,2025-05,deposit,goal_pocket,52.96,SGD,874.35
+drv_nurul_sg_14,Nurul Aisyah,2025-05-09,2025-05,deposit,goal_pocket,25.49,SGD,899.84
+drv_nurul_sg_14,Nurul Aisyah,2025-05-16,2025-05,deposit,liquid_buffer,44.12,SGD,943.96
+drv_nurul_sg_14,Nurul Aisyah,2025-05-23,2025-05,deposit,liquid_buffer,28.02,SGD,971.98
+drv_nurul_sg_14,Nurul Aisyah,2025-05-30,2025-05,deposit,emergency_fund,52.1,SGD,1024.08
+drv_nurul_sg_14,Nurul Aisyah,2025-06-06,2025-06,deposit,goal_pocket,33.43,SGD,1057.51
+drv_nurul_sg_14,Nurul Aisyah,2025-06-13,2025-06,deposit,emergency_fund,46.6,SGD,1104.11
+drv_nurul_sg_14,Nurul Aisyah,2025-06-20,2025-06,deposit,liquid_buffer,50.05,SGD,1154.16
+drv_nurul_sg_14,Nurul Aisyah,2025-06-27,2025-06,deposit,emergency_fund,19.74,SGD,1173.9
+drv_nurul_sg_14,Nurul Aisyah,2025-07-04,2025-07,deposit,emergency_fund,31.31,SGD,1205.21
+drv_nurul_sg_14,Nurul Aisyah,2025-07-11,2025-07,deposit,goal_pocket,42.23,SGD,1247.44
+drv_nurul_sg_14,Nurul Aisyah,2025-07-18,2025-07,deposit,emergency_fund,28.47,SGD,1275.91
+drv_nurul_sg_14,Nurul Aisyah,2025-07-25,2025-07,deposit,liquid_buffer,47.64,SGD,1323.55
+drv_nurul_sg_14,Nurul Aisyah,2025-08-01,2025-08,deposit,emergency_fund,26.88,SGD,1350.43
+drv_nurul_sg_14,Nurul Aisyah,2025-08-08,2025-08,deposit,goal_pocket,43.83,SGD,1394.26
+drv_nurul_sg_14,Nurul Aisyah,2025-08-15,2025-08,deposit,emergency_fund,23.42,SGD,1417.68
+drv_nurul_sg_14,Nurul Aisyah,2025-08-22,2025-08,deposit,liquid_buffer,25.88,SGD,1443.56
+drv_nurul_sg_14,Nurul Aisyah,2025-08-29,2025-08,deposit,goal_pocket,23.66,SGD,1467.22
+drv_nurul_sg_14,Nurul Aisyah,2025-09-05,2025-09,deposit,goal_pocket,17.28,SGD,1484.5
+drv_nurul_sg_14,Nurul Aisyah,2025-09-12,2025-09,deposit,liquid_buffer,30.59,SGD,1515.09
+drv_nurul_sg_14,Nurul Aisyah,2025-09-19,2025-09,deposit,goal_pocket,29.26,SGD,1544.35
+drv_nurul_sg_14,Nurul Aisyah,2025-09-26,2025-09,deposit,liquid_buffer,33.84,SGD,1578.19
+drv_nurul_sg_14,Nurul Aisyah,2025-10-03,2025-10,deposit,emergency_fund,56.36,SGD,1634.55
+drv_nurul_sg_14,Nurul Aisyah,2025-10-10,2025-10,deposit,emergency_fund,35.05,SGD,1669.6
+drv_nurul_sg_14,Nurul Aisyah,2025-10-17,2025-10,deposit,goal_pocket,36.41,SGD,1706.01
+drv_nurul_sg_14,Nurul Aisyah,2025-10-24,2025-10,deposit,goal_pocket,46.48,SGD,1752.49
+drv_nurul_sg_14,Nurul Aisyah,2025-10-31,2025-10,deposit,goal_pocket,51.35,SGD,1803.84
+drv_nurul_sg_14,Nurul Aisyah,2025-11-07,2025-11,deposit,goal_pocket,32.18,SGD,1836.02
+drv_nurul_sg_14,Nurul Aisyah,2025-11-14,2025-11,deposit,liquid_buffer,39.11,SGD,1875.13
+drv_nurul_sg_14,Nurul Aisyah,2025-11-21,2025-11,deposit,liquid_buffer,56.0,SGD,1931.13
+drv_nurul_sg_14,Nurul Aisyah,2025-11-28,2025-11,deposit,goal_pocket,33.9,SGD,1965.03
+drv_nurul_sg_14,Nurul Aisyah,2025-12-05,2025-12,deposit,liquid_buffer,51.62,SGD,2016.65
+drv_nurul_sg_14,Nurul Aisyah,2025-12-12,2025-12,deposit,liquid_buffer,17.25,SGD,2033.9
+drv_nurul_sg_14,Nurul Aisyah,2025-12-26,2025-12,deposit,emergency_fund,44.33,SGD,2078.23
+drv_nurul_sg_14,Nurul Aisyah,2026-01-02,2026-01,deposit,emergency_fund,32.35,SGD,2110.58
+drv_nurul_sg_14,Nurul Aisyah,2026-01-16,2026-01,deposit,emergency_fund,53.56,SGD,2164.14
+drv_nurul_sg_14,Nurul Aisyah,2026-01-23,2026-01,deposit,emergency_fund,43.86,SGD,2208.0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-30,2026-01,deposit,goal_pocket,22.4,SGD,2230.4
+drv_nurul_sg_14,Nurul Aisyah,2026-02-06,2026-02,deposit,goal_pocket,24.14,SGD,2254.54
+drv_nurul_sg_14,Nurul Aisyah,2026-02-13,2026-02,deposit,emergency_fund,54.22,SGD,2308.76
+drv_nurul_sg_14,Nurul Aisyah,2026-02-20,2026-02,deposit,goal_pocket,42.59,SGD,2351.35
+drv_nurul_sg_14,Nurul Aisyah,2026-02-27,2026-02,deposit,goal_pocket,42.06,SGD,2393.41
+drv_nurul_sg_14,Nurul Aisyah,2026-03-13,2026-03,deposit,emergency_fund,21.65,SGD,2415.06
+drv_nurul_sg_14,Nurul Aisyah,2026-03-20,2026-03,deposit,goal_pocket,51.56,SGD,2466.62
+drv_nurul_sg_14,Nurul Aisyah,2026-03-27,2026-03,deposit,goal_pocket,32.49,SGD,2499.11
+drv_nurul_sg_14,Nurul Aisyah,2026-04-03,2026-04,deposit,emergency_fund,23.13,SGD,2522.24
+drv_nurul_sg_14,Nurul Aisyah,2026-04-10,2026-04,deposit,goal_pocket,44.74,SGD,2566.98
+drv_nurul_sg_14,Nurul Aisyah,2026-04-17,2026-04,deposit,emergency_fund,46.2,SGD,2613.18
+drv_nurul_sg_14,Nurul Aisyah,2026-04-24,2026-04,deposit,goal_pocket,31.54,SGD,2644.72
+drv_nurul_sg_14,Nurul Aisyah,2026-05-08,2026-05,deposit,emergency_fund,44.58,SGD,2689.3
+drv_nurul_sg_14,Nurul Aisyah,2026-05-15,2026-05,deposit,goal_pocket,26.81,SGD,2716.11
+drv_daniel_sg_15,Daniel Goh,2024-12-13,2024-12,deposit,emergency_fund,21.61,SGD,21.61
+drv_daniel_sg_15,Daniel Goh,2025-02-07,2025-02,deposit,emergency_fund,21.65,SGD,43.26
+drv_daniel_sg_15,Daniel Goh,2025-04-01,2025-04,withdrawal,liquid_buffer,43.26,SGD,0.0
+drv_daniel_sg_15,Daniel Goh,2025-07-25,2025-07,deposit,emergency_fund,7.17,SGD,7.17
+drv_daniel_sg_15,Daniel Goh,2025-08-01,2025-08,deposit,goal_pocket,11.29,SGD,18.46
+drv_daniel_sg_15,Daniel Goh,2025-08-01,2025-08,withdrawal,liquid_buffer,18.46,SGD,0.0
+drv_daniel_sg_15,Daniel Goh,2025-08-29,2025-08,deposit,liquid_buffer,18.47,SGD,18.47
+drv_daniel_sg_15,Daniel Goh,2025-09-01,2025-09,withdrawal,liquid_buffer,8.18,SGD,10.29
+drv_daniel_sg_15,Daniel Goh,2025-09-02,2025-09,withdrawal,liquid_buffer,8.43,SGD,1.86
+drv_daniel_sg_15,Daniel Goh,2025-10-01,2025-10,withdrawal,liquid_buffer,1.86,SGD,-0.0
+drv_daniel_sg_15,Daniel Goh,2025-11-28,2025-11,deposit,liquid_buffer,11.08,SGD,11.08
+drv_daniel_sg_15,Daniel Goh,2025-12-05,2025-12,deposit,liquid_buffer,10.08,SGD,21.16
+drv_daniel_sg_15,Daniel Goh,2026-03-01,2026-03,withdrawal,liquid_buffer,21.16,SGD,0.0
+drv_daniel_sg_15,Daniel Goh,2026-03-20,2026-03,deposit,liquid_buffer,18.29,SGD,18.29
+drv_daniel_sg_15,Daniel Goh,2026-03-20,2026-03,withdrawal,liquid_buffer,17.26,SGD,1.03
+drv_daniel_sg_15,Daniel Goh,2026-03-21,2026-03,withdrawal,liquid_buffer,1.03,SGD,-0.0

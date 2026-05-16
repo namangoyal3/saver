@@ -1,0 +1,81 @@
+driver_id,driver_name,date,anomaly_type,detail,impact,currency,amount
+drv_siti_sg_10,Siti Rahman,2025-01-30,expense_spike,emergency_medical,above_p95,SGD,1103.08
+drv_siti_sg_10,Siti Rahman,2025-08-07,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-08,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-09,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-10,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-11,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-12,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-13,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-14,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-08-15,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-09-26,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-09-27,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-09-28,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-09-29,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-09-30,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-10-23,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-10-24,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_siti_sg_10,Siti Rahman,2025-10-25,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-09,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-10,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-11,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-12,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-13,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2024-12-14,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-02-24,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-02-25,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-02-26,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-02-27,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-02-28,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-03-01,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-03-02,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-03-03,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-03-04,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2025-09-06,expense_spike,emergency_medical,above_p95,SGD,597.49
+drv_mei_sg_11,Mei Lin Tan,2026-03-29,income_shock,illness,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2026-03-30,income_shock,illness,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2026-03-31,income_shock,illness,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2026-04-01,income_shock,illness,zero_income_day,SGD,0
+drv_mei_sg_11,Mei Lin Tan,2026-04-02,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-08-30,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-08-31,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-09-01,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-12-11,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-12-12,income_shock,illness,zero_income_day,SGD,0
+drv_kumar_sg_12,Kumar Raj,2025-12-13,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-21,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-22,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-23,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-24,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-25,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-26,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-27,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-02-28,income_shock,vehicle_breakdown,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-01,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-02,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-03,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-04,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-05,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-06,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-03-07,income_shock,illness,zero_income_day,SGD,0
+drv_wei_sg_13,Wei Jie Lim,2025-05-09,expense_spike,emergency_medical,above_p95,SGD,1322.33
+drv_nurul_sg_14,Nurul Aisyah,2025-12-14,income_spike,festival_bonus,above_p90,SGD,377.79
+drv_nurul_sg_14,Nurul Aisyah,2026-01-03,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-04,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-05,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-06,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-07,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-08,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-09,income_shock,illness,zero_income_day,SGD,0
+drv_nurul_sg_14,Nurul Aisyah,2026-01-10,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2025-06-19,expense_spike,emergency_medical,above_p95,SGD,1035.21
+drv_daniel_sg_15,Daniel Goh,2026-02-10,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-11,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-12,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-13,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-14,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-15,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-16,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-17,income_shock,illness,zero_income_day,SGD,0
+drv_daniel_sg_15,Daniel Goh,2026-02-18,income_shock,illness,zero_income_day,SGD,0

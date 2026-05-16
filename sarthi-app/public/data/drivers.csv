@@ -1,0 +1,7 @@
+driver_id,name,market,country,city,currency,partner_type,vehicle,services,persona,earnings_tier,age,dependents,religion,tenure_months,bank,ewallet,rest_dow,home_lat,home_lon,device,phone_model,credit_score_band
+drv_siti_sg_10,Siti Rahman,SG,Singapore,Singapore,SGD,ride,motorbike,ride,firefighter,M,45,2,muslim,43,UOB,PayLah,Wednesday,1.40926,103.81259,Android 14,Realme C55,thin-file
+drv_mei_sg_11,Mei Lin Tan,SG,Singapore,Singapore,SGD,ride,car,ride,firefighter,M,25,4,buddhist,38,UOB,GrabPay,Saturday,1.40498,103.9477,Android 14,Realme C55,thin-file
+drv_kumar_sg_12,Kumar Raj,SG,Singapore,Singapore,SGD,mixed,motorbike,ride|food,grower,H,43,3,christian,52,DBS,GrabPay,Sunday,1.30151,103.86068,Android 13,Samsung A24,good
+drv_wei_sg_13,Wei Jie Lim,SG,Singapore,Singapore,SGD,ride,motorbike,ride,stabilizer,M,45,4,muslim,18,Standard Chartered,GrabPay,Tuesday,1.31427,103.76786,Android 13,iPhone 13,thin-file
+drv_nurul_sg_14,Nurul Aisyah,SG,Singapore,Singapore,SGD,delivery,motorbike,food|mart,stabilizer,L,41,4,christian,60,OCBC,PayNow,Sunday,1.40267,103.88168,Android 14,Xiaomi Redmi 12,good
+drv_daniel_sg_15,Daniel Goh,SG,Singapore,Singapore,SGD,ride,motorbike,ride,firefighter,L,43,0,muslim,60,DBS,PayLah,Thursday,1.40109,103.7773,Android 13,Realme C55,thin-file

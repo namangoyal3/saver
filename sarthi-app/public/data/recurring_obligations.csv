@@ -1,0 +1,32 @@
+driver_id,driver_name,category,obligation,frequency,day_of_month,typical_amount_low,typical_amount_high,currency,payment_channel,detected_from
+drv_siti_sg_10,Siti Rahman,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_siti_sg_10,Siti Rahman,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_siti_sg_10,Siti Rahman,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_siti_sg_10,Siti Rahman,DEBT_REPAY,debt_instalment,monthly,15,170,340,SGD,auto_debit,recurring_pattern
+drv_siti_sg_10,Siti Rahman,DEBT_REPAY,debt_bnpl,monthly,25,32,95,SGD,auto_debit,recurring_pattern
+drv_siti_sg_10,Siti Rahman,FAMILY_DEPENDENTS,school_fee,monthly,8,110,280,SGD,transfer,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,DEBT_REPAY,debt_instalment,monthly,15,170,340,SGD,auto_debit,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,DEBT_REPAY,debt_bnpl,monthly,25,32,95,SGD,auto_debit,recurring_pattern
+drv_mei_sg_11,Mei Lin Tan,FAMILY_DEPENDENTS,school_fee,monthly,8,110,280,SGD,transfer,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,DEBT_REPAY,debt_instalment,monthly,15,170,340,SGD,auto_debit,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,DEBT_REPAY,debt_bnpl,monthly,25,32,95,SGD,auto_debit,recurring_pattern
+drv_kumar_sg_12,Kumar Raj,FAMILY_DEPENDENTS,school_fee,monthly,8,110,280,SGD,transfer,recurring_pattern
+drv_wei_sg_13,Wei Jie Lim,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_wei_sg_13,Wei Jie Lim,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_wei_sg_13,Wei Jie Lim,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_wei_sg_13,Wei Jie Lim,FAMILY_DEPENDENTS,school_fee,monthly,8,110,280,SGD,transfer,recurring_pattern
+drv_nurul_sg_14,Nurul Aisyah,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_nurul_sg_14,Nurul Aisyah,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_nurul_sg_14,Nurul Aisyah,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_nurul_sg_14,Nurul Aisyah,FAMILY_DEPENDENTS,school_fee,monthly,8,110,280,SGD,transfer,recurring_pattern
+drv_daniel_sg_15,Daniel Goh,HOUSING,housing,monthly,1,520,980,SGD,auto_debit,recurring_pattern
+drv_daniel_sg_15,Daniel Goh,TELECOM,telecom_bill,monthly,5,26,55,SGD,auto_debit,recurring_pattern
+drv_daniel_sg_15,Daniel Goh,VEHICLE_MAINT,vehicle_insurance,monthly,10,80,145,SGD,auto_debit,recurring_pattern
+drv_daniel_sg_15,Daniel Goh,DEBT_REPAY,debt_instalment,monthly,15,170,340,SGD,auto_debit,recurring_pattern
+drv_daniel_sg_15,Daniel Goh,DEBT_REPAY,debt_bnpl,monthly,25,32,95,SGD,auto_debit,recurring_pattern

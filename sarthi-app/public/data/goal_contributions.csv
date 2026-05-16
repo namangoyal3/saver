@@ -1,0 +1,324 @@
+goal_id,driver_id,driver_name,persona,goal_name,event_date,event_type,amount,currency,running_goal_balance,source
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-02-18,contribution,10,SGD,10,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-02-25,contribution,20,SGD,30,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-03-04,contribution,20,SGD,50,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-03-11,contribution,20,SGD,70,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-03-18,contribution,10,SGD,80,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-03-25,contribution,20,SGD,100,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-04-01,contribution,10,SGD,110,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-04-08,missed,0.0,SGD,110,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-04-15,missed,0.0,SGD,110,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-04-22,contribution,20,SGD,130,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-04-29,missed,0.0,SGD,130,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-05-06,contribution,20,SGD,150,auto_sweep
+goal_siti_sg_10_1,drv_siti_sg_10,Siti Rahman,firefighter,Health insurance premium fund,2026-05-13,contribution,20,SGD,170,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-03-16,contribution,20,SGD,20,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-03-23,missed,0.0,SGD,20,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-03-30,contribution,20,SGD,40,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-04-06,contribution,20,SGD,60,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-04-13,missed,0.0,SGD,60,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-04-20,missed,0.0,SGD,60,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-04-27,contribution,20,SGD,80,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-05-04,missed,0.0,SGD,80,auto_sweep
+goal_siti_sg_10_3,drv_siti_sg_10,Siti Rahman,firefighter,Pay off vehicle loan early,2026-05-11,contribution,20,SGD,100,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-02-07,contribution,110,SGD,110,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-02-14,contribution,80,SGD,190,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-02-21,contribution,130,SGD,320,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-02-28,contribution,130,SGD,450,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-03-07,contribution,100,SGD,550,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-03-14,contribution,110,SGD,660,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-03-21,contribution,90,SGD,750,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-03-28,contribution,80,SGD,830,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-04-04,contribution,110,SGD,940,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-04-11,contribution,120,SGD,1060,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-04-18,contribution,120,SGD,1180,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-04-25,missed,0.0,SGD,1180,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-05-02,contribution,120,SGD,1300,auto_sweep
+goal_mei_sg_11_1,drv_mei_sg_11,Mei Lin Tan,firefighter,Income smoothing buffer,2026-05-09,contribution,80,SGD,1380,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-08-12,missed,0.0,SGD,0,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-08-19,missed,0.0,SGD,0,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-08-26,contribution,40,SGD,40,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-09-02,contribution,40,SGD,80,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-09-09,missed,0.0,SGD,80,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-09-16,contribution,30,SGD,110,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-09-23,missed,0.0,SGD,110,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-09-30,contribution,40,SGD,150,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-10-07,contribution,40,SGD,190,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-10-14,contribution,50,SGD,240,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-10-21,contribution,40,SGD,280,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-10-28,contribution,50,SGD,330,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-11-04,contribution,30,SGD,360,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-11-11,contribution,50,SGD,410,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-11-18,contribution,50,SGD,460,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-11-25,missed,0.0,SGD,460,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-12-02,contribution,30,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-12-09,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-12-16,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-12-23,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2025-12-30,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-01-06,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-01-13,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-01-20,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-01-27,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-02-03,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-02-10,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-02-17,missed,0.0,SGD,490,auto_sweep
+goal_mei_sg_11_2,drv_mei_sg_11,Mei Lin Tan,firefighter,Major vehicle service fund,2026-02-24,contribution,0,SGD,490,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-02-03,contribution,20,SGD,20,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-02-10,contribution,40,SGD,60,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-02-17,contribution,30,SGD,90,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-02-24,contribution,40,SGD,130,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-03-03,contribution,40,SGD,170,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-03-10,contribution,40,SGD,210,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-03-17,missed,0.0,SGD,210,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-03-24,contribution,30,SGD,240,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-03-31,contribution,20,SGD,260,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-04-07,missed,0.0,SGD,260,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-04-14,contribution,20,SGD,280,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-04-21,contribution,20,SGD,300,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-04-28,contribution,20,SGD,320,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-05-05,contribution,40,SGD,360,auto_sweep
+goal_mei_sg_11_3,drv_mei_sg_11,Mei Lin Tan,firefighter,Clear BNPL balance,2026-05-12,missed,0.0,SGD,360,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-05-30,contribution,90,SGD,90,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-06-06,contribution,70,SGD,160,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-06-13,contribution,90,SGD,250,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-06-20,missed,0.0,SGD,250,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-06-27,missed,0.0,SGD,250,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-07-04,missed,0.0,SGD,250,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-07-11,contribution,100,SGD,350,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-07-18,contribution,110,SGD,460,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-07-25,contribution,80,SGD,540,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-08-01,contribution,100,SGD,640,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-08-08,contribution,100,SGD,740,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-08-15,contribution,60,SGD,800,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-08-22,contribution,60,SGD,860,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-08-29,contribution,70,SGD,930,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-09-05,missed,0.0,SGD,930,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-09-12,contribution,90,SGD,1020,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-09-19,contribution,100,SGD,1120,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-09-26,contribution,70,SGD,1190,auto_sweep
+goal_mei_sg_11_4,drv_mei_sg_11,Mei Lin Tan,firefighter,Emergency fund,2025-09-26,contribution,2470,SGD,3660,final_topup
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-06-20,missed,0.0,SGD,0,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-06-27,contribution,30,SGD,30,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-07-04,contribution,40,SGD,70,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-07-11,contribution,40,SGD,110,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-07-18,contribution,40,SGD,150,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-07-25,missed,0.0,SGD,150,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-08-01,contribution,30,SGD,180,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-08-08,contribution,30,SGD,210,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-08-15,contribution,40,SGD,250,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-08-22,contribution,50,SGD,300,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-08-29,missed,0.0,SGD,300,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-09-05,contribution,40,SGD,340,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-09-12,contribution,40,SGD,380,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-09-19,missed,0.0,SGD,380,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-09-26,contribution,30,SGD,410,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-10-03,contribution,40,SGD,450,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-10-10,contribution,30,SGD,480,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-10-17,missed,0.0,SGD,480,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-10-24,contribution,30,SGD,510,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-10-31,contribution,30,SGD,540,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-11-07,contribution,40,SGD,580,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-11-14,contribution,40,SGD,620,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-11-21,contribution,30,SGD,650,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-11-28,contribution,50,SGD,700,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-12-05,contribution,30,SGD,730,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-12-12,contribution,20,SGD,750,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-12-19,contribution,30,SGD,780,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2025-12-26,contribution,30,SGD,810,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-01-02,missed,0.0,SGD,810,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-01-09,contribution,40,SGD,850,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-01-16,missed,0.0,SGD,850,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-01-23,contribution,50,SGD,900,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-01-30,contribution,40,SGD,940,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-02-06,contribution,30,SGD,970,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-02-13,contribution,50,SGD,1020,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-02-20,contribution,20,SGD,1040,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-02-27,contribution,30,SGD,1070,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-03-06,contribution,40,SGD,1110,auto_sweep
+goal_kumar_sg_12_1,drv_kumar_sg_12,Kumar Raj,grower,Health insurance premium fund,2026-03-13,contribution,30,SGD,1140,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-01-22,contribution,60,SGD,60,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-01-29,contribution,80,SGD,140,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-02-05,contribution,60,SGD,200,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-02-12,contribution,80,SGD,280,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-02-19,contribution,50,SGD,330,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-02-26,contribution,80,SGD,410,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-03-05,contribution,90,SGD,500,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-03-12,missed,0.0,SGD,500,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-03-19,contribution,80,SGD,580,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-03-26,contribution,80,SGD,660,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-04-02,contribution,60,SGD,720,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-04-09,contribution,60,SGD,780,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-04-16,contribution,90,SGD,870,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-04-23,missed,0.0,SGD,870,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-04-30,contribution,100,SGD,970,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-05-07,contribution,90,SGD,1060,auto_sweep
+goal_kumar_sg_12_2,drv_kumar_sg_12,Kumar Raj,grower,Emergency fund,2026-05-14,contribution,90,SGD,1150,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-08-28,contribution,240,SGD,240,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-09-04,contribution,160,SGD,400,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-09-11,missed,0.0,SGD,400,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-09-18,contribution,170,SGD,570,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-09-25,contribution,170,SGD,740,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-10-02,contribution,230,SGD,970,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-10-09,contribution,250,SGD,1220,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-10-16,contribution,290,SGD,1510,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-10-23,contribution,200,SGD,1710,auto_sweep
+goal_kumar_sg_12_3,drv_kumar_sg_12,Kumar Raj,grower,Upgrade to a better vehicle,2025-10-30,contribution,250,SGD,1960,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2025-12-13,contribution,30,SGD,30,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2025-12-20,contribution,50,SGD,80,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2025-12-27,missed,0.0,SGD,80,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-01-03,contribution,30,SGD,110,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-01-10,contribution,50,SGD,160,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-01-17,contribution,30,SGD,190,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-01-24,contribution,50,SGD,240,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-01-31,contribution,30,SGD,270,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-02-07,contribution,40,SGD,310,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-02-14,contribution,40,SGD,350,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-02-21,contribution,50,SGD,400,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-02-28,contribution,30,SGD,430,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-03-07,contribution,40,SGD,470,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-03-14,contribution,50,SGD,520,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-03-21,missed,0.0,SGD,520,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-03-28,missed,0.0,SGD,520,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-04-04,contribution,20,SGD,540,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-04-11,contribution,30,SGD,570,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-04-18,missed,0.0,SGD,570,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-04-25,contribution,40,SGD,610,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-05-02,contribution,30,SGD,640,auto_sweep
+goal_wei_sg_13_1,drv_wei_sg_13,Wei Jie Lim,stabilizer,Income smoothing buffer,2026-05-09,missed,0.0,SGD,640,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2025-12-09,contribution,30,SGD,30,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2025-12-16,contribution,20,SGD,50,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2025-12-23,missed,0.0,SGD,50,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2025-12-30,contribution,30,SGD,80,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2026-01-06,contribution,20,SGD,100,auto_sweep
+goal_wei_sg_13_2,drv_wei_sg_13,Wei Jie Lim,stabilizer,Major vehicle service fund,2026-01-13,contribution,30,SGD,130,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2025-12-24,contribution,140,SGD,140,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2025-12-31,contribution,100,SGD,240,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-01-07,contribution,140,SGD,380,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-01-14,contribution,110,SGD,490,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-01-21,contribution,160,SGD,650,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-01-28,contribution,160,SGD,810,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-02-04,contribution,100,SGD,910,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-02-11,contribution,180,SGD,1090,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-02-18,contribution,200,SGD,1290,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-02-25,contribution,100,SGD,1390,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-03-04,contribution,100,SGD,1490,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-03-11,contribution,190,SGD,1680,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-03-18,contribution,140,SGD,1820,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-03-25,contribution,100,SGD,1920,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-04-01,contribution,130,SGD,2050,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-04-08,contribution,140,SGD,2190,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-04-15,contribution,200,SGD,2390,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-04-22,contribution,200,SGD,2590,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-04-29,contribution,180,SGD,2770,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-05-06,contribution,150,SGD,2920,auto_sweep
+goal_nurul_sg_14_1,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Emergency fund,2026-05-13,contribution,200,SGD,3120,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-04-13,contribution,200,SGD,200,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-04-20,contribution,230,SGD,430,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-04-27,contribution,290,SGD,720,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-05-04,contribution,180,SGD,900,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-05-11,contribution,260,SGD,1160,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-05-18,contribution,320,SGD,1480,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-05-25,contribution,210,SGD,1690,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-06-01,contribution,320,SGD,2010,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-06-08,contribution,300,SGD,2310,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-06-15,contribution,210,SGD,2520,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-06-22,contribution,170,SGD,2690,auto_sweep
+goal_nurul_sg_14_3,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Home improvement for family,2025-06-29,contribution,210,SGD,2900,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-09-30,contribution,100,SGD,100,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-10-07,contribution,80,SGD,180,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-10-14,contribution,80,SGD,260,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-10-21,contribution,50,SGD,310,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-10-28,contribution,70,SGD,380,auto_sweep
+goal_nurul_sg_14_4,drv_nurul_sg_14,Nurul Aisyah,stabilizer,Children's school fees,2025-11-04,contribution,50,SGD,430,auto_sweep
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-04-30,missed,0.0,SGD,0,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-05-07,contribution,200,SGD,200,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-05-14,contribution,240,SGD,440,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-05-21,contribution,240,SGD,680,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-05-28,contribution,200,SGD,880,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-06-04,contribution,270,SGD,1150,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-06-11,contribution,210,SGD,1360,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-06-18,missed,0.0,SGD,1360,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-06-25,missed,0.0,SGD,1360,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-07-02,contribution,200,SGD,1560,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-07-09,contribution,230,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-07-16,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-07-23,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-07-30,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-08-06,missed,0.0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-08-13,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-08-20,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-08-27,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-09-03,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-09-10,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-09-17,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-09-24,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-10-01,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-10-08,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-10-15,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-10-22,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-10-29,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-11-05,missed,0.0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-11-12,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-11-19,missed,0.0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-11-26,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_1,drv_daniel_sg_15,Daniel Goh,firefighter,Income smoothing buffer,2025-12-03,contribution,0,SGD,1790,trip_roundup
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-06-18,contribution,60,SGD,60,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-06-25,contribution,30,SGD,90,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-07-02,contribution,30,SGD,120,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-07-09,missed,0.0,SGD,120,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-07-16,contribution,60,SGD,180,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-07-23,missed,0.0,SGD,180,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-07-30,missed,0.0,SGD,180,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-08-06,contribution,60,SGD,240,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-08-13,contribution,50,SGD,290,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-08-20,contribution,60,SGD,350,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-08-27,contribution,40,SGD,390,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-09-03,contribution,40,SGD,430,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-09-10,contribution,50,SGD,480,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-09-17,contribution,50,SGD,530,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-09-24,contribution,40,SGD,570,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-10-01,contribution,40,SGD,610,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-10-08,contribution,60,SGD,670,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-10-15,contribution,40,SGD,710,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-10-22,contribution,40,SGD,750,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-10-29,contribution,40,SGD,790,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-11-05,missed,0.0,SGD,790,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-11-12,contribution,40,SGD,830,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-11-19,contribution,50,SGD,880,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-11-26,missed,0.0,SGD,880,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-12-03,contribution,40,SGD,920,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-12-10,contribution,60,SGD,980,auto_sweep
+goal_daniel_sg_15_2,drv_daniel_sg_15,Daniel Goh,firefighter,Pay off vehicle loan early,2025-12-17,contribution,50,SGD,1030,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-07-13,contribution,50,SGD,50,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-07-20,contribution,50,SGD,100,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-07-27,missed,0.0,SGD,100,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-08-03,contribution,60,SGD,160,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-08-10,contribution,80,SGD,240,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-08-17,contribution,80,SGD,320,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-08-24,contribution,40,SGD,360,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-08-31,contribution,70,SGD,430,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-09-07,missed,0.0,SGD,430,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-09-14,contribution,60,SGD,490,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-09-21,contribution,80,SGD,570,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-09-28,contribution,50,SGD,620,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-10-05,contribution,80,SGD,700,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-10-12,contribution,60,SGD,760,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-10-19,contribution,80,SGD,840,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-10-26,contribution,40,SGD,880,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-11-02,contribution,80,SGD,960,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-11-09,contribution,80,SGD,1040,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-11-16,contribution,50,SGD,1090,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-11-23,contribution,70,SGD,1160,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-11-30,contribution,60,SGD,1220,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-12-07,contribution,40,SGD,1260,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-12-14,missed,0.0,SGD,1260,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-12-21,contribution,60,SGD,1320,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2025-12-28,contribution,50,SGD,1370,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-01-04,contribution,80,SGD,1450,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-01-11,contribution,50,SGD,1500,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-01-18,missed,0.0,SGD,1500,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-01-25,missed,0.0,SGD,1500,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-02-01,contribution,40,SGD,1540,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-02-08,contribution,80,SGD,1620,auto_sweep
+goal_daniel_sg_15_3,drv_daniel_sg_15,Daniel Goh,firefighter,Emergency fund,2026-02-15,contribution,50,SGD,1670,auto_sweep

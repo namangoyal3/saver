@@ -1,0 +1,1233 @@
+zone_id,zone_label,zone_type,day_of_week,hour,demand_index,demand_bucket,surge_multiplier,weather,expected_net_per_hour_sgd,lat,lon
+CBD_Raffles,CBD / Raffles Place,office,Mon,5,0.411,low,1.0,clear,14.45,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,6,0.765,moderate,1.0,clear,16.15,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,7,1.264,very_high,1.12,clear,18.88,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,8,1.521,very_high,1.26,clear,19.95,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,9,1.273,very_high,1.12,clear,18.93,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,10,0.83,moderate,1.0,clear,16.46,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,11,0.658,moderate,1.0,clear,15.64,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,12,0.755,moderate,1.0,clear,16.1,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,13,0.726,moderate,1.0,clear,15.97,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,14,0.509,low,1.0,clear,14.92,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,15,0.421,low,1.0,clear,14.5,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,16,0.641,moderate,1.0,clear,15.56,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,17,1.116,high,1.04,clear,17.95,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,18,1.548,very_high,1.27,clear,19.98,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,19,1.548,very_high,1.27,clear,19.98,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,20,1.116,high,1.04,clear,17.94,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,21,0.632,moderate,1.0,clear,15.51,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,22,0.356,low,1.0,clear,14.19,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,23,0.261,low,1.0,clear,13.74,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,0,0.238,low,1.0,clear,13.62,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,1,0.238,low,1.0,clear,13.62,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Mon,2,0.238,low,1.0,clear,13.62,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,5,0.42,low,1.0,clear,14.49,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,6,0.781,moderate,1.0,clear,16.23,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,7,1.291,very_high,1.13,clear,19.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,8,1.553,very_high,1.28,clear,20.01,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,9,1.3,very_high,1.14,clear,19.11,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,10,0.847,moderate,1.0,clear,16.55,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,11,0.672,moderate,1.0,clear,15.7,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,12,0.771,moderate,1.0,clear,16.18,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,13,0.742,moderate,1.0,clear,16.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,14,0.519,low,1.0,clear,14.97,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,15,0.43,low,1.0,clear,14.55,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,16,0.654,moderate,1.0,clear,15.62,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,17,1.14,high,1.05,clear,18.09,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,18,1.58,very_high,1.29,clear,20.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,19,1.58,very_high,1.29,clear,20.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,20,1.139,high,1.05,clear,18.08,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,21,0.645,moderate,1.0,clear,15.58,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,22,0.364,low,1.0,clear,14.23,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,23,0.267,low,1.0,clear,13.76,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,0,0.243,low,1.0,clear,13.64,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,1,0.243,low,1.0,clear,13.64,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Tue,2,0.243,low,1.0,clear,13.65,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,5,0.488,low,1.15,light_rain,16.37,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,6,0.909,moderate,1.15,light_rain,18.6,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,7,1.502,very_high,1.4,light_rain,21.98,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,8,1.806,very_high,1.57,light_rain,22.51,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,9,1.513,very_high,1.4,light_rain,21.98,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,10,0.986,high,1.15,light_rain,19.01,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,11,0.782,moderate,1.15,light_rain,17.92,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,12,0.897,moderate,1.15,light_rain,18.54,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,13,0.863,moderate,1.15,light_rain,18.36,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,14,0.604,moderate,1.15,light_rain,16.99,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,15,0.501,low,1.15,light_rain,16.44,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,16,0.761,moderate,1.15,light_rain,17.82,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,17,1.326,very_high,1.3,light_rain,21.27,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,18,1.839,very_high,1.58,light_rain,22.54,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,19,1.839,very_high,1.58,light_rain,22.54,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,20,1.326,very_high,1.3,light_rain,21.27,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,21,0.751,moderate,1.15,light_rain,17.76,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,22,0.423,low,1.15,light_rain,16.03,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,23,0.311,low,1.15,light_rain,15.43,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,0,0.282,low,1.15,light_rain,15.28,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,1,0.282,low,1.15,light_rain,15.28,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Wed,2,0.283,low,1.15,light_rain,15.28,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,5,0.441,low,1.0,clear,14.6,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,6,0.821,moderate,1.0,clear,16.42,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,7,1.358,very_high,1.17,clear,19.48,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,8,1.633,very_high,1.32,clear,20.12,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,9,1.367,very_high,1.17,clear,19.53,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,10,0.891,moderate,1.0,clear,16.76,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,11,0.706,moderate,1.0,clear,15.87,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,12,0.811,moderate,1.0,clear,16.37,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,13,0.78,moderate,1.0,clear,16.22,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,14,0.546,low,1.0,clear,15.1,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,15,0.453,low,1.0,clear,14.65,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,16,0.688,moderate,1.0,clear,15.78,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,17,1.199,high,1.08,clear,18.45,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,18,1.662,very_high,1.34,clear,20.18,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,19,1.662,very_high,1.34,clear,20.18,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,20,1.198,high,1.08,clear,18.45,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,21,0.679,moderate,1.0,clear,15.74,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,22,0.383,low,1.0,clear,14.32,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,23,0.281,low,1.0,clear,13.83,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,0,0.255,low,1.0,clear,13.7,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,1,0.255,low,1.0,clear,13.7,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Thu,2,0.255,low,1.0,clear,13.71,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,5,0.511,low,1.0,clear,14.93,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,6,0.95,moderate,1.0,clear,17.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,7,1.571,very_high,1.29,clear,20.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,8,1.889,very_high,1.46,clear,20.52,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,9,1.582,very_high,1.29,clear,20.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,10,1.031,high,1.0,clear,17.43,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,11,0.817,moderate,1.0,clear,16.4,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,12,0.938,moderate,1.0,clear,16.98,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,13,0.902,moderate,1.0,clear,16.81,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,14,0.632,moderate,1.0,clear,15.51,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,15,0.523,low,1.0,clear,14.99,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,16,0.796,moderate,1.0,clear,16.3,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,17,1.387,very_high,1.19,clear,19.68,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,18,1.923,very_high,1.48,clear,20.58,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,19,1.923,very_high,1.48,clear,20.58,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,20,1.386,very_high,1.18,clear,19.65,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,21,0.785,moderate,1.0,clear,16.25,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,22,0.443,low,1.0,clear,14.6,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,23,0.325,low,1.0,clear,14.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,0,0.295,low,1.0,clear,13.9,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,1,0.295,low,1.0,clear,13.9,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Fri,2,0.296,low,1.0,clear,13.9,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,5,0.533,low,1.0,cloudy,15.04,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,6,0.992,high,1.0,cloudy,17.24,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,7,1.64,very_high,1.32,cloudy,20.12,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,8,1.972,very_high,1.51,cloudy,20.67,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,9,1.651,very_high,1.33,cloudy,20.15,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,10,1.076,high,1.01,cloudy,17.67,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,11,0.853,moderate,1.0,cloudy,16.58,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,12,0.979,high,1.0,cloudy,17.18,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,13,0.942,moderate,1.0,cloudy,17.0,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,14,0.66,moderate,1.0,cloudy,15.65,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,15,0.547,low,1.0,cloudy,15.1,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,16,0.831,moderate,1.0,cloudy,16.47,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,17,1.448,very_high,1.22,cloudy,19.83,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,18,2.008,very_high,1.53,cloudy,20.73,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,19,2.008,very_high,1.53,cloudy,20.73,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,20,1.447,very_high,1.22,cloudy,19.83,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,21,0.82,moderate,1.0,cloudy,16.42,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,22,0.462,low,1.0,cloudy,14.7,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,23,0.339,low,1.0,cloudy,14.11,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,0,0.308,low,1.0,cloudy,13.96,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,1,0.308,low,1.0,cloudy,13.96,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sat,2,0.309,low,1.0,cloudy,13.96,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,5,0.454,low,1.0,clear,14.66,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,6,0.845,moderate,1.0,clear,16.54,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,7,1.398,very_high,1.19,clear,19.74,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,8,1.681,very_high,1.35,clear,20.21,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,9,1.407,very_high,1.2,clear,19.78,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,10,0.917,moderate,1.0,clear,16.88,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,11,0.727,moderate,1.0,clear,15.97,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,12,0.835,moderate,1.0,clear,16.49,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,13,0.803,moderate,1.0,clear,16.33,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,14,0.562,low,1.0,clear,15.18,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,15,0.466,low,1.0,clear,14.72,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,16,0.708,moderate,1.0,clear,15.88,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,17,1.234,high,1.1,clear,18.68,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,18,1.711,very_high,1.36,clear,20.24,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,19,1.711,very_high,1.36,clear,20.24,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,20,1.233,high,1.1,clear,18.68,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,21,0.699,moderate,1.0,clear,15.83,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,22,0.394,low,1.0,clear,14.37,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,23,0.289,low,1.0,clear,13.87,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,0,0.263,low,1.0,clear,13.74,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,1,0.263,low,1.0,clear,13.74,1.284,103.851
+CBD_Raffles,CBD / Raffles Place,office,Sun,2,0.263,low,1.0,clear,13.74,1.284,103.851
+Orchard,Orchard Road,retail,Mon,5,0.315,low,1.0,clear,13.99,1.304,103.832
+Orchard,Orchard Road,retail,Mon,6,0.424,low,1.0,clear,14.51,1.304,103.832
+Orchard,Orchard Road,retail,Mon,7,0.577,low,1.0,clear,15.25,1.304,103.832
+Orchard,Orchard Road,retail,Mon,8,0.656,moderate,1.0,clear,15.63,1.304,103.832
+Orchard,Orchard Road,retail,Mon,9,0.59,low,1.0,clear,15.31,1.304,103.832
+Orchard,Orchard Road,retail,Mon,10,0.516,low,1.0,clear,14.96,1.304,103.832
+Orchard,Orchard Road,retail,Mon,11,0.666,moderate,1.0,clear,15.68,1.304,103.832
+Orchard,Orchard Road,retail,Mon,12,0.957,high,1.0,clear,17.07,1.304,103.832
+Orchard,Orchard Road,retail,Mon,13,0.95,moderate,1.0,clear,17.04,1.304,103.832
+Orchard,Orchard Road,retail,Mon,14,0.631,moderate,1.0,clear,15.51,1.304,103.832
+Orchard,Orchard Road,retail,Mon,15,0.441,low,1.0,clear,14.6,1.304,103.832
+Orchard,Orchard Road,retail,Mon,16,0.563,low,1.0,clear,15.18,1.304,103.832
+Orchard,Orchard Road,retail,Mon,17,0.905,moderate,1.0,clear,16.82,1.304,103.832
+Orchard,Orchard Road,retail,Mon,18,1.223,high,1.1,clear,18.63,1.304,103.832
+Orchard,Orchard Road,retail,Mon,19,1.24,high,1.1,clear,18.71,1.304,103.832
+Orchard,Orchard Road,retail,Mon,20,0.971,high,1.0,clear,17.14,1.304,103.832
+Orchard,Orchard Road,retail,Mon,21,0.707,moderate,1.0,clear,15.87,1.304,103.832
+Orchard,Orchard Road,retail,Mon,22,0.608,moderate,1.0,clear,15.4,1.304,103.832
+Orchard,Orchard Road,retail,Mon,23,0.586,low,1.0,clear,15.29,1.304,103.832
+Orchard,Orchard Road,retail,Mon,0,0.262,low,1.0,clear,13.74,1.304,103.832
+Orchard,Orchard Road,retail,Mon,1,0.262,low,1.0,clear,13.74,1.304,103.832
+Orchard,Orchard Road,retail,Mon,2,0.262,low,1.0,clear,13.74,1.304,103.832
+Orchard,Orchard Road,retail,Tue,5,0.322,low,1.0,clear,14.03,1.304,103.832
+Orchard,Orchard Road,retail,Tue,6,0.433,low,1.0,clear,14.56,1.304,103.832
+Orchard,Orchard Road,retail,Tue,7,0.589,low,1.0,clear,15.31,1.304,103.832
+Orchard,Orchard Road,retail,Tue,8,0.67,moderate,1.0,clear,15.7,1.304,103.832
+Orchard,Orchard Road,retail,Tue,9,0.602,moderate,1.0,clear,15.37,1.304,103.832
+Orchard,Orchard Road,retail,Tue,10,0.527,low,1.0,clear,15.01,1.304,103.832
+Orchard,Orchard Road,retail,Tue,11,0.68,moderate,1.0,clear,15.75,1.304,103.832
+Orchard,Orchard Road,retail,Tue,12,0.977,high,1.0,clear,17.17,1.304,103.832
+Orchard,Orchard Road,retail,Tue,13,0.97,high,1.0,clear,17.13,1.304,103.832
+Orchard,Orchard Road,retail,Tue,14,0.644,moderate,1.0,clear,15.57,1.304,103.832
+Orchard,Orchard Road,retail,Tue,15,0.451,low,1.0,clear,14.64,1.304,103.832
+Orchard,Orchard Road,retail,Tue,16,0.575,low,1.0,clear,15.24,1.304,103.832
+Orchard,Orchard Road,retail,Tue,17,0.924,moderate,1.0,clear,16.91,1.304,103.832
+Orchard,Orchard Road,retail,Tue,18,1.249,high,1.11,clear,18.78,1.304,103.832
+Orchard,Orchard Road,retail,Tue,19,1.266,very_high,1.12,clear,18.89,1.304,103.832
+Orchard,Orchard Road,retail,Tue,20,0.992,high,1.0,clear,17.24,1.304,103.832
+Orchard,Orchard Road,retail,Tue,21,0.722,moderate,1.0,clear,15.95,1.304,103.832
+Orchard,Orchard Road,retail,Tue,22,0.621,moderate,1.0,clear,15.46,1.304,103.832
+Orchard,Orchard Road,retail,Tue,23,0.598,low,1.0,clear,15.35,1.304,103.832
+Orchard,Orchard Road,retail,Tue,0,0.268,low,1.0,clear,13.77,1.304,103.832
+Orchard,Orchard Road,retail,Tue,1,0.268,low,1.0,clear,13.77,1.304,103.832
+Orchard,Orchard Road,retail,Tue,2,0.268,low,1.0,clear,13.77,1.304,103.832
+Orchard,Orchard Road,retail,Wed,5,0.329,low,1.0,clear,14.06,1.304,103.832
+Orchard,Orchard Road,retail,Wed,6,0.442,low,1.0,clear,14.6,1.304,103.832
+Orchard,Orchard Road,retail,Wed,7,0.601,moderate,1.0,clear,15.37,1.304,103.832
+Orchard,Orchard Road,retail,Wed,8,0.684,moderate,1.0,clear,15.76,1.304,103.832
+Orchard,Orchard Road,retail,Wed,9,0.614,moderate,1.0,clear,15.43,1.304,103.832
+Orchard,Orchard Road,retail,Wed,10,0.538,low,1.0,clear,15.06,1.304,103.832
+Orchard,Orchard Road,retail,Wed,11,0.694,moderate,1.0,clear,15.81,1.304,103.832
+Orchard,Orchard Road,retail,Wed,12,0.997,high,1.0,clear,17.27,1.304,103.832
+Orchard,Orchard Road,retail,Wed,13,0.99,high,1.0,clear,17.23,1.304,103.832
+Orchard,Orchard Road,retail,Wed,14,0.657,moderate,1.0,clear,15.64,1.304,103.832
+Orchard,Orchard Road,retail,Wed,15,0.46,low,1.0,clear,14.69,1.304,103.832
+Orchard,Orchard Road,retail,Wed,16,0.586,low,1.0,clear,15.3,1.304,103.832
+Orchard,Orchard Road,retail,Wed,17,0.943,moderate,1.0,clear,17.01,1.304,103.832
+Orchard,Orchard Road,retail,Wed,18,1.275,very_high,1.12,clear,18.93,1.304,103.832
+Orchard,Orchard Road,retail,Wed,19,1.292,very_high,1.13,clear,19.04,1.304,103.832
+Orchard,Orchard Road,retail,Wed,20,1.012,high,1.0,clear,17.34,1.304,103.832
+Orchard,Orchard Road,retail,Wed,21,0.737,moderate,1.0,clear,16.02,1.304,103.832
+Orchard,Orchard Road,retail,Wed,22,0.633,moderate,1.0,clear,15.52,1.304,103.832
+Orchard,Orchard Road,retail,Wed,23,0.61,moderate,1.0,clear,15.41,1.304,103.832
+Orchard,Orchard Road,retail,Wed,0,0.273,low,1.0,clear,13.79,1.304,103.832
+Orchard,Orchard Road,retail,Wed,1,0.273,low,1.0,clear,13.79,1.304,103.832
+Orchard,Orchard Road,retail,Wed,2,0.273,low,1.0,clear,13.79,1.304,103.832
+Orchard,Orchard Road,retail,Thu,5,0.342,low,1.0,cloudy,14.12,1.304,103.832
+Orchard,Orchard Road,retail,Thu,6,0.46,low,1.0,cloudy,14.69,1.304,103.832
+Orchard,Orchard Road,retail,Thu,7,0.626,moderate,1.0,cloudy,15.48,1.304,103.832
+Orchard,Orchard Road,retail,Thu,8,0.712,moderate,1.0,cloudy,15.9,1.304,103.832
+Orchard,Orchard Road,retail,Thu,9,0.639,moderate,1.0,cloudy,15.55,1.304,103.832
+Orchard,Orchard Road,retail,Thu,10,0.56,low,1.0,cloudy,15.17,1.304,103.832
+Orchard,Orchard Road,retail,Thu,11,0.723,moderate,1.0,cloudy,15.95,1.304,103.832
+Orchard,Orchard Road,retail,Thu,12,1.038,high,1.0,cloudy,17.46,1.304,103.832
+Orchard,Orchard Road,retail,Thu,13,1.03,high,1.0,cloudy,17.42,1.304,103.832
+Orchard,Orchard Road,retail,Thu,14,0.684,moderate,1.0,cloudy,15.76,1.304,103.832
+Orchard,Orchard Road,retail,Thu,15,0.479,low,1.0,cloudy,14.78,1.304,103.832
+Orchard,Orchard Road,retail,Thu,16,0.61,moderate,1.0,cloudy,15.41,1.304,103.832
+Orchard,Orchard Road,retail,Thu,17,0.981,high,1.0,cloudy,17.19,1.304,103.832
+Orchard,Orchard Road,retail,Thu,18,1.326,very_high,1.15,cloudy,19.27,1.304,103.832
+Orchard,Orchard Road,retail,Thu,19,1.344,very_high,1.16,cloudy,19.39,1.304,103.832
+Orchard,Orchard Road,retail,Thu,20,1.053,high,1.0,cloudy,17.54,1.304,103.832
+Orchard,Orchard Road,retail,Thu,21,0.767,moderate,1.0,cloudy,16.16,1.304,103.832
+Orchard,Orchard Road,retail,Thu,22,0.659,moderate,1.0,cloudy,15.64,1.304,103.832
+Orchard,Orchard Road,retail,Thu,23,0.635,moderate,1.0,cloudy,15.53,1.304,103.832
+Orchard,Orchard Road,retail,Thu,0,0.284,low,1.0,cloudy,13.84,1.304,103.832
+Orchard,Orchard Road,retail,Thu,1,0.284,low,1.0,cloudy,13.84,1.304,103.832
+Orchard,Orchard Road,retail,Thu,2,0.284,low,1.0,cloudy,13.85,1.304,103.832
+Orchard,Orchard Road,retail,Fri,5,0.392,low,1.0,clear,14.36,1.304,103.832
+Orchard,Orchard Road,retail,Fri,6,0.527,low,1.0,clear,15.01,1.304,103.832
+Orchard,Orchard Road,retail,Fri,7,0.717,moderate,1.0,clear,15.92,1.304,103.832
+Orchard,Orchard Road,retail,Fri,8,0.815,moderate,1.0,clear,16.39,1.304,103.832
+Orchard,Orchard Road,retail,Fri,9,0.732,moderate,1.0,clear,16.0,1.304,103.832
+Orchard,Orchard Road,retail,Fri,10,0.641,moderate,1.0,clear,15.56,1.304,103.832
+Orchard,Orchard Road,retail,Fri,11,0.828,moderate,1.0,clear,16.45,1.304,103.832
+Orchard,Orchard Road,retail,Fri,12,1.189,high,1.08,clear,18.4,1.304,103.832
+Orchard,Orchard Road,retail,Fri,13,1.179,high,1.07,clear,18.33,1.304,103.832
+Orchard,Orchard Road,retail,Fri,14,0.783,moderate,1.0,clear,16.24,1.304,103.832
+Orchard,Orchard Road,retail,Fri,15,0.548,low,1.0,clear,15.11,1.304,103.832
+Orchard,Orchard Road,retail,Fri,16,0.699,moderate,1.0,clear,15.84,1.304,103.832
+Orchard,Orchard Road,retail,Fri,17,1.124,high,1.04,clear,17.98,1.304,103.832
+Orchard,Orchard Road,retail,Fri,18,1.519,very_high,1.26,clear,19.95,1.304,103.832
+Orchard,Orchard Road,retail,Fri,19,1.54,very_high,1.27,clear,19.98,1.304,103.832
+Orchard,Orchard Road,retail,Fri,20,1.207,high,1.09,clear,18.52,1.304,103.832
+Orchard,Orchard Road,retail,Fri,21,0.878,moderate,1.0,clear,16.7,1.304,103.832
+Orchard,Orchard Road,retail,Fri,22,0.755,moderate,1.0,clear,16.1,1.304,103.832
+Orchard,Orchard Road,retail,Fri,23,0.727,moderate,1.0,clear,15.97,1.304,103.832
+Orchard,Orchard Road,retail,Fri,0,0.326,low,1.0,clear,14.04,1.304,103.832
+Orchard,Orchard Road,retail,Fri,1,0.326,low,1.0,clear,14.04,1.304,103.832
+Orchard,Orchard Road,retail,Fri,2,0.326,low,1.0,clear,14.04,1.304,103.832
+Orchard,Orchard Road,retail,Sat,5,0.409,low,1.0,cloudy,14.44,1.304,103.832
+Orchard,Orchard Road,retail,Sat,6,0.55,low,1.0,cloudy,15.12,1.304,103.832
+Orchard,Orchard Road,retail,Sat,7,0.749,moderate,1.0,cloudy,16.07,1.304,103.832
+Orchard,Orchard Road,retail,Sat,8,0.851,moderate,1.0,cloudy,16.57,1.304,103.832
+Orchard,Orchard Road,retail,Sat,9,0.765,moderate,1.0,cloudy,16.15,1.304,103.832
+Orchard,Orchard Road,retail,Sat,10,0.67,moderate,1.0,cloudy,15.69,1.304,103.832
+Orchard,Orchard Road,retail,Sat,11,0.864,moderate,1.0,cloudy,16.63,1.304,103.832
+Orchard,Orchard Road,retail,Sat,12,1.241,high,1.11,cloudy,18.74,1.304,103.832
+Orchard,Orchard Road,retail,Sat,13,1.232,high,1.1,cloudy,18.67,1.304,103.832
+Orchard,Orchard Road,retail,Sat,14,0.818,moderate,1.0,cloudy,16.41,1.304,103.832
+Orchard,Orchard Road,retail,Sat,15,0.573,low,1.0,cloudy,15.23,1.304,103.832
+Orchard,Orchard Road,retail,Sat,16,0.73,moderate,1.0,cloudy,15.98,1.304,103.832
+Orchard,Orchard Road,retail,Sat,17,1.173,high,1.07,cloudy,18.3,1.304,103.832
+Orchard,Orchard Road,retail,Sat,18,1.586,very_high,1.3,cloudy,20.06,1.304,103.832
+Orchard,Orchard Road,retail,Sat,19,1.608,very_high,1.31,cloudy,20.09,1.304,103.832
+Orchard,Orchard Road,retail,Sat,20,1.26,very_high,1.12,cloudy,18.86,1.304,103.832
+Orchard,Orchard Road,retail,Sat,21,0.917,moderate,1.0,cloudy,16.88,1.304,103.832
+Orchard,Orchard Road,retail,Sat,22,0.788,moderate,1.0,cloudy,16.26,1.304,103.832
+Orchard,Orchard Road,retail,Sat,23,0.76,moderate,1.0,cloudy,16.13,1.304,103.832
+Orchard,Orchard Road,retail,Sat,0,0.34,low,1.0,cloudy,14.11,1.304,103.832
+Orchard,Orchard Road,retail,Sat,1,0.34,low,1.0,cloudy,14.11,1.304,103.832
+Orchard,Orchard Road,retail,Sat,2,0.34,low,1.0,cloudy,14.11,1.304,103.832
+Orchard,Orchard Road,retail,Sun,5,0.349,low,1.0,clear,14.15,1.304,103.832
+Orchard,Orchard Road,retail,Sun,6,0.469,low,1.0,clear,14.73,1.304,103.832
+Orchard,Orchard Road,retail,Sun,7,0.638,moderate,1.0,clear,15.54,1.304,103.832
+Orchard,Orchard Road,retail,Sun,8,0.725,moderate,1.0,clear,15.96,1.304,103.832
+Orchard,Orchard Road,retail,Sun,9,0.652,moderate,1.0,clear,15.61,1.304,103.832
+Orchard,Orchard Road,retail,Sun,10,0.571,low,1.0,clear,15.22,1.304,103.832
+Orchard,Orchard Road,retail,Sun,11,0.737,moderate,1.0,clear,16.02,1.304,103.832
+Orchard,Orchard Road,retail,Sun,12,1.058,high,1.0,clear,17.56,1.304,103.832
+Orchard,Orchard Road,retail,Sun,13,1.05,high,1.0,clear,17.52,1.304,103.832
+Orchard,Orchard Road,retail,Sun,14,0.697,moderate,1.0,clear,15.83,1.304,103.832
+Orchard,Orchard Road,retail,Sun,15,0.488,low,1.0,clear,14.82,1.304,103.832
+Orchard,Orchard Road,retail,Sun,16,0.622,moderate,1.0,clear,15.47,1.304,103.832
+Orchard,Orchard Road,retail,Sun,17,1.0,high,1.0,clear,17.28,1.304,103.832
+Orchard,Orchard Road,retail,Sun,18,1.352,very_high,1.17,clear,19.45,1.304,103.832
+Orchard,Orchard Road,retail,Sun,19,1.37,very_high,1.18,clear,19.57,1.304,103.832
+Orchard,Orchard Road,retail,Sun,20,1.074,high,1.01,clear,17.66,1.304,103.832
+Orchard,Orchard Road,retail,Sun,21,0.782,moderate,1.0,clear,16.23,1.304,103.832
+Orchard,Orchard Road,retail,Sun,22,0.672,moderate,1.0,clear,15.7,1.304,103.832
+Orchard,Orchard Road,retail,Sun,23,0.647,moderate,1.0,clear,15.59,1.304,103.832
+Orchard,Orchard Road,retail,Sun,0,0.29,low,1.0,clear,13.87,1.304,103.832
+Orchard,Orchard Road,retail,Sun,1,0.29,low,1.0,clear,13.87,1.304,103.832
+Orchard,Orchard Road,retail,Sun,2,0.29,low,1.0,clear,13.87,1.304,103.832
+Changi_Airport,Changi Airport,airport,Mon,5,0.762,moderate,1.0,clear,16.14,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,6,0.941,moderate,1.0,clear,17.0,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,7,1.068,high,1.01,clear,17.63,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,8,1.051,high,1.0,clear,17.53,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,9,0.881,moderate,1.0,clear,16.71,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,10,0.692,moderate,1.0,clear,15.8,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,11,0.642,moderate,1.0,clear,15.56,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,12,0.704,moderate,1.0,clear,15.86,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,13,0.694,moderate,1.0,clear,15.81,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,14,0.589,low,1.0,clear,15.31,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,15,0.542,low,1.0,clear,15.08,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,16,0.632,moderate,1.0,clear,15.51,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,17,0.833,moderate,1.0,clear,16.48,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,18,1.016,high,1.0,clear,17.36,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,19,1.016,high,1.0,clear,17.36,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,20,0.833,moderate,1.0,clear,16.48,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,21,0.627,moderate,1.0,clear,15.49,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,22,0.51,low,1.0,clear,14.93,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,23,0.47,low,1.0,clear,14.74,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,0,0.46,low,1.0,clear,14.69,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,1,0.462,low,1.0,clear,14.7,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Mon,2,0.472,low,1.0,clear,14.75,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,5,1.011,high,1.45,heavy_rain,21.83,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,6,1.25,high,1.56,heavy_rain,23.64,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,7,1.417,very_high,1.65,heavy_rain,24.86,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,8,1.396,very_high,1.64,heavy_rain,24.8,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,9,1.169,high,1.52,heavy_rain,23.01,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,10,0.919,moderate,1.45,heavy_rain,21.27,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,11,0.853,moderate,1.45,heavy_rain,20.88,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,12,0.935,moderate,1.45,heavy_rain,21.37,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,13,0.921,moderate,1.45,heavy_rain,21.29,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,14,0.781,moderate,1.45,heavy_rain,20.44,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,15,0.719,moderate,1.45,heavy_rain,20.07,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,16,0.838,moderate,1.45,heavy_rain,20.79,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,17,1.106,high,1.48,heavy_rain,22.5,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,18,1.349,very_high,1.61,heavy_rain,24.42,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,19,1.349,very_high,1.61,heavy_rain,24.42,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,20,1.106,high,1.48,heavy_rain,22.5,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,21,0.833,moderate,1.45,heavy_rain,20.76,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,22,0.677,moderate,1.45,heavy_rain,19.82,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,23,0.624,moderate,1.45,heavy_rain,19.49,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,0,0.611,moderate,1.45,heavy_rain,19.41,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,1,0.613,moderate,1.45,heavy_rain,19.43,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Tue,2,0.626,moderate,1.45,heavy_rain,19.51,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,5,0.905,moderate,1.15,light_rain,18.58,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,6,1.118,high,1.19,light_rain,19.83,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,7,1.268,very_high,1.27,light_rain,20.87,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,8,1.249,high,1.26,light_rain,20.73,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,9,1.046,high,1.15,light_rain,19.33,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,10,0.822,moderate,1.15,light_rain,18.14,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,11,0.763,moderate,1.15,light_rain,17.83,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,12,0.836,moderate,1.15,light_rain,18.22,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,13,0.824,moderate,1.15,light_rain,18.15,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,14,0.699,moderate,1.15,light_rain,17.49,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,15,0.643,moderate,1.15,light_rain,17.19,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,16,0.75,moderate,1.15,light_rain,17.76,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,17,0.99,high,1.15,light_rain,19.03,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,18,1.208,high,1.24,light_rain,20.45,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,19,1.208,high,1.24,light_rain,20.45,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,20,0.99,high,1.15,light_rain,19.03,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,21,0.745,moderate,1.15,light_rain,17.73,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,22,0.606,moderate,1.15,light_rain,17.0,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,23,0.558,low,1.15,light_rain,16.74,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,0,0.547,low,1.15,light_rain,16.68,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,1,0.549,low,1.15,light_rain,16.69,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Wed,2,0.561,low,1.15,light_rain,16.75,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,5,0.818,moderate,1.0,clear,16.4,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,6,1.011,high,1.0,clear,17.33,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,7,1.146,high,1.05,clear,18.12,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,8,1.129,high,1.04,clear,18.01,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,9,0.945,moderate,1.0,clear,17.02,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,10,0.743,moderate,1.0,clear,16.05,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,11,0.69,moderate,1.0,clear,15.79,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,12,0.756,moderate,1.0,clear,16.11,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,13,0.745,moderate,1.0,clear,16.06,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,14,0.632,moderate,1.0,clear,15.51,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,15,0.581,low,1.0,clear,15.27,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,16,0.678,moderate,1.0,clear,15.74,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,17,0.895,moderate,1.0,clear,16.77,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,18,1.091,high,1.02,clear,17.77,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,19,1.091,high,1.02,clear,17.77,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,20,0.894,moderate,1.0,clear,16.77,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,21,0.674,moderate,1.0,clear,15.71,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,22,0.548,low,1.0,clear,15.11,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,23,0.505,low,1.0,clear,14.9,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,0,0.494,low,1.0,clear,14.85,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,1,0.496,low,1.0,clear,14.86,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Thu,2,0.507,low,1.0,clear,14.91,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,5,0.955,high,1.0,cloudy,17.07,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,6,1.181,high,1.07,cloudy,18.34,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,7,1.339,very_high,1.16,cloudy,19.36,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,8,1.319,very_high,1.15,cloudy,19.23,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,9,1.105,high,1.03,cloudy,17.86,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,10,0.868,moderate,1.0,cloudy,16.65,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,11,0.806,moderate,1.0,cloudy,16.35,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,12,0.883,moderate,1.0,cloudy,16.72,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,13,0.87,moderate,1.0,cloudy,16.66,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,14,0.738,moderate,1.0,cloudy,16.02,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,15,0.679,moderate,1.0,cloudy,15.74,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,16,0.792,moderate,1.0,cloudy,16.28,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,17,1.045,high,1.0,cloudy,17.5,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,18,1.275,very_high,1.12,cloudy,18.94,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,19,1.275,very_high,1.12,cloudy,18.94,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,20,1.045,high,1.0,cloudy,17.5,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,21,0.787,moderate,1.0,cloudy,16.26,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,22,0.64,moderate,1.0,cloudy,15.55,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,23,0.59,low,1.0,cloudy,15.31,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,0,0.577,low,1.0,cloudy,15.25,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,1,0.579,low,1.0,cloudy,15.26,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Fri,2,0.592,low,1.0,cloudy,15.32,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,5,0.988,high,1.0,cloudy,17.22,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,6,1.221,high,1.09,cloudy,18.59,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,7,1.385,very_high,1.18,cloudy,19.64,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,8,1.364,very_high,1.17,cloudy,19.51,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,9,1.142,high,1.05,cloudy,18.1,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,10,0.898,moderate,1.0,cloudy,16.79,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,11,0.833,moderate,1.0,cloudy,16.48,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,12,0.913,moderate,1.0,cloudy,16.86,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,13,0.9,moderate,1.0,cloudy,16.8,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,14,0.763,moderate,1.0,cloudy,16.14,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,15,0.702,moderate,1.0,cloudy,15.85,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,16,0.819,moderate,1.0,cloudy,16.41,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,17,1.081,high,1.02,cloudy,17.72,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,18,1.318,very_high,1.15,cloudy,19.23,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,19,1.318,very_high,1.15,cloudy,19.23,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,20,1.08,high,1.02,cloudy,17.72,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,21,0.814,moderate,1.0,cloudy,16.39,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,22,0.662,moderate,1.0,cloudy,15.66,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,23,0.61,moderate,1.0,cloudy,15.41,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,0,0.597,low,1.0,cloudy,15.34,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,1,0.599,low,1.0,cloudy,15.35,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sat,2,0.612,moderate,1.0,cloudy,15.42,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,5,1.094,high,1.47,heavy_rain,22.4,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,6,1.353,very_high,1.62,heavy_rain,24.47,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,7,1.534,very_high,1.72,heavy_rain,25.1,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,8,1.511,very_high,1.7,heavy_rain,25.03,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,9,1.265,very_high,1.57,heavy_rain,23.76,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,10,0.994,high,1.45,heavy_rain,21.73,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,11,0.923,moderate,1.45,heavy_rain,21.3,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,12,1.012,high,1.45,heavy_rain,21.84,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,13,0.997,high,1.45,heavy_rain,21.75,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,14,0.846,moderate,1.45,heavy_rain,20.83,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,15,0.778,moderate,1.45,heavy_rain,20.43,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,16,0.908,moderate,1.45,heavy_rain,21.21,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,17,1.197,high,1.53,heavy_rain,23.22,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,18,1.461,very_high,1.68,heavy_rain,24.97,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,19,1.46,very_high,1.68,heavy_rain,24.97,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,20,1.197,high,1.53,heavy_rain,23.21,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,21,0.902,moderate,1.45,heavy_rain,21.17,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,22,0.733,moderate,1.45,heavy_rain,20.15,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,23,0.675,moderate,1.45,heavy_rain,19.8,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,0,0.661,moderate,1.45,heavy_rain,19.72,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,1,0.664,moderate,1.45,heavy_rain,19.73,1.364,103.9915
+Changi_Airport,Changi Airport,airport,Sun,2,0.678,moderate,1.45,heavy_rain,19.82,1.364,103.9915
+Marina_Bay,Marina Bay / Sands,leisure,Mon,5,0.219,low,1.15,light_rain,14.94,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,6,0.294,low,1.15,light_rain,15.34,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,7,0.4,low,1.15,light_rain,15.9,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,8,0.455,low,1.15,light_rain,16.2,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,9,0.409,low,1.15,light_rain,15.95,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,10,0.356,low,1.15,light_rain,15.67,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,11,0.455,low,1.15,light_rain,16.19,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,12,0.65,moderate,1.15,light_rain,17.23,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,13,0.646,moderate,1.15,light_rain,17.21,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,14,0.439,low,1.15,light_rain,16.11,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,15,0.346,low,1.15,light_rain,15.62,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,16,0.529,low,1.15,light_rain,16.59,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,17,0.939,moderate,1.15,light_rain,18.76,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,18,1.32,very_high,1.3,light_rain,21.24,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,19,1.367,very_high,1.32,light_rain,21.55,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,20,1.129,high,1.19,light_rain,19.88,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,21,0.964,high,1.15,light_rain,18.89,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,22,1.016,high,1.15,light_rain,19.16,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,23,1.067,high,1.16,light_rain,19.46,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,0,0.182,low,1.15,light_rain,14.75,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,1,0.182,low,1.15,light_rain,14.75,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Mon,2,0.182,low,1.15,light_rain,14.75,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,5,0.198,low,1.0,cloudy,13.43,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,6,0.266,low,1.0,cloudy,13.76,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,7,0.362,low,1.0,cloudy,14.22,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,8,0.412,low,1.0,cloudy,14.46,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,9,0.37,low,1.0,cloudy,14.26,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,10,0.322,low,1.0,cloudy,14.03,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,11,0.412,low,1.0,cloudy,14.46,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,12,0.588,low,1.0,cloudy,15.3,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,13,0.584,low,1.0,cloudy,15.29,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,14,0.397,low,1.0,cloudy,14.39,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,15,0.313,low,1.0,cloudy,13.98,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,16,0.479,low,1.0,cloudy,14.78,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,17,0.849,moderate,1.0,cloudy,16.56,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,18,1.194,high,1.08,cloudy,18.43,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,19,1.237,high,1.1,cloudy,18.69,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,20,1.021,high,1.0,cloudy,17.38,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,21,0.872,moderate,1.0,cloudy,16.67,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,22,0.919,moderate,1.0,cloudy,16.89,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,23,0.965,high,1.0,cloudy,17.11,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,0,0.165,low,1.0,cloudy,13.27,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,1,0.165,low,1.0,cloudy,13.27,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Tue,2,0.165,low,1.0,cloudy,13.27,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,5,0.2,low,1.0,clear,13.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,6,0.269,low,1.0,clear,13.77,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,7,0.366,low,1.0,clear,14.24,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,8,0.416,low,1.0,clear,14.48,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,9,0.374,low,1.0,clear,14.27,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,10,0.326,low,1.0,clear,14.04,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,11,0.416,low,1.0,clear,14.48,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,12,0.594,low,1.0,clear,15.33,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,13,0.591,low,1.0,clear,15.32,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,14,0.401,low,1.0,clear,14.41,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,15,0.317,low,1.0,clear,14.0,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,16,0.484,low,1.0,clear,14.8,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,17,0.858,moderate,1.0,clear,16.6,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,18,1.207,high,1.09,clear,18.52,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,19,1.25,high,1.11,clear,18.78,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,20,1.032,high,1.0,clear,17.43,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,21,0.882,moderate,1.0,clear,16.71,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,22,0.928,moderate,1.0,clear,16.94,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,23,0.975,high,1.0,clear,17.16,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,0,0.166,low,1.0,clear,13.28,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,1,0.166,low,1.0,clear,13.28,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Wed,2,0.166,low,1.0,clear,13.28,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,5,0.235,low,1.15,light_rain,15.03,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,6,0.316,low,1.15,light_rain,15.46,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,7,0.43,low,1.15,light_rain,16.06,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,8,0.489,low,1.15,light_rain,16.37,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,9,0.439,low,1.15,light_rain,16.11,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,10,0.383,low,1.15,light_rain,15.81,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,11,0.489,low,1.15,light_rain,16.37,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,12,0.698,moderate,1.15,light_rain,17.48,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,13,0.694,moderate,1.15,light_rain,17.46,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,14,0.471,low,1.15,light_rain,16.28,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,15,0.372,low,1.15,light_rain,15.75,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,16,0.568,low,1.15,light_rain,16.79,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,17,1.008,high,1.15,light_rain,19.12,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,18,1.418,very_high,1.35,light_rain,21.82,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,19,1.468,very_high,1.38,light_rain,21.92,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,20,1.212,high,1.24,light_rain,20.47,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,21,1.036,high,1.15,light_rain,19.27,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,22,1.09,high,1.17,light_rain,19.62,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,23,1.145,high,1.2,light_rain,20.0,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,0,0.195,low,1.15,light_rain,14.82,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,1,0.195,low,1.15,light_rain,14.82,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Thu,2,0.195,low,1.15,light_rain,14.82,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,5,0.241,low,1.0,cloudy,13.64,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,6,0.324,low,1.0,cloudy,14.03,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,7,0.441,low,1.0,cloudy,14.6,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,8,0.501,low,1.0,cloudy,14.89,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,9,0.45,low,1.0,cloudy,14.64,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,10,0.392,low,1.0,cloudy,14.36,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,11,0.501,low,1.0,cloudy,14.88,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,12,0.716,moderate,1.0,cloudy,15.92,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,13,0.711,moderate,1.0,cloudy,15.89,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,14,0.483,low,1.0,cloudy,14.8,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,15,0.381,low,1.0,cloudy,14.31,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,16,0.583,low,1.0,cloudy,15.28,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,17,1.033,high,1.0,cloudy,17.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,18,1.453,very_high,1.22,cloudy,19.83,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,19,1.504,very_high,1.25,cloudy,19.92,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,20,1.242,high,1.11,cloudy,18.75,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,21,1.061,high,1.01,cloudy,17.6,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,22,1.118,high,1.04,cloudy,17.95,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,23,1.174,high,1.07,cloudy,18.31,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,0,0.2,low,1.0,cloudy,13.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,1,0.2,low,1.0,cloudy,13.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Fri,2,0.2,low,1.0,cloudy,13.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,5,0.249,low,1.0,cloudy,13.68,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,6,0.335,low,1.0,cloudy,14.09,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,7,0.456,low,1.0,cloudy,14.67,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,8,0.518,low,1.0,cloudy,14.97,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,9,0.465,low,1.0,cloudy,14.71,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,10,0.406,low,1.0,cloudy,14.43,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,11,0.518,low,1.0,cloudy,14.97,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,12,0.74,moderate,1.0,cloudy,16.03,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,13,0.735,moderate,1.0,cloudy,16.01,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,14,0.499,low,1.0,cloudy,14.88,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,15,0.394,low,1.0,cloudy,14.37,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,16,0.602,moderate,1.0,cloudy,15.37,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,17,1.068,high,1.01,cloudy,17.63,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,18,1.502,very_high,1.25,cloudy,19.92,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,19,1.555,very_high,1.28,cloudy,20.01,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,20,1.284,very_high,1.13,cloudy,19.01,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,21,1.097,high,1.03,cloudy,17.83,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,22,1.155,high,1.06,cloudy,18.19,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,23,1.214,high,1.09,cloudy,18.55,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,0,0.207,low,1.0,cloudy,13.47,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,1,0.207,low,1.0,cloudy,13.47,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sat,2,0.207,low,1.0,cloudy,13.47,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,5,0.276,low,1.45,heavy_rain,17.39,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,6,0.371,low,1.45,heavy_rain,17.96,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,7,0.505,low,1.45,heavy_rain,18.77,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,8,0.574,low,1.45,heavy_rain,19.19,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,9,0.515,low,1.45,heavy_rain,18.84,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,10,0.449,low,1.45,heavy_rain,18.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,11,0.574,low,1.45,heavy_rain,19.19,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,12,0.82,moderate,1.45,heavy_rain,20.68,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,13,0.814,moderate,1.45,heavy_rain,20.64,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,14,0.553,low,1.45,heavy_rain,19.07,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,15,0.437,low,1.45,heavy_rain,18.36,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,16,0.667,moderate,1.45,heavy_rain,19.76,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,17,1.183,high,1.52,heavy_rain,23.1,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,18,1.664,very_high,1.79,heavy_rain,25.34,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,19,1.723,very_high,1.82,heavy_rain,25.44,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,20,1.423,very_high,1.66,heavy_rain,24.9,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,21,1.216,high,1.54,heavy_rain,23.36,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,22,1.28,very_high,1.58,heavy_rain,23.89,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,23,1.345,very_high,1.61,heavy_rain,24.39,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,0,0.229,low,1.45,heavy_rain,17.11,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,1,0.229,low,1.45,heavy_rain,17.11,1.283,103.86
+Marina_Bay,Marina Bay / Sands,leisure,Sun,2,0.229,low,1.45,heavy_rain,17.11,1.283,103.86
+Jurong_East,Jurong East,heartland,Mon,5,0.309,low,1.0,clear,13.96,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,6,0.49,low,1.0,clear,14.83,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,7,0.747,moderate,1.0,clear,16.06,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,8,0.878,moderate,1.0,clear,16.7,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,9,0.751,moderate,1.0,clear,16.09,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,10,0.525,low,1.0,clear,15.0,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,11,0.442,low,1.0,clear,14.6,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,12,0.498,low,1.0,clear,14.87,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,13,0.483,low,1.0,clear,14.8,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,14,0.366,low,1.0,clear,14.23,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,15,0.317,low,1.0,clear,14.0,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,16,0.431,low,1.0,clear,14.55,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,17,0.68,moderate,1.0,clear,15.74,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,18,0.908,moderate,1.0,clear,16.84,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,19,0.916,moderate,1.0,clear,16.88,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,20,0.714,moderate,1.0,clear,15.91,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,21,0.507,low,1.0,clear,14.91,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,22,0.414,low,1.0,clear,14.47,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,23,0.389,low,1.0,clear,14.35,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,0,0.219,low,1.0,clear,13.53,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,1,0.219,low,1.0,clear,13.53,1.333,103.742
+Jurong_East,Jurong East,heartland,Mon,2,0.22,low,1.0,clear,13.53,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,5,0.315,low,1.0,clear,13.99,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,6,0.5,low,1.0,clear,14.88,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,7,0.762,moderate,1.0,clear,16.14,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,8,0.897,moderate,1.0,clear,16.78,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,9,0.767,moderate,1.0,clear,16.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,10,0.536,low,1.0,clear,15.05,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,11,0.451,low,1.0,clear,14.65,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,12,0.508,low,1.0,clear,14.92,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,13,0.493,low,1.0,clear,14.85,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,14,0.373,low,1.0,clear,14.27,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,15,0.323,low,1.0,clear,14.03,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,16,0.44,low,1.0,clear,14.59,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,17,0.694,moderate,1.0,clear,15.81,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,18,0.927,moderate,1.0,clear,16.93,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,19,0.936,moderate,1.0,clear,16.97,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,20,0.729,moderate,1.0,clear,15.98,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,21,0.517,low,1.0,clear,14.96,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,22,0.423,low,1.0,clear,14.51,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,23,0.397,low,1.0,clear,14.39,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,0,0.224,low,1.0,clear,13.56,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,1,0.224,low,1.0,clear,13.56,1.333,103.742
+Jurong_East,Jurong East,heartland,Tue,2,0.224,low,1.0,clear,13.56,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,5,0.367,low,1.15,light_rain,15.72,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,6,0.582,low,1.15,light_rain,16.87,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,7,0.887,moderate,1.15,light_rain,18.48,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,8,1.043,high,1.15,light_rain,19.31,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,9,0.893,moderate,1.15,light_rain,18.51,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,10,0.624,moderate,1.15,light_rain,17.09,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,11,0.525,low,1.15,light_rain,16.56,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,12,0.592,low,1.15,light_rain,16.92,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,13,0.574,low,1.15,light_rain,16.82,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,14,0.434,low,1.15,light_rain,16.08,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,15,0.376,low,1.15,light_rain,15.78,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,16,0.512,low,1.15,light_rain,16.49,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,17,0.808,moderate,1.15,light_rain,18.06,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,18,1.078,high,1.17,light_rain,19.56,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,19,1.088,high,1.17,light_rain,19.61,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,20,0.848,moderate,1.15,light_rain,18.28,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,21,0.602,moderate,1.15,light_rain,16.97,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,22,0.492,low,1.15,light_rain,16.39,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,23,0.462,low,1.15,light_rain,16.23,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,0,0.261,low,1.15,light_rain,15.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,1,0.261,low,1.15,light_rain,15.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Wed,2,0.261,low,1.15,light_rain,15.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,5,0.331,low,1.0,clear,14.07,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,6,0.526,low,1.0,clear,15.01,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,7,0.802,moderate,1.0,clear,16.33,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,8,0.943,moderate,1.0,clear,17.01,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,9,0.807,moderate,1.0,clear,16.35,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,10,0.564,low,1.0,clear,15.19,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,11,0.474,low,1.0,clear,14.76,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,12,0.535,low,1.0,clear,15.05,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,13,0.519,low,1.0,clear,14.97,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,14,0.392,low,1.0,clear,14.36,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,15,0.34,low,1.0,clear,14.11,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,16,0.463,low,1.0,clear,14.7,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,17,0.73,moderate,1.0,clear,15.98,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,18,0.975,high,1.0,clear,17.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,19,0.984,high,1.0,clear,17.2,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,20,0.767,moderate,1.0,clear,16.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,21,0.544,low,1.0,clear,15.09,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,22,0.445,low,1.0,clear,14.62,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,23,0.417,low,1.0,clear,14.48,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,0,0.236,low,1.0,clear,13.61,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,1,0.236,low,1.0,clear,13.61,1.333,103.742
+Jurong_East,Jurong East,heartland,Thu,2,0.236,low,1.0,clear,13.61,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,5,0.383,low,1.0,clear,14.32,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,6,0.609,moderate,1.0,clear,15.4,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,7,0.927,moderate,1.0,clear,16.93,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,8,1.091,high,1.02,clear,17.77,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,9,0.933,moderate,1.0,clear,16.96,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,10,0.652,moderate,1.0,clear,15.61,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,11,0.549,low,1.0,clear,15.11,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,12,0.619,moderate,1.0,clear,15.45,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,13,0.6,moderate,1.0,clear,15.36,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,14,0.454,low,1.0,clear,14.66,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,15,0.394,low,1.0,clear,14.37,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,16,0.535,low,1.0,clear,15.05,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,17,0.845,moderate,1.0,clear,16.53,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,18,1.128,high,1.04,clear,18.0,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,19,1.138,high,1.05,clear,18.08,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,20,0.887,moderate,1.0,clear,16.74,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,21,0.629,moderate,1.0,clear,15.5,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,22,0.515,low,1.0,clear,14.95,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,23,0.483,low,1.0,clear,14.8,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,0,0.273,low,1.0,clear,13.79,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,1,0.273,low,1.0,clear,13.79,1.333,103.742
+Jurong_East,Jurong East,heartland,Fri,2,0.273,low,1.0,clear,13.79,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,5,0.4,low,1.0,cloudy,14.4,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,6,0.636,moderate,1.0,cloudy,15.53,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,7,0.968,high,1.0,cloudy,17.13,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,8,1.139,high,1.05,cloudy,18.08,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,9,0.975,high,1.0,cloudy,17.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,10,0.681,moderate,1.0,cloudy,15.75,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,11,0.573,low,1.0,cloudy,15.23,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,12,0.646,moderate,1.0,cloudy,15.58,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,13,0.627,moderate,1.0,cloudy,15.49,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,14,0.474,low,1.0,cloudy,14.76,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,15,0.411,low,1.0,cloudy,14.45,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,16,0.559,low,1.0,cloudy,15.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,17,0.882,moderate,1.0,cloudy,16.71,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,18,1.177,high,1.07,cloudy,18.32,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,19,1.188,high,1.08,cloudy,18.4,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,20,0.926,moderate,1.0,cloudy,16.93,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,21,0.657,moderate,1.0,cloudy,15.63,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,22,0.537,low,1.0,cloudy,15.06,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,23,0.504,low,1.0,cloudy,14.9,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,0,0.285,low,1.0,cloudy,13.85,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,1,0.285,low,1.0,cloudy,13.85,1.333,103.742
+Jurong_East,Jurong East,heartland,Sat,2,0.285,low,1.0,cloudy,13.85,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,5,0.389,low,1.15,light_rain,15.84,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,6,0.618,moderate,1.15,light_rain,17.05,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,7,0.941,moderate,1.15,light_rain,18.77,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,8,1.106,high,1.18,light_rain,19.73,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,9,0.947,moderate,1.15,light_rain,18.8,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,10,0.662,moderate,1.15,light_rain,17.29,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,11,0.557,low,1.15,light_rain,16.73,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,12,0.627,moderate,1.15,light_rain,17.11,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,13,0.609,moderate,1.15,light_rain,17.01,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,14,0.461,low,1.15,light_rain,16.22,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,15,0.399,low,1.15,light_rain,15.9,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,16,0.543,low,1.15,light_rain,16.66,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,17,0.857,moderate,1.15,light_rain,18.32,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,18,1.144,high,1.2,light_rain,19.99,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,19,1.154,high,1.21,light_rain,20.08,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,20,0.9,moderate,1.15,light_rain,18.55,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,21,0.638,moderate,1.15,light_rain,17.16,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,22,0.522,low,1.15,light_rain,16.55,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,23,0.49,low,1.15,light_rain,16.38,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,0,0.277,low,1.15,light_rain,15.25,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,1,0.277,low,1.15,light_rain,15.25,1.333,103.742
+Jurong_East,Jurong East,heartland,Sun,2,0.277,low,1.15,light_rain,15.25,1.333,103.742
+Tampines,Tampines,heartland,Mon,5,0.327,low,1.0,clear,14.05,1.353,103.945
+Tampines,Tampines,heartland,Mon,6,0.52,low,1.0,clear,14.98,1.353,103.945
+Tampines,Tampines,heartland,Mon,7,0.792,moderate,1.0,clear,16.28,1.353,103.945
+Tampines,Tampines,heartland,Mon,8,0.931,moderate,1.0,clear,16.95,1.353,103.945
+Tampines,Tampines,heartland,Mon,9,0.797,moderate,1.0,clear,16.31,1.353,103.945
+Tampines,Tampines,heartland,Mon,10,0.557,low,1.0,clear,15.15,1.353,103.945
+Tampines,Tampines,heartland,Mon,11,0.469,low,1.0,clear,14.73,1.353,103.945
+Tampines,Tampines,heartland,Mon,12,0.528,low,1.0,clear,15.02,1.353,103.945
+Tampines,Tampines,heartland,Mon,13,0.513,low,1.0,clear,14.94,1.353,103.945
+Tampines,Tampines,heartland,Mon,14,0.388,low,1.0,clear,14.34,1.353,103.945
+Tampines,Tampines,heartland,Mon,15,0.336,low,1.0,clear,14.09,1.353,103.945
+Tampines,Tampines,heartland,Mon,16,0.457,low,1.0,clear,14.67,1.353,103.945
+Tampines,Tampines,heartland,Mon,17,0.721,moderate,1.0,clear,15.94,1.353,103.945
+Tampines,Tampines,heartland,Mon,18,0.963,high,1.0,clear,17.1,1.353,103.945
+Tampines,Tampines,heartland,Mon,19,0.972,high,1.0,clear,17.14,1.353,103.945
+Tampines,Tampines,heartland,Mon,20,0.757,moderate,1.0,clear,16.12,1.353,103.945
+Tampines,Tampines,heartland,Mon,21,0.537,low,1.0,clear,15.06,1.353,103.945
+Tampines,Tampines,heartland,Mon,22,0.439,low,1.0,clear,14.59,1.353,103.945
+Tampines,Tampines,heartland,Mon,23,0.412,low,1.0,clear,14.46,1.353,103.945
+Tampines,Tampines,heartland,Mon,0,0.233,low,1.0,clear,13.6,1.353,103.945
+Tampines,Tampines,heartland,Mon,1,0.233,low,1.0,clear,13.6,1.353,103.945
+Tampines,Tampines,heartland,Mon,2,0.233,low,1.0,clear,13.6,1.353,103.945
+Tampines,Tampines,heartland,Tue,5,0.314,low,1.0,haze,13.71,1.353,103.945
+Tampines,Tampines,heartland,Tue,6,0.499,low,1.0,haze,14.58,1.353,103.945
+Tampines,Tampines,heartland,Tue,7,0.76,moderate,1.0,haze,15.81,1.353,103.945
+Tampines,Tampines,heartland,Tue,8,0.894,moderate,1.0,haze,16.44,1.353,103.945
+Tampines,Tampines,heartland,Tue,9,0.765,moderate,1.0,haze,15.83,1.353,103.945
+Tampines,Tampines,heartland,Tue,10,0.535,low,1.0,haze,14.75,1.353,103.945
+Tampines,Tampines,heartland,Tue,11,0.45,low,1.0,haze,14.35,1.353,103.945
+Tampines,Tampines,heartland,Tue,12,0.507,low,1.0,haze,14.62,1.353,103.945
+Tampines,Tampines,heartland,Tue,13,0.492,low,1.0,haze,14.54,1.353,103.945
+Tampines,Tampines,heartland,Tue,14,0.372,low,1.0,haze,13.98,1.353,103.945
+Tampines,Tampines,heartland,Tue,15,0.323,low,1.0,haze,13.75,1.353,103.945
+Tampines,Tampines,heartland,Tue,16,0.439,low,1.0,haze,14.29,1.353,103.945
+Tampines,Tampines,heartland,Tue,17,0.692,moderate,1.0,haze,15.49,1.353,103.945
+Tampines,Tampines,heartland,Tue,18,0.924,moderate,1.0,haze,16.58,1.353,103.945
+Tampines,Tampines,heartland,Tue,19,0.933,moderate,1.0,haze,16.62,1.353,103.945
+Tampines,Tampines,heartland,Tue,20,0.727,moderate,1.0,haze,15.65,1.353,103.945
+Tampines,Tampines,heartland,Tue,21,0.516,low,1.0,haze,14.66,1.353,103.945
+Tampines,Tampines,heartland,Tue,22,0.422,low,1.0,haze,14.21,1.353,103.945
+Tampines,Tampines,heartland,Tue,23,0.396,low,1.0,haze,14.09,1.353,103.945
+Tampines,Tampines,heartland,Tue,0,0.223,low,1.0,haze,13.28,1.353,103.945
+Tampines,Tampines,heartland,Tue,1,0.223,low,1.0,haze,13.28,1.353,103.945
+Tampines,Tampines,heartland,Tue,2,0.224,low,1.0,haze,13.28,1.353,103.945
+Tampines,Tampines,heartland,Wed,5,0.389,low,1.15,light_rain,15.84,1.353,103.945
+Tampines,Tampines,heartland,Wed,6,0.618,moderate,1.15,light_rain,17.05,1.353,103.945
+Tampines,Tampines,heartland,Wed,7,0.941,moderate,1.15,light_rain,18.77,1.353,103.945
+Tampines,Tampines,heartland,Wed,8,1.106,high,1.18,light_rain,19.73,1.353,103.945
+Tampines,Tampines,heartland,Wed,9,0.947,moderate,1.15,light_rain,18.8,1.353,103.945
+Tampines,Tampines,heartland,Wed,10,0.662,moderate,1.15,light_rain,17.29,1.353,103.945
+Tampines,Tampines,heartland,Wed,11,0.557,low,1.15,light_rain,16.73,1.353,103.945
+Tampines,Tampines,heartland,Wed,12,0.627,moderate,1.15,light_rain,17.11,1.353,103.945
+Tampines,Tampines,heartland,Wed,13,0.609,moderate,1.15,light_rain,17.01,1.353,103.945
+Tampines,Tampines,heartland,Wed,14,0.461,low,1.15,light_rain,16.22,1.353,103.945
+Tampines,Tampines,heartland,Wed,15,0.399,low,1.15,light_rain,15.9,1.353,103.945
+Tampines,Tampines,heartland,Wed,16,0.543,low,1.15,light_rain,16.66,1.353,103.945
+Tampines,Tampines,heartland,Wed,17,0.857,moderate,1.15,light_rain,18.32,1.353,103.945
+Tampines,Tampines,heartland,Wed,18,1.144,high,1.2,light_rain,19.99,1.353,103.945
+Tampines,Tampines,heartland,Wed,19,1.154,high,1.21,light_rain,20.08,1.353,103.945
+Tampines,Tampines,heartland,Wed,20,0.9,moderate,1.15,light_rain,18.55,1.353,103.945
+Tampines,Tampines,heartland,Wed,21,0.638,moderate,1.15,light_rain,17.16,1.353,103.945
+Tampines,Tampines,heartland,Wed,22,0.522,low,1.15,light_rain,16.55,1.353,103.945
+Tampines,Tampines,heartland,Wed,23,0.49,low,1.15,light_rain,16.38,1.353,103.945
+Tampines,Tampines,heartland,Wed,0,0.277,low,1.15,light_rain,15.25,1.353,103.945
+Tampines,Tampines,heartland,Wed,1,0.277,low,1.15,light_rain,15.25,1.353,103.945
+Tampines,Tampines,heartland,Wed,2,0.277,low,1.15,light_rain,15.25,1.353,103.945
+Tampines,Tampines,heartland,Thu,5,0.351,low,1.0,clear,14.17,1.353,103.945
+Tampines,Tampines,heartland,Thu,6,0.558,low,1.0,clear,15.16,1.353,103.945
+Tampines,Tampines,heartland,Thu,7,0.85,moderate,1.0,clear,16.56,1.353,103.945
+Tampines,Tampines,heartland,Thu,8,1.0,high,1.0,clear,17.28,1.353,103.945
+Tampines,Tampines,heartland,Thu,9,0.856,moderate,1.0,clear,16.59,1.353,103.945
+Tampines,Tampines,heartland,Thu,10,0.598,low,1.0,clear,15.35,1.353,103.945
+Tampines,Tampines,heartland,Thu,11,0.503,low,1.0,clear,14.9,1.353,103.945
+Tampines,Tampines,heartland,Thu,12,0.567,low,1.0,clear,15.2,1.353,103.945
+Tampines,Tampines,heartland,Thu,13,0.55,low,1.0,clear,15.12,1.353,103.945
+Tampines,Tampines,heartland,Thu,14,0.416,low,1.0,clear,14.48,1.353,103.945
+Tampines,Tampines,heartland,Thu,15,0.361,low,1.0,clear,14.21,1.353,103.945
+Tampines,Tampines,heartland,Thu,16,0.491,low,1.0,clear,14.83,1.353,103.945
+Tampines,Tampines,heartland,Thu,17,0.774,moderate,1.0,clear,16.2,1.353,103.945
+Tampines,Tampines,heartland,Thu,18,1.034,high,1.0,clear,17.44,1.353,103.945
+Tampines,Tampines,heartland,Thu,19,1.043,high,1.0,clear,17.49,1.353,103.945
+Tampines,Tampines,heartland,Thu,20,0.813,moderate,1.0,clear,16.38,1.353,103.945
+Tampines,Tampines,heartland,Thu,21,0.577,low,1.0,clear,15.25,1.353,103.945
+Tampines,Tampines,heartland,Thu,22,0.472,low,1.0,clear,14.74,1.353,103.945
+Tampines,Tampines,heartland,Thu,23,0.443,low,1.0,clear,14.6,1.353,103.945
+Tampines,Tampines,heartland,Thu,0,0.25,low,1.0,clear,13.68,1.353,103.945
+Tampines,Tampines,heartland,Thu,1,0.25,low,1.0,clear,13.68,1.353,103.945
+Tampines,Tampines,heartland,Thu,2,0.25,low,1.0,clear,13.68,1.353,103.945
+Tampines,Tampines,heartland,Fri,5,0.411,low,1.0,cloudy,14.45,1.353,103.945
+Tampines,Tampines,heartland,Fri,6,0.652,moderate,1.0,cloudy,15.61,1.353,103.945
+Tampines,Tampines,heartland,Fri,7,0.993,high,1.0,cloudy,17.25,1.353,103.945
+Tampines,Tampines,heartland,Fri,8,1.168,high,1.07,cloudy,18.28,1.353,103.945
+Tampines,Tampines,heartland,Fri,9,1.0,high,1.0,cloudy,17.28,1.353,103.945
+Tampines,Tampines,heartland,Fri,10,0.699,moderate,1.0,cloudy,15.83,1.353,103.945
+Tampines,Tampines,heartland,Fri,11,0.588,low,1.0,cloudy,15.3,1.353,103.945
+Tampines,Tampines,heartland,Fri,12,0.663,moderate,1.0,cloudy,15.66,1.353,103.945
+Tampines,Tampines,heartland,Fri,13,0.643,moderate,1.0,cloudy,15.57,1.353,103.945
+Tampines,Tampines,heartland,Fri,14,0.486,low,1.0,cloudy,14.81,1.353,103.945
+Tampines,Tampines,heartland,Fri,15,0.422,low,1.0,cloudy,14.5,1.353,103.945
+Tampines,Tampines,heartland,Fri,16,0.573,low,1.0,cloudy,15.23,1.353,103.945
+Tampines,Tampines,heartland,Fri,17,0.905,moderate,1.0,cloudy,16.82,1.353,103.945
+Tampines,Tampines,heartland,Fri,18,1.208,high,1.09,cloudy,18.52,1.353,103.945
+Tampines,Tampines,heartland,Fri,19,1.219,high,1.09,cloudy,18.58,1.353,103.945
+Tampines,Tampines,heartland,Fri,20,0.95,high,1.0,cloudy,17.04,1.353,103.945
+Tampines,Tampines,heartland,Fri,21,0.674,moderate,1.0,cloudy,15.71,1.353,103.945
+Tampines,Tampines,heartland,Fri,22,0.551,low,1.0,cloudy,15.13,1.353,103.945
+Tampines,Tampines,heartland,Fri,23,0.517,low,1.0,cloudy,14.96,1.353,103.945
+Tampines,Tampines,heartland,Fri,0,0.292,low,1.0,cloudy,13.88,1.353,103.945
+Tampines,Tampines,heartland,Fri,1,0.292,low,1.0,cloudy,13.88,1.353,103.945
+Tampines,Tampines,heartland,Fri,2,0.292,low,1.0,cloudy,13.88,1.353,103.945
+Tampines,Tampines,heartland,Sat,5,0.546,low,1.45,heavy_rain,19.02,1.353,103.945
+Tampines,Tampines,heartland,Sat,6,0.868,moderate,1.45,heavy_rain,20.97,1.353,103.945
+Tampines,Tampines,heartland,Sat,7,1.322,very_high,1.6,heavy_rain,24.21,1.353,103.945
+Tampines,Tampines,heartland,Sat,8,1.555,very_high,1.73,heavy_rain,25.14,1.353,103.945
+Tampines,Tampines,heartland,Sat,9,1.33,very_high,1.6,heavy_rain,24.27,1.353,103.945
+Tampines,Tampines,heartland,Sat,10,0.93,moderate,1.45,heavy_rain,21.34,1.353,103.945
+Tampines,Tampines,heartland,Sat,11,0.782,moderate,1.45,heavy_rain,20.45,1.353,103.945
+Tampines,Tampines,heartland,Sat,12,0.882,moderate,1.45,heavy_rain,21.05,1.353,103.945
+Tampines,Tampines,heartland,Sat,13,0.856,moderate,1.45,heavy_rain,20.89,1.353,103.945
+Tampines,Tampines,heartland,Sat,14,0.647,moderate,1.45,heavy_rain,19.63,1.353,103.945
+Tampines,Tampines,heartland,Sat,15,0.561,low,1.45,heavy_rain,19.11,1.353,103.945
+Tampines,Tampines,heartland,Sat,16,0.763,moderate,1.45,heavy_rain,20.33,1.353,103.945
+Tampines,Tampines,heartland,Sat,17,1.204,high,1.53,heavy_rain,23.26,1.353,103.945
+Tampines,Tampines,heartland,Sat,18,1.607,very_high,1.76,heavy_rain,25.24,1.353,103.945
+Tampines,Tampines,heartland,Sat,19,1.622,very_high,1.76,heavy_rain,25.24,1.353,103.945
+Tampines,Tampines,heartland,Sat,20,1.265,very_high,1.57,heavy_rain,23.76,1.353,103.945
+Tampines,Tampines,heartland,Sat,21,0.897,moderate,1.45,heavy_rain,21.14,1.353,103.945
+Tampines,Tampines,heartland,Sat,22,0.734,moderate,1.45,heavy_rain,20.16,1.353,103.945
+Tampines,Tampines,heartland,Sat,23,0.688,moderate,1.45,heavy_rain,19.88,1.353,103.945
+Tampines,Tampines,heartland,Sat,0,0.389,low,1.45,heavy_rain,18.07,1.353,103.945
+Tampines,Tampines,heartland,Sat,1,0.389,low,1.45,heavy_rain,18.07,1.353,103.945
+Tampines,Tampines,heartland,Sat,2,0.389,low,1.45,heavy_rain,18.07,1.353,103.945
+Tampines,Tampines,heartland,Sun,5,0.362,low,1.0,clear,14.22,1.353,103.945
+Tampines,Tampines,heartland,Sun,6,0.575,low,1.0,clear,15.24,1.353,103.945
+Tampines,Tampines,heartland,Sun,7,0.875,moderate,1.0,clear,16.68,1.353,103.945
+Tampines,Tampines,heartland,Sun,8,1.029,high,1.0,clear,17.42,1.353,103.945
+Tampines,Tampines,heartland,Sun,9,0.881,moderate,1.0,clear,16.71,1.353,103.945
+Tampines,Tampines,heartland,Sun,10,0.616,moderate,1.0,clear,15.44,1.353,103.945
+Tampines,Tampines,heartland,Sun,11,0.518,low,1.0,clear,14.97,1.353,103.945
+Tampines,Tampines,heartland,Sun,12,0.584,low,1.0,clear,15.28,1.353,103.945
+Tampines,Tampines,heartland,Sun,13,0.567,low,1.0,clear,15.2,1.353,103.945
+Tampines,Tampines,heartland,Sun,14,0.428,low,1.0,clear,14.54,1.353,103.945
+Tampines,Tampines,heartland,Sun,15,0.371,low,1.0,clear,14.26,1.353,103.945
+Tampines,Tampines,heartland,Sun,16,0.505,low,1.0,clear,14.9,1.353,103.945
+Tampines,Tampines,heartland,Sun,17,0.797,moderate,1.0,clear,16.31,1.353,103.945
+Tampines,Tampines,heartland,Sun,18,1.064,high,1.01,clear,17.61,1.353,103.945
+Tampines,Tampines,heartland,Sun,19,1.074,high,1.01,clear,17.66,1.353,103.945
+Tampines,Tampines,heartland,Sun,20,0.837,moderate,1.0,clear,16.5,1.353,103.945
+Tampines,Tampines,heartland,Sun,21,0.594,low,1.0,clear,15.33,1.353,103.945
+Tampines,Tampines,heartland,Sun,22,0.486,low,1.0,clear,14.81,1.353,103.945
+Tampines,Tampines,heartland,Sun,23,0.456,low,1.0,clear,14.67,1.353,103.945
+Tampines,Tampines,heartland,Sun,0,0.257,low,1.0,clear,13.71,1.353,103.945
+Tampines,Tampines,heartland,Sun,1,0.257,low,1.0,clear,13.71,1.353,103.945
+Tampines,Tampines,heartland,Sun,2,0.258,low,1.0,clear,13.72,1.353,103.945
+Woodlands,Woodlands,heartland,Mon,5,0.255,low,1.0,haze,13.43,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,6,0.405,low,1.0,haze,14.13,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,7,0.617,moderate,1.0,haze,15.13,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,8,0.725,moderate,1.0,haze,15.64,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,9,0.621,moderate,1.0,haze,15.15,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,10,0.434,low,1.0,haze,14.27,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,11,0.365,low,1.0,haze,13.95,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,12,0.411,low,1.0,haze,14.17,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,13,0.399,low,1.0,haze,14.11,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,14,0.302,low,1.0,haze,13.65,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,15,0.262,low,1.0,haze,13.46,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,16,0.356,low,1.0,haze,13.9,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,17,0.562,low,1.0,haze,14.87,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,18,0.75,moderate,1.0,haze,15.76,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,19,0.757,moderate,1.0,haze,15.79,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,20,0.59,low,1.0,haze,15.01,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,21,0.418,low,1.0,haze,14.2,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,22,0.342,low,1.0,haze,13.84,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,23,0.321,low,1.0,haze,13.74,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,0,0.181,low,1.0,haze,13.08,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,1,0.181,low,1.0,haze,13.08,1.436,103.786
+Woodlands,Woodlands,heartland,Mon,2,0.181,low,1.0,haze,13.08,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,5,0.316,low,1.15,light_rain,15.45,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,6,0.501,low,1.15,light_rain,16.44,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,7,0.764,moderate,1.15,light_rain,17.83,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,8,0.898,moderate,1.15,light_rain,18.54,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,9,0.769,moderate,1.15,light_rain,17.86,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,10,0.537,low,1.15,light_rain,16.63,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,11,0.452,low,1.15,light_rain,16.18,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,12,0.509,low,1.15,light_rain,16.48,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,13,0.494,low,1.15,light_rain,16.4,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,14,0.374,low,1.15,light_rain,15.76,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,15,0.324,low,1.15,light_rain,15.5,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,16,0.441,low,1.15,light_rain,16.12,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,17,0.696,moderate,1.15,light_rain,17.47,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,18,0.929,moderate,1.15,light_rain,18.7,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,19,0.937,moderate,1.15,light_rain,18.75,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,20,0.731,moderate,1.15,light_rain,17.65,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,21,0.518,low,1.15,light_rain,16.53,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,22,0.424,low,1.15,light_rain,16.03,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,23,0.398,low,1.15,light_rain,15.89,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,0,0.224,low,1.15,light_rain,14.97,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,1,0.224,low,1.15,light_rain,14.97,1.436,103.786
+Woodlands,Woodlands,heartland,Tue,2,0.225,low,1.15,light_rain,14.97,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,5,0.283,low,1.0,clear,13.84,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,6,0.449,low,1.0,clear,14.63,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,7,0.684,moderate,1.0,clear,15.76,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,8,0.804,moderate,1.0,clear,16.34,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,9,0.688,moderate,1.0,clear,15.78,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,10,0.481,low,1.0,clear,14.79,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,11,0.405,low,1.0,clear,14.42,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,12,0.456,low,1.0,clear,14.67,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,13,0.443,low,1.0,clear,14.6,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,14,0.335,low,1.0,clear,14.09,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,15,0.29,low,1.0,clear,13.87,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,16,0.395,low,1.0,clear,14.37,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,17,0.623,moderate,1.0,clear,15.47,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,18,0.831,moderate,1.0,clear,16.47,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,19,0.839,moderate,1.0,clear,16.51,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,20,0.654,moderate,1.0,clear,15.62,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,21,0.464,low,1.0,clear,14.71,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,22,0.379,low,1.0,clear,14.3,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,23,0.356,low,1.0,clear,14.19,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,0,0.201,low,1.0,clear,13.44,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,1,0.201,low,1.0,clear,13.44,1.436,103.786
+Woodlands,Woodlands,heartland,Wed,2,0.201,low,1.0,clear,13.45,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,5,0.332,low,1.15,light_rain,15.54,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,6,0.527,low,1.15,light_rain,16.58,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,7,0.803,moderate,1.15,light_rain,18.04,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,8,0.945,moderate,1.15,light_rain,18.79,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,9,0.808,moderate,1.15,light_rain,18.07,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,10,0.565,low,1.15,light_rain,16.78,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,11,0.475,low,1.15,light_rain,16.3,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,12,0.536,low,1.15,light_rain,16.62,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,13,0.52,low,1.15,light_rain,16.54,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,14,0.393,low,1.15,light_rain,15.87,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,15,0.341,low,1.15,light_rain,15.59,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,16,0.463,low,1.15,light_rain,16.24,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,17,0.731,moderate,1.15,light_rain,17.66,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,18,0.976,high,1.15,light_rain,18.96,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,19,0.986,high,1.15,light_rain,19.01,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,20,0.768,moderate,1.15,light_rain,17.85,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,21,0.545,low,1.15,light_rain,16.67,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,22,0.446,low,1.15,light_rain,16.14,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,23,0.418,low,1.15,light_rain,16.0,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,0,0.236,low,1.15,light_rain,15.03,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,1,0.236,low,1.15,light_rain,15.03,1.436,103.786
+Woodlands,Woodlands,heartland,Thu,2,0.236,low,1.15,light_rain,15.03,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,5,0.337,low,1.0,clear,14.1,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,6,0.535,low,1.0,clear,15.05,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,7,0.815,moderate,1.0,clear,16.39,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,8,0.959,high,1.0,clear,17.08,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,9,0.82,moderate,1.0,clear,16.42,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,10,0.573,low,1.0,clear,15.23,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,11,0.482,low,1.0,clear,14.79,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,12,0.544,low,1.0,clear,15.09,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,13,0.528,low,1.0,clear,15.01,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,14,0.399,low,1.0,clear,14.4,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,15,0.346,low,1.0,clear,14.14,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,16,0.47,low,1.0,clear,14.74,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,17,0.742,moderate,1.0,clear,16.04,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,18,0.991,high,1.0,clear,17.24,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,19,1.0,high,1.0,clear,17.28,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,20,0.78,moderate,1.0,clear,16.22,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,21,0.553,low,1.0,clear,15.13,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,22,0.452,low,1.0,clear,14.65,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,23,0.424,low,1.0,clear,14.52,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,0,0.24,low,1.0,clear,13.63,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,1,0.24,low,1.0,clear,13.63,1.436,103.786
+Woodlands,Woodlands,heartland,Fri,2,0.24,low,1.0,clear,13.63,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,5,0.352,low,1.0,cloudy,14.17,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,6,0.559,low,1.0,cloudy,15.16,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,7,0.851,moderate,1.0,cloudy,16.56,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,8,1.001,high,1.0,cloudy,17.28,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,9,0.856,moderate,1.0,cloudy,16.59,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,10,0.599,low,1.0,cloudy,15.35,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,11,0.504,low,1.0,cloudy,14.9,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,12,0.568,low,1.0,cloudy,15.2,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,13,0.551,low,1.0,cloudy,15.12,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,14,0.417,low,1.0,cloudy,14.48,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,15,0.361,low,1.0,cloudy,14.21,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,16,0.491,low,1.0,cloudy,14.84,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,17,0.775,moderate,1.0,cloudy,16.2,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,18,1.035,high,1.0,cloudy,17.45,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,19,1.044,high,1.0,cloudy,17.49,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,20,0.814,moderate,1.0,cloudy,16.39,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,21,0.577,low,1.0,cloudy,15.25,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,22,0.472,low,1.0,cloudy,14.75,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,23,0.443,low,1.0,cloudy,14.61,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,0,0.25,low,1.0,cloudy,13.68,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,1,0.25,low,1.0,cloudy,13.68,1.436,103.786
+Woodlands,Woodlands,heartland,Sat,2,0.25,low,1.0,cloudy,13.68,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,5,0.342,low,1.15,light_rain,15.59,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,6,0.543,low,1.15,light_rain,16.66,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,7,0.827,moderate,1.15,light_rain,18.16,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,8,0.972,high,1.15,light_rain,18.94,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,9,0.832,moderate,1.15,light_rain,18.19,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,10,0.582,low,1.15,light_rain,16.86,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,11,0.489,low,1.15,light_rain,16.37,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,12,0.551,low,1.15,light_rain,16.7,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,13,0.535,low,1.15,light_rain,16.62,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,14,0.405,low,1.15,light_rain,15.93,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,15,0.351,low,1.15,light_rain,15.64,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,16,0.477,low,1.15,light_rain,16.31,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,17,0.753,moderate,1.15,light_rain,17.77,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,18,1.005,high,1.15,light_rain,19.11,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,19,1.015,high,1.15,light_rain,19.16,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,20,0.791,moderate,1.15,light_rain,17.97,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,21,0.561,low,1.15,light_rain,16.75,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,22,0.459,low,1.15,light_rain,16.21,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,23,0.43,low,1.15,light_rain,16.06,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,0,0.243,low,1.15,light_rain,15.07,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,1,0.243,low,1.15,light_rain,15.07,1.436,103.786
+Woodlands,Woodlands,heartland,Sun,2,0.243,low,1.15,light_rain,15.07,1.436,103.786
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,5,0.22,low,1.45,heavy_rain,17.05,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,6,0.295,low,1.45,heavy_rain,17.51,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,7,0.402,low,1.45,heavy_rain,18.15,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,8,0.458,low,1.45,heavy_rain,18.49,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,9,0.411,low,1.45,heavy_rain,18.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,10,0.358,low,1.45,heavy_rain,17.89,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,11,0.457,low,1.45,heavy_rain,18.49,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,12,0.653,moderate,1.45,heavy_rain,19.67,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,13,0.649,moderate,1.45,heavy_rain,19.65,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,14,0.441,low,1.45,heavy_rain,18.39,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,15,0.348,low,1.45,heavy_rain,17.82,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,16,0.532,low,1.45,heavy_rain,18.94,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,17,0.943,moderate,1.45,heavy_rain,21.42,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,18,1.326,very_high,1.6,heavy_rain,24.24,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,19,1.373,very_high,1.63,heavy_rain,24.63,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,20,1.134,high,1.5,heavy_rain,22.74,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,21,0.969,high,1.45,heavy_rain,21.58,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,22,1.02,high,1.45,heavy_rain,21.89,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,23,1.072,high,1.46,heavy_rain,22.23,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,0,0.183,low,1.45,heavy_rain,16.83,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,1,0.183,low,1.45,heavy_rain,16.83,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Mon,2,0.183,low,1.45,heavy_rain,16.83,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,5,0.173,low,1.0,clear,13.31,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,6,0.232,low,1.0,clear,13.59,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,7,0.316,low,1.0,clear,14.0,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,8,0.359,low,1.0,clear,14.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,9,0.323,low,1.0,clear,14.03,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,10,0.281,low,1.0,clear,13.83,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,11,0.359,low,1.0,clear,14.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,12,0.513,low,1.0,clear,14.94,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,13,0.51,low,1.0,clear,14.93,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,14,0.346,low,1.0,clear,14.14,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,15,0.273,low,1.0,clear,13.79,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,16,0.418,low,1.0,clear,14.49,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,17,0.741,moderate,1.0,clear,16.04,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,18,1.042,high,1.0,clear,17.48,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,19,1.079,high,1.02,clear,17.71,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,20,0.891,moderate,1.0,clear,16.76,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,21,0.761,moderate,1.0,clear,16.13,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,22,0.801,moderate,1.0,clear,16.33,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,23,0.842,moderate,1.0,clear,16.52,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,0,0.144,low,1.0,clear,13.17,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,1,0.144,low,1.0,clear,13.17,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Tue,2,0.144,low,1.0,clear,13.17,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,5,0.176,low,1.0,clear,13.33,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,6,0.237,low,1.0,clear,13.62,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,7,0.323,low,1.0,clear,14.03,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,8,0.367,low,1.0,clear,14.24,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,9,0.329,low,1.0,clear,14.06,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,10,0.287,low,1.0,clear,13.86,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,11,0.367,low,1.0,clear,14.24,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,12,0.524,low,1.0,clear,14.99,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,13,0.52,low,1.0,clear,14.98,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,14,0.354,low,1.0,clear,14.18,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,15,0.279,low,1.0,clear,13.82,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,16,0.426,low,1.0,clear,14.53,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,17,0.756,moderate,1.0,clear,16.11,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,18,1.063,high,1.01,clear,17.61,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,19,1.101,high,1.03,clear,17.84,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,20,0.909,moderate,1.0,clear,16.84,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,21,0.777,moderate,1.0,clear,16.21,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,22,0.818,moderate,1.0,clear,16.41,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,23,0.859,moderate,1.0,clear,16.6,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,0,0.147,low,1.0,clear,13.18,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,1,0.147,low,1.0,clear,13.18,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Wed,2,0.147,low,1.0,clear,13.18,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,5,0.182,low,1.0,clear,13.35,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,6,0.244,low,1.0,clear,13.65,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,7,0.332,low,1.0,clear,14.08,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,8,0.378,low,1.0,clear,14.29,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,9,0.339,low,1.0,clear,14.11,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,10,0.296,low,1.0,clear,13.9,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,11,0.378,low,1.0,clear,14.29,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,12,0.54,low,1.0,clear,15.07,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,13,0.536,low,1.0,clear,15.05,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,14,0.364,low,1.0,clear,14.23,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,15,0.287,low,1.0,clear,13.86,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,16,0.439,low,1.0,clear,14.59,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,17,0.779,moderate,1.0,clear,16.22,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,18,1.095,high,1.03,clear,17.82,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,19,1.134,high,1.05,clear,18.06,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,20,0.937,moderate,1.0,clear,16.98,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,21,0.8,moderate,1.0,clear,16.32,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,22,0.843,moderate,1.0,clear,16.52,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,23,0.885,moderate,1.0,clear,16.73,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,0,0.151,low,1.0,clear,13.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,1,0.151,low,1.0,clear,13.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Thu,2,0.151,low,1.0,clear,13.2,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,5,0.273,low,1.45,heavy_rain,17.37,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,6,0.367,low,1.45,heavy_rain,17.94,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,7,0.5,low,1.45,heavy_rain,18.74,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,8,0.568,low,1.45,heavy_rain,19.16,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,9,0.51,low,1.45,heavy_rain,18.81,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,10,0.445,low,1.45,heavy_rain,18.41,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,11,0.568,low,1.45,heavy_rain,19.16,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,12,0.811,moderate,1.45,heavy_rain,20.63,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,13,0.806,moderate,1.45,heavy_rain,20.6,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,14,0.548,low,1.45,heavy_rain,19.03,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,15,0.432,low,1.45,heavy_rain,18.33,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,16,0.661,moderate,1.45,heavy_rain,19.71,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,17,1.171,high,1.52,heavy_rain,23.03,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,18,1.648,very_high,1.78,heavy_rain,25.31,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,19,1.706,very_high,1.81,heavy_rain,25.41,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,20,1.409,very_high,1.65,heavy_rain,24.86,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,21,1.203,high,1.53,heavy_rain,23.26,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,22,1.267,very_high,1.57,heavy_rain,23.78,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,23,1.331,very_high,1.6,heavy_rain,24.27,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,0,0.227,low,1.45,heavy_rain,17.09,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,1,0.227,low,1.45,heavy_rain,17.09,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Fri,2,0.227,low,1.45,heavy_rain,17.09,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,5,0.217,low,1.0,clear,13.52,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,6,0.292,low,1.0,clear,13.88,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,7,0.397,low,1.0,clear,14.39,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,8,0.452,low,1.0,clear,14.65,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,9,0.406,low,1.0,clear,14.43,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,10,0.354,low,1.0,clear,14.18,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,11,0.452,low,1.0,clear,14.65,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,12,0.645,moderate,1.0,clear,15.58,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,13,0.641,moderate,1.0,clear,15.56,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,14,0.436,low,1.0,clear,14.57,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,15,0.344,low,1.0,clear,14.13,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,16,0.525,low,1.0,clear,15.0,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,17,0.932,moderate,1.0,clear,16.95,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,18,1.31,very_high,1.14,clear,19.16,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,19,1.357,very_high,1.17,clear,19.48,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,20,1.12,high,1.04,clear,17.96,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,21,0.957,high,1.0,clear,17.07,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,22,1.008,high,1.0,clear,17.32,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,23,1.059,high,1.0,clear,17.56,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,0,0.181,low,1.0,clear,13.35,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,1,0.181,low,1.0,clear,13.35,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sat,2,0.181,low,1.0,clear,13.35,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,5,0.213,low,1.15,light_rain,14.91,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,6,0.286,low,1.15,light_rain,15.3,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,7,0.39,low,1.15,light_rain,15.85,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,8,0.443,low,1.15,light_rain,16.13,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,9,0.398,low,1.15,light_rain,15.89,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,10,0.347,low,1.15,light_rain,15.62,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,11,0.443,low,1.15,light_rain,16.13,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,12,0.633,moderate,1.15,light_rain,17.14,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,13,0.629,moderate,1.15,light_rain,17.12,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,14,0.427,low,1.15,light_rain,16.05,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,15,0.337,low,1.15,light_rain,15.57,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,16,0.516,low,1.15,light_rain,16.51,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,17,0.914,moderate,1.15,light_rain,18.63,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,18,1.286,very_high,1.28,light_rain,20.99,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,19,1.331,very_high,1.3,light_rain,21.3,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,20,1.099,high,1.18,light_rain,19.69,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,21,0.939,moderate,1.15,light_rain,18.76,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,22,0.989,high,1.15,light_rain,19.02,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,23,1.039,high,1.15,light_rain,19.29,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,0,0.177,low,1.15,light_rain,14.72,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,1,0.177,low,1.15,light_rain,14.72,1.265,103.822
+Sentosa_HarbF,Sentosa / HarbourFront,leisure,Sun,2,0.177,low,1.15,light_rain,14.72,1.265,103.822
